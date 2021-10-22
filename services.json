@@ -1,0 +1,20 @@
+[
+    {
+        "type": "reddit",
+        "test_url": "/r/popular",
+        "fallback": "https://libredd.it",
+        "instances": [
+            "https://libredd.it",
+            "https://libreddit.spike.codes"
+        ]
+    },
+    {
+        "type": "instagram",
+        "test_url": "/taylorswift",
+        "fallback": "https://bibliogram.art/u",
+        "instances": [
+            "https://bibliogram.art/u",
+            "https://bibliogram.snopyta.org/u"
+        ]
+    }
+]

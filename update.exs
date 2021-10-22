@@ -1,8 +1,9 @@
-defmodule Instance do
+defmodule Service do
   defstruct [
-    instance_type: nil,
-    instance_test: nil,
-    instance_list: []
+    type: nil,
+    test_url: nil,
+    fallback: nil,
+    instances: []
   ]
 end
 
@@ -18,16 +19,52 @@ defmodule Instances do
   end
 
   def update(filename) do
+    {:ok, conn} = Redix.start_link(
+      "redis://localhost:6379",
+      name: :redix
+    )
     {:ok, file} = File.read(filename)
-    {:ok, json} = Poison.decode(file, as: [%Instance{}])
+    {:ok, json} = Poison.decode(file, as: [%Service{}])
+
+    # Loop through all instances and check each for availability
     for service <- json do
-      result = Enum.filter(service.instance_list, fn(url) ->
-        request(url <> service.instance_test) == :good
+      result = Enum.filter(service.instances, fn(instance_url) ->
+        request(instance_url <> service.test_url) == :good
       end)
-      # TODO: Output result to redis
-      IO.inspect(result)
+
+      add_to_redis(conn, service, result)
+    end
+  end
+
+  def add_to_redis(conn, service, instances) do
+    # Remove previous list of instances
+    Redix.command(conn, [
+      "DEL",
+      service.type
+    ])
+
+    # Update with new list of available instances
+    Redix.command(conn, [
+      "LPUSH",
+      service.type
+    ] ++ instances)
+
+    # Set fallback to one of the available instances,
+    # or the default instance if all are "down"
+    if Enum.count(instances) > 0 do
+      Redix.command(conn, [
+        "SET",
+        service.type <> "-fallback",
+        Enum.random(instances)
+      ])
+    else
+      Redix.command(conn, [
+        "SET",
+        service.type <> "-fallback",
+        service.fallback
+      ])
     end
   end
 end
 
-Instances.update("instances.json")
+Instances.update("services.json")

@@ -25,7 +25,8 @@ defmodule RouterExample.MixProject do
       {:jason, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
       {:poison, "~> 5.0"},
-      {:httpoison, "~> 1.8"}
+      {:httpoison, "~> 1.8"},
+      {:redix, "~> 1.1"}
     ]
   end
 end
