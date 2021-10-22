@@ -9,10 +9,10 @@
     },
     {
         "instance_type": "instagram",
-        "instance_test": "",
+        "instance_test": "/taylorswift",
         "instance_list": [
             "https://bibliogram.art/u",
-            "https://bibliiogram.snopyta.org"
+            "https://bibliogram.snopyta.org/u"
         ]
     }
 ]
