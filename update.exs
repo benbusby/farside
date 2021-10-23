@@ -8,6 +8,15 @@ defmodule Service do
 end
 
 defmodule Instances do
+  @fallback_str Application.fetch_env!(:privacy_revolver, :fallback_str)
+  @update_file Application.fetch_env!(:privacy_revolver, :update_file)
+  @services_json Application.fetch_env!(:privacy_revolver, :services_json)
+
+  def init() do
+    File.rename(@update_file, "#{@update_file}-prev")
+    update(@services_json)
+  end
+
   def request(url) do
     case HTTPoison.get(url) do
       {:ok, %HTTPoison.Response{status_code: 200}} ->
@@ -19,10 +28,6 @@ defmodule Instances do
   end
 
   def update(filename) do
-    {:ok, conn} = Redix.start_link(
-      "redis://localhost:6379",
-      name: :redix
-    )
     {:ok, file} = File.read(filename)
     {:ok, json} = Poison.decode(file, as: [%Service{}])
 
@@ -32,20 +37,20 @@ defmodule Instances do
         request(instance_url <> service.test_url) == :good
       end)
 
-      add_to_redis(conn, service, result)
+      add_to_redis(service, result)
       log_results(service.type, result)
     end
   end
 
-  def add_to_redis(conn, service, instances) do
+  def add_to_redis(service, instances) do
     # Remove previous list of instances
-    Redix.command(conn, [
+    Redix.command(:redix, [
       "DEL",
       service.type
     ])
 
     # Update with new list of available instances
-    Redix.command(conn, [
+    Redix.command(:redix, [
       "LPUSH",
       service.type
     ] ++ instances)
@@ -53,26 +58,25 @@ defmodule Instances do
     # Set fallback to one of the available instances,
     # or the default instance if all are "down"
     if Enum.count(instances) > 0 do
-      Redix.command(conn, [
+      Redix.command(:redix, [
         "SET",
-        service.type <> "-fallback",
+        "#{service.type}#{@fallback_str}",
         Enum.random(instances)
       ])
     else
-      Redix.command(conn, [
+      Redix.command(:redix, [
         "SET",
-        service.type <> "-fallback",
+        "#{service.type}#{@fallback_str}",
         service.fallback
       ])
     end
   end
 
   def log_results(service_name, results) do
-    {:ok, file} = File.open(".update-results", [:append, {:delayed_write, 100, 20}])
-    IO.write(file, service_name <> ": " <> inspect(results) <> "\n")
+    {:ok, file} = File.open(@update_file, [:append, {:delayed_write, 100, 20}])
+    IO.write(file, "#{service_name}: #{inspect(results)}\n")
     File.close(file)
   end
 end
 
-File.rename(".update-results", ".update-results-prev")
-Instances.update("services.json")
+Instances.init()

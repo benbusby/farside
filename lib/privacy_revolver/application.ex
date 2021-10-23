@@ -1,4 +1,5 @@
 defmodule PrivacyRevolver.Application do
+  @redis_conn Application.fetch_env!(:privacy_revolver, :redis_conn)
   @moduledoc false
 
   use Application
@@ -7,7 +8,7 @@ defmodule PrivacyRevolver.Application do
   def start(_type, _args) do
     children = [
       Plug.Cowboy.child_spec(scheme: :http, plug: PrivacyRevolver.Router, options: [port: 4001]),
-      {Redix, {"redis://localhost:6379", [name: :redix]}}
+      {Redix, {@redis_conn, [name: :redix]}}
     ]
 
     opts = [strategy: :one_for_one, name: PrivacyRevolver.Supervisor]
