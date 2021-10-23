@@ -3,7 +3,7 @@ defmodule RouterExample.MixProject do
 
   def project do
     [
-      app: :router_example,
+      app: :privacy_revolver,
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule RouterExample.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {RouterExample.Application, []}
+      mod: {PrivacyRevolver.Application, []}
     ]
   end
 
