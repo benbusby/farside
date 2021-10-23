@@ -33,6 +33,7 @@ defmodule Instances do
       end)
 
       add_to_redis(conn, service, result)
+      log_results(service.type, result)
     end
   end
 
@@ -65,6 +66,13 @@ defmodule Instances do
       ])
     end
   end
+
+  def log_results(service_name, results) do
+    {:ok, file} = File.open(".update-results", [:append, {:delayed_write, 100, 20}])
+    IO.write(file, service_name <> ": " <> inspect(results) <> "\n")
+    File.close(file)
+  end
 end
 
+File.rename(".update-results", ".update-results-prev")
 Instances.update("services.json")
