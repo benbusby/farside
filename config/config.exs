@@ -1,4 +1,4 @@
-import Config 
+import Config
 
 config :privacy_revolver,
   redis_conn: "redis://localhost:6379",
