@@ -1,4 +1,4 @@
-defmodule RouterExample.MixProject do
+defmodule PrivacyRevolver.MixProject do
   use Mix.Project
 
   def project do

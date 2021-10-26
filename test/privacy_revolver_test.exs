@@ -1,8 +1,18 @@
 defmodule PrivacyRevolverTest do
   use ExUnit.Case
-  doctest PrivacyRevolver
+  use Plug.Test
 
-  test "greets the world" do
-    assert PrivacyRevolver.hello() == :world
+  alias PrivacyRevolver.Router
+
+  @opts Router.init([])
+
+  test "/" do
+    conn =
+      :get
+      |> conn("/", "")
+      |> Router.call(@opts)
+
+    assert conn.state == :sent
+    assert conn.status == 200
   end
 end
