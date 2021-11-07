@@ -1,9 +1,9 @@
-defmodule PrivacyRevolver.MixProject do
+defmodule Farside.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :privacy_revolver,
+      app: :farside,
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule PrivacyRevolver.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {PrivacyRevolver.Application, []}
+      mod: {Farside.Application, []}
     ]
   end
 

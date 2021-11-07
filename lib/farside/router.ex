@@ -1,5 +1,5 @@
-defmodule PrivacyRevolver.Router do
-  @fallback_str Application.fetch_env!(:privacy_revolver, :fallback_str)
+defmodule Farside.Router do
+  @fallback_str Application.fetch_env!(:farside, :fallback_str)
 
   use Plug.Router
 

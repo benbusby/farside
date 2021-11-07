@@ -8,9 +8,9 @@ defmodule Service do
 end
 
 defmodule Instances do
-  @fallback_str Application.fetch_env!(:privacy_revolver, :fallback_str)
-  @update_file Application.fetch_env!(:privacy_revolver, :update_file)
-  @services_json Application.fetch_env!(:privacy_revolver, :services_json)
+  @fallback_str Application.fetch_env!(:farside, :fallback_str)
+  @update_file Application.fetch_env!(:farside, :update_file)
+  @services_json Application.fetch_env!(:farside, :services_json)
 
   def init() do
     File.rename(@update_file, "#{@update_file}-prev")
@@ -33,7 +33,9 @@ defmodule Instances do
 
     # Loop through all instances and check each for availability
     for service <- json do
+      IO.puts "======== " <> service.type
       result = Enum.filter(service.instances, fn(instance_url) ->
+        IO.puts "         " <> instance_url
         request(instance_url <> service.test_url) == :good
       end)
 
@@ -43,6 +45,8 @@ defmodule Instances do
   end
 
   def add_to_redis(service, instances) do
+    IO.puts "         --------"
+    IO.inspect "OK: " <> instances
     # Remove previous list of instances
     Redix.command(:redix, [
       "DEL",

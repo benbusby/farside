@@ -1,8 +1,8 @@
-defmodule PrivacyRevolverTest do
+defmodule FarsideTest do
   use ExUnit.Case
   use Plug.Test
 
-  alias PrivacyRevolver.Router
+  alias Farside.Router
 
   @opts Router.init([])
 
