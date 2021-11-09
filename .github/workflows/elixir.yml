@@ -14,18 +14,28 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Elixir
       uses: erlef/setup-elixir@885971a72ed1f9240973bd92ab57af8c1aa68f24
       with:
         elixir-version: '1.10.3'
         otp-version: '22.3'
+
     - name: Restore dependencies cache
       uses: actions/cache@v2
       with:
         path: deps
         key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
         restore-keys: ${{ runner.os }}-mix-
+
+    - name: Start Redis
+      uses: supercharge/redis-github-action@1.2.0
+
     - name: Install dependencies
       run: mix deps.get
+
+    - name: Initialize services
+      run: FARSIDE_TEST=1 mix run update.exs
+
     - name: Run tests
       run: mix test

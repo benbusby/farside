@@ -19,12 +19,17 @@ defmodule Instances do
   end
 
   def request(url) do
-    case HTTPoison.get(url) do
-      {:ok, %HTTPoison.Response{status_code: 200}} ->
-        # TODO: Add validation of results, not just status code
+    cond do
+      System.get_env("FARSIDE_TEST") ->
         :good
-      _ ->
-        :bad
+      true ->
+        case HTTPoison.get(url) do
+          {:ok, %HTTPoison.Response{status_code: 200}} ->
+            # TODO: Add validation of results, not just status code
+            :good
+          _ ->
+            :bad
+        end
     end
   end
 
