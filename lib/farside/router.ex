@@ -1,5 +1,7 @@
 defmodule Farside.Router do
+  @index Application.fetch_env!(:farside, :index)
   @fallback_str Application.fetch_env!(:farside, :fallback_str)
+  @service_prefix Application.fetch_env!(:farside, :service_prefix)
 
   use Plug.Router
 
@@ -7,7 +9,14 @@ defmodule Farside.Router do
   plug(:dispatch)
 
   get "/" do
-    send_resp(conn, 200, "")
+    resp =
+      EEx.eval_file(
+        @index,
+        last_updated: Farside.get_last_updated(),
+        services: Farside.get_services_map()
+      )
+
+    send_resp(conn, 200, resp)
   end
 
   get "/ping" do
@@ -22,7 +31,12 @@ defmodule Farside.Router do
     {:ok, instances} =
       Redix.command(
         :redix,
-        ["LRANGE", service, "0", "-1"]
+        [
+          "LRANGE",
+          "#{@service_prefix}#{service}",
+          "0",
+          "-1"
+        ]
       )
 
     # Either pick a random available instance, 

@@ -35,12 +35,12 @@
     },
     {
         "type": "bibliogram",
-        "test_url": "/taylorswift",
-        "fallback": "https://bibliogram.art/u",
+        "test_url": "/u/taylorswift",
+        "fallback": "https://bibliogram.art",
         "instances": [
-            "https://bibliogram.art/u",
-            "https://bibliogram.snopyta.org/u",
-            "https://bibliogram.pussthecat.org/u",
+            "https://bibliogram.art",
+            "https://bibliogram.snopyta.org",
+            "https://bibliogram.pussthecat.org",
             "https://bibliogram.1d4.us",
             "https://insta.trom.tf",
             "https://bibliogram.hamster.dance",

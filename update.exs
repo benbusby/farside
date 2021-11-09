@@ -11,6 +11,7 @@ defmodule Instances do
   @fallback_str Application.fetch_env!(:farside, :fallback_str)
   @update_file Application.fetch_env!(:farside, :update_file)
   @services_json Application.fetch_env!(:farside, :services_json)
+  @service_prefix Application.fetch_env!(:farside, :service_prefix)
 
   def init() do
     File.rename(@update_file, "#{@update_file}-prev")
@@ -45,18 +46,16 @@ defmodule Instances do
   end
 
   def add_to_redis(service, instances) do
-    IO.puts "         --------"
-    IO.inspect "OK: " <> instances
     # Remove previous list of instances
     Redix.command(:redix, [
       "DEL",
-      service.type
+      "#{@service_prefix}#{service.type}"
     ])
 
     # Update with new list of available instances
     Redix.command(:redix, [
       "LPUSH",
-      service.type
+      "#{@service_prefix}#{service.type}"
     ] ++ instances)
 
     # Set fallback to one of the available instances,
@@ -84,3 +83,10 @@ defmodule Instances do
 end
 
 Instances.init()
+
+# Add UTC time of last update
+Redix.command(:redix, [
+  "SET",
+  "last_updated",
+  Calendar.strftime(DateTime.utc_now(), "%c")
+])

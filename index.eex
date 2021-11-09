@@ -1,0 +1,50 @@
+<head>
+  <title>Farside</title>
+  <style>
+    html {
+      font-family: monospace;
+      font-size: 16px;
+      color: #66397C;
+    }
+    #parent-div {
+      text-align: center;
+    }
+    #child-div {
+      text-align: left;
+      width: 50%;
+      display: inline-block;
+    }
+    hr {
+      border: 1px dashed;
+    }
+    a:link, a:visited {
+      color: #66397C; 
+    }
+    @media only screen and (max-width: 1000px) {
+      #child-div {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="parent-div">
+    <div id="child-div">
+      <h1>Farside | <a href="https://github.com/benbusby/farside">View on GitHub</a></h1>
+      <hr>
+      <h3>Last synced <%= last_updated %> UTC</h2>
+      <div>
+        <ul>
+          <%= for {service, instance_list} <- services do %>
+            <li><a href="/<%= service %>"><%= service %></a></li>
+            <ul>
+              <%= for url <- instance_list do %>
+                <li><a href="<%= url %>"><%= url %></a></li>
+              <% end%>
+            </ul>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
