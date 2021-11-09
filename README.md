@@ -1,4 +1,5 @@
-# Farside
+![Farside](img/farside.png)
+
 FOSS alternative redirecting service
 
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
