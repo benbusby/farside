@@ -1,10 +1,10 @@
 ![Farside](img/farside.png)
 
-FOSS alternative redirecting service
+___
 
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
 
-A tool for evenly distributing traffic across various open source alternative frontends
+A redirecting service for FOSS alternative frontends
 
 ### Development
 
