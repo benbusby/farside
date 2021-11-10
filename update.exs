@@ -1,12 +1,3 @@
-defmodule Service do
-  defstruct [
-    type: nil,
-    test_url: nil,
-    fallback: nil,
-    instances: []
-  ]
-end
-
 defmodule Instances do
   @fallback_str Application.fetch_env!(:farside, :fallback_str)
   @update_file Application.fetch_env!(:farside, :update_file)
@@ -15,7 +6,7 @@ defmodule Instances do
 
   def init() do
     File.rename(@update_file, "#{@update_file}-prev")
-    update(@services_json)
+    update
   end
 
   def request(url) do
@@ -33,8 +24,8 @@ defmodule Instances do
     end
   end
 
-  def update(filename) do
-    {:ok, file} = File.read(filename)
+  def update do
+    {:ok, file} = File.read(@services_json)
     {:ok, json} = Poison.decode(file, as: [%Service{}])
 
     # Loop through all instances and check each for availability
