@@ -1,7 +1,5 @@
 defmodule Farside.Router do
   @index Application.fetch_env!(:farside, :index)
-  @fallback_str Application.fetch_env!(:farside, :fallback_str)
-  @service_prefix Application.fetch_env!(:farside, :service_prefix)
 
   use Plug.Router
 
@@ -27,32 +25,7 @@ defmodule Farside.Router do
 
   get "/:service/*glob" do
     path = Enum.join(glob, "/")
-
-    {:ok, instances} =
-      Redix.command(
-        :redix,
-        [
-          "LRANGE",
-          "#{@service_prefix}#{service}",
-          "0",
-          "-1"
-        ]
-      )
-
-    # Either pick a random available instance, 
-    # or fall back to the default one
-    instance =
-      if Enum.count(instances) > 0 do
-        Enum.random(instances)
-      else
-        {:ok, result} =
-          Redix.command(
-            :redix,
-            ["GET", "#{service}#{@fallback_str}"]
-          )
-
-        result
-      end
+    instance = Farside.pick_instance(service)
 
     # Redirect to the available instance
     conn
