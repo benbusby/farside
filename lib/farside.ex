@@ -2,16 +2,7 @@ defmodule Farside do
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
 
   def get_services_map do
-    {:ok, redis_keys} = Redix.command(:redix, ["KEYS", "*"])
-
-    # Extract only service related keys
-    service_list =
-      Enum.filter(
-        redis_keys,
-        fn key ->
-          String.starts_with?(key, @service_prefix)
-        end
-      )
+    {:ok, service_list} = Redix.command(:redix, ["KEYS", "#{@service_prefix}*"])
 
     # Match service name to list of available instances
     Enum.reduce(service_list, %{}, fn service, acc ->
