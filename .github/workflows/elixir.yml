@@ -38,4 +38,4 @@ jobs:
       run: FARSIDE_TEST=1 mix run update.exs
 
     - name: Run tests
-      run: mix test
+      run: mix test --trace
