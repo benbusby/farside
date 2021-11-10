@@ -42,15 +42,28 @@ defmodule FarsideTest do
     IO.puts("")
 
     Enum.map(service_names, fn service_name ->
-      IO.puts("/#{service_name}")
 
       conn =
         :get
         |> conn("/#{service_name}", "")
         |> Router.call(@opts)
 
+      first_redirect = elem(List.last(conn.resp_headers), 1)
+      IO.puts("    /#{service_name} (#1) -- #{first_redirect}")
       assert conn.state == :set
       assert conn.status == 302
+
+
+      conn =
+        :get
+        |> conn("/#{service_name}", "")
+        |> Router.call(@opts)
+
+      second_redirect = elem(List.last(conn.resp_headers), 1)
+      IO.puts("    /#{service_name} (#2) -- #{second_redirect}")
+      assert conn.state == :set
+      assert conn.status == 302
+      assert first_redirect != second_redirect
     end)
   end
 end

@@ -1,5 +1,5 @@
 defmodule Instances do
-  @fallback_str Application.fetch_env!(:farside, :fallback_str)
+  @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
   @update_file Application.fetch_env!(:farside, :update_file)
   @services_json Application.fetch_env!(:farside, :services_json)
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
@@ -59,13 +59,13 @@ defmodule Instances do
     if Enum.count(instances) > 0 do
       Redix.command(:redix, [
         "SET",
-        "#{service.type}#{@fallback_str}",
+        "#{service.type}#{@fallback_suffix}",
         Enum.random(instances)
       ])
     else
       Redix.command(:redix, [
         "SET",
-        "#{service.type}#{@fallback_str}",
+        "#{service.type}#{@fallback_suffix}",
         service.fallback
       ])
     end
