@@ -15,6 +15,20 @@ defmodule FarsideTest do
       |> Router.call(@opts)
   end
 
+  test "throttle" do
+    :get
+    |> conn("/", "")
+    |> Router.call(@opts)
+
+    throttled_conn =
+      :get
+      |> conn("/", "")
+      |> Router.call(@opts)
+
+    assert throttled_conn.state == :sent
+    assert throttled_conn.status == 403
+  end
+
   test "/" do
     conn = test_conn("/")
     assert conn.state == :sent
