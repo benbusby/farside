@@ -10,9 +10,10 @@ defmodule FarsideTest do
 
   def test_conn(path) do
     :timer.sleep(1000)
+
     :get
-      |> conn(path, "")
-      |> Router.call(@opts)
+    |> conn(path, "")
+    |> Router.call(@opts)
   end
 
   test "throttle" do

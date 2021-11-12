@@ -27,7 +27,7 @@ defmodule Farside.MixProject do
       {:plug_attack, "~> 0.4.2"},
       {:plug_cowboy, "~> 2.0"},
       {:poison, "~> 5.0"},
-      {:redix, "~> 1.1"},
+      {:redix, "~> 1.1"}
     ]
   end
 end
