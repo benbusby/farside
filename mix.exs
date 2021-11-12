@@ -22,11 +22,12 @@ defmodule Farside.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:httpoison, "~> 1.8"},
       {:jason, "~> 1.1"},
+      {:plug_attack, "~> 0.4.2"},
       {:plug_cowboy, "~> 2.0"},
       {:poison, "~> 5.0"},
-      {:httpoison, "~> 1.8"},
-      {:redix, "~> 1.1"}
+      {:redix, "~> 1.1"},
     ]
   end
 end

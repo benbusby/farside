@@ -8,7 +8,8 @@ defmodule Farside.Application do
   def start(_type, _args) do
     children = [
       Plug.Cowboy.child_spec(scheme: :http, plug: Farside.Router, options: [port: 4001]),
-      {Redix, {@redis_conn, [name: :redix]}}
+      {Redix, {@redis_conn, [name: :redix]}},
+      {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000}
     ]
 
     opts = [strategy: :one_for_one, name: Farside.Supervisor]

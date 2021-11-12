@@ -8,22 +8,21 @@ defmodule FarsideTest do
 
   @opts Router.init([])
 
-  test "/" do
-    conn =
-      :get
-      |> conn("/", "")
+  def test_conn(path) do
+    :timer.sleep(1000)
+    :get
+      |> conn(path, "")
       |> Router.call(@opts)
+  end
 
+  test "/" do
+    conn = test_conn("/")
     assert conn.state == :sent
     assert conn.status == 200
   end
 
   test "/ping" do
-    conn =
-      :get
-      |> conn("/ping", "")
-      |> Router.call(@opts)
-
+    conn = test_conn("/ping")
     assert conn.state == :sent
     assert conn.status == 200
     assert conn.resp_body == "PONG"
@@ -42,24 +41,16 @@ defmodule FarsideTest do
     IO.puts("")
 
     Enum.map(service_names, fn service_name ->
-
-      conn =
-        :get
-        |> conn("/#{service_name}", "")
-        |> Router.call(@opts)
-
+      conn = test_conn("/#{service_name}")
       first_redirect = elem(List.last(conn.resp_headers), 1)
+
       IO.puts("    /#{service_name} (#1) -- #{first_redirect}")
       assert conn.state == :set
       assert conn.status == 302
 
-
-      conn =
-        :get
-        |> conn("/#{service_name}", "")
-        |> Router.call(@opts)
-
+      conn = test_conn("/#{service_name}")
       second_redirect = elem(List.last(conn.resp_headers), 1)
+
       IO.puts("    /#{service_name} (#2) -- #{second_redirect}")
       assert conn.state == :set
       assert conn.status == 302

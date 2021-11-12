@@ -3,6 +3,7 @@ defmodule Farside.Router do
 
   use Plug.Router
 
+  plug(Farside.Throttle)
   plug(:match)
   plug(:dispatch)
 
