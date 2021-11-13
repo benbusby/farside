@@ -1,4 +1,4 @@
-![Farside](img/farside.png)
+![Farside](img/farside.svg)
 
 ___
 
