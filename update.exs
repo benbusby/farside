@@ -6,7 +6,7 @@ defmodule Instances do
 
   def init() do
     File.rename(@update_file, "#{@update_file}-prev")
-    update
+    update()
   end
 
   def request(url) do
