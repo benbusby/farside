@@ -28,12 +28,21 @@ defmodule Farside.Router do
     path = Enum.join(glob, "/")
     instance = Farside.pick_instance(service)
 
+    params =
+      cond do
+        String.length(conn.query_string) > 0 ->
+          "?#{conn.query_string}"
+
+        true ->
+          ""
+      end
+
     # Redirect to the available instance
     conn
     |> Plug.Conn.resp(:found, "")
     |> Plug.Conn.put_resp_header(
       "location",
-      "#{instance}/#{path}"
+      "#{instance}/#{path}#{params}"
     )
   end
 end
