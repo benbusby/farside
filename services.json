@@ -127,5 +127,39 @@
             "https://search.flux.industries",
             "https://www.whooglesearch.ml"
         ]
+    },
+    {
+        "type": "searx",
+        "test_url": "/search?q=github",
+        "fallback": "https://searx.be",
+        "instances": [
+            "https://paulgo.io",
+            "https://search.asynchronousexchange.com",
+            "https://anon.sx",
+            "https://searx.be",
+            "https://searx.gnous.eu",
+            "https://xeek.com",
+            "https://searx.bar",
+            "https://sx.fedi.tech",
+            "https://searx.tiekoetter.com",
+            "https://search.disroot.org",
+            "https://northboot.xyz",
+            "https://searx.fmac.xyz",
+            "https://metasearch.nl",
+            "https://searx.nevrlands.de",
+            "https://search.mdosch.de",
+            "https://searx.rasp.fr",
+            "https://searx.zackptg5.com",
+            "https://procurx.pt",
+            "https://searx2.zackptg5.com",
+            "https://searx.pwoss.org",
+            "https://search.076.ne.jp/searx",
+            "https://darmarit.org/searx",
+            "https://suche.uferwerk.org",
+            "https://searx.nakhan.ne",
+            "https://suche.dasnetzundich.de",
+            "https://search.antonkling.se",
+            "https://jsearch.pw"
+        ]
     }
 ]
