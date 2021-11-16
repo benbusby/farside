@@ -73,3 +73,9 @@ request per second per IP.
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
 
+### Environment Variables
+
+| Name | Purpose |
+| -- | -- |
+| FARSIDE_TEST | If enabled, skips the instance availability check in `update.exs`. |
+| FARSIDE_NO_ROUTER | If enabled, skips creation of the router. Useful for running `update.exs` with `mix run` when the app is already running. | 
