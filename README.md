@@ -22,6 +22,7 @@ bottlenecks and rate-limiting.
 | [Invidious](https://github.com/iv-org/invidious) | Home Page | https://farside.link/invidious
 | [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
 | [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir
+| [Searx](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
 
 ## How It Works
 
