@@ -21,6 +21,7 @@ bottlenecks and rate-limiting.
 | [Nitter](https://github.com/zedeus/nitter) | User Profile | https://farside.link/nitter/josevalim
 | [Invidious](https://github.com/iv-org/invidious) | Home Page | https://farside.link/invidious
 | [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
+| [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir
 
 ## How It Works
 
