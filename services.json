@@ -110,5 +110,22 @@
             "https://cy-nitter.resolv.ee",
             "https://tweet.lambda.dance"
         ]
+    },
+    {
+        "type": "whoogle",
+        "test_url": "/search?q=github",
+        "fallback": "https://search.garudalinux.org",
+        "instances": [
+            "https://search.albony.xyz",
+            "https://whoogle.sdf.org",
+            "https://whoogle.kavin.rocks",
+            "https://search.garudalinux.org",
+            "https://whooglesearch.net",
+            "https://search.flawcra.cc",
+            "https://search.exonip.de",
+            "https://s.alefvanoon.xyz",
+            "https://search.flux.industries",
+            "https://www.whooglesearch.ml"
+        ]
     }
 ]
