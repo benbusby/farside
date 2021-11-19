@@ -35,7 +35,7 @@
     },
     {
         "type": "bibliogram",
-        "test_url": "/u/taylorswift",
+        "test_url": "/u/officialrickastley",
         "fallback": "https://bibliogram.art",
         "instances": [
             "https://bibliogram.art",
@@ -159,7 +159,10 @@
             "https://searx.nakhan.ne",
             "https://suche.dasnetzundich.de",
             "https://search.antonkling.se",
-            "https://jsearch.pw"
+            "https://jsearch.pw",
+            "https://searx.hummel-web.at",
+            "https://search.mdosch.de",
+            "https://searx.ru"
         ]
     }
 ]
