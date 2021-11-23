@@ -25,6 +25,9 @@
         width: 90%;
       }
     }
+    ul {
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
