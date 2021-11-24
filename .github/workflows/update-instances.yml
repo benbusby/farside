@@ -33,6 +33,7 @@ jobs:
             .instances |
             to_entries[] |
             select(.value.network_type == "normal") |
+            select(.value.http.error == null) |
             select(.value.tls != null) |
             .key
           ] | sort' > searx-tmp.json
