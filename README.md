@@ -26,11 +26,11 @@ bottlenecks and rate-limiting.
 
 ## How It Works
 
-The app runs in a container that periodically (default every 5 minutes) queries
-all instances for services defined in [services.json](services.json). For each
-instance, as long as the instance takes <5 seconds to respond and returns a 200
-status code, the instance is added to a list of available instances for that
-particular service. If not, it is discarded until the next update period. 
+The app runs with an internally scheduled cron task that queries all instances
+for services defined in [services.json](services.json) every 5 minutes. For
+each instance, as long as the instance takes <5 seconds to respond and returns
+a 200 status code, the instance is added to a list of available instances for
+that particular service. If not, it is discarded until the next update period.
 
 Farside's routing is very minimal, with only the following routes:
 
@@ -69,7 +69,7 @@ request per second per IP.
 - Install [elixir](https://elixir-lang.org/install.html)
 - Start redis: `redis-server /usr/local/etc/redis.conf`
 - Install dependencies: `mix deps.get`
-- Initialize redis contents: `mix run update.exs`
+- Initialize redis contents: `mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
 

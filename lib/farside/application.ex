@@ -7,7 +7,8 @@ defmodule Farside.Application do
 
   @impl true
   def start(_type, _args) do
-    plug_children = [
+
+    plug_children = System.get_env("FARSIDE_NO_ROUTER") && [] || [
       Plug.Cowboy.child_spec(
         scheme: :http,
         plug: Farside.Router,
@@ -19,9 +20,10 @@ defmodule Farside.Application do
     ]
 
     children = [
-      {Redix, {@redis_conn, [name: :redix]}} |
-      System.get_env("FARSIDE_NO_ROUTER") && [] || plug_children
-    ]
+      {Redix, {@redis_conn, [name: :redix]}},
+      Farside.Scheduler,
+      Farside.Server
+    ] ++ plug_children
 
     opts = [strategy: :one_for_one, name: Farside.Supervisor]
     Supervisor.start_link(children, opts)

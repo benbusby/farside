@@ -35,7 +35,7 @@ jobs:
       run: mix deps.get
 
     - name: Initialize services
-      run: FARSIDE_TEST=1 mix run update.exs
+      run: FARSIDE_TEST=1 mix run -e Farside.Instances.sync
 
     - name: Run tests
-      run: mix test --trace
+      run: FARSIDE_TEST=1 mix test --trace

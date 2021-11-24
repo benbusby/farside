@@ -1,12 +1,19 @@
-defmodule Instances do
+defmodule Farside.Instances do
   @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
   @update_file Application.fetch_env!(:farside, :update_file)
   @services_json Application.fetch_env!(:farside, :services_json)
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
 
-  def init() do
+  def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
     update()
+
+    # Add UTC time of last update
+    Redix.command(:redix, [
+      "SET",
+      "last_updated",
+      Calendar.strftime(DateTime.utc_now(), "%c")
+    ])
   end
 
   def request(url) do
@@ -24,7 +31,7 @@ defmodule Instances do
     end
   end
 
-  def update do
+  def update() do
     {:ok, file} = File.read(@services_json)
     {:ok, json} = Poison.decode(file, as: [%Service{}])
 
@@ -77,12 +84,3 @@ defmodule Instances do
     File.close(file)
   end
 end
-
-Instances.init()
-
-# Add UTC time of last update
-Redix.command(:redix, [
-  "SET",
-  "last_updated",
-  Calendar.strftime(DateTime.utc_now(), "%c")
-])
