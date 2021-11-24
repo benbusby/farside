@@ -1,0 +1,59 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'
+    
+jobs:
+  update-instances:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: sudo apt-get install -y jq
+    - name: Fetch instances
+      run: |
+        function apply_update() {
+          mv services-tmp.json services.json
+          rm -f *-tmp.json
+        }
+        
+        # ==============================================================
+        # Git config
+        # ==============================================================
+        git config --global user.name github-actions
+        git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git remote set-url origin git@github.com:benbusby/farside.git
+        git checkout main
+        
+        # ==============================================================
+        # Searx update
+        # ==============================================================
+        curl -s https://searx.space/data/instances.json | \
+          jq '[
+            .instances |
+            to_entries[] |
+            select(.value.network_type == "normal") |
+            select(.value.tls != null) |
+            .key
+          ] | sort' > searx-tmp.json
+
+        jq --slurpfile searx searx-tmp.json \
+          '( .[] | select(.type == "searx") )
+          .instances |= $searx[0]' services.json > services-tmp.json
+
+        apply_update
+        
+        # ==============================================================
+        # TODO: Update instances for other services
+        # ==============================================================
+        
+        # ==============================================================
+        # Push changes
+        # ==============================================================
+        if [[ $(git diff-index --quiet HEAD) ]]; then
+          echo "No updates"
+        else
+          git add services.json
+          git commit -m '[CI] Auto update instances'
+          git push
+        fi
