@@ -146,6 +146,7 @@
       "https://procurx.pt/",
       "https://recherche.catmargue.org/",
       "https://s.zhaocloud.net/",
+      "https://search.076.ne.jp/searx/",
       "https://search.antonkling.se/",
       "https://search.asynchronousexchange.com/",
       "https://search.bluelock.org/",
@@ -186,6 +187,7 @@
       "https://searx.prvcy.eu/",
       "https://searx.pwoss.org/",
       "https://searx.rasp.fr/",
+      "https://searx.roflcopter.fr/",
       "https://searx.roughs.ru/",
       "https://searx.ru/",
       "https://searx.run/",
@@ -219,9 +221,7 @@
       "https://www.gruble.de/",
       "https://www.perfectpixel.de/searx/",
       "https://www.webrats.xyz/",
-      "https://xeek.com/",
-      "https://search.076.ne.jp/searx/",
-      "https://searx.roflcopter.fr/"
+      "https://xeek.com/"
     ]
   }
 ]
