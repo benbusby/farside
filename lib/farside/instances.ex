@@ -3,6 +3,7 @@ defmodule Farside.Instances do
   @update_file Application.fetch_env!(:farside, :update_file)
   @services_json Application.fetch_env!(:farside, :services_json)
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
+  @headers Application.fetch_env!(:farside, :headers)
 
   def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
@@ -21,7 +22,7 @@ defmodule Farside.Instances do
       System.get_env("FARSIDE_TEST") ->
         :good
       true ->
-        case HTTPoison.get(url) do
+        case HTTPoison.get(url, @headers) do
           {:ok, %HTTPoison.Response{status_code: 200}} ->
             # TODO: Add validation of results, not just status code
             :good
