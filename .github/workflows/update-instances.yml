@@ -36,8 +36,13 @@ jobs:
             .instances |
             to_entries[] |
             select(.value.network_type == "normal") |
+            select(.value.version | . != null) |
+            select(.value.version | startswith("1.0.0")) |
+            select(.value.network.asn_privacy == 0) |
             select(.value.http.error == null) |
-            select(.value.tls != null) |
+            select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
+            select(.value.http.grade == "A+" or .value.http.grade == "A") |
+            select(.value.html.grade == "V" or .value.html.grade == "F") |
             .key
           ] | sort' > searx-tmp.json
 
