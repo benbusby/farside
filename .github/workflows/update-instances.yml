@@ -17,7 +17,7 @@ jobs:
           rm -f *-tmp.json
 
           # Ensure no trailing slashes for any instance
-          sed -i '' 's/\/"/"/g' services.json
+          sed -i 's/\/"/"/g' services.json
         }
         
         # ==============================================================
