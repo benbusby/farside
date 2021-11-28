@@ -59,10 +59,6 @@ jobs:
         # ==============================================================
         # Push changes
         # ==============================================================
-        if [[ $(git diff-index --quiet HEAD) ]]; then
-          echo "No updates"
-        else
-          git add services.json
-          git commit -m '[CI] Auto update instances'
-          git push
-        fi
+        git add services.json
+        git commit -m '[CI] Auto update instances' || exit 0
+        git push
