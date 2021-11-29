@@ -115,8 +115,9 @@
   {
     "type": "whoogle",
     "test_url": "/search?q=<%=query%>",
-    "fallback": "https://search.garudalinux.org",
+    "fallback": "https://whoogle.fossho.st",
     "instances": [
+      "https://whoogle.fossho.st",
       "https://search.albony.xyz",
       "https://whoogle.sdf.org",
       "https://whoogle.kavin.rocks",
