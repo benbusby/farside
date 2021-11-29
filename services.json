@@ -114,7 +114,7 @@
   },
   {
     "type": "whoogle",
-    "test_url": "/search?q=github",
+    "test_url": "/search?q=<%=query%>",
     "fallback": "https://search.garudalinux.org",
     "instances": [
       "https://search.albony.xyz",
@@ -131,7 +131,7 @@
   },
   {
     "type": "searx",
-    "test_url": "/search?q=github",
+    "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
       "https://anon.sx",

@@ -4,6 +4,7 @@ defmodule Farside.Instances do
   @services_json Application.fetch_env!(:farside, :services_json)
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
   @headers Application.fetch_env!(:farside, :headers)
+  @queries Application.fetch_env!(:farside, :queries)
 
   def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
@@ -21,11 +22,13 @@ defmodule Farside.Instances do
     cond do
       System.get_env("FARSIDE_TEST") ->
         :good
+
       true ->
         case HTTPoison.get(url, @headers) do
           {:ok, %HTTPoison.Response{status_code: 200}} ->
             # TODO: Add validation of results, not just status code
             :good
+
           _ ->
             :bad
         end
@@ -38,11 +41,20 @@ defmodule Farside.Instances do
 
     # Loop through all instances and check each for availability
     for service <- json do
-      IO.puts "======== " <> service.type
-      result = Enum.filter(service.instances, fn(instance_url) ->
-        IO.puts "         " <> instance_url
-        request(instance_url <> service.test_url) == :good
-      end)
+      IO.puts("======== " <> service.type)
+
+      result =
+        Enum.filter(service.instances, fn instance_url ->
+          request_url = instance_url <>
+              EEx.eval_string(
+                service.test_url,
+                query: Enum.random(@queries)
+              )
+
+          IO.puts("         " <> request_url)
+
+          request(request_url) == :good
+        end)
 
       add_to_redis(service, result)
       log_results(service.type, result)
@@ -57,10 +69,13 @@ defmodule Farside.Instances do
     ])
 
     # Update with new list of available instances
-    Redix.command(:redix, [
-      "LPUSH",
-      "#{@service_prefix}#{service.type}"
-    ] ++ instances)
+    Redix.command(
+      :redix,
+      [
+        "LPUSH",
+        "#{@service_prefix}#{service.type}"
+      ] ++ instances
+    )
 
     # Set fallback to one of the available instances,
     # or the default instance if all are "down"

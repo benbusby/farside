@@ -14,4 +14,8 @@ config :farside,
     {"Accept", "text/html"},
     {"Accept-Language", "en-US,en;q=0.5"},
     {"Accept-Encoding", "gzip, deflate, br"}
+  ],
+  queries: [
+    "weather",
+    "time"
   ]

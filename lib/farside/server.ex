@@ -13,7 +13,7 @@ defmodule Farside.Server do
       Farside.Scheduler.new_job()
       |> Quantum.Job.set_name(:sync)
       |> Quantum.Job.set_schedule(~e[*/5 * * * *])
-      |> Quantum.Job.set_task(fn -> Farside.Instances.sync end)
+      |> Quantum.Job.set_task(fn -> Farside.Instances.sync() end)
       |> Farside.Scheduler.add_job()
     end
 
