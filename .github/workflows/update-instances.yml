@@ -31,6 +31,7 @@ jobs:
         # ==============================================================
         # Searx update
         # ==============================================================
+        echo "Fetching searx instances..."
         curl -s https://searx.space/data/instances.json | \
           jq '[
             .instances |
@@ -45,6 +46,8 @@ jobs:
             select(.value.html.grade == "V" or .value.html.grade == "F") |
             .key
           ] | sort' > searx-tmp.json
+          
+        cat searx-tmp.json | jq .
 
         jq --slurpfile searx searx-tmp.json \
           '( .[] | select(.type == "searx") )
