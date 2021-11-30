@@ -114,19 +114,15 @@
   },
   {
     "type": "whoogle",
-    "test_url": "/search?q=<%=query%>",
+    "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://whoogle.fossho.st",
     "instances": [
       "https://whoogle.fossho.st",
       "https://search.albony.xyz",
-      "https://whoogle.sdf.org",
-      "https://whoogle.kavin.rocks",
       "https://search.garudalinux.org",
       "https://whooglesearch.net",
-      "https://search.flawcra.cc",
       "https://search.exonip.de",
       "https://s.alefvanoon.xyz",
-      "https://search.flux.industries",
       "https://www.whooglesearch.ml"
     ]
   },
