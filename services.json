@@ -113,6 +113,16 @@
     ]
   },
   {
+      "type": "scribe",
+      "test_url": "@ftrain/big-data-small-effort-b62607a43a8c",
+      "fallback": "https://scribe.rip",
+      "instances": [
+          "https://scribe.rip",
+          "https://scribe.nixnet.services",
+          "https://scribe.citizen4.eu"
+      ]
+  },
+  {
     "type": "whoogle",
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://whoogle.fossho.st",
