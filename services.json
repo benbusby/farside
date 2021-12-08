@@ -113,14 +113,14 @@
     ]
   },
   {
-      "type": "scribe",
-      "test_url": "@ftrain/big-data-small-effort-b62607a43a8c",
-      "fallback": "https://scribe.rip",
-      "instances": [
-          "https://scribe.rip",
-          "https://scribe.nixnet.services",
-          "https://scribe.citizen4.eu"
-      ]
+    "type": "scribe",
+    "test_url": "@ftrain/big-data-small-effort-b62607a43a8c",
+    "fallback": "https://scribe.rip",
+    "instances": [
+      "https://scribe.rip",
+      "https://scribe.nixnet.services",
+      "https://scribe.citizen4.eu"
+    ]
   },
   {
     "type": "whoogle",
@@ -145,7 +145,6 @@
       "https://anon.sx",
       "https://northboot.xyz",
       "https://paulgo.io",
-      "https://procurx.pt",
       "https://s.zhaocloud.net",
       "https://search.asynchronousexchange.com",
       "https://search.bluelock.org",
@@ -159,13 +158,13 @@
       "https://searx.prvcy.eu",
       "https://searx.rasp.fr",
       "https://searx.ru",
-      "https://searx.silkky.cloud",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
       "https://searx.theanonymouse.xyz",
       "https://searx.tiekoetter.com",
       "https://searx.tux.land",
       "https://searx.tuxcloud.net",
+      "https://searx.vitanetworks.link",
       "https://searx.webheberg.info",
       "https://searx.xyz",
       "https://searx.zackptg5.com",
