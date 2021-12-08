@@ -114,7 +114,7 @@
   },
   {
     "type": "scribe",
-    "test_url": "@ftrain/big-data-small-effort-b62607a43a8c",
+    "test_url": "/@ftrain/big-data-small-effort-b62607a43a8c",
     "fallback": "https://scribe.rip",
     "instances": [
       "https://scribe.rip",
