@@ -45,7 +45,8 @@ defmodule Farside.Instances do
 
       result =
         Enum.filter(service.instances, fn instance_url ->
-          request_url = instance_url <>
+          request_url =
+            instance_url <>
               EEx.eval_string(
                 service.test_url,
                 query: Enum.random(@queries)

@@ -55,7 +55,7 @@ A user navigates to `/nitter` and is redirected to `nitter.net`. The next user
 to request `/nitter` will be guaranteed to not be directed to `nitter.net`, and
 will instead be redirected to a separate (random) working instance. That
 instance will now take the place of `nitter.net` as the "reserved" instance, and
-`nitter.net` will be returned to the list of available Nitter instances. 
+`nitter.net` will be returned to the list of available Nitter instances.
 
 This "reserving" of previously chosen instances is performed in an attempt to
 ensure better distribution of traffic to available instances for each service.
@@ -77,5 +77,4 @@ request per second per IP.
 
 | Name | Purpose |
 | -- | -- |
-| FARSIDE_TEST | If enabled, skips the instance availability check in `update.exs`. |
-| FARSIDE_NO_ROUTER | If enabled, skips creation of the router. Useful for running `update.exs` with `mix run` when the app is already running. | 
+| FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
