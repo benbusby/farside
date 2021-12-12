@@ -142,6 +142,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://anon.sx",
       "https://northboot.xyz",
       "https://paulgo.io",
       "https://procurx.pt",
@@ -166,9 +167,11 @@
       "https://searx.tuxcloud.net",
       "https://searx.webheberg.info",
       "https://searx.xyz",
+      "https://searx.zackptg5.com",
       "https://searx2.zackptg5.com",
       "https://swag.pw",
-      "https://sx.fedi.tech"
+      "https://sx.fedi.tech",
+      "https://www.webrats.xyz"
     ]
   }
 ]
