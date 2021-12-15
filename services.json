@@ -141,6 +141,37 @@
     "type": "searx",
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
-    "instances": []
+    "instances": [
+      "https://anon.sx",
+      "https://northboot.xyz",
+      "https://paulgo.io",
+      "https://procurx.pt",
+      "https://s.zhaocloud.net",
+      "https://search.asynchronousexchange.com",
+      "https://search.bluelock.org",
+      "https://searx.bar",
+      "https://searx.divided-by-zero.eu",
+      "https://searx.fmac.xyz",
+      "https://searx.gnu.style",
+      "https://searx.hummel-web.at",
+      "https://searx.mha.fi",
+      "https://searx.nevrlands.de",
+      "https://searx.prvcy.eu",
+      "https://searx.rasp.fr",
+      "https://searx.ru",
+      "https://searx.sp-codes.de",
+      "https://searx.stuehieyr.com",
+      "https://searx.theanonymouse.xyz",
+      "https://searx.tiekoetter.com",
+      "https://searx.tux.land",
+      "https://searx.tuxcloud.net",
+      "https://searx.webheberg.info",
+      "https://searx.xyz",
+      "https://searx.zackptg5.com",
+      "https://searx2.zackptg5.com",
+      "https://swag.pw",
+      "https://sx.fedi.tech",
+      "https://www.webrats.xyz"
+    ]
   }
 ]
