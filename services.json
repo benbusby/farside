@@ -35,6 +35,27 @@
     ]
   },
   {
+    "type": "teddit",
+    "test_url": "/r/popular",
+    "fallback": "https://teddit.net",
+    "instances": [
+      "https://teddit.ggc-project.de",
+      "https://teddit.kavin.rocks",
+      "https://teddit.zaggy.nl",
+      "https://teddit.namazso.eu",
+      "https://teddit.nautolan.racing",
+      "https://teddit.tinfoil-hat.net",
+      "https://teddit.domain.glass",
+      "https://snoo.ioens.is",
+      "https://teddit.httpjames.space",
+      "https://teddit.alefvanoon.xyz",
+      "https://incogsnoo.com",
+      "https://teddit.pussthecat.org",
+      "https://reddit.lol",
+      "https://teddit.sethforprivacy.com"
+    ]
+  },
+  {
     "type": "bibliogram",
     "test_url": "/u/officialrickastley",
     "fallback": "https://bibliogram.art",
@@ -67,6 +88,14 @@
       "https://yt.artemislena.eu",
       "https://youtube.076.ne.jp",
       "https://invidious.namazso.eu"
+    ]
+  },
+  {
+    "type": "piped",
+    "test_url": "/watch?v=eBGIQ7ZuuiU",
+    "fallback": "https://piped.kavin.rocks",
+    "instances": [
+      "https://piped.kavin.rocks"
     ]
   },
   {
@@ -120,6 +149,18 @@
       "https://scribe.rip",
       "https://scribe.nixnet.services",
       "https://scribe.citizen4.eu"
+    ]
+  },
+  {
+    "type": "simplytranslate",
+    "test_url": "/?engine=google&text=simplicado",
+    "fallback": "https://simplytranslate.org",
+    "instances": [
+      "https://simplytranslate.org",
+      "https://st.alefvanoon.xyz",
+      "https://translate.josias.dev",
+      "https://translate.namazso.eu",
+      "https://translate.riverside.rocks"
     ]
   },
   {

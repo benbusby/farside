@@ -1,7 +1,7 @@
 on:
   schedule:
     - cron: '0 0 * * *'
-    
+
 jobs:
   update-instances:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
           # Ensure no trailing slashes for any instance
           sed -i 's/\/"/"/g' services.json
         }
-        
+
         # ==============================================================
         # Git config
         # ==============================================================
@@ -33,7 +33,7 @@ jobs:
         git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
         git remote set-url origin git@github.com:benbusby/farside.git
         git checkout main
-        
+
         # ==============================================================
         # Searx update
         # ==============================================================
@@ -52,7 +52,7 @@ jobs:
             select(.value.html.grade == "V" or .value.html.grade == "F") |
             .key
           ] | sort' > searx-tmp.json
-          
+
         cat searx-tmp.json | jq .
 
         jq --slurpfile searx searx-tmp.json \
@@ -60,11 +60,24 @@ jobs:
           .instances |= $searx[0]' services.json > services-tmp.json
 
         apply_update
-        
+
+        # ==============================================================
+        # Simply Translate update
+        # ==============================================================
+        curl -s https://simple-web.org/instances/simplytranslate | sort > st-out
+        sed -i -e 's/^/https:\/\//' st-out
+        jq -ncR '[inputs]' <<< "$(cat st-out)" > st-tmp.json
+
+        jq --slurpfile simplytranslate st-tmp.json \
+          '( .[] | select(.type == "simplytranslate") )
+          .instances |= $simplytranslate[0]' services.json > services-tmp.json
+
+        apply_update
+
         # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
-        
+
         # ==============================================================
         # Push changes
         # ==============================================================
