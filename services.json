@@ -95,7 +95,8 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://piped.kavin.rocks",
     "instances": [
-      "https://piped.kavin.rocks"
+      "https://piped.kavin.rocks",
+      "https://silkky.cloud"
     ]
   },
   {

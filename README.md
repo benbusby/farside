@@ -18,11 +18,14 @@ bottlenecks and rate-limiting.
 | Service | Page | Farside Link |
 | -- | -- | -- |
 | [Libreddit](https://github.com/spikecodes/libreddit) | /r/popular | https://farside.link/libreddit/r/popular
+| [Teddit](https://codeberg.org/teddit/teddit) | /r/popular | https://farside.link/teddit/r/popular
 | [Nitter](https://github.com/zedeus/nitter) | User Profile | https://farside.link/nitter/josevalim
 | [Invidious](https://github.com/iv-org/invidious) | Home Page | https://farside.link/invidious
+| [Piped](https://github.com/TeamPiped/Piped) | Video Page | https://farside.link/piped/watch?v=eBGIQ7ZuuiU
 | [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
 | [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir
 | [Searx](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
+| [SimplyTranslate](https://git.sr.ht/~metalune/simplytranslate_web) | Translate "hola" | https://farside.link/simplytranslate/?engine=google&text=hola
 
 ## How It Works
 
