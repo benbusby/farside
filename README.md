@@ -15,6 +15,10 @@ bottlenecks and rate-limiting.
 
 ## Demo
 
+Farside's links work with the following structure: `farside.link/<service>/<path>`
+
+For example:
+
 | Service | Page | Farside Link |
 | -- | -- | -- |
 | [Libreddit](https://github.com/spikecodes/libreddit) | /r/popular | https://farside.link/libreddit/r/popular
