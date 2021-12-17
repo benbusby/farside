@@ -168,6 +168,17 @@
     ]
   },
   {
+    "type": "lingva",
+    "test_url": "/auto/en/hola",
+    "fallback": "https://lingva.ml",
+    "instances": [
+      "https://lingva.ml",
+      "https://translate.alefvanoon.xyz",
+      "https://translate.igna.rocks",
+      "https://lingva.pussthecat.org"
+    ]
+  },
+  {
     "type": "whoogle",
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://whoogle.fossho.st",

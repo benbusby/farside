@@ -30,6 +30,7 @@ For example:
 | [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir
 | [Searx](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
 | [SimplyTranslate](https://git.sr.ht/~metalune/simplytranslate_web) | Translate "hola" | https://farside.link/simplytranslate/?engine=google&text=hola
+| [Lingva](https://github.com/TheDavidDelta/lingva-translate) | Translate "bonjour" | https://farside.link/lingva/auto/en/bonjour
 
 ## How It Works
 
