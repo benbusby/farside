@@ -64,13 +64,25 @@ jobs:
         # ==============================================================
         # Simply Translate update
         # ==============================================================
-        curl -s https://simple-web.org/instances/simplytranslate | sort > st-out
+        curl -s https://simple-web.org/instances/simplytranslate > st-out
         sed -i -e 's/^/https:\/\//' st-out
-        jq -ncR '[inputs]' <<< "$(cat st-out)" > st-tmp.json
+        jq -ncR '[inputs]' <<< "$(cat st-out | sort)" > st-tmp.json
 
         jq --slurpfile simplytranslate st-tmp.json \
           '( .[] | select(.type == "simplytranslate") )
           .instances |= $simplytranslate[0]' services.json > services-tmp.json
+
+        apply_update
+
+        # ==============================================================
+        # Whoogle update
+        # ==============================================================
+        curl -s https://raw.githubusercontent.com/benbusby/whoogle-search/main/misc/instances.txt > whoogle-out
+        jq -ncR '[inputs]' <<< "$(cat whoogle-out | sort)" > whoogle-tmp.json
+
+        jq --slurpfile whoogle whoogle-tmp.json \
+          '( .[] | select(.type == "whoogle") )
+          .instances |= $whoogle[0]' services.json > services-tmp.json
 
         apply_update
 
