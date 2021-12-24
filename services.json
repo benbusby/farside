@@ -183,14 +183,14 @@
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://whoogle.fossho.st",
     "instances": [
-      "https://whoogle.fossho.st",
-      "https://search.albony.xyz",
-      "https://search.garudalinux.org",
-      "https://whooglesearch.net",
-      "https://search.exonip.de",
       "https://s.alefvanoon.xyz",
-      "https://www.whooglesearch.ml",
-      "https://search.sethforprivacy.com"
+      "https://search.albony.xyz",
+      "https://search.exonip.de",
+      "https://search.garudalinux.org",
+      "https://search.sethforprivacy.com",
+      "https://whoogle.fossho.st",
+      "https://whooglesearch.net",
+      "https://www.whooglesearch.ml"
     ]
   },
   {
@@ -210,12 +210,13 @@
       "https://searx.be",
       "https://searx.divided-by-zero.eu",
       "https://searx.fmac.xyz",
-      "https://searx.gnu.style",
       "https://searx.hummel-web.at",
       "https://searx.mha.fi",
       "https://searx.nevrlands.de",
       "https://searx.prvcy.eu",
+      "https://searx.rasp.fr",
       "https://searx.ru",
+      "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
       "https://searx.theanonymouse.xyz",
       "https://searx.tiekoetter.com",
