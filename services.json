@@ -98,7 +98,8 @@
     "fallback": "https://piped.kavin.rocks",
     "instances": [
       "https://piped.kavin.rocks",
-      "https://piped.silkky.cloud"
+      "https://piped.silkky.cloud",
+      "https://piped.mutahar.rocks"
     ]
   },
   {
