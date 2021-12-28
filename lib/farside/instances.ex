@@ -5,6 +5,8 @@ defmodule Farside.Instances do
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
   @headers Application.fetch_env!(:farside, :headers)
   @queries Application.fetch_env!(:farside, :queries)
+  @debug_header "======== "
+  @debug_spacer "         "
 
   def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
@@ -24,12 +26,16 @@ defmodule Farside.Instances do
         :good
 
       true ->
-        case HTTPoison.get(url, @headers) do
-          {:ok, %HTTPoison.Response{status_code: 200}} ->
-            # TODO: Add validation of results, not just status code
+        HTTPoison.get(url, @headers)
+        |> then(&elem(&1, 1))
+        |> Map.get(:status_code)
+        |> case do
+          n when n < 400 ->
+            IO.puts("#{@debug_spacer}✓ [#{n}]")
             :good
 
-          _ ->
+          n ->
+            IO.puts("#{@debug_spacer}x [#{(n && n) || "error"}]")
             :bad
         end
     end
@@ -41,7 +47,7 @@ defmodule Farside.Instances do
 
     # Loop through all instances and check each for availability
     for service <- json do
-      IO.puts("======== " <> service.type)
+      IO.puts("#{@debug_header}#{service.type}")
 
       result =
         Enum.filter(service.instances, fn instance_url ->
@@ -52,7 +58,7 @@ defmodule Farside.Instances do
                 query: Enum.random(@queries)
               )
 
-          IO.puts("         " <> request_url)
+          IO.puts("#{@debug_spacer}#{request_url}")
 
           request(request_url) == :good
         end)
