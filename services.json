@@ -162,8 +162,11 @@
     "test_url": "/?engine=google&text=simplicado",
     "fallback": "https://simplytranslate.org",
     "instances": [
+      "https://manerakai.asuscomm.com:447",
       "https://simplytranslate.org",
+      "https://simplytranslate.pussthecat.org",
       "https://st.alefvanoon.xyz",
+      "https://translate.bus-hit.me",
       "https://translate.josias.dev",
       "https://translate.namazso.eu",
       "https://translate.riverside.rocks"
