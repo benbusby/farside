@@ -194,14 +194,6 @@
     ]
   },
   {
-    "type": "imgin",
-    "test_url": "/a/H8M4rcp",
-    "fallback": "https://imgin.voidtech.net",
-    "instances": [
-      "https://imgin.voidnet.tech"
-    ]
-  },
-  {
     "type": "whoogle",
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://whoogle.fossho.st",
