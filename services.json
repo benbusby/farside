@@ -76,20 +76,18 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://yewtu.be",
-      "https://invidious.snopyta.org",
-      "https://invidious.kavin.rocks",
-      "https://vid.puffyan.org",
-      "https://invidious-us.kavin.rocks",
+      "https://inv.cthd.icu",
       "https://inv.riverside.rocks",
       "https://invidio.xamh.de",
-      "https://vid.mint.lgbt",
-      "https://invidious-jp.kavin.rocks",
-      "https://invidious.hub.ne.kr",
-      "https://yt.artemislena.eu",
-      "https://youtube.076.ne.jp",
+      "https://invidious-us.kavin.rocks",
+      "https://invidious.kavin.rocks",
       "https://invidious.namazso.eu",
-      "https://invidious.sethforprivacy.com"
+      "https://invidious.osi.kr",
+      "https://invidious.snopyta.org",
+      "https://vid.puffyan.us",
+      "https://yewtu.be",
+      "https://youtube.076.ne.jp",
+      "https://yt.artemislena.eu"
     ]
   },
   {
@@ -196,12 +194,12 @@
     ]
   },
   {
-      "type": "imgin",
-      "test_url": "/a/H8M4rcp",
-      "fallback": "https://imgin.voidtech.net",
-      "instances": [
-        "https://imgin.voidnet.tech"
-      ]
+    "type": "imgin",
+    "test_url": "/a/H8M4rcp",
+    "fallback": "https://imgin.voidtech.net",
+    "instances": [
+      "https://imgin.voidnet.tech"
+    ]
   },
   {
     "type": "whoogle",
@@ -231,6 +229,7 @@
       "https://s.zhaocloud.net",
       "https://search.asynchronousexchange.com",
       "https://search.mdosch.de",
+      "https://search.ononoki.org",
       "https://searx.bar",
       "https://searx.be",
       "https://searx.divided-by-zero.eu",
@@ -238,6 +237,7 @@
       "https://searx.gnu.style",
       "https://searx.hummel-web.at",
       "https://searx.mha.fi",
+      "https://searx.nevrlands.de",
       "https://searx.prvcy.eu",
       "https://searx.rasp.fr",
       "https://searx.ru",
