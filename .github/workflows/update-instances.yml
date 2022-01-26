@@ -85,6 +85,21 @@ jobs:
           .instances |= $whoogle[0]' services.json > services-tmp.json
 
         apply_update
+        
+        # ==============================================================
+        # Invidious update
+        # ==============================================================
+        curl -s https://api.invidious.io/instances.json | \
+          jq '[
+            .[] | 
+            select(.[1].type | contains("https")) ] | 
+            [.[][1].uri] | 
+            sort' > invidious-tmp.json
+        jq --slurpfile invidious invidious-tmp.json \
+          '( .[] | select(.type == "invidious") )
+          .instances |= $invidious[0]' services.json > services-tmp.json
+          
+        apply_update
 
         # ==============================================================
         # TODO: Update instances for other services
