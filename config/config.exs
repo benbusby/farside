@@ -9,6 +9,7 @@ config :farside,
   previous_suffix: "-previous",
   services_json: "services.json",
   index: "index.eex",
+  route: "route.eex",
   headers: [
     {"User-Agent", "Mozilla/5.0 (Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"},
     {"Accept", "text/html"},

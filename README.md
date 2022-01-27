@@ -55,6 +55,13 @@ Farside's routing is very minimal, with only the following routes:
     URL>/r/popular`
   - Note that a path is not required. `/libreddit` for example will still
     redirect the user to a working libreddit instance
+- `/_/:service/*glob`
+  - Achieves the same redirect as the main `/:service/*glob` endpoint, but
+    preserves a short landing page in the browser's history to allow quickly
+    jumping between instances by navigating back.
+  - Ex: `/_/nitter` -> nitter instance A -> (navigate back one page) -> nitter
+    instance B -> ...
+  - *Note: Uses Javascript to preserve the page in history*
 
 When a service is requested with the `/:service/...` endpoint, Farside requests
 the list of working instances from Redis and returns a random one from the list

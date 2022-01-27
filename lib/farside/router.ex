@@ -1,5 +1,6 @@
 defmodule Farside.Router do
   @index Application.fetch_env!(:farside, :index)
+  @route Application.fetch_env!(:farside, :route)
 
   use Plug.Router
 
@@ -21,6 +22,19 @@ defmodule Farside.Router do
   get "/ping" do
     # Useful for app healthcheck
     {:ok, resp} = Redix.command(:redix, ["PING"])
+    send_resp(conn, 200, resp)
+  end
+
+  get "/_/:service/*glob" do
+    r_path = String.slice(conn.request_path, 2..-1)
+
+    resp =
+      EEx.eval_file(
+        @route,
+        service: service,
+        instance_url: r_path
+      )
+
     send_resp(conn, 200, resp)
   end
 
