@@ -25,7 +25,7 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
-  get "/r/:service/*glob" do
+  get "/_/:service/*glob" do
     r_path = String.slice(conn.request_path, 2..-1)
 
     resp =
