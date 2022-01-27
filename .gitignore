@@ -11,3 +11,5 @@ erl_crash.dump
 
 # Ignore results from update script
 .update-result*
+
+*.rdb

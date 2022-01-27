@@ -1,0 +1,10 @@
+<head>
+  <title>Farside Redirect - <%= service %></title>
+  <meta http-equiv="refresh" content="1; url=<%= instance_url %>">
+  <script>
+    history.pushState({page: 1}, "Farside Redirect");
+  </script>
+</head>
+<body>
+  <span>Redirecting to <%= service %> instance...
+</body>
