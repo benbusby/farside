@@ -61,6 +61,7 @@ Farside's routing is very minimal, with only the following routes:
     jumping between instances by navigating back.
   - Ex: `/_/nitter` -> nitter instance A -> (navigate back one page) -> nitter
     instance B -> ...
+  - *Note: Uses Javascript to preserve the page in history*
 
 When a service is requested with the `/:service/...` endpoint, Farside requests
 the list of working instances from Redis and returns a random one from the list
