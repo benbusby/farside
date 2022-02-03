@@ -38,7 +38,6 @@ jobs:
         # ==============================================================
         # Searx update
         # ==============================================================
-        echo "Fetching searx instances..."
         curl -s https://searx.space/data/instances.json | \
           jq '[
             .instances |
@@ -63,7 +62,7 @@ jobs:
         apply_update
 
         # ==============================================================
-        # Simply Translate update
+        # SimplyTranslate update
         # ==============================================================
         curl -s https://simple-web.org/instances/simplytranslate > st-out
         sed -i -e 's/^/https:\/\//' st-out
@@ -99,6 +98,31 @@ jobs:
         jq --slurpfile invidious invidious-tmp.json \
           '( .[] | select(.type == "invidious") )
           .instances |= $invidious[0]' services.json > services-tmp.json
+          
+        apply_update
+
+        # ==============================================================
+        # Scribe update
+        # ==============================================================
+        curl -s https://git.sr.ht/~edwardloveall/scribe/blob/main/docs/instances.json > scribe-tmp.json
+        jq --slurpfile scribe scribe-tmp.json \
+          '( .[] | select(.type == "scribe") )
+          .instances |= $scribe[0]' services.json > services-tmp.json
+          
+        apply_update
+
+        # ==============================================================
+        # teddit update
+        # ==============================================================
+        curl -s https://codeberg.org/teddit/teddit/raw/branch/main/instances.json | \
+          jq '[
+            .[] |
+            select(.url | contains("https")) |
+            .url ] |
+            sort' > teddit-tmp.json
+        jq --slurpfile teddit teddit-tmp.json \
+          '( .[] | select(.type == "teddit") )
+          .instances |= $teddit[0]' services.json > services-tmp.json
           
         apply_update
 
