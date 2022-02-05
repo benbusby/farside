@@ -79,20 +79,7 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": [
-      "https://inv.cthd.icu",
-      "https://inv.riverside.rocks",
-      "https://invidio.xamh.de",
-      "https://invidious-us.kavin.rocks",
-      "https://invidious.kavin.rocks",
-      "https://invidious.namazso.eu",
-      "https://invidious.osi.kr",
-      "https://invidious.snopyta.org",
-      "https://vid.puffyan.us",
-      "https://yewtu.be",
-      "https://youtube.076.ne.jp",
-      "https://yt.artemislena.eu"
-    ]
+    "instances": null
   },
   {
     "type": "piped",
@@ -226,8 +213,8 @@
       "https://search.asynchronousexchange.com",
       "https://search.bus-hit.me",
       "https://search.mdosch.de",
+      "https://search.neet.works",
       "https://search.ononoki.org",
-      "https://searx.bar",
       "https://searx.be",
       "https://searx.divided-by-zero.eu",
       "https://searx.fmac.xyz",
@@ -240,7 +227,6 @@
       "https://searx.ru",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
-      "https://searx.theanonymouse.xyz",
       "https://searx.tiekoetter.com",
       "https://searx.tux.land",
       "https://searx.tuxcloud.net",
