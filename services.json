@@ -80,7 +80,20 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": null
+    "instances": [
+      "https://inv.cthd.icu",
+      "https://inv.riverside.rocks",
+      "https://invidio.xamh.de",
+      "https://invidious-us.kavin.rocks",
+      "https://invidious.kavin.rocks",
+      "https://invidious.namazso.eu",
+      "https://invidious.osi.kr",
+      "https://invidious.snopyta.org",
+      "https://vid.puffyan.us",
+      "https://yewtu.be",
+      "https://youtube.076.ne.jp",
+      "https://yt.artemislena.eu"
+    ]
   },
   {
     "type": "piped",
