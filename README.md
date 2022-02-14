@@ -84,7 +84,7 @@ request per second per IP.
 
 - Install [redis](https://redis.io)
 - Install [elixir](https://elixir-lang.org/install.html)
-- Start redis: `redis-server /usr/local/etc/redis.conf`
+- Start redis: `redis-server`
 - Install dependencies: `mix deps.get`
 - Initialize redis contents: `mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
