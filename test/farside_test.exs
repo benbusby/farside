@@ -45,7 +45,7 @@ defmodule FarsideTest do
 
   test "/:service" do
     {:ok, file} = File.read(@services_json)
-    {:ok, service_list} = Poison.decode(file, as: [%{}])
+    {:ok, service_list} = Jason.decode(file)
 
     service_names =
       Enum.map(

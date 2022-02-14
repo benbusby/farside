@@ -26,7 +26,6 @@ defmodule Farside.MixProject do
       {:jason, "~> 1.1"},
       {:plug_attack, "~> 0.4.2"},
       {:plug_cowboy, "~> 2.0"},
-      {:poison, "~> 5.0"},
       {:quantum, "~> 3.0"},
       {:redix, "~> 1.1"}
     ]

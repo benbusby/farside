@@ -43,10 +43,16 @@ defmodule Farside.Instances do
 
   def update() do
     {:ok, file} = File.read(@services_json)
-    {:ok, json} = Poison.decode(file, as: [%Service{}])
+    {:ok, json} = Jason.decode(file)
 
     # Loop through all instances and check each for availability
-    for service <- json do
+    for service_json <- json do
+      service_atom = for {key, val} <- service_json, into: %{} do
+        {String.to_existing_atom(key), val}
+      end
+
+      service = struct(%Service{}, service_atom)
+
       IO.puts("#{@debug_header}#{service.type}")
 
       result =
