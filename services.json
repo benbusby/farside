@@ -81,7 +81,6 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://inv.cthd.icu",
       "https://inv.riverside.rocks",
       "https://invidio.xamh.de",
       "https://invidious-us.kavin.rocks",
@@ -91,6 +90,7 @@
       "https://invidious.osi.kr",
       "https://invidious.privacy.gd",
       "https://invidious.snopyta.org",
+      "https://tube.cthd.icu",
       "https://vid.puffyan.us",
       "https://yewtu.be",
       "https://youtube.076.ne.jp",
