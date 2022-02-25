@@ -250,5 +250,16 @@
       "https://sx.fedi.tech",
       "https://www.webrats.xyz"
     ]
+  },
+  {
+    "type": "wikiless",
+    "test_url": "/wiki/Wikipedia?lang=en",
+    "fallback": "https://wikiless.org",
+    "instances": [
+      "https://wiki.604kph.xyz",
+      "https://wikiless.alefvanoon.xyz",
+      "https://wikiless.org",
+      "https://wikiless.sethforprivacy.com"
+    ]
   }
 ]

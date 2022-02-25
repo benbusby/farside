@@ -85,20 +85,20 @@ jobs:
           .instances |= $whoogle[0]' services.json > services-tmp.json
 
         apply_update
-        
+
         # ==============================================================
         # Invidious update
         # ==============================================================
         curl -s https://api.invidious.io/instances.json | \
           jq '[
-            .[] | 
-            select(.[1].type | contains("https")) ] | 
-            [.[][1].uri] | 
+            .[] |
+            select(.[1].type | contains("https")) ] |
+            [.[][1].uri] |
             sort' > invidious-tmp.json
         jq --slurpfile invidious invidious-tmp.json \
           '( .[] | select(.type == "invidious") )
           .instances |= $invidious[0]' services.json > services-tmp.json
-          
+
         apply_update
 
         # ==============================================================
@@ -108,7 +108,7 @@ jobs:
         jq --slurpfile scribe scribe-tmp.json \
           '( .[] | select(.type == "scribe") )
           .instances |= $scribe[0]' services.json > services-tmp.json
-          
+
         apply_update
 
         # ==============================================================
@@ -123,7 +123,22 @@ jobs:
         jq --slurpfile teddit teddit-tmp.json \
           '( .[] | select(.type == "teddit") )
           .instances |= $teddit[0]' services.json > services-tmp.json
-          
+
+        apply_update
+
+        # ==============================================================
+        # Wikiless update
+        # ==============================================================
+        curl -s https://codeberg.org/orenom/Wikiless/raw/branch/main/instances.json | \
+          jq '[
+            .[] |
+            "https://" +
+            select(. | contains(".onion") | not)] |
+            sort' > wikiless-tmp.json
+        jq --slurpfile wikiless wikiless-tmp.json \
+          '( .[] | select(.type == "wikiless") )
+          .instances |= $wikiless[0]' services.json > services-tmp.json
+
         apply_update
 
         # ==============================================================
