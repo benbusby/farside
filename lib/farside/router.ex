@@ -46,8 +46,6 @@ defmodule Farside.Router do
       true ->
         Farside.pick_instance(service)
     end
-    IO.inspect(get_req_header(conn, "throttle"))
-    IO.inspect(instance)
 
     params =
       cond do

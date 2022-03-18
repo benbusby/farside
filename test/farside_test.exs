@@ -17,17 +17,22 @@ defmodule FarsideTest do
   end
 
   test "throttle" do
-    :get
-    |> conn("/", "")
-    |> Router.call(@opts)
+    first_conn =
+      :get
+      |> conn("/", "")
+      |> Router.call(@opts)
+
+    first_redirect = elem(List.last(first_conn.resp_headers), 1)
 
     throttled_conn =
       :get
       |> conn("/", "")
       |> Router.call(@opts)
 
+    throttled_redirect = elem(List.last(first_conn.resp_headers), 1)
+
     assert throttled_conn.state == :sent
-    assert throttled_conn.status == 403
+    assert throttled_redirect == first_redirect
   end
 
   test "/" do
