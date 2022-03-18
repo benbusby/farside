@@ -14,8 +14,7 @@ defmodule Farside.Throttle do
   def allow_action(conn, _data, _opts), do: conn
 
   def block_action(conn, _data, _opts) do
+    conn = assign(conn, :throttle, 1)
     conn
-    |> send_resp(:forbidden, "Exceeded rate limit\n")
-    |> halt
   end
 end

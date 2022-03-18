@@ -40,7 +40,14 @@ defmodule Farside.Router do
 
   get "/:service/*glob" do
     path = Enum.join(glob, "/")
-    instance = Farside.pick_instance(service)
+    instance = cond do
+      conn.assigns[:throttle] != nil ->
+        Farside.last_instance(service)
+      true ->
+        Farside.pick_instance(service)
+    end
+    IO.inspect(get_req_header(conn, "throttle"))
+    IO.inspect(instance)
 
     params =
       cond do

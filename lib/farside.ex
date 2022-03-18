@@ -26,6 +26,15 @@ defmodule Farside do
     end)
   end
 
+  def last_instance(service) do
+    {:ok, previous} =
+      Redix.command(
+        :redix,
+        ["GET", "#{service}#{@previous_suffix}"]
+      )
+    previous
+  end
+
   def pick_instance(service) do
     {:ok, instances} =
       Redix.command(
@@ -38,7 +47,7 @@ defmodule Farside do
         ]
       )
 
-    # Either pick a random available instance, 
+    # Either pick a random available instance,
     # or fall back to the default one
     instance =
       if Enum.count(instances) > 0 do
@@ -48,14 +57,8 @@ defmodule Farside do
         else
           # ...otherwise pick a random one from the list, ensuring
           # that the same instance is never picked twice in a row.
-          {:ok, previous} =
-            Redix.command(
-              :redix,
-              ["GET", "#{service}#{@previous_suffix}"]
-            )
-
           instance =
-            Enum.filter(instances, &(&1 != previous))
+            Enum.filter(instances, &(&1 != last_instance(service)))
             |> Enum.random()
 
           Redix.command(
