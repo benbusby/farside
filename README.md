@@ -28,7 +28,8 @@ For example:
 | [Piped](https://github.com/TeamPiped/Piped) | Video Page | https://farside.link/piped/watch?v=eBGIQ7ZuuiU
 | [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
 | [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir&lang_interface=en
-| [Searx](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
+| [SearX](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
+| [SearXNG](https://github.com/searxng/searxng) | Search "EFF" | https://farside.link/searxng/search?q=EFF
 | [SimplyTranslate](https://git.sr.ht/~metalune/simplytranslate_web) | Translate "hola" | https://farside.link/simplytranslate/?engine=google&text=hola
 | [Lingva](https://github.com/TheDavidDelta/lingva-translate) | Translate "bonjour" | https://farside.link/lingva/auto/en/bonjour
 | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp

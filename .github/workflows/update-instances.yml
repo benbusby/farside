@@ -62,6 +62,33 @@ jobs:
         apply_update
 
         # ==============================================================
+        # SearxNG update
+        # ==============================================================
+        curl -s https://searx.space/data/instances.json | \
+          jq '[
+            .instances |
+            to_entries[] |
+            select(.value.network_type == "normal") |
+            select(.value.version | . != null) |
+            select(.value.network.asn_privacy == 0) |
+            select(.value.http.error == null) |
+            select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
+            select(.value.http.grade == "A+" or .value.http.grade == "A") |
+            select(.value.html.grade == "V" or .value.html.grade == "F") |
+            select(.value.docs_url | . != null) |
+            select(.value.docs_url | contains("searxng")) |
+            .key
+          ] | sort' > searxng-tmp.json
+
+        cat searxng-tmp.json | jq .
+
+        jq --slurpfile searxng searxng-tmp.json \
+          '( .[] | select(.type == "searxng") )
+          .instances |= $searxng[0]' services.json > services-tmp.json
+
+        apply_update
+
+        # ==============================================================
         # SimplyTranslate update
         # ==============================================================
         curl -s https://simple-web.org/instances/simplytranslate > st-out
