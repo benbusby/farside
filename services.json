@@ -81,12 +81,14 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
+      "https://inv.bp.mutahar.rocks",
       "https://inv.riverside.rocks",
       "https://invidio.xamh.de",
       "https://invidious-us.kavin.rocks",
       "https://invidious.esmailelbob.xyz",
       "https://invidious.flokinet.to",
       "https://invidious.kavin.rocks",
+      "https://invidious.mutahar.rocks",
       "https://invidious.namazso.eu",
       "https://invidious.osi.kr",
       "https://invidious.privacy.gd",
@@ -226,26 +228,10 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://anon.sx",
-      "https://procurx.pt",
-      "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
-      "https://searx.divided-by-zero.eu",
-      "https://searx.fmac.xyz",
-      "https://searx.gnu.style",
       "https://searx.nevrlands.de",
-      "https://searx.prvcy.eu",
-      "https://searx.rasp.fr",
-      "https://searx.ru",
-      "https://searx.sp-codes.de",
-      "https://searx.stuehieyr.com",
-      "https://searx.theanonymouse.xyz",
-      "https://searx.tux.land",
-      "https://searx.tuxcloud.net",
-      "https://searx.webheberg.info",
-      "https://searx.xyz",
-      "https://www.webrats.xyz"
+      "https://searx.xyz"
     ]
   },
   {
@@ -253,21 +239,11 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://northboot.xyz",
-      "https://paulgo.io",
-      "https://s.zhaocloud.net",
-      "https://search.mdosch.de",
       "https://search.neet.works",
-      "https://search.ononoki.org",
       "https://search.zzls.xyz",
       "https://searx-private-search.de",
-      "https://searx.be",
-      "https://searx.fmac.xyz",
       "https://searx.namejeff.xyz",
-      "https://searx.rasp.fr",
-      "https://searx.tiekoetter.com",
-      "https://searxng.zackptg5.com",
-      "https://www.webrats.xyz"
+      "https://searxng.zackptg5.com"
     ]
   },
   {
