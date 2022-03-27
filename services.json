@@ -175,6 +175,7 @@
     "fallback": "https://simplytranslate.org",
     "instances": [
       "https://manerakai.asuscomm.com:447",
+      "https://simplytranslate.esmailelbob.xyz",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
       "https://st.alefvanoon.xyz",
@@ -233,7 +234,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://anon.sx",
-      "https://procurx.pt",
       "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
@@ -243,6 +243,7 @@
       "https://searx.nevrlands.de",
       "https://searx.rasp.fr",
       "https://searx.ru",
+      "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
       "https://searx.theanonymouse.xyz",
       "https://searx.tux.land",
