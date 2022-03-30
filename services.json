@@ -49,9 +49,9 @@
       "https://teddit.alefvanoon.xyz",
       "https://teddit.bus-hit.me",
       "https://teddit.domain.glass",
+      "https://teddit.froth.zone",
       "https://teddit.ggc-project.de",
       "https://teddit.httpjames.space",
-      "https://teddit.kavin.rocks",
       "https://teddit.namazso.eu",
       "https://teddit.nautolan.racing",
       "https://teddit.net",
@@ -59,7 +59,8 @@
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
       "https://teddit.totaldarkness.net",
-      "https://teddit.zaggy.nl"
+      "https://teddit.zaggy.nl",
+      "https://trom.tf"
     ]
   },
   {
@@ -265,7 +266,6 @@
       "https://search.bus-hit.me",
       "https://search.neet.works",
       "https://search.ononoki.org",
-      "https://searx.be",
       "https://searx.ebnar.xyz",
       "https://searx.fmac.xyz",
       "https://searx.mha.fi",
@@ -283,8 +283,10 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
+      "https://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
       "https://wiki.604kph.xyz",
       "https://wikiless.alefvanoon.xyz",
+      "https://wikiless.lunar.icu",
       "https://wikiless.org",
       "https://wikiless.sethforprivacy.com"
     ]
