@@ -236,6 +236,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://anon.sx",
+      "https://dynabyte.ca",
       "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
@@ -270,6 +271,7 @@
       "https://searx.be",
       "https://searx.ebnar.xyz",
       "https://searx.fmac.xyz",
+      "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.rasp.fr",
       "https://searx.tiekoetter.com",
