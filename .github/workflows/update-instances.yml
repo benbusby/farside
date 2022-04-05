@@ -36,7 +36,7 @@ jobs:
         git checkout main
 
         # ==============================================================
-        # Searx update
+        # searx update
         # ==============================================================
         curl -s https://searx.space/data/instances.json | \
           jq '[
@@ -62,21 +62,21 @@ jobs:
         apply_update
 
         # ==============================================================
-        # SearxNG update
+        # SearXNG update
         # ==============================================================
         curl -s https://searx.space/data/instances.json | \
           jq '[
             .instances |
             to_entries[] |
             select(.value.network_type == "normal") |
+            select(.value.generator | . != null) |
+            select(.value.generator | contains("searxng")) |
             select(.value.version | . != null) |
             select(.value.network.asn_privacy == 0) |
             select(.value.http.error == null) |
             select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
             select(.value.http.grade == "A+" or .value.http.grade == "A") |
             select(.value.html.grade == "V" or .value.html.grade == "F") |
-            select(.value.docs_url | . != null) |
-            select(.value.docs_url | contains("searxng")) |
             .key
           ] | sort' > searxng-tmp.json
 
