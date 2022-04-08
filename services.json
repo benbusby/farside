@@ -238,7 +238,6 @@
     "instances": [
       "https://anon.sx",
       "https://dynabyte.ca",
-      "https://procurx.pt",
       "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
@@ -280,7 +279,8 @@
       "https://searx.tiekoetter.com",
       "https://searxng.zackptg5.com",
       "https://swag.pw",
-      "https://www.webrats.xyz"
+      "https://www.webrats.xyz",
+      "https://xzx.ro"
     ]
   },
   {
@@ -289,8 +289,8 @@
     "fallback": "https://wikiless.org",
     "instances": [
       "https://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
-      "https://https://wiki.froth.zone",
       "https://wiki.604kph.xyz",
+      "https://wiki.froth.zone",
       "https://wikiless.alefvanoon.xyz",
       "https://wikiless.lunar.icu",
       "https://wikiless.org",
