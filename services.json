@@ -177,11 +177,11 @@
     "test_url": "/?engine=google&text=simplicado",
     "fallback": "https://simplytranslate.org",
     "instances": [
-      "https://manerakai.asuscomm.com:447",
       "https://simplytranslate.esmailelbob.xyz",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
       "https://st.alefvanoon.xyz",
+      "https://st.manerakai.com",
       "https://translate.bus-hit.me",
       "https://translate.josias.dev",
       "https://translate.namazso.eu",
@@ -242,6 +242,7 @@
       "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
+      "https://search.ononoki.org",
       "https://searx.divided-by-zero.eu",
       "https://searx.fmac.xyz",
       "https://searx.gnu.style",
@@ -280,8 +281,7 @@
       "https://searx.tiekoetter.com",
       "https://searxng.zackptg5.com",
       "https://swag.pw",
-      "https://www.webrats.xyz",
-      "https://xzx.ro"
+      "https://www.webrats.xyz"
     ]
   },
   {
