@@ -250,6 +250,7 @@
       "https://searx.rasp.fr",
       "https://searx.ru",
       "https://searx.sp-codes.de",
+      "https://searx.stuehieyr.com",
       "https://searx.theanonymouse.xyz",
       "https://searx.tux.land",
       "https://searx.tuxcloud.net",
@@ -263,6 +264,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://etsi.me",
       "https://northboot.xyz",
       "https://paulgo.io",
       "https://s.zhaocloud.net",
@@ -275,7 +277,6 @@
       "https://searx.be",
       "https://searx.ebnar.xyz",
       "https://searx.fmac.xyz",
-      "https://searx.jaska.cc",
       "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.prvcy.eu",
