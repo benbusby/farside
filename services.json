@@ -264,6 +264,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://searx.albony.xyz",
       "https://etsi.me",
       "https://northboot.xyz",
       "https://paulgo.io",
