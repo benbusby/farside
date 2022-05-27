@@ -241,6 +241,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://anon.sx",
+      "https://dynabyte.ca",
       "https://search.asynchronousexchange.com",
       "https://search.jpope.org",
       "https://search.neet.works",
@@ -277,8 +278,8 @@
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.roombob.cat",
+      "https://search.vojkovic.xyz",
       "https://search.zzls.xyz",
-      "https://searx.be",
       "https://searx.ebnar.xyz",
       "https://searx.fmac.xyz",
       "https://searx.loafland.xyz",
@@ -289,6 +290,7 @@
       "https://searx.sev.monster",
       "https://searx.tiekoetter.com",
       "https://searxng.zackptg5.com",
+      "https://serx.ml",
       "https://swag.pw",
       "https://www.webrats.xyz"
     ]
