@@ -188,6 +188,7 @@
       "https://translate.josias.dev",
       "https://translate.namazso.eu",
       "https://translate.northboot.xyz",
+      "https://translate.priv.pw",
       "https://translate.riverside.rocks",
       "https://translate.slipfox.xyz",
       "https://translate.tiekoetter.com"
@@ -231,6 +232,7 @@
       "https://whoogle.esmailelbob.xyz",
       "https://whoogle.fossho.st",
       "https://whoogle.lunar.icu",
+      "https://whoogle.privacydev.net",
       "https://whooglesearch.net",
       "https://www.whooglesearch.ml"
     ]
@@ -265,6 +267,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://asowneryt.cloudns.nz",
       "https://etsi.me",
       "https://northboot.xyz",
       "https://paulgo.io",
@@ -273,7 +276,6 @@
       "https://search.bus-hit.me",
       "https://search.mdosch.de",
       "https://search.neet.works",
-      "https://search.ononoki.org",
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.roombob.cat",
