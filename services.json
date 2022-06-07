@@ -266,6 +266,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://asowneryt.cloudns.nz",
       "https://etsi.me",
       "https://northboot.xyz",
       "https://paulgo.io",
@@ -279,7 +280,6 @@
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.roombob.cat",
-      "https://search.vojkovic.xyz",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.ebnar.xyz",
