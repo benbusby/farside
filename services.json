@@ -315,5 +315,18 @@
       "https://wikiless.tiekoetter.com",
       "https://x33lx4h6d7h6xs4eiqwhvaxn3ea5gn2ifmu3jobnvuvn4k4aej7a.b32.i2p"
     ]
+  },
+  {
+    "type": "librarian",
+    "test_url": "/",
+    "fallback": "https://lbry.bcow.xyz",
+    "instances": [
+      "https://lbry.bcow.xyz",
+      "https://odysee.076.ne.jp",
+      "https://librarian.pussthecat.org",
+      "https://lbry.mutahar.rocks",
+      "https://librarian.esmailelbob.xyz",
+      "https://lbry.vern.cc"
+    ]
   }
 ]
