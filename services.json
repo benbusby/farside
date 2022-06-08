@@ -252,7 +252,6 @@
       "https://searx.ru",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
-      "https://searx.theanonymouse.xyz",
       "https://searx.tux.land",
       "https://searx.tuxcloud.net",
       "https://searx.tyil.nl",
@@ -280,6 +279,7 @@
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.roombob.cat",
+      "https://search.vojkovic.xyz",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.ebnar.xyz",
@@ -318,7 +318,7 @@
   },
   {
     "type": "librarian",
-    "test_url": "/",
+    "test_url": "",
     "fallback": "https://lbry.bcow.xyz",
     "instances": [
       "https://lbry.bcow.xyz",
