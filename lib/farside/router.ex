@@ -39,12 +39,27 @@ defmodule Farside.Router do
   end
 
   get "/:service/*glob" do
-    path = Enum.join(glob, "/")
+    service_name = cond do
+      service =~ "http" ->
+        List.first(glob)
+      true ->
+        service
+    end
+
+    path = cond do
+      service_name != service ->
+        Enum.join(Enum.slice(glob, 1..-1), "/")
+      true ->
+        Enum.join(glob, "/")
+    end
+
     instance = cond do
       conn.assigns[:throttle] != nil ->
-        Farside.last_instance(service)
+        Farside.get_service(service_name)
+        |> Farside.last_instance
       true ->
-        Farside.pick_instance(service)
+        Farside.get_service(service_name)
+        |> Farside.pick_instance
     end
 
     params =

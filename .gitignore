@@ -13,3 +13,5 @@ erl_crash.dump
 .update-result*
 
 *.rdb
+.idea/
+*.iml

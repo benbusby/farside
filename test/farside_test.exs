@@ -77,4 +77,22 @@ defmodule FarsideTest do
       assert first_redirect != second_redirect
     end)
   end
+
+  test "/https://..." do
+    parent_service = "https://www.youtube.com"
+    parent_path = "watch?v=dQw4w9WgXcQ"
+    conn = test_conn("/#{parent_service}/#{parent_path}")
+
+    redirect = elem(List.last(conn.resp_headers), 1)
+
+    IO.puts("")
+    IO.puts("    /#{parent_service}/#{parent_path}")
+    IO.puts("    redirected to")
+    IO.puts("    #{redirect}")
+
+    assert conn.state == :set
+    assert conn.status == 302
+    assert redirect =~ parent_path
+    assert !(redirect =~ parent_service)
+  end
 end

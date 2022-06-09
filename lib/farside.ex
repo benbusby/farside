@@ -3,6 +3,21 @@ defmodule Farside do
   @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
   @previous_suffix Application.fetch_env!(:farside, :previous_suffix)
 
+  # Define relation between available services and their parent service.
+  # This enables Farside to redirect with links such as:
+  # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  @parent_services %{
+    "youtube.com" => ["invidious", "piped"],
+    "reddit.com" => ["libreddit", "teddit"],
+    "instagram.com" => ["bibliogram"],
+    "twitter.com" => ["nitter"],
+    "wikipedia.org" => ["wikiless"],
+    "medium.com" => ["scribe"],
+    "odysee.com" => ["librarian"],
+    "imgur.com" => ["rimgo"],
+    "translate.google.com" => ["lingva"]
+  }
+
   def get_services_map do
     {:ok, service_list} = Redix.command(:redix, ["KEYS", "#{@service_prefix}*"])
 
@@ -26,7 +41,42 @@ defmodule Farside do
     end)
   end
 
+  def get_service(service) do
+    # Check if service has an entry in Redis, otherwise try to
+    # match against available parent services
+    service_name = cond do
+      !check_service(service) ->
+        Enum.find_value(
+          @parent_services,
+          fn {k, v} ->
+            service =~ k && Enum.random(v)
+          end)
+      true ->
+        service
+    end
+
+    service_name
+  end
+
+  def check_service(service) do
+    # Checks to see if a specific service has instances available
+    # in redis
+    {:ok, instances} =
+      Redix.command(
+        :redix,
+        [
+          "LRANGE",
+          "#{@service_prefix}#{service}",
+          "0",
+          "-1"
+        ]
+      )
+
+    Enum.count(instances) > 0
+  end
+
   def last_instance(service) do
+    # Fetches the last selected instance for a particular service
     {:ok, previous} =
       Redix.command(
         :redix,
