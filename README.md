@@ -35,6 +35,12 @@ For example:
 | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp
 | [Scribe](https://sr.ht/~edwardloveall/scribe/) | View Medium post | https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c
 
+Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
+
+- https://farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ will redirect to a [Piped](https://github.com/TeamPiped/Piped) or [Invidious](https://github.com/iv-org/invidious) instance
+- https://farside.link/reddit.com/r/popular will redirect to a [Libreddit](https://github.com/spikecodes/libreddit) or [Teddit](https://codeberg.org/teddit/teddit) instance
+- etc.
+
 ## How It Works
 
 The app runs with an internally scheduled cron task that queries all instances
@@ -55,6 +61,9 @@ Farside's routing is very minimal, with only the following routes:
     particular service with the specified path
   - Ex: `/libreddit/r/popular` would navigate to `<libreddit instance
     URL>/r/popular`
+    - If the service provided is actually a URL to a "parent" service 
+      (i.e. "youtube.com" instead of "piped" or "invidious"), Farside 
+      will determine the correct frontend to use for the specified URL.
   - Note that a path is not required. `/libreddit` for example will still
     redirect the user to a working libreddit instance
 - `/_/:service/*glob`
