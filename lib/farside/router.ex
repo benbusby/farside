@@ -8,6 +8,16 @@ defmodule Farside.Router do
   plug(:match)
   plug(:dispatch)
 
+  def get_query_params(conn) do
+    cond do
+      String.length(conn.query_string) > 0 ->
+        "?#{conn.query_string}"
+
+      true ->
+        ""
+    end
+  end
+
   get "/" do
     resp =
       EEx.eval_file(
@@ -31,8 +41,7 @@ defmodule Farside.Router do
     resp =
       EEx.eval_file(
         @route,
-        service: service,
-        instance_url: r_path
+        instance_url: "#{r_path}#{get_query_params(conn)}"
       )
 
     send_resp(conn, 200, resp)
@@ -62,21 +71,12 @@ defmodule Farside.Router do
         |> Farside.pick_instance
     end
 
-    params =
-      cond do
-        String.length(conn.query_string) > 0 ->
-          "?#{conn.query_string}"
-
-        true ->
-          ""
-      end
-
     # Redirect to the available instance
     conn
     |> Plug.Conn.resp(:found, "")
     |> Plug.Conn.put_resp_header(
       "location",
-      "#{instance}/#{path}#{params}"
+      "#{instance}/#{path}#{get_query_params(conn)}"
     )
   end
 end
