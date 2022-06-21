@@ -7,15 +7,15 @@ defmodule Farside do
   # This enables Farside to redirect with links such as:
   # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
   @parent_services %{
-    "youtube.com" => ["invidious", "piped"],
-    "reddit.com" => ["libreddit", "teddit"],
-    "instagram.com" => ["bibliogram"],
-    "twitter.com" => ["nitter"],
-    "wikipedia.org" => ["wikiless"],
-    "medium.com" => ["scribe"],
-    "odysee.com" => ["librarian"],
-    "imgur.com" => ["rimgo"],
-    "translate.google.com" => ["lingva"]
+    ~r/youtu(.be|be.com)/ => ["invidious", "piped"],
+    ~r/reddit.com/ => ["libreddit", "teddit"],
+    ~r/instagram.com/ => ["bibliogram"],
+    ~r/twitter.com/ => ["nitter"],
+    ~r/wikipedia.org/ => ["wikiless"],
+    ~r/medium.com/ => ["scribe"],
+    ~r/odysee.com/ => ["librarian"],
+    ~r/imgur.com/ => ["rimgo"],
+    ~r/translate.google.com/ => ["lingva"]
   }
 
   def get_services_map do
@@ -49,7 +49,7 @@ defmodule Farside do
         Enum.find_value(
           @parent_services,
           fn {k, v} ->
-            service =~ k && Enum.random(v)
+            String.match?(service, k) && Enum.random(v)
           end)
       true ->
         service
