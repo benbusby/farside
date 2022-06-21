@@ -15,6 +15,7 @@ defmodule Farside do
   @odysee_regex ~r/odysee.com|librarian/
   @imgur_regex ~r/imgur.com|rimgo/
   @gtranslate_regex ~r/translate.google.com|lingva/
+  @tiktok_regex ~r/tiktok.com|proxitok/
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
@@ -25,7 +26,8 @@ defmodule Farside do
     @medium_regex => ["scribe"],
     @odysee_regex => ["librarian"],
     @imgur_regex => ["rimgo"],
-    @gtranslate_regex => ["lingva"]
+    @gtranslate_regex => ["lingva"],
+    @tiktok_regex => ["proxitok"]
   }
 
   def get_services_map do

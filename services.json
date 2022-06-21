@@ -331,5 +331,15 @@
       "https://librarian.esmailelbob.xyz",
       "https://lbry.vern.cc"
     ]
+  },
+  {
+    "type": "proxitok",
+    "test_url": "/discover",
+    "fallback": "https://proxitok.herokuapp.com",
+    "instances": [
+      "https://proxitok.herokuapp.com",
+      "https://proxitok.pussthecat.org",
+      "https://proxitok.privacydev.net"
+    ]
   }
 ]
