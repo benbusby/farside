@@ -158,9 +158,8 @@ jobs:
         # ==============================================================
         curl -s https://codeberg.org/orenom/Wikiless/raw/branch/main/instances.json | \
           jq '[
-            .[] |
-            "https://" +
-            select(. | contains(".onion") | not)] |
+            .[] | 
+            select((.url | contains(".onion") | not) and (.url | contains("https"))).url ] | 
             sort' > wikiless-tmp.json
         jq --slurpfile wikiless wikiless-tmp.json \
           '( .[] | select(.type == "wikiless") )
