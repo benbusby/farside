@@ -35,6 +35,8 @@ For example:
 | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp
 | [Scribe](https://sr.ht/~edwardloveall/scribe/) | View Medium post | https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c
 
+<sup>This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
+
 Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
 
 - https://farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ will redirect to a [Piped](https://github.com/TeamPiped/Piped) or [Invidious](https://github.com/iv-org/invidious) instance
