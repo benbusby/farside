@@ -6,16 +6,26 @@ defmodule Farside do
   # Define relation between available services and their parent service.
   # This enables Farside to redirect with links such as:
   # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
+  @reddit_regex ~r/reddit.com|libreddit|teddit/
+  @instagram_regex ~r/instagram.com|bibliogram/
+  @twitter_regex ~r/twitter.com|nitter/
+  @wikipedia_regex ~r/wikipedia.org|wikiless/
+  @medium_regex ~r/medium.com|scribe/
+  @odysee_regex ~r/odysee.com|librarian/
+  @imgur_regex ~r/imgur.com|rimgo/
+  @gtranslate_regex ~r/translate.google.com|lingva/
+
   @parent_services %{
-    ~r/youtu(.be|be.com)/ => ["invidious", "piped"],
-    ~r/reddit.com/ => ["libreddit", "teddit"],
-    ~r/instagram.com/ => ["bibliogram"],
-    ~r/twitter.com/ => ["nitter"],
-    ~r/wikipedia.org/ => ["wikiless"],
-    ~r/medium.com/ => ["scribe"],
-    ~r/odysee.com/ => ["librarian"],
-    ~r/imgur.com/ => ["rimgo"],
-    ~r/translate.google.com/ => ["lingva"]
+    @youtube_regex => ["invidious", "piped"],
+    @reddit_regex => ["libreddit", "teddit"],
+    @instagram_regex => ["bibliogram"],
+    @twitter_regex => ["nitter"],
+    @wikipedia_regex => ["wikiless"],
+    @medium_regex => ["scribe"],
+    @odysee_regex => ["librarian"],
+    @imgur_regex => ["rimgo"],
+    @gtranslate_regex => ["lingva"]
   }
 
   def get_services_map do
@@ -127,8 +137,25 @@ defmodule Farside do
 
         result
       end
-
     instance
+  end
+
+  def amend_instance(instance, service, path) do
+    cond do
+      String.match?(service, @instagram_regex) ->
+        # Bibliogram doesn't have a 1:1 matching to Instagram URLs for users,
+        # so a "/u" is appended if the requested path doesn't explicitly include
+        # "/p" for a post or an empty path for the home page.
+        if String.length(path) > 0 and
+           !String.starts_with?(path, "p/") and
+           !String.starts_with?(path, "u/") do
+          "#{instance}/u"
+        else
+          instance
+        end
+      true ->
+        instance
+    end
   end
 
   def get_last_updated do

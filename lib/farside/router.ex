@@ -66,9 +66,11 @@ defmodule Farside.Router do
       conn.assigns[:throttle] != nil ->
         Farside.get_service(service_name)
         |> Farside.last_instance
+        |> Farside.amend_instance(service_name, path)
       true ->
         Farside.get_service(service_name)
         |> Farside.pick_instance
+        |> Farside.amend_instance(service_name, path)
     end
 
     # Redirect to the available instance
