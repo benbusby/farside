@@ -42,6 +42,7 @@
     "fallback": "https://teddit.net",
     "instances": [
       "https://incogsnoo.com",
+      "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
       "https://teddit.adminforge.de",
@@ -59,8 +60,7 @@
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
       "https://teddit.totaldarkness.net",
-      "https://teddit.zaggy.nl",
-      "https://trom.tf"
+      "https://teddit.zaggy.nl"
     ]
   },
   {
@@ -264,10 +264,12 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://asowneryt.cloudns.nz",
+      "https://darmarit.org/searx",
       "https://etsi.me",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://procurx.pt",
       "https://s.zhaocloud.net",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
@@ -276,13 +278,13 @@
       "https://search.ononoki.org",
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
-      "https://search.roombob.cat",
       "https://search.sapti.me",
       "https://search.vojkovic.xyz",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.becomesovran.com",
       "https://searx.ebnar.xyz",
+      "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
       "https://searx.loafland.xyz",
       "https://searx.mha.fi",
@@ -292,10 +294,10 @@
       "https://searx.prvcy.eu",
       "https://searx.sev.monster",
       "https://searx.tiekoetter.com",
+      "https://searx.youshitsune.me",
       "https://searxng.tordenskjold.de",
       "https://searxng.zackptg5.com",
       "https://serx.ml",
-      "https://swag.pw",
       "https://www.webrats.xyz",
       "https://xcxc.ml"
     ]
@@ -305,18 +307,16 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
-      "https://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
       "https://wiki.604kph.xyz",
       "https://wiki.froth.zone",
+      "https://wiki.slipfox.xyz",
       "https://wikiless.alefvanoon.xyz",
       "https://wikiless.esmailelbob.xyz",
-      "https://wikiless.i2p",
       "https://wikiless.lunar.icu",
       "https://wikiless.northboot.xyz",
       "https://wikiless.org",
       "https://wikiless.sethforprivacy.com",
-      "https://wikiless.tiekoetter.com",
-      "https://x33lx4h6d7h6xs4eiqwhvaxn3ea5gn2ifmu3jobnvuvn4k4aej7a.b32.i2p"
+      "https://wikiless.tiekoetter.com"
     ]
   },
   {
