@@ -241,7 +241,6 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://anon.sx",
       "https://dynabyte.ca",
       "https://search.jpope.org",
       "https://search.neet.works",
@@ -280,7 +279,6 @@
       "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.sapti.me",
-      "https://search.vojkovic.xyz",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.becomesovran.com",
