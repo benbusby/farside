@@ -50,6 +50,7 @@ jobs:
             select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
             select(.value.http.grade == "A+" or .value.http.grade == "A") |
             select(.value.html.grade == "V" or .value.html.grade == "F") |
+            select(.key | contains(".i2p") | not) |
             .key
           ] | sort' > searx-tmp.json
 
@@ -77,6 +78,7 @@ jobs:
             select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
             select(.value.http.grade == "A+" or .value.http.grade == "A") |
             select(.value.html.grade == "V" or .value.html.grade == "F") |
+            select(.key | contains(".i2p") | not) |
             .key
           ] | sort' > searxng-tmp.json
 
@@ -158,8 +160,8 @@ jobs:
         # ==============================================================
         curl -s https://codeberg.org/orenom/Wikiless/raw/branch/main/instances.json | \
           jq '[
-            .[] | 
-            select((.url | contains(".onion") | not) and (.url | contains("https"))).url ] | 
+            .[] |
+            select((.url | contains(".onion") | not) and (.url | contains("https"))).url ] |
             sort' > wikiless-tmp.json
         jq --slurpfile wikiless wikiless-tmp.json \
           '( .[] | select(.type == "wikiless") )
