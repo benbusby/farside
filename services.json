@@ -233,7 +233,6 @@
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
       "https://searx.tiekoetter.com",
-      "https://searx.vimproved.me",
       "https://searx.youshitsune.me",
       "https://searxng.tordenskjold.de",
       "https://serx.ml",
@@ -286,6 +285,31 @@
     "instances": [
       "https://librex.beparanoid.de",
       "https://search.davidovski.xyz"
+    ]
+  },
+  {
+    "type": "querte",
+    "test_url": "/How-does-the-Z-boson-decay",
+    "fallback": "https://quetre.herokuapp.com",
+    "instances": [
+      "https://quetre.herokuapp.com",
+      "https://quora.vern.cc",
+      "https://quetre.pussthecat.org",
+      "https://wuetre.herokuapp.com",
+      "https://quetreus.herokuapp.com",
+      "https://quetre.projectsegfau.lt",
+      "https://quetre.esmailelbob.xyz"
+    ]
+  },
+  {
+    "type": "libremdb",
+    "test_url": "/title/tt0133093/",
+    "fallback": "https://libremdb.herokuapp.com",
+    "instances": [
+      "https://libremdb.herokuapp.com",
+      "https://libremdb.pussthecat.org",
+      "https://libremdbeu.herokuapp.com",
+      "https://libremdb.esmailelbob.xyz"
     ]
   }
 ]
