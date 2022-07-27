@@ -20,16 +20,16 @@ jobs:
     - name: Fetch instances
       run: |
         function apply_update() {
-          mv services-tmp.json services.json
+          mv services-tmp.json services-full.json
           rm -f *-tmp.json
 
           # Ensure no trailing slashes for any instance
-          sed -i 's/\/"/"/g' services.json
+          sed -i 's/\/"/"/g' services-full.json
         }
 
         function remove_cf_instances() {
           rm out.json
-          file="services.json"
+          file="services-full.json"
 
           while read -r line; do
               if [[ "$line" == "\"https://"* ]]; then
@@ -48,7 +48,6 @@ jobs:
           # Remove any trailing commas from new instance lists
           sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
-          mv services.json services-full.json
           cat out.json | jq --indent 2 . > services.json
           rm out.json
         }
@@ -84,7 +83,7 @@ jobs:
 
         jq --slurpfile searx searx-tmp.json \
           '( .[] | select(.type == "searx") )
-          .instances |= $searx[0]' services.json > services-tmp.json
+          .instances |= $searx[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -112,7 +111,7 @@ jobs:
 
         jq --slurpfile searxng searxng-tmp.json \
           '( .[] | select(.type == "searxng") )
-          .instances |= $searxng[0]' services.json > services-tmp.json
+          .instances |= $searxng[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -125,7 +124,7 @@ jobs:
 
         jq --slurpfile simplytranslate st-tmp.json \
           '( .[] | select(.type == "simplytranslate") )
-          .instances |= $simplytranslate[0]' services.json > services-tmp.json
+          .instances |= $simplytranslate[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -137,7 +136,7 @@ jobs:
 
         jq --slurpfile whoogle whoogle-tmp.json \
           '( .[] | select(.type == "whoogle") )
-          .instances |= $whoogle[0]' services.json > services-tmp.json
+          .instances |= $whoogle[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -152,7 +151,7 @@ jobs:
             sort' > invidious-tmp.json
         jq --slurpfile invidious invidious-tmp.json \
           '( .[] | select(.type == "invidious") )
-          .instances |= $invidious[0]' services.json > services-tmp.json
+          .instances |= $invidious[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -162,7 +161,7 @@ jobs:
         curl -s https://git.sr.ht/~edwardloveall/scribe/blob/main/docs/instances.json > scribe-tmp.json
         jq --slurpfile scribe scribe-tmp.json \
           '( .[] | select(.type == "scribe") )
-          .instances |= $scribe[0]' services.json > services-tmp.json
+          .instances |= $scribe[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -177,7 +176,7 @@ jobs:
             sort' > teddit-tmp.json
         jq --slurpfile teddit teddit-tmp.json \
           '( .[] | select(.type == "teddit") )
-          .instances |= $teddit[0]' services.json > services-tmp.json
+          .instances |= $teddit[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -191,7 +190,7 @@ jobs:
             sort' > wikiless-tmp.json
         jq --slurpfile wikiless wikiless-tmp.json \
           '( .[] | select(.type == "wikiless") )
-          .instances |= $wikiless[0]' services.json > services-tmp.json
+          .instances |= $wikiless[0]' services-full.json > services-tmp.json
 
         apply_update
 
@@ -207,6 +206,6 @@ jobs:
         # ==============================================================
         # Push changes
         # ==============================================================
-        git add services.json
+        git add services.json services-full.json
         git commit -m '[CI] Auto update instances' || exit 0
         git push
