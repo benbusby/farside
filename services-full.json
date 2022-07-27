@@ -352,5 +352,16 @@
       "https://proxitok.pussthecat.org",
       "https://proxitok.privacydev.net"
     ]
+  },
+  {
+    "type": "librex",
+    "test_url": "/search.php?q=<%=query%>",
+    "fallback": "https://librex.beparanoid.de",
+    "instances": [
+      "https://librex.beparanoid.de",
+      "https://search.davidovski.xyz",
+      "https://search.funami.tech",
+      "https://librex.catalyst.sx"
+    ]
   }
 ]
