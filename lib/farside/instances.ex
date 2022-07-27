@@ -1,7 +1,6 @@
 defmodule Farside.Instances do
   @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
   @update_file Application.fetch_env!(:farside, :update_file)
-  @services_json Application.fetch_env!(:farside, :services_json)
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
   @headers Application.fetch_env!(:farside, :headers)
   @queries Application.fetch_env!(:farside, :queries)
@@ -42,7 +41,8 @@ defmodule Farside.Instances do
   end
 
   def update() do
-    {:ok, file} = File.read(@services_json)
+    services_json = Application.fetch_env!(:farside, :services_json)
+    {:ok, file} = File.read(services_json)
     {:ok, json} = Jason.decode(file)
 
     # Loop through all instances and check each for availability

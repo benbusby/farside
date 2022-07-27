@@ -1,5 +1,4 @@
 defmodule FarsideTest do
-  @services_json Application.fetch_env!(:farside, :services_json)
 
   use ExUnit.Case
   use Plug.Test
@@ -49,7 +48,8 @@ defmodule FarsideTest do
   end
 
   test "/:service" do
-    {:ok, file} = File.read(@services_json)
+    services_json = Application.fetch_env!(:farside, :services_json)
+    {:ok, file} = File.read(services_json)
     {:ok, service_list} = Jason.decode(file)
 
     service_names =

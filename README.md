@@ -63,8 +63,8 @@ Farside's routing is very minimal, with only the following routes:
     particular service with the specified path
   - Ex: `/libreddit/r/popular` would navigate to `<libreddit instance
     URL>/r/popular`
-    - If the service provided is actually a URL to a "parent" service 
-      (i.e. "youtube.com" instead of "piped" or "invidious"), Farside 
+    - If the service provided is actually a URL to a "parent" service
+      (i.e. "youtube.com" instead of "piped" or "invidious"), Farside
       will determine the correct frontend to use for the specified URL.
   - Note that a path is not required. `/libreddit` for example will still
     redirect the user to a working libreddit instance
@@ -108,3 +108,6 @@ request per second per IP.
 | Name | Purpose |
 | -- | -- |
 | FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
+| FARSIDE_PORT | The port to run Farside on (default: `4001`) |
+| FARSIDE_REDIS_PORT | The Redis server port to use (default: `6379`, same as the default for Redis) |
+| FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
