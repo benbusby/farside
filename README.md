@@ -93,6 +93,20 @@ ensure better distribution of traffic to available instances for each service.
 Farside also has built-in IP ratelimiting for all requests, enforcing only one
 request per second per IP.
 
+## Regarding Cloudflare
+Instances for each supported service that are deployed behind Cloudflare are
+not included when using [farside.link](https://farside.link). If you would like
+to also access instances that use Cloudflare (in addition to instances that do
+not), you can either use [cf.farside.link](https://cf.farside.link) instead, or
+deploy your own instance of Farside and set
+`FARSIDE_SERVICES_JSON=services-full.json` when running.
+
+If you do decide to use [cf.farside.link](https://cf.farside.link) or use the
+full instance list provided by `services-full.json`, please be aware that
+Cloudflare takes steps to block site visitors using Tor (and some VPNs), and
+that their mission to centralize the entire web behind their service ultimately
+goes against what Farside is trying to solve. Use at your own discretion.
+
 ## Development
 - Install [redis](https://redis.io)
 - Install [elixir](https://elixir-lang.org/install.html)
