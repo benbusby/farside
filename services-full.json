@@ -4,19 +4,34 @@
     "test_url": "/r/popular",
     "fallback": "https://libredd.it",
     "instances": [
+      "https://libreddit.albony.xyz",
+      "https://libredd.it",
       "https://libreddit.spike.codes",
       "https://libreddit.dothq.co",
+      "https://libreddit.kavin.rocks",
       "https://libreddit.40two.app",
+      "https://reddit.invak.id",
       "https://reddit.phii.me",
+      "https://lr.riverside.rocks",
+      "https://libreddit.silkky.cloud",
+      "https://libreddit.database.red",
+      "https://libreddit.exonip.de",
+      "https://libreddit.domain.glass",
       "https://libreddit.sugoma.tk",
+      "https://libreddit.trevorthalacker.com",
       "https://reddit.artemislena.eu",
+      "https://r.nf",
       "https://libreddit.some-things.org",
       "https://reddit.stuehieyr.com",
       "https://lr.mint.lgbt",
       "https://libreddit.igna.rocks",
       "https://libreddit.autarkic.org",
+      "https://libreddit.flux.industries",
+      "https://libreddit.drivet.xyz",
       "https://libreddit.de",
-      "https://libreddit.bus-hit.me"
+      "https://libreddit.bus-hit.me",
+      "https://leddit.xyz",
+      "https://de.leddit.xyz"
     ]
   },
   {
@@ -24,18 +39,27 @@
     "test_url": "/r/popular",
     "fallback": "https://teddit.net",
     "instances": [
+      "https://i.opnxng.com",
       "https://incogsnoo.com",
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
+      "https://tedd.it",
       "https://teddit.adminforge.de",
       "https://teddit.bus-hit.me",
+      "https://teddit.domain.glass",
+      "https://teddit.encrypted-data.xyz",
       "https://teddit.froth.zone",
+      "https://teddit.garudalinux.org",
+      "https://teddit.ggc-project.de",
+      "https://teddit.httpjames.space",
+      "https://teddit.namazso.eu",
       "https://teddit.nautolan.racing",
       "https://teddit.net",
       "https://teddit.pussthecat.org",
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
+      "https://teddit.tokhmi.xyz",
       "https://teddit.totaldarkness.net",
       "https://teddit.zaggy.nl"
     ]
@@ -50,7 +74,8 @@
       "https://bibliogram.pussthecat.org",
       "https://bibliogram.1d4.us",
       "https://insta.trom.tf",
-      "https://bibliogram.hamster.dance"
+      "https://bibliogram.hamster.dance",
+      "https://bib.actionsack.com"
     ]
   },
   {
@@ -59,9 +84,13 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.bp.projectsegfau.lt",
+      "https://inv.privacy.com.de",
+      "https://inv.riverside.rocks",
       "https://inv.vern.cc",
       "https://invidious.esmailelbob.xyz",
       "https://invidious.flokinet.to",
+      "https://invidious.kavin.rocks",
+      "https://invidious.namazso.eu",
       "https://invidious.nerdvpn.de",
       "https://invidious.osi.kr",
       "https://invidious.projectsegfau.lt",
@@ -82,6 +111,10 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://piped.kavin.rocks",
     "instances": [
+      "https://piped.kavin.rocks",
+      "https://piped.silkky.cloud",
+      "https://piped.tokhmi.xyz",
+      "https://piped.moomoo.me",
       "https://piped.mint.lgbt"
     ]
   },
@@ -96,14 +129,26 @@
       "https://nitter.nixnet.services",
       "https://nitter.fdn.fr",
       "https://nitter.1d4.us",
+      "https://nitter.kavin.rocks",
       "https://nitter.vxempire.xyz",
       "https://nitter.unixfox.eu",
+      "https://nitter.domain.glass",
       "https://nitter.eu",
+      "https://nitter.namazso.eu",
       "https://nitter.mailstation.de",
+      "https://nitter.actionsack.com",
       "https://nitter.cattube.org",
+      "https://birdsite.xanny.family",
+      "https://nitter.hu",
+      "https://nitter.exonip.de",
       "https://twitr.gq",
+      "https://nitter.moomoo.me",
       "https://bird.trom.tf",
+      "https://nitter.it",
+      "https://twitter.censors.us",
       "https://nitter.grimneko.de",
+      "https://nitter.koyu.space",
+      "https://nitter.ir",
       "https://nitter.autarkic.org",
       "https://n.0x0.st",
       "https://n.hyperborea.cloud",
@@ -111,6 +156,8 @@
       "https://twitter.076.ne.jp",
       "https://nitter.sethforprivacy.com",
       "https://nitter.bus-hit.me",
+      "https://nttr.stream",
+      "https://de.nttr.stream",
       "https://n.l5.ca"
     ]
   },
@@ -136,12 +183,15 @@
       "https://simplytranslate.pussthecat.org",
       "https://st.manerakai.com",
       "https://st.privacydev.net",
+      "https://st.tokhmi.xyz",
       "https://tl.vern.cc",
       "https://translate.beparanoid.de",
       "https://translate.bus-hit.me",
       "https://translate.josias.dev",
+      "https://translate.namazso.eu",
       "https://translate.northboot.xyz",
       "https://translate.priv.pw",
+      "https://translate.riverside.rocks",
       "https://translate.slipfox.xyz",
       "https://translate.tiekoetter.com"
     ]
@@ -163,6 +213,7 @@
     "instances": [
       "https://i.bcow.xyz",
       "https://rimgo.pussthecat.org",
+      "https://img.riverside.rocks",
       "https://rimgo.totaldarkness.net",
       "https://rimgo.bus-hit.me"
     ]
@@ -173,9 +224,16 @@
     "fallback": "https://whoogle.fossho.st",
     "instances": [
       "https://gowogle.voring.me",
+      "https://s.tokhmi.xyz",
+      "https://search.albony.xyz",
+      "https://search.dr460nf1r3.org",
+      "https://search.garudalinux.org",
       "https://search.sethforprivacy.com",
+      "https://search.wef.lol",
+      "https://whoogle.dcs0.hu",
       "https://whoogle.esmailelbob.xyz",
       "https://whoogle.fossho.st",
+      "https://whoogle.lunar.icu",
       "https://whoogle.privacydev.net",
       "https://www.whooglesearch.ml"
     ]
@@ -188,6 +246,7 @@
       "https://dynabyte.ca",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
+      "https://searx.gnu.style",
       "https://searx.rasp.fr",
       "https://searx.ru",
       "https://searx.sp-codes.de",
@@ -195,7 +254,8 @@
       "https://searx.tuxcloud.net",
       "https://searx.tyil.nl",
       "https://searx.webheberg.info",
-      "https://searx.xyz"
+      "https://searx.xyz",
+      "https://www.webrats.xyz"
     ]
   },
   {
@@ -205,9 +265,13 @@
     "instances": [
       "https://darmarit.org/searx",
       "https://de.xcxc.ml",
+      "https://etsi.me",
       "https://jackgoss.xyz",
       "https://northboot.xyz",
+      "https://opnxng.com",
+      "https://paulgo.io",
       "https://priv.au",
+      "https://s.frlt.one",
       "https://s.zhaocloud.net",
       "https://saber.tk",
       "https://search.ashs.club",
@@ -217,8 +281,12 @@
       "https://search.mdosch.de",
       "https://search.neet.works",
       "https://search.ononoki.org",
+      "https://search.privacyguides.net",
       "https://search.projectsegfau.lt",
+      "https://search.rabbit-company.com",
       "https://search.sapti.me",
+      "https://search.teamriverbubbles.com",
+      "https://search.unlocked.link",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.becomesovran.com",
@@ -226,7 +294,9 @@
       "https://searx.ebnar.xyz",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
+      "https://searx.mha.fi",
       "https://searx.mistli.net",
+      "https://searx.namejeff.xyz",
       "https://searx.priv.pw",
       "https://searx.prvcy.eu",
       "https://searx.sev.monster",
@@ -234,9 +304,12 @@
       "https://searx.tiekoetter.com",
       "https://searx.vimproved.me",
       "https://searx.youshitsune.me",
+      "https://searx.zcyph.cc",
       "https://searxng.tordenskjold.de",
+      "https://searxng.zackptg5.com",
       "https://serx.ml",
       "https://swag.pw",
+      "https://www.webrats.xyz",
       "https://xcxc.ml"
     ]
   },
@@ -245,9 +318,12 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
+      "https://wiki.604kph.xyz",
       "https://wiki.froth.zone",
       "https://wiki.slipfox.xyz",
       "https://wikiless.esmailelbob.xyz",
+      "https://wikiless.funami.tech",
+      "https://wikiless.lunar.icu",
       "https://wikiless.northboot.xyz",
       "https://wikiless.org",
       "https://wikiless.sethforprivacy.com",

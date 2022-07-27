@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: sudo apt-get install -y jq
+      run: sudo apt-get install -y jq dnsutils
 
     - uses: webfactory/ssh-agent@v0.5.3
       with:
@@ -25,6 +25,32 @@ jobs:
 
           # Ensure no trailing slashes for any instance
           sed -i 's/\/"/"/g' services.json
+        }
+
+        function remove_cf_instances() {
+          rm out.json
+          file="services.json"
+
+          while read -r line; do
+              if [[ "$line" == "\"https://"* ]]; then
+                  domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
+                  ns=$(dig ns "$domain")
+                  if [[ "$ns" == *"cloudflare"* ]]; then
+                      echo "\"$domain\" using cloudflare, skipping..."
+                  else
+                      echo "$line" >> out.json
+                  fi
+              else
+                  echo "$line" >> out.json
+              fi
+          done <$file
+
+          # Remove any trailing commas from new instance lists
+          sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+
+          mv services.json services-full.json
+          cat out.json | jq --indent 2 . > services.json
+          rm out.json
         }
 
         # ==============================================================
@@ -172,6 +198,11 @@ jobs:
         # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
+
+        # ==============================================================
+        # Remove cloudflare instances
+        # ==============================================================
+        remove_cf_instances
 
         # ==============================================================
         # Push changes
