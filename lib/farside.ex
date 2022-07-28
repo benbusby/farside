@@ -1,7 +1,5 @@
 defmodule Farside do
   @service_prefix Application.fetch_env!(:farside, :service_prefix)
-  @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
-  @previous_suffix Application.fetch_env!(:farside, :previous_suffix)
 
   # Define relation between available services and their parent service.
   # This enables Farside to redirect with links such as:
@@ -34,16 +32,12 @@ defmodule Farside do
     @quora_regex => ["querte"]
   }
 
-  def get_services_map do
-    {:ok, service_list} = Redix.command(:redix, ["KEYS", "#{@service_prefix}*"])
+  alias Farside.LastUpdated
 
-    # Match service name to list of available instances
-    Enum.reduce(service_list, %{}, fn service, acc ->
-      {:ok, instance_list} =
-        Redix.command(
-          :redix,
-          ["LRANGE", service, "0", "-1"]
-        )
+  def get_services_map do
+    Farside.Server.Supervisor.list()
+    |> Enum.reduce(%{}, fn service, acc ->
+      {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
 
       Map.put(
         acc,
@@ -52,98 +46,32 @@ defmodule Farside do
           @service_prefix,
           ""
         ),
-        instance_list
+        data.instances
       )
     end)
   end
 
-  def get_service(service) do
-    # Check if service has an entry in Redis, otherwise try to
-    # match against available parent services
-    service_name = cond do
-      !check_service(service) ->
-        Enum.find_value(
-          @parent_services,
-          fn {k, v} ->
-            String.match?(service, k) && Enum.random(v)
-          end)
-      true ->
-        service
-    end
-
-    service_name
-  end
-
-  def check_service(service) do
-    # Checks to see if a specific service has instances available
-    # in redis
-    {:ok, instances} =
-      Redix.command(
-        :redix,
-        [
-          "LRANGE",
-          "#{@service_prefix}#{service}",
-          "0",
-          "-1"
-        ]
-      )
-
-    Enum.count(instances) > 0
-  end
-
-  def last_instance(service) do
-    # Fetches the last selected instance for a particular service
-    {:ok, previous} =
-      Redix.command(
-        :redix,
-        ["GET", "#{service}#{@previous_suffix}"]
-      )
-    previous
-  end
-
-  def pick_instance(service) do
-    {:ok, instances} =
-      Redix.command(
-        :redix,
-        [
-          "LRANGE",
-          "#{@service_prefix}#{service}",
-          "0",
-          "-1"
-        ]
-      )
-
-    # Either pick a random available instance,
-    # or fall back to the default one
-    instance =
-      if Enum.count(instances) > 0 do
-        if Enum.count(instances) == 1 do
-          # If there's only one instance, just return that one...
-          List.first(instances)
-        else
-          # ...otherwise pick a random one from the list, ensuring
-          # that the same instance is never picked twice in a row.
-          instance =
-            Enum.filter(instances, &(&1 != last_instance(service)))
-            |> Enum.random()
-
-          Redix.command(
-            :redix,
-            ["SET", "#{service}#{@previous_suffix}", instance]
-          )
-
-          instance
+  def get_service(service \\ "libreddit/r/popular") do
+    service_name =
+      Enum.find_value(
+        @parent_services,
+        fn {k, v} ->
+          String.match?(service, k) && Enum.random(v)
         end
-      else
-        {:ok, result} =
-          Redix.command(
-            :redix,
-            ["GET", "#{service}#{@fallback_suffix}"]
-          )
+      )
 
-        result
-      end
-    instance
+    data = :ets.lookup(String.to_atom(service_name), :data)
+
+    {_, service} = List.first(data)
+
+    case Enum.count(service.instances) > 0 do
+      true -> Enum.random(service.instances)
+      false -> service.fallback
+    end
+  end
+
+  def get_last_updated do
+    LastUpdated.value()
   end
 
   def amend_instance(instance, service, path) do
@@ -153,24 +81,15 @@ defmodule Farside do
         # so a "/u" is appended if the requested path doesn't explicitly include
         # "/p" for a post or an empty path for the home page.
         if String.length(path) > 0 and
-           !String.starts_with?(path, "p/") and
-           !String.starts_with?(path, "u/") do
+             !String.starts_with?(path, "p/") and
+             !String.starts_with?(path, "u/") do
           "#{instance}/u"
         else
           instance
         end
+
       true ->
         instance
     end
-  end
-
-  def get_last_updated do
-    {:ok, last_updated} =
-      Redix.command(
-        :redix,
-        ["GET", "last_updated"]
-      )
-
-    last_updated
   end
 end

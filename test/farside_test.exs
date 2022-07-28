@@ -1,5 +1,4 @@
 defmodule FarsideTest do
-
   use ExUnit.Case
   use Plug.Test
 
