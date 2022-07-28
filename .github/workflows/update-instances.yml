@@ -28,7 +28,7 @@ jobs:
         }
 
         function remove_cf_instances() {
-          rm out.json
+          rm -f out.json
           file="services-full.json"
 
           while read -r line; do
@@ -49,7 +49,7 @@ jobs:
           sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
           cat out.json | jq --indent 2 . > services.json
-          rm out.json
+          rm -f out.json
         }
 
         # ==============================================================
