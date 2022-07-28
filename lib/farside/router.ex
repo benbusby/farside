@@ -29,12 +29,6 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
-  get "/ping" do
-    # Useful for app healthcheck
-    {:ok, resp} = Redix.command(:redix, ["PING"])
-    send_resp(conn, 200, resp)
-  end
-
   get "/_/:service/*glob" do
     r_path = String.slice(conn.request_path, 2..-1)
 
@@ -48,37 +42,45 @@ defmodule Farside.Router do
   end
 
   get "/:service/*glob" do
-    service_name = cond do
-      service =~ "http" ->
-        List.first(glob)
-      true ->
-        service
-    end
+    service_name =
+      cond do
+        service =~ "http" ->
+          List.first(glob)
 
-    path = cond do
-      service_name != service ->
-        Enum.join(Enum.slice(glob, 1..-1), "/")
-      true ->
-        Enum.join(glob, "/")
-    end
+        true ->
+          service
+      end
 
-    instance = cond do
-      conn.assigns[:throttle] != nil ->
-        Farside.get_service(service_name)
-        |> Farside.last_instance
-        |> Farside.amend_instance(service_name, path)
-      true ->
-        Farside.get_service(service_name)
-        |> Farside.pick_instance
-        |> Farside.amend_instance(service_name, path)
-    end
+    path =
+      cond do
+        service_name != service ->
+          Enum.join(Enum.slice(glob, 1..-1), "/")
 
-    # Redirect to the available instance
-    conn
-    |> Plug.Conn.resp(:found, "")
-    |> Plug.Conn.put_resp_header(
-      "location",
-      "#{instance}/#{path}#{get_query_params(conn)}"
-    )
+        true ->
+          Enum.join(glob, "/")
+      end
+
+    case service_name do
+      "favicon.ico" ->
+        conn |> Plug.Conn.resp(:not_found, "")
+
+      _ ->
+        instance =
+          cond do
+            conn.assigns[:throttle] != nil ->
+              Farside.get_service(service_name)
+
+            true ->
+              Farside.get_service(service_name)
+          end
+
+        # Redirect to the available instance
+        conn
+        |> Plug.Conn.resp(:found, "")
+        |> Plug.Conn.put_resp_header(
+          "location",
+          "#{instance}/#{path}#{get_query_params(conn)}"
+        )
+    end
   end
 end
