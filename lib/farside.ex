@@ -35,7 +35,7 @@ defmodule Farside do
   alias Farside.LastUpdated
 
   def get_services_map do
-    Farside.Server.Supervisor.list()
+    Farside.Instance.Supervisor.list()
     |> Enum.reduce(%{}, fn service, acc ->
       {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
 
