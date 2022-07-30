@@ -1,0 +1,13 @@
+{
+  "name": "Farside",
+  "description": "A redirecting service for FOSS alternative frontends",
+  "repository": "https://github.com/data-twister/farside",
+  "logo": "",
+  "keywords": ["elixir", "farside" ],
+  "addons": [ "heroku-postgresql"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    }
+  ]
+}
