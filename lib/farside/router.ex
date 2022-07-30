@@ -51,8 +51,6 @@ defmodule Farside.Router do
           service
       end
 
-    IO.inspect(service_name, label: "service_name")
-
     path =
       cond do
         service_name != service ->

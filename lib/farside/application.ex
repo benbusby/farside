@@ -62,20 +62,23 @@ defmodule Farside.Application do
 
       service = struct(%Service{}, service_atom)
 
-      request_urls =
+      test_urls =
         Enum.map(service.instances, fn x ->
-          x <>
-            EEx.eval_string(
-              service.test_url,
-              query: Enum.random(queries)
-            )
+          test_url =
+            x <>
+              EEx.eval_string(
+                service.test_url,
+                query: Enum.random(queries)
+              )
+
+          {test_url, x}
         end)
 
       tasks =
-        for request_url <- request_urls do
+        for {test_url, instance} <- test_urls do
           Task.async(fn ->
-            reply = Farside.Http.request(request_url, service.type)
-            {request_url, reply}
+            reply = Farside.Http.request(test_url, service.type)
+            {test_url, reply, instance}
           end)
         end
 
@@ -87,11 +90,14 @@ defmodule Farside.Application do
           res || Task.shutdown(task, :brutal_kill)
         end)
         |> Enum.reject(fn x -> x == nil end)
-        |> Enum.map(fn {_, value} -> value end)
-        |> Enum.filter(fn {instance_url, value} ->
+        |> Enum.filter(fn {_, data} ->
+          {_test_url, value, _instance} = data
           value == :good
         end)
-        |> Enum.map(fn {url, _} -> url end)
+        |> Enum.map(fn {_, data} ->
+          {_test_url, _value, instance} = data
+          instance
+        end)
 
       service = %{service | instances: instances}
 

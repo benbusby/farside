@@ -38,7 +38,7 @@ defmodule Farside do
     Farside.Instance.Supervisor.list()
     |> Enum.reduce(%{}, fn service, acc ->
       {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
-
+IO.inspect(data, label: "data")
       Map.put(
         acc,
         String.replace_prefix(
@@ -51,7 +51,7 @@ defmodule Farside do
     end)
   end
 
-  def get_service(service \\ "libreddit/r/popular") do
+  def get_service(service) do
     service_name =
       Enum.find_value(
         @parent_services,
