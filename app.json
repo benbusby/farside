@@ -4,7 +4,18 @@
   "repository": "https://github.com/data-twister/farside",
   "logo": "",
   "keywords": ["elixir", "farside" ],
-  "addons": [ "heroku-postgresql"],
+  "env": {
+    "MIX_ENV": "prod",
+    "FARSIDE_PORT": {
+      "description": "The Port Farside is running on",
+      "value": "443"
+    },
+    "FARSIDE_SERVICES_JSON": {
+      "description": "The json of services available",
+      "value": "",
+      "required": false
+    }
+  },
   "buildpacks": [
     {
       "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"

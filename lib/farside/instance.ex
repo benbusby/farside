@@ -3,7 +3,10 @@ defmodule Farside.Instance do
 
   require Logger
 
+  alias Farside.Http
+
   @registry_name :servers
+  @update_file Application.fetch_env!(:farside, :update_file)
 
   def child_spec(args) do
     %{
@@ -60,54 +63,13 @@ defmodule Farside.Instance do
 
     {_, service} = List.first(service)
 
-    queries = Application.fetch_env!(:farside, :queries)
-
-    test_urls =
-      Enum.map(service.instances, fn x ->
-        test_url =
-          x <>
-            EEx.eval_string(
-              service.test_url,
-              query: Enum.random(queries)
-            )
-
-        {test_url, x}
-      end)
-
-    tasks =
-      for {test_url, instance} <- test_urls do
-        Task.async(fn ->
-          reply = Farside.Http.request(test_url, service.type)
-          {test_url, reply, instance}
-        end)
-      end
-
-    tasks_with_results = Task.yield_many(tasks, 5000)
-
-    instances =
-      Enum.map(tasks_with_results, fn {task, res} ->
-        # Shut down the tasks that did not reply nor exit
-        res || Task.shutdown(task, :brutal_kill)
-      end)
-      |> Enum.reject(fn x -> x == nil end)
-      |> Enum.filter(fn {_, data} ->
-        {_test_url, value, _instance} = data
-        value == :good
-      end)
-      |> Enum.map(fn {_, data} ->
-        {_test_url, _value, instance} = data
-        instance
-      end)
-
-    values = %{service | instances: instances}
+    service = Http.fetch_instances(service)
 
     :ets.delete_all_objects(String.to_atom(state.type))
 
-    :ets.insert(state.ref, {:data, values})
+    :ets.insert(state.ref, {:data, service})
 
-    update_file = Application.fetch_env!(:farside, :update_file)
-
-    File.write(update_file, values.fallback)
+    File.write(@update_file, service.fallback)
 
     {:noreply, state}
   end

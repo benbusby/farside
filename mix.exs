@@ -25,7 +25,8 @@ defmodule Farside.MixProject do
       {:httpoison, "~> 1.8"},
       {:jason, "~> 1.1"},
       {:plug_attack, "~> 0.4.2"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:distillery, "~> 2.1"}
     ]
   end
 end
