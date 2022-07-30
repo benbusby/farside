@@ -362,7 +362,7 @@
     ]
   },
   {
-    "type": "querte",
+    "type": "quetre",
     "test_url": "/How-does-the-Z-boson-decay",
     "fallback": "https://quetre.herokuapp.com",
     "instances": [
