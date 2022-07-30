@@ -11,7 +11,11 @@ defmodule Farside.Application do
 
   @impl true
   def start(_type, _args) do
-    port = Application.fetch_env!(:farside, :port)
+    port =
+      case Application.fetch_env!(:farside, :port) do
+        nil -> System.get_env("PORT")
+        port -> port
+      end
 
     Logger.info("Running on http://localhost:#{port}")
 

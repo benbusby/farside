@@ -14,5 +14,4 @@ config :farside,
   queries: [
     "weather",
     "time"
-  ],
-  services_json_data: System.get_env("FARSIDE_SERVICES_JSON") || ""
+  ]

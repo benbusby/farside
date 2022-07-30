@@ -6,5 +6,4 @@ build:
     web: exec /opt/app/bin/server start
   config:
     MIX_ENV: prod
-    FARSIDE_PORT: $FARSIDE_PORT
-    FARSIDE_SERVICES_JSON: $FARSIDE_SERVICES_JSON
+    FARSIDE_SERVICES_JSON_DATA: $FARSIDE_SERVICES_JSON_DATA
