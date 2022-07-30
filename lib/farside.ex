@@ -38,7 +38,7 @@ defmodule Farside do
     Farside.Instance.Supervisor.list()
     |> Enum.reduce(%{}, fn service, acc ->
       {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
-IO.inspect(data, label: "data")
+
       Map.put(
         acc,
         String.replace_prefix(
