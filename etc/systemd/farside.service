@@ -1,0 +1,13 @@
+[Unit]
+Description=Farside - A redirecting service for FOSS alternative frontends.
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/usr/local/bin/farside
+
+[Install]
+WantedBy=multi-user.target

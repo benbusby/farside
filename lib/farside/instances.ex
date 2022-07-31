@@ -5,14 +5,10 @@ defmodule Farside.Instances do
     update_file = Application.fetch_env!(:farside, :update_file)
     update_json = update_file <> ".json"
 
-    case System.get_env("MIX_ENV") do
-      "prod" ->
-        nil
+    if System.get_env("MIX_ENV") == "dev" do
+      File.rename(update_json, "#{update_file}-#{to_string(DateTime.utc_now()) <> ".json"}")
 
-      _ ->
-        File.rename(update_json, "#{update_file}-#{to_string(DateTime.utc_now()) <> ".json"}")
-
-        File.write(update_json, "")
+      File.write(update_json, "")
     end
 
     LastUpdated.value(DateTime.utc_now())

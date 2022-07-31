@@ -94,15 +94,11 @@ defmodule Farside do
   end
 
   def save_results(file, data) do
-    case System.get_env("MIX_ENV") do
-      "prod" ->
-        nil
-
-      _ ->
-        {:ok, file} = File.open(file, [:append])
-        bin = :erlang.term_to_binary(data)
-        IO.binwrite(file, bin)
-        File.close(file)
+    if System.get_env("MIX_ENV") == "dev" do
+      {:ok, file} = File.open(file, [:append])
+      bin = :erlang.term_to_binary(data)
+      IO.binwrite(file, bin)
+      File.close(file)
     end
   end
 

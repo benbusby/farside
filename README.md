@@ -19,6 +19,24 @@ bottlenecks and rate-limiting.
 To load  custom services, you must paste a base64 encoded string into the FARSIDE_SERVICES_JSON field
 you can encode your json at https://www.base64encode.org
 
+## Standalone
+
+One can create a standalone app via
+
+```bash
+MIX_ENV=cli && mix deps.get && mix release
+cp _build/cli/rel/bakeware/farside /usr/local/bin/.
+sudo chmod +x farside
+farside 
+```
+
+Run as a service
+
+```bash
+systemctl start farside
+systemctl enable farside
+```
+
 ## Demo
 
 Farside's links work with the following structure: `farside.link/<service>/<path>`
