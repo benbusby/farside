@@ -26,7 +26,7 @@ defmodule Farside.Instance do
         write_concurrency: true
       ])
 
-    :ets.insert(ref, {:data, init_arg})
+    :ets.insert(ref, {:default, init_arg})
 
     {:ok, %{type: init_arg.type, ref: ref}}
   end
@@ -59,13 +59,13 @@ defmodule Farside.Instance do
         :update,
         state
       ) do
-    service = :ets.lookup(String.to_atom(state.type), :data)
+    service = :ets.lookup(String.to_atom(state.type), :default)
 
     {_, service} = List.first(service)
 
     service = Http.fetch_instances(service)
 
-    :ets.delete_all_objects(String.to_atom(state.type))
+    :ets.delete(String.to_atom(state.type), :data)
 
     :ets.insert(state.ref, {:data, service})
 

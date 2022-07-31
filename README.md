@@ -16,7 +16,7 @@ distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
 
 ## Heroku deploy
-To load  custom services, you must paste a base64 encoded string into the FARSIDE_SERVICES_JSON field
+To load  custom services, you must paste a base64 encoded json into the FARSIDE_SERVICES_JSON_DATA field
 you can encode your json at https://www.base64encode.org
 
 ## Standalone
@@ -143,3 +143,4 @@ goes against what Farside is trying to solve. Use at your own discretion.
 | FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
 | FARSIDE_PORT | The port to run Farside on (default: `4001`) |
 | FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
+| FARSIDE_SERVICES_JSON_DATA | The "services" JSON file to use for selecting instances base64 encoded |

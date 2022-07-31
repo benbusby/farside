@@ -74,12 +74,13 @@ defmodule Farside.Application do
         end
 
       struct(%Service{}, service_atom)
-      |> Http.fetch_instances()
       |> Farside.Instance.Supervisor.start()
+      |> Farside.Instances.sync()
     end
 
     LastUpdated.value(DateTime.utc_now())
 
     response
   end
+
 end

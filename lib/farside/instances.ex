@@ -1,7 +1,7 @@
 defmodule Farside.Instances do
   alias Farside.LastUpdated
 
-  def sync() do
+  def sync(data \\ []) do
     update_file = Application.fetch_env!(:farside, :update_file)
     update_json = update_file <> ".json"
 
