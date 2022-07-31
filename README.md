@@ -1,5 +1,5 @@
 <div align='center'>
-![Farside](img/farside.svg)
+<img align='center' width='100' height='100' src='img/farside.svg' alt='Farside'>
 
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
