@@ -10,6 +10,11 @@
       "description": "The base64(json) of services available (https://www.base64encode.org)",
       "value": "",
       "required": false
+    },
+    "FARSIDE_TIMEOUT": {
+      "description": "Time to wait (ms) until we declare server non-responsive (timeout)",
+      "value": "8000",
+      "required": false
     }
   },
   "buildpacks": [
