@@ -6,7 +6,7 @@ defmodule Farside.Instance do
   alias Farside.Http
 
   @registry_name :servers
-  @update_file Application.fetch_env!(:farside, :update_file)
+  @update_file Application.fetch_env!(:farside, :update_file) <> ".json"
 
   def child_spec(args) do
     %{
@@ -69,7 +69,9 @@ defmodule Farside.Instance do
 
     :ets.insert(state.ref, {:data, service})
 
-    File.write(@update_file, service.fallback)
+    encoded = service |> Map.from_struct() |> Jason.encode!()
+
+    Farside.save_results(@update_file, encoded)
 
     {:noreply, state}
   end

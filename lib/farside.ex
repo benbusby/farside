@@ -92,4 +92,17 @@ defmodule Farside do
         instance
     end
   end
+
+
+  def save_results(file, data) do
+    {:ok, file} = File.open(file, [:append])
+    bin = :erlang.term_to_binary(data)
+    IO.binwrite(file, bin)
+    File.close(file)
+  end
+
+  def restore_term(file) do
+    {:ok,bin} = File.read(file)
+    :erlang.binary_to_term(bin)
+  end
 end

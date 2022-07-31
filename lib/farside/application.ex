@@ -13,7 +13,7 @@ defmodule Farside.Application do
   def start(_type, _args) do
     port =
       case Application.fetch_env!(:farside, :port) do
-        nil -> System.get_env("PORT")
+        nil -> System.get_env("PORT", "4001")
         port -> port
       end
 
