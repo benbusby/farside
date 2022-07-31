@@ -142,5 +142,6 @@ goes against what Farside is trying to solve. Use at your own discretion.
 | -- | -- |
 | FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
 | FARSIDE_PORT | The port to run Farside on (default: `4001`) |
+| FARSIDE_TIMEOUT | The default timeout to wait for the url (default: `8000`) |
 | FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
 | FARSIDE_SERVICES_JSON_DATA | The "services" JSON file to use for selecting instances base64 encoded |

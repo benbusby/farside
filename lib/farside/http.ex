@@ -3,6 +3,7 @@ defmodule Farside.Http do
 
   @headers Application.fetch_env!(:farside, :headers)
   @queries Application.fetch_env!(:farside, :queries)
+  @recv_timeout String.to_integer(Application.fetch_env!(:farside, :recv_timeout))
 
   def request(url) do
     cond do
@@ -31,7 +32,7 @@ defmodule Farside.Http do
         :good
 
       true ->
-        HTTPoison.get(url, @headers)
+        HTTPoison.get(url, @headers, timeout: 5000, recv_timeout: @recv_timeout)
         |> then(&elem(&1, 1))
         |> Map.get(:status_code)
         |> case do
@@ -61,7 +62,7 @@ defmodule Farside.Http do
           {test_url, reply, instance}
         end)
       end)
-      |> Task.yield_many(5000)
+      |> Task.yield_many(@recv_timeout)
       |> Enum.map(fn {task, res} ->
         # Shut down the tasks that did not reply nor exit
         res || Task.shutdown(task, :brutal_kill)

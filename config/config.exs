@@ -14,4 +14,5 @@ config :farside,
   queries: [
     "weather",
     "time"
-  ]
+  ],
+  recv_timeout: System.get_env("FARSIDE_TIMEOUT") || "8000"
