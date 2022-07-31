@@ -32,17 +32,19 @@ jobs:
           file="services-full.json"
 
           while read -r line; do
-              if [[ "$line" == "\"https://"* ]]; then
-                  domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
-                  ns=$(dig ns "$domain")
-                  if [[ "$ns" == *"cloudflare"* ]]; then
-                      echo "\"$domain\" using cloudflare, skipping..."
-                  else
-                      echo "$line" >> out.json
-                  fi
+            if [[ "$line" == "\"https://"* ]]; then
+              domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
+              ns=$(dig ns "$domain" || true)
+              if [[ "$ns" == *"cloudflare"* ]]; then
+                echo "\"$domain\" using cloudflare, skipping..."
+              elif [ ${#ns} -eq 0 ]; then
+                echo "Unable to verify records for \"$domain\", skipping..."
               else
-                  echo "$line" >> out.json
+                echo "$line" >> out.json
               fi
+            else
+              echo "$line" >> out.json
+            fi
           done <$file
 
           # Remove any trailing commas from new instance lists
