@@ -76,6 +76,25 @@ defmodule Farside.Instance do
     {:noreply, state}
   end
 
+  def handle_cast(
+        :check,
+        state
+      ) do
+    service = :ets.lookup(String.to_atom(state.type), :default)
+
+    {_, service} = List.first(service)
+
+    if Enum.count(service.instances) == 0 do
+      service = Http.fetch_instances(service)
+
+      :ets.delete(String.to_atom(state.type), :data)
+
+      :ets.insert(state.ref, {:data, service})
+    end
+
+    {:noreply, state}
+  end
+
   @doc false
   def via_tuple(data, registry \\ @registry_name) do
     {:via, Registry, {registry, data}}

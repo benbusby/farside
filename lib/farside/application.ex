@@ -6,6 +6,7 @@ defmodule Farside.Application do
   require Logger
 
   alias Farside.LastUpdated
+  alias Farside.Check
   alias Farside.Sync
   alias Farside.Http
 
@@ -22,7 +23,7 @@ defmodule Farside.Application do
     maybe_loaded_children =
       case is_nil(System.get_env("FARSIDE_TEST")) do
         true ->
-          [{Sync, []}]
+          [{Check, []}, {Sync, []}]
 
         false ->
           Logger.info("Skipping sync job setup...")
@@ -82,5 +83,4 @@ defmodule Farside.Application do
 
     response
   end
-
 end

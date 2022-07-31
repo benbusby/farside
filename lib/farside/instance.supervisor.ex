@@ -90,4 +90,12 @@ defmodule Farside.Instance.Supervisor do
       _ -> true
     end
   end
+
+  def sync_empty_instances() do
+    list()
+    |> Enum.each(fn x ->
+      SERVER.via_tuple(x)
+      |> GenServer.cast(:check)
+    end)
+  end
 end
