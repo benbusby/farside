@@ -6,7 +6,7 @@
   "keywords": ["elixir", "farside" ],
   "env": {
     "MIX_ENV": "prod",
-    "FARSIDE_SERVICES_JSON": {
+    "FARSIDE_SERVICES_JSON_DATA": {
       "description": "The base64(json) of services available (https://www.base64encode.org)",
       "value": "",
       "required": false

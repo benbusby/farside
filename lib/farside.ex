@@ -39,6 +39,15 @@ defmodule Farside do
     |> Enum.reduce(%{}, fn service, acc ->
       {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
 
+      instances =
+        case Enum.count(data.instances) == 0 do
+          true ->
+            [data.fallback]
+
+          false ->
+            data.instances
+        end
+
       Map.put(
         acc,
         String.replace_prefix(
@@ -46,7 +55,7 @@ defmodule Farside do
           @service_prefix,
           ""
         ),
-        data.instances
+        instances
       )
     end)
   end
