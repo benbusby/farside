@@ -7,7 +7,7 @@
   "env": {
     "MIX_ENV": "prod",
     "FARSIDE_SERVICES_JSON": {
-      "description": "The json of services available",
+      "description": "The base64(json) of services available (https://www.base64encode.org)",
       "value": "",
       "required": false
     }

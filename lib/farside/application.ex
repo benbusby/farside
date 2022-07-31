@@ -62,7 +62,7 @@ defmodule Farside.Application do
           data
 
         false ->
-          services_json_data
+          Base.decode64!(services_json_data)
       end
 
     {:ok, json} = Jason.decode(reply)
