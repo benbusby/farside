@@ -16,8 +16,11 @@ defmodule Farside.Instance.Check do
   def poll() do
     receive do
     after
-      60_000 ->
-        run()
+      90_000 ->
+        if(Status.value() == :waiting) do
+          run()
+        end
+
         poll()
     end
   end

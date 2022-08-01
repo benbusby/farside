@@ -4,6 +4,7 @@ defmodule Farside.Instance do
   require Logger
 
   alias Farside.Http
+  alias Farside.Status
 
   @registry_name :servers
   @update_file Application.fetch_env!(:farside, :update_file) <> ".json"
@@ -59,6 +60,8 @@ defmodule Farside.Instance do
         :update,
         state
       ) do
+    Status.value(:checking)
+
     service = :ets.lookup(String.to_atom(state.type), :default)
 
     {_, service} = List.first(service)
@@ -72,6 +75,8 @@ defmodule Farside.Instance do
     encoded = service |> Map.from_struct() |> Jason.encode!()
 
     Farside.save_results(@update_file, encoded)
+
+    Status.value(:wait)
 
     {:noreply, state}
   end

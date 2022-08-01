@@ -14,6 +14,5 @@ defmodule Farside.Instances do
     LastUpdated.value(DateTime.utc_now())
 
     Farside.Instance.Supervisor.update_children()
-    Farside.Instance.Supervisor.sync_empty_instances()
   end
 end

@@ -6,6 +6,7 @@ defmodule Farside.Application do
   require Logger
 
   alias Farside.LastUpdated
+  alias Farside.Status
   alias Farside.Instance.Check
   alias Farside.Instance.Sync
   alias Farside.Http
@@ -40,6 +41,7 @@ defmodule Farside.Application do
           ]
         ),
         {LastUpdated, DateTime.utc_now()},
+        {Status, :wait},
         {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000},
         {DynamicSupervisor, strategy: :one_for_one, name: :server_supervisor},
         {Registry, keys: :unique, name: :servers}
