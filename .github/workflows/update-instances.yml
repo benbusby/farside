@@ -48,7 +48,7 @@ jobs:
           done <$file
 
           # Remove any trailing commas from new instance lists
-          sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+          sed -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
           cat out.json | jq --indent 2 . > services.json
           rm -f out.json
@@ -61,6 +61,22 @@ jobs:
         git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
         git remote set-url origin git@github.com:benbusby/farside.git
         git checkout main
+
+        # ==============================================================
+        # Bibliogram update
+        # ==============================================================
+        curl -s https://bibliogram.art/api/instances | \
+          jq '[
+            .data |
+            .[] |
+            select(.onion_site | not) |
+            .address
+          ] | sort' > bibliogram-tmp.json
+        jq --slurpfile bibliogram bibliogram-tmp.json \
+          '( .[] | select(.type == "bibliogram") )
+          .instances |= $bibliogram[0]' services-full.json > services-tmp.json
+
+        apply_update
 
         # ==============================================================
         # searx update
