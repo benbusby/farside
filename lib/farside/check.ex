@@ -1,4 +1,4 @@
-defmodule Farside.Check do
+defmodule Farside.Instance.Check do
   use Task
 
   def child_spec(args) do

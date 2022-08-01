@@ -1,4 +1,4 @@
-defmodule Farside.Sync do
+defmodule Farside.Instance.Sync do
   use Task
 
   def child_spec(args) do
