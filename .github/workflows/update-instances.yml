@@ -37,7 +37,7 @@ jobs:
               ns=$(dig ns "$domain" || true)
               if [[ "$ns" == *"cloudflare"* ]]; then
                 echo "\"$domain\" using cloudflare, skipping..."
-              elif [ ${#ns} -eq 0 ]; then
+              elif [[ "$ns" != *"NOERROR"* ]]; then
                 echo "Unable to verify records for \"$domain\", skipping..."
               else
                 echo "$line" >> out.json
