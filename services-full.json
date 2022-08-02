@@ -69,13 +69,19 @@
     "test_url": "/u/officialrickastley",
     "fallback": "https://bibliogram.art",
     "instances": [
-      "https://bibliogram.art",
-      "https://bibliogram.snopyta.org",
-      "https://bibliogram.pussthecat.org",
+      "https://bib.actionsack.com",
       "https://bibliogram.1d4.us",
+      "https://bibliogram.art",
+      "https://bibliogram.froth.zone",
+      "https://bibliogram.priv.pw",
+      "https://bibliogram.privacydev.net",
+      "https://bibliogram.pussthecat.org",
+      "https://bibliogram.snopyta.org",
+      "https://ig.beparanoid.de",
+      "https://ig.funami.tech",
+      "https://ig.tokhmi.xyz",
       "https://insta.trom.tf",
-      "https://bibliogram.hamster.dance",
-      "https://bib.actionsack.com"
+      "https://insta.tromdienste.de"
     ]
   },
   {
@@ -167,7 +173,8 @@
       "https://scribe.nixnet.services",
       "https://scribe.citizen4.eu",
       "https://scribe.bus-hit.me",
-      "https://scribe.froth.zone"
+      "https://scribe.froth.zone",
+      "https://scribe.esmailelbob.xyz"
     ]
   },
   {
@@ -240,11 +247,11 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://anon.sx",
       "https://dynabyte.ca",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
       "https://searx.gnu.style",
-      "https://searx.rasp.fr",
       "https://searx.ru",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
@@ -271,6 +278,7 @@
       "https://s.frlt.one",
       "https://s.zhaocloud.net",
       "https://saber.tk",
+      "https://search.0relay.com",
       "https://search.ashs.club",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
@@ -300,14 +308,15 @@
       "https://searx.slipfox.xyz/searx",
       "https://searx.tiekoetter.com",
       "https://searx.vimproved.me",
-      "https://searx.youshitsune.me",
       "https://searx.zcyph.cc",
       "https://searxng.tordenskjold.de",
       "https://searxng.zackptg5.com",
       "https://serx.ml",
+      "https://sh0.it",
       "https://swag.pw",
       "https://www.webrats.xyz",
-      "https://xcxc.ml"
+      "https://xcxc.ml",
+      "https://xo.wtf"
     ]
   },
   {
@@ -378,7 +387,7 @@
   },
   {
     "type": "libremdb",
-    "test_url": "/title/tt0133093/",
+    "test_url": "/title/tt0133093",
     "fallback": "https://libremdb.herokuapp.com",
     "instances": [
       "https://libremdb.herokuapp.com",
