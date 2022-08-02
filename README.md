@@ -1,13 +1,13 @@
-<div align='center'>
-<img src='img/farside.svg' alt='Farside'>
+<div align="center">
+<img src="https://benbusby.com/assets/images/farside.svg" alt="Farside">
 </div>
 
-<div align='center'>
-  
+<div align="center">
+
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
-  
+
 </div>
 
 A redirecting service for FOSS alternative frontends.
@@ -25,6 +25,79 @@ Farside's links work with the following structure: `farside.link/<service>/<path
 
 For example:
 
+<table>
+    <tr>
+        <td>Service</td>
+        <td>Page</td>
+        <td>Farside Link</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/spikecodes/libreddit">Libreddit</a></td>
+        <td>/r/popular</td>
+        <td>https://farside.link/libreddit/r/popular</td>
+    </tr>
+    <tr>
+        <td><a href="https://codeberg.org/teddit/teddit">Teddit</a></td>
+        <td>/r/popular</td>
+        <td>https://farside.link/teddit/r/popular</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/zedeus/nitter">Nitter</a></td>
+        <td>User Profile</td>
+        <td>https://farside.link/nitter/josevalim</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/iv-org/invidious">Invidious</a></td>
+        <td>Home Page</td>
+        <td>https://farside.link/invidious</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/TeamPiped/Piped">Piped</a></td>
+        <td>Video Page</td>
+        <td>https://farside.link/piped/watch?v=eBGIQ7ZuuiU</td>
+    </tr>
+    <tr>
+        <td><a href="https://sr.ht/~cadence/bibliogram/">Bibliogram</a></td>
+        <td>User Profile</td>
+        <td>https://farside.link/bibliogram/u/kbdfans</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
+        <td>Search "Elixir"</td>
+        <td>https://farside.link/whoogle/search?q=elixir&lang_interface=en</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/searx/searx">SearX</a></td>
+        <td>Search "Redis"</td>
+        <td>https://farside.link/searx/search?q=redis</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/searxng/searxng">SearXNG</a></td>
+        <td>Search "EFF"</td>
+        <td>https://farside.link/searxng/search?q=EFF</td>
+    </tr>
+    <tr>
+        <td><a href="https://git.sr.ht/~metalune/simplytranslate_web">SimplyTranslate</a></td>
+        <td>Translate "hola"</td>
+        <td>https://farside.link/simplytranslate/?engine=google&text=hola</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/TheDavidDelta/lingva-translate">Lingva</a></td>
+        <td>Translate "bonjour"</td>
+        <td>https://farside.link/lingva/auto/en/bonjour</td>
+    </tr>
+    <tr>
+        <td><a href="https://codeberg.org/video-prize-ranch/rimgo">Rimgo</a></td>
+        <td>View photo album</td>
+        <td>https://farside.link/rimgo/a/H8M4rcp</td>
+    </tr>
+    <tr>
+        <td><a href="https://sr.ht/~edwardloveall/scribe/">Scribe</a></td>
+        <td>View Medium post</td>
+        <td>https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</td>
+    </tr>
+</table>
+
 | Service | Page | Farside Link |
 | -- | -- | -- |
 | [Libreddit](https://github.com/spikecodes/libreddit) | /r/popular | https://farside.link/libreddit/r/popular
@@ -41,7 +114,7 @@ For example:
 | [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp
 | [Scribe](https://sr.ht/~edwardloveall/scribe/) | View Medium post | https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c
 
-<sup>This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
+<sup>Note: This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
 
 Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
 
@@ -125,9 +198,25 @@ goes against what Farside is trying to solve. Use at your own discretion.
 
 ### Environment Variables
 
-| Name | Purpose |
-| -- | -- |
-| FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
-| FARSIDE_PORT | The port to run Farside on (default: `4001`) |
-| FARSIDE_REDIS_PORT | The Redis server port to use (default: `6379`, same as the default for Redis) |
-| FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Purpose</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_TEST</td>
+        <td>If enabled, bypasses the instance availability check and adds all instances to the pool.</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_PORT</td>
+        <td>The port to run Farside on (default: `4001`)</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_REDIS_PORT</td>
+        <td>The Redis server port to use (default: `6379`, same as the default for Redis)</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_SERVICES_JSON</td>
+        <td>The "services" JSON file to use for selecting instances (default: `services.json`)</td>
+    </tr>
+</table>
