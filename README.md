@@ -1,8 +1,14 @@
-![Farside](img/farside.svg)
+<div align='center'>
+<img src='img/farside.svg' alt='Farside'>
+</div>
 
+<div align='center'>
+  
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
+  
+</div>
 
 A redirecting service for FOSS alternative frontends.
 
