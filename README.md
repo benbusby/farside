@@ -1,6 +1,7 @@
-<div align="center">
+<div align="center" style="margin-bottom: 10px;">
 <img src="https://benbusby.com/assets/images/farside.svg" alt="Farside">
 </div>
+<br>
 
 <div align="center">
 
