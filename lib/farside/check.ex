@@ -17,7 +17,7 @@ defmodule Farside.Instance.Check do
     receive do
     after
       90_000 ->
-        if(Status.value() == :waiting) do
+        if(Status.value() == :wait) do
           run()
         end
 

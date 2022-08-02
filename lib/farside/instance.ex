@@ -60,7 +60,7 @@ defmodule Farside.Instance do
         :update,
         state
       ) do
-    Status.value(:checking)
+    Status.value(:test)
 
     service = :ets.lookup(String.to_atom(state.type), :default)
 
