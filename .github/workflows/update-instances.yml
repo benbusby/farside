@@ -48,7 +48,7 @@ jobs:
           done <$file
 
           # Remove any trailing commas from new instance lists
-          sed -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+          sed -i -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
           cat out.json | jq --indent 2 . > services.json
           rm -f out.json
