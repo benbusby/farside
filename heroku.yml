@@ -1,0 +1,9 @@
+setup:
+build:
+  docker:
+    web: Dockerfile
+  run:
+    web: exec /opt/app/bin/server start
+  config:
+    MIX_ENV: prod
+    FARSIDE_SERVICES_JSON_DATA: $FARSIDE_SERVICES_JSON_DATA

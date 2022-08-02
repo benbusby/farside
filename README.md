@@ -10,6 +10,8 @@
   
 </div>
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 A redirecting service for FOSS alternative frontends.
 
 [Farside](https://farside.link) provides links that automatically redirect to
@@ -18,6 +20,28 @@ Libreddit, etc. This allows for users to have more reliable access to the
 available public instances for a particular service, while also helping to
 distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
+
+## Heroku deploy
+To load  custom services, you must paste a base64 encoded json into the FARSIDE_SERVICES_JSON_DATA field
+you can encode your json at https://www.base64encode.org
+
+## Standalone
+
+One can create a standalone app via
+
+```bash
+MIX_ENV=cli && mix deps.get && mix release
+cp _build/cli/rel/bakeware/farside /usr/local/bin/.
+sudo chmod +x farside
+farside 
+```
+
+Run as a service
+
+```bash
+systemctl start farside
+systemctl enable farside
+```
 
 ## Demo
 
@@ -62,8 +86,6 @@ Farside's routing is very minimal, with only the following routes:
 
 - `/`
   - The app home page, displaying all live instances for every service
-- `/ping`
-  - A passthrough "ping" to redis to ensure both app and redis are working
 - `/:service/*glob`
   - The main endpoint for redirecting a user to a working instance of a
     particular service with the specified path
@@ -114,12 +136,9 @@ that their mission to centralize the entire web behind their service ultimately
 goes against what Farside is trying to solve. Use at your own discretion.
 
 ## Development
-- Install [redis](https://redis.io)
 - Install [elixir](https://elixir-lang.org/install.html)
 - (on Debian systems) Install [erlang-dev](https://https://packages.debian.org/sid/erlang-dev)
-- Start redis: `redis-server`
 - Install dependencies: `mix deps.get`
-- Initialize redis contents: `mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
 
@@ -129,5 +148,6 @@ goes against what Farside is trying to solve. Use at your own discretion.
 | -- | -- |
 | FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
 | FARSIDE_PORT | The port to run Farside on (default: `4001`) |
-| FARSIDE_REDIS_PORT | The Redis server port to use (default: `6379`, same as the default for Redis) |
+| FARSIDE_TIMEOUT | The default timeout to wait for the url (default: `8000`) |
 | FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
+| FARSIDE_SERVICES_JSON_DATA | The "services" JSON file to use for selecting instances base64 encoded |

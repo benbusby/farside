@@ -1,0 +1,25 @@
+{
+  "name": "Farside",
+  "description": "A redirecting service for FOSS alternative frontends",
+  "repository": "https://github.com/data-twister/farside",
+  "logo": "",
+  "keywords": ["elixir", "farside" ],
+  "env": {
+    "MIX_ENV": "prod",
+    "FARSIDE_SERVICES_JSON_DATA": {
+      "description": "The base64(json) of services available (https://www.base64encode.org)",
+      "value": "",
+      "required": false
+    },
+    "FARSIDE_TIMEOUT": {
+      "description": "Time to wait (ms) until we declare server non-responsive (timeout)",
+      "value": "8000",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 defmodule FarsideTest do
-
   use ExUnit.Case
   use Plug.Test
 
@@ -38,13 +37,6 @@ defmodule FarsideTest do
     conn = test_conn("/")
     assert conn.state == :sent
     assert conn.status == 200
-  end
-
-  test "/ping" do
-    conn = test_conn("/ping")
-    assert conn.state == :sent
-    assert conn.status == 200
-    assert conn.resp_body == "PONG"
   end
 
   test "/:service" do

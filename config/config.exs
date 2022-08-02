@@ -3,8 +3,6 @@ import Config
 config :farside,
   update_file: ".update-results",
   service_prefix: "service-",
-  fallback_suffix: "-fallback",
-  previous_suffix: "-previous",
   index: "index.eex",
   route: "route.eex",
   headers: [
@@ -16,4 +14,5 @@ config :farside,
   queries: [
     "weather",
     "time"
-  ]
+  ],
+  recv_timeout: System.get_env("FARSIDE_TIMEOUT") || "8000"
