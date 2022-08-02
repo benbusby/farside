@@ -98,22 +98,6 @@ For example:
     </tr>
 </table>
 
-| Service | Page | Farside Link |
-| -- | -- | -- |
-| [Libreddit](https://github.com/spikecodes/libreddit) | /r/popular | https://farside.link/libreddit/r/popular
-| [Teddit](https://codeberg.org/teddit/teddit) | /r/popular | https://farside.link/teddit/r/popular
-| [Nitter](https://github.com/zedeus/nitter) | User Profile | https://farside.link/nitter/josevalim
-| [Invidious](https://github.com/iv-org/invidious) | Home Page | https://farside.link/invidious
-| [Piped](https://github.com/TeamPiped/Piped) | Video Page | https://farside.link/piped/watch?v=eBGIQ7ZuuiU
-| [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
-| [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir&lang_interface=en
-| [SearX](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
-| [SearXNG](https://github.com/searxng/searxng) | Search "EFF" | https://farside.link/searxng/search?q=EFF
-| [SimplyTranslate](https://git.sr.ht/~metalune/simplytranslate_web) | Translate "hola" | https://farside.link/simplytranslate/?engine=google&text=hola
-| [Lingva](https://github.com/TheDavidDelta/lingva-translate) | Translate "bonjour" | https://farside.link/lingva/auto/en/bonjour
-| [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp
-| [Scribe](https://sr.ht/~edwardloveall/scribe/) | View Medium post | https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c
-
 <sup>Note: This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
 
 Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
