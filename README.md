@@ -9,6 +9,13 @@
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
 
+<table>
+  <tr>
+    <td><a href="https://sr.ht/~benbusby/farside">SourceHut</a></td>
+    <td><a href="https://github.com/benbusby/farside">GitHub</a></td>
+  </tr>
+</table>
+
 </div>
 
 A redirecting service for FOSS alternative frontends.
@@ -35,67 +42,67 @@ For example:
     <tr>
         <td><a href="https://github.com/spikecodes/libreddit">Libreddit</a></td>
         <td>/r/popular</td>
-        <td>https://farside.link/libreddit/r/popular</td>
+        <td><a href="https://farside.link/libreddit/r/popular">https://farside.link/libreddit/r/popular</a></td>
     </tr>
     <tr>
         <td><a href="https://codeberg.org/teddit/teddit">Teddit</a></td>
         <td>/r/popular</td>
-        <td>https://farside.link/teddit/r/popular</td>
+        <td><a href="https://farside.link/teddit/r/popular">https://farside.link/teddit/r/popular</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/zedeus/nitter">Nitter</a></td>
         <td>User Profile</td>
-        <td>https://farside.link/nitter/josevalim</td>
+        <td><a href="https://farside.link/nitter/josevalim">https://farside.link/nitter/josevalim</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/iv-org/invidious">Invidious</a></td>
         <td>Home Page</td>
-        <td>https://farside.link/invidious</td>
+        <td><a href="https://farside.link/invidious">https://farside.link/invidious</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/TeamPiped/Piped">Piped</a></td>
         <td>Video Page</td>
-        <td>https://farside.link/piped/watch?v=eBGIQ7ZuuiU</td>
+        <td><a href="https://farside.link/piped/watch?v=eBGIQ7ZuuiU">https://farside.link/piped/watch?v=eBGIQ7ZuuiU</a></td>
     </tr>
     <tr>
         <td><a href="https://sr.ht/~cadence/bibliogram/">Bibliogram</a></td>
         <td>User Profile</td>
-        <td>https://farside.link/bibliogram/u/kbdfans</td>
+        <td><a href="https://farside.link/bibliogram/u/kbdfans">https://farside.link/bibliogram/u/kbdfans</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
         <td>Search "Elixir"</td>
-        <td>https://farside.link/whoogle/search?q=elixir&lang_interface=en</td>
+        <td><a href="https://farside.link/whoogle/search?q=elixir&lang_interface=en">https://farside.link/whoogle/search?q=elixir&lang_interface=en</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/searx/searx">SearX</a></td>
         <td>Search "Redis"</td>
-        <td>https://farside.link/searx/search?q=redis</td>
+        <td><a href="https://farside.link/searx/search?q=redis">https://farside.link/searx/search?q=redis</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/searxng/searxng">SearXNG</a></td>
         <td>Search "EFF"</td>
-        <td>https://farside.link/searxng/search?q=EFF</td>
+        <td><a href="https://farside.link/searxng/search?q=EFF">https://farside.link/searxng/search?q=EFF</a></td>
     </tr>
     <tr>
         <td><a href="https://git.sr.ht/~metalune/simplytranslate_web">SimplyTranslate</a></td>
         <td>Translate "hola"</td>
-        <td>https://farside.link/simplytranslate/?engine=google&text=hola</td>
+        <td><a href="https://farside.link/simplytranslate/?engine=google&text=hola">https://farside.link/simplytranslate/?engine=google&text=hola</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/TheDavidDelta/lingva-translate">Lingva</a></td>
         <td>Translate "bonjour"</td>
-        <td>https://farside.link/lingva/auto/en/bonjour</td>
+        <td><a href="https://farside.link/lingva/auto/en/bonjour">https://farside.link/lingva/auto/en/bonjour</a></td>
     </tr>
     <tr>
         <td><a href="https://codeberg.org/video-prize-ranch/rimgo">Rimgo</a></td>
         <td>View photo album</td>
-        <td>https://farside.link/rimgo/a/H8M4rcp</td>
+        <td><a href="https://farside.link/rimgo/a/H8M4rcp">https://farside.link/rimgo/a/H8M4rcp</a></td>
     </tr>
     <tr>
         <td><a href="https://sr.ht/~edwardloveall/scribe/">Scribe</a></td>
         <td>View Medium post</td>
-        <td>https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</td>
+        <td><a href="https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c">https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</a></td>
     </tr>
 </table>
 
@@ -205,3 +212,4 @@ goes against what Farside is trying to solve. Use at your own discretion.
         <td>The "services" JSON file to use for selecting instances (default: `services.json`)</td>
     </tr>
 </table>
+
