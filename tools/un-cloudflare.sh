@@ -10,7 +10,7 @@ while read -r line; do
         ns=$(dig ns "$domain" || true)
         if [[ "$ns" == *"cloudflare"* ]]; then
             echo "\"$domain\" using cloudflare, skipping..."
-        elif [ ${#ns} -eq 0 ]; then
+        elif [[ "$ns" != *"NOERROR"* ]]; then
             echo "Unable to verify records for \"$domain\", skipping..."
         else
             echo "$line" >> out.json
@@ -21,7 +21,7 @@ while read -r line; do
 done <$file
 
 # Remove any trailing commas from new instance lists
-sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+sed -i -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
 cat out.json | jq --indent 2 . > services.json
 rm -f out.json
