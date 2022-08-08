@@ -249,7 +249,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://anon.sx",
-      "https://dynabyte.ca",
       "https://northboot.xyz",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
@@ -281,7 +280,6 @@
       "https://s.zhaocloud.net",
       "https://saber.tk",
       "https://search.0relay.com",
-      "https://search.bingowaves.xyz",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
