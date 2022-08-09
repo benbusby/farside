@@ -7,9 +7,11 @@ file="services-full.json"
 while read -r line; do
     if [[ "$line" == "\"https://"* ]]; then
         domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
-        ns=$(dig ns "$domain")
+        ns=$(dig ns "$domain" || true)
         if [[ "$ns" == *"cloudflare"* ]]; then
             echo "\"$domain\" using cloudflare, skipping..."
+        elif [[ "$ns" != *"NOERROR"* ]]; then
+            echo "Unable to verify records for \"$domain\", skipping..."
         else
             echo "$line" >> out.json
         fi
@@ -19,8 +21,7 @@ while read -r line; do
 done <$file
 
 # Remove any trailing commas from new instance lists
-sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+sed -i -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
 cat out.json | jq --indent 2 . > services.json
-rm out.json
-
+rm -f out.json

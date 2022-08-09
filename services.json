@@ -12,9 +12,9 @@
       "https://reddit.artemislena.eu",
       "https://libreddit.some-things.org",
       "https://reddit.stuehieyr.com",
-      "https://lr.mint.lgbt",
       "https://libreddit.igna.rocks",
       "https://libreddit.autarkic.org",
+      "https://libreddit.flux.industries",
       "https://libreddit.de",
       "https://libreddit.bus-hit.me"
     ]
@@ -45,12 +45,16 @@
     "test_url": "/u/officialrickastley",
     "fallback": "https://bibliogram.art",
     "instances": [
-      "https://bibliogram.art",
-      "https://bibliogram.snopyta.org",
-      "https://bibliogram.pussthecat.org",
       "https://bibliogram.1d4.us",
+      "https://bibliogram.art",
+      "https://bibliogram.froth.zone",
+      "https://bibliogram.priv.pw",
+      "https://bibliogram.privacydev.net",
+      "https://bibliogram.pussthecat.org",
+      "https://bibliogram.snopyta.org",
+      "https://ig.beparanoid.de",
       "https://insta.trom.tf",
-      "https://bibliogram.hamster.dance"
+      "https://insta.tromdienste.de"
     ]
   },
   {
@@ -103,15 +107,16 @@
       "https://nitter.cattube.org",
       "https://twitr.gq",
       "https://bird.trom.tf",
+      "https://nitter.it",
       "https://nitter.grimneko.de",
-      "https://nitter.autarkic.org",
       "https://n.0x0.st",
       "https://n.hyperborea.cloud",
       "https://nitter.ca",
       "https://twitter.076.ne.jp",
       "https://nitter.sethforprivacy.com",
       "https://nitter.bus-hit.me",
-      "https://n.l5.ca"
+      "https://n.l5.ca",
+      "https://unofficialbird.com"
     ]
   },
   {
@@ -123,7 +128,8 @@
       "https://scribe.nixnet.services",
       "https://scribe.citizen4.eu",
       "https://scribe.bus-hit.me",
-      "https://scribe.froth.zone"
+      "https://scribe.froth.zone",
+      "https://scribe.esmailelbob.xyz"
     ]
   },
   {
@@ -186,14 +192,13 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://anon.sx",
       "https://dynabyte.ca",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
-      "https://searx.rasp.fr",
       "https://searx.ru",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
-      "https://searx.tuxcloud.net",
       "https://searx.tyil.nl",
       "https://searx.webheberg.info",
       "https://searx.xyz"
@@ -207,10 +212,10 @@
       "https://darmarit.org/searx",
       "https://de.xcxc.ml",
       "https://jackgoss.xyz",
-      "https://northboot.xyz",
       "https://priv.au",
       "https://s.zhaocloud.net",
       "https://saber.tk",
+      "https://search.0relay.com",
       "https://search.ashs.club",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
@@ -227,13 +232,13 @@
       "https://searx.ebnar.xyz",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
+      "https://searx.mha.fi",
       "https://searx.mistli.net",
       "https://searx.priv.pw",
       "https://searx.prvcy.eu",
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
       "https://searx.tiekoetter.com",
-      "https://searx.youshitsune.me",
       "https://searxng.tordenskjold.de",
       "https://serx.ml",
       "https://swag.pw",
@@ -288,7 +293,7 @@
     ]
   },
   {
-    "type": "querte",
+    "type": "quetre",
     "test_url": "/How-does-the-Z-boson-decay",
     "fallback": "https://quetre.herokuapp.com",
     "instances": [
@@ -303,7 +308,7 @@
   },
   {
     "type": "libremdb",
-    "test_url": "/title/tt0133093/",
+    "test_url": "/title/tt0133093",
     "fallback": "https://libremdb.herokuapp.com",
     "instances": [
       "https://libremdb.herokuapp.com",

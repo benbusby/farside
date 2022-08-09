@@ -18,7 +18,7 @@
       border: 1px dashed;
     }
     a:link, a:visited {
-      color: #66397C; 
+      color: #66397C;
     }
     @media only screen and (max-width: 1000px) {
       #child-div {
@@ -33,7 +33,7 @@
 <body>
   <div id="parent-div">
     <div id="child-div">
-      <h1>Farside | <a href="https://github.com/benbusby/farside">View on GitHub</a></h1>
+      <h1>Farside [<a href="https://sr.ht/~benbusby/farside">SourceHut</a>, <a href="https://github.com/benbusby/farside">GitHub</a>]</h1>
       <hr>
       <h3>Last synced <%= DateTime.truncate(last_updated, :second)  %> UTC</h2>
       <div>

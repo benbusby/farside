@@ -27,31 +27,6 @@ jobs:
           sed -i 's/\/"/"/g' services-full.json
         }
 
-        function remove_cf_instances() {
-          rm out.json
-          file="services-full.json"
-
-          while read -r line; do
-              if [[ "$line" == "\"https://"* ]]; then
-                  domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
-                  ns=$(dig ns "$domain")
-                  if [[ "$ns" == *"cloudflare"* ]]; then
-                      echo "\"$domain\" using cloudflare, skipping..."
-                  else
-                      echo "$line" >> out.json
-                  fi
-              else
-                  echo "$line" >> out.json
-              fi
-          done <$file
-
-          # Remove any trailing commas from new instance lists
-          sed -i '' -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
-
-          cat out.json | jq --indent 2 . > services.json
-          rm out.json
-        }
-
         # ==============================================================
         # Git config
         # ==============================================================
@@ -59,6 +34,22 @@ jobs:
         git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
         git remote set-url origin git@github.com:benbusby/farside.git
         git checkout main
+
+        # ==============================================================
+        # Bibliogram update
+        # ==============================================================
+        curl -s https://bibliogram.art/api/instances | \
+          jq '[
+            .data |
+            .[] |
+            select(.onion_site | not) |
+            .address
+          ] | sort' > bibliogram-tmp.json
+        jq --slurpfile bibliogram bibliogram-tmp.json \
+          '( .[] | select(.type == "bibliogram") )
+          .instances |= $bibliogram[0]' services-full.json > services-tmp.json
+
+        apply_update
 
         # ==============================================================
         # searx update
@@ -197,11 +188,6 @@ jobs:
         # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
-
-        # ==============================================================
-        # Remove cloudflare instances
-        # ==============================================================
-        remove_cf_instances
 
         # ==============================================================
         # Push changes

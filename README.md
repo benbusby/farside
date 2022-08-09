@@ -1,10 +1,25 @@
-![Farside](img/farside.svg)
+<div align="center" style="margin-bottom: 10px;">
+<img src="https://benbusby.com/assets/images/farside.svg" alt="Farside">
+</div>
+<br>
+
+<div align="center">
 
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
 [![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
 
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+<table>
+  <tr>
+    <td><a href="https://sr.ht/~benbusby/farside">SourceHut</a></td>
+    <td><a href="https://github.com/benbusby/farside">GitHub</a></td>
+  </tr>
+</table>
+
+</div>
 
 A redirecting service for FOSS alternative frontends.
 
@@ -43,23 +58,80 @@ Farside's links work with the following structure: `farside.link/<service>/<path
 
 For example:
 
-| Service | Page | Farside Link |
-| -- | -- | -- |
-| [Libreddit](https://github.com/spikecodes/libreddit) | /r/popular | https://farside.link/libreddit/r/popular
-| [Teddit](https://codeberg.org/teddit/teddit) | /r/popular | https://farside.link/teddit/r/popular
-| [Nitter](https://github.com/zedeus/nitter) | User Profile | https://farside.link/nitter/josevalim
-| [Invidious](https://github.com/iv-org/invidious) | Home Page | https://farside.link/invidious
-| [Piped](https://github.com/TeamPiped/Piped) | Video Page | https://farside.link/piped/watch?v=eBGIQ7ZuuiU
-| [Bibliogram](https://sr.ht/~cadence/bibliogram/) | User Profile | https://farside.link/bibliogram/u/kbdfans
-| [Whoogle](https://github.com/benbusby/whoogle-search) | Search "Elixir" | https://farside.link/whoogle/search?q=elixir&lang_interface=en
-| [SearX](https://github.com/searx/searx) | Search "Redis" | https://farside.link/searx/search?q=redis
-| [SearXNG](https://github.com/searxng/searxng) | Search "EFF" | https://farside.link/searxng/search?q=EFF
-| [SimplyTranslate](https://git.sr.ht/~metalune/simplytranslate_web) | Translate "hola" | https://farside.link/simplytranslate/?engine=google&text=hola
-| [Lingva](https://github.com/TheDavidDelta/lingva-translate) | Translate "bonjour" | https://farside.link/lingva/auto/en/bonjour
-| [Rimgo](https://codeberg.org/video-prize-ranch/rimgo) | View photo album | https://farside.link/rimgo/a/H8M4rcp
-| [Scribe](https://sr.ht/~edwardloveall/scribe/) | View Medium post | https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c
+<table>
+    <tr>
+        <td>Service</td>
+        <td>Page</td>
+        <td>Farside Link</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/spikecodes/libreddit">Libreddit</a></td>
+        <td>/r/popular</td>
+        <td><a href="https://farside.link/libreddit/r/popular">https://farside.link/libreddit/r/popular</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://codeberg.org/teddit/teddit">Teddit</a></td>
+        <td>/r/popular</td>
+        <td><a href="https://farside.link/teddit/r/popular">https://farside.link/teddit/r/popular</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/zedeus/nitter">Nitter</a></td>
+        <td>User Profile</td>
+        <td><a href="https://farside.link/nitter/josevalim">https://farside.link/nitter/josevalim</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/iv-org/invidious">Invidious</a></td>
+        <td>Home Page</td>
+        <td><a href="https://farside.link/invidious">https://farside.link/invidious</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/TeamPiped/Piped">Piped</a></td>
+        <td>Video Page</td>
+        <td><a href="https://farside.link/piped/watch?v=eBGIQ7ZuuiU">https://farside.link/piped/watch?v=eBGIQ7ZuuiU</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://sr.ht/~cadence/bibliogram/">Bibliogram</a></td>
+        <td>User Profile</td>
+        <td><a href="https://farside.link/bibliogram/u/kbdfans">https://farside.link/bibliogram/u/kbdfans</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
+        <td>Search "Elixir"</td>
+        <td><a href="https://farside.link/whoogle/search?q=elixir&lang_interface=en">https://farside.link/whoogle/search?q=elixir&lang_interface=en</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/searx/searx">SearX</a></td>
+        <td>Search "Redis"</td>
+        <td><a href="https://farside.link/searx/search?q=redis">https://farside.link/searx/search?q=redis</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/searxng/searxng">SearXNG</a></td>
+        <td>Search "EFF"</td>
+        <td><a href="https://farside.link/searxng/search?q=EFF">https://farside.link/searxng/search?q=EFF</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://git.sr.ht/~metalune/simplytranslate_web">SimplyTranslate</a></td>
+        <td>Translate "hola"</td>
+        <td><a href="https://farside.link/simplytranslate/?engine=google&text=hola">https://farside.link/simplytranslate/?engine=google&text=hola</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/TheDavidDelta/lingva-translate">Lingva</a></td>
+        <td>Translate "bonjour"</td>
+        <td><a href="https://farside.link/lingva/auto/en/bonjour">https://farside.link/lingva/auto/en/bonjour</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://codeberg.org/video-prize-ranch/rimgo">Rimgo</a></td>
+        <td>View photo album</td>
+        <td><a href="https://farside.link/rimgo/a/H8M4rcp">https://farside.link/rimgo/a/H8M4rcp</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://sr.ht/~edwardloveall/scribe/">Scribe</a></td>
+        <td>View Medium post</td>
+        <td><a href="https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c">https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</a></td>
+    </tr>
+</table>
 
-<sup>This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
+<sup>Note: This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
 
 Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
 
@@ -138,6 +210,7 @@ goes against what Farside is trying to solve. Use at your own discretion.
 
 ### Environment Variables
 
+
 | Name | Purpose |
 | -- | -- |
 | FARSIDE_TEST | If enabled, bypasses the instance availability check and adds all instances to the pool. |
@@ -145,3 +218,26 @@ goes against what Farside is trying to solve. Use at your own discretion.
 | FARSIDE_TIMEOUT | The default timeout to wait for the url (default: `8000`) |
 | FARSIDE_SERVICES_JSON | The "services" JSON file to use for selecting instances (default: `services.json`) |
 | FARSIDE_SERVICES_JSON_DATA | The "services" JSON file to use for selecting instances base64 encoded |
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Purpose</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_TEST</td>
+        <td>If enabled, bypasses the instance availability check and adds all instances to the pool.</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_PORT</td>
+        <td>The port to run Farside on (default: `4001`)</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_REDIS_PORT</td>
+        <td>The Redis server port to use (default: `6379`, same as the default for Redis)</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_SERVICES_JSON</td>
+        <td>The "services" JSON file to use for selecting instances (default: `services.json`)</td>
+    </tr>
+</table>

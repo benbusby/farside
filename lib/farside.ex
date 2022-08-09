@@ -15,7 +15,7 @@ defmodule Farside do
   @gtranslate_regex ~r/translate.google.com|lingva/
   @tiktok_regex ~r/tiktok.com|proxitok/
   @imdb_regex ~r/imdb.com|libremdb/
-  @quora_regex ~r/quora.com|querte/
+  @quora_regex ~r/quora.com|quetre/
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
@@ -29,7 +29,7 @@ defmodule Farside do
     @gtranslate_regex => ["lingva"],
     @tiktok_regex => ["proxitok"],
     @imdb_regex => ["libremdb"],
-    @quora_regex => ["querte"]
+    @quora_regex => ["quetre"]
   }
 
   alias Farside.LastUpdated
