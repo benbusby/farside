@@ -1,6 +1,8 @@
 defmodule Farside.Instance.Check do
   use Task
 
+  alias Farside.Status
+
   def child_spec(args) do
     %{
       id: __MODULE__,

@@ -1,6 +1,8 @@
 defmodule Farside.Instance.Sync do
   use Task
 
+  alias Farside.Status
+
   def child_spec(args) do
     %{
       id: __MODULE__,
@@ -17,7 +19,10 @@ defmodule Farside.Instance.Sync do
     receive do
     after
       300_000 ->
-        sync()
+        if(Status.value() == :wait) do
+          sync()
+        end
+
         poll()
     end
   end

@@ -41,7 +41,7 @@ defmodule Farside.Application do
           ]
         ),
         {LastUpdated, DateTime.utc_now()},
-        {Status, :wait},
+        {Status, :init},
         {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000},
         {DynamicSupervisor, strategy: :one_for_one, name: :server_supervisor},
         {Registry, keys: :unique, name: :servers}
