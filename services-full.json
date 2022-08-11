@@ -247,6 +247,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://anon.sx",
       "https://dynabyte.ca",
       "https://northboot.xyz",
       "https://search.neet.works",
@@ -254,7 +255,6 @@
       "https://searx.gnu.style",
       "https://searx.ru",
       "https://searx.sp-codes.de",
-      "https://searx.stuehieyr.com",
       "https://searx.tuxcloud.net",
       "https://searx.tyil.nl",
       "https://searx.xyz",
@@ -316,7 +316,6 @@
       "https://swag.pw",
       "https://www.higgssearch.com",
       "https://www.webrats.xyz",
-      "https://xcxc.ml",
       "https://xo.wtf"
     ]
   },
