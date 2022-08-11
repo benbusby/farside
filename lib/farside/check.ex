@@ -1,4 +1,7 @@
 defmodule Farside.Instance.Check do
+  @moduledoc """
+  Module to check/validate the instance list only for servers with empty instance list every 90 secs, if a sync/check process isnt already running
+  """
   use Task
 
   alias Farside.Status

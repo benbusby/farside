@@ -1,4 +1,7 @@
 defmodule Farside.Instance.Sync do
+  @moduledoc """
+  Module to sync (check/validate) the instance  list every 300 secs, if a sync/check process isnt already running
+  """
   use Task
 
   alias Farside.Status
