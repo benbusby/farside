@@ -249,7 +249,6 @@
     "instances": [
       "https://anon.sx",
       "https://dynabyte.ca",
-      "https://northboot.xyz",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
       "https://searx.gnu.style",
@@ -271,7 +270,6 @@
       "https://de.xcxc.ml",
       "https://etsi.me",
       "https://jackgoss.xyz",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -308,7 +306,6 @@
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
       "https://searx.tiekoetter.com",
-      "https://searx.vimproved.me",
       "https://searx.zcyph.cc",
       "https://searxng.tordenskjold.de",
       "https://searxng.zackptg5.com",
@@ -318,6 +315,7 @@
       "https://swag.pw",
       "https://www.higgssearch.com",
       "https://www.webrats.xyz",
+      "https://xcxc.ml",
       "https://xo.wtf"
     ]
   },
