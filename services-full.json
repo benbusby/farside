@@ -61,7 +61,8 @@
       "https://teddit.tinfoil-hat.net",
       "https://teddit.tokhmi.xyz",
       "https://teddit.totaldarkness.net",
-      "https://teddit.zaggy.nl"
+      "https://teddit.zaggy.nl",
+      "https://wiki.privacytools.io"
     ]
   },
   {
@@ -270,6 +271,7 @@
       "https://de.xcxc.ml",
       "https://etsi.me",
       "https://jackgoss.xyz",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -290,6 +292,7 @@
       "https://search.teamriverbubbles.com",
       "https://search.unlocked.link",
       "https://search.zzls.xyz",
+      "https://searx.baczek.me",
       "https://searx.be",
       "https://searx.becomesovran.com",
       "https://searx.chocoflan.net",
@@ -305,7 +308,6 @@
       "https://searx.prvcy.eu",
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
-      "https://searx.tiekoetter.com",
       "https://searx.zcyph.cc",
       "https://searxng.tordenskjold.de",
       "https://searxng.zackptg5.com",
@@ -326,6 +328,7 @@
     "instances": [
       "https://wiki.604kph.xyz",
       "https://wiki.froth.zone",
+      "https://wiki.privacytools.io",
       "https://wiki.slipfox.xyz",
       "https://wikiless.esmailelbob.xyz",
       "https://wikiless.funami.tech",
@@ -333,7 +336,8 @@
       "https://wikiless.northboot.xyz",
       "https://wikiless.org",
       "https://wikiless.sethforprivacy.com",
-      "https://wikiless.tiekoetter.com"
+      "https://wikiless.tiekoetter.com",
+      "https://wl.vern.cc"
     ]
   },
   {
