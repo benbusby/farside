@@ -249,7 +249,6 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://anon.sx",
       "https://dynabyte.ca",
       "https://search.neet.works",
       "https://searx.divided-by-zero.eu",
@@ -300,8 +299,6 @@
       "https://searx.ebnar.xyz",
       "https://searx.ericaftereric.top",
       "https://searx.fi",
-      "https://searx.fmac.xyz",
-      "https://searx.kujonello.cf",
       "https://searx.mha.fi",
       "https://searx.mistli.net",
       "https://searx.namejeff.xyz",
@@ -309,7 +306,6 @@
       "https://searx.prvcy.eu",
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
-      "https://searx.tiekoetter.com",
       "https://searx.zcyph.cc",
       "https://searxng.tordenskjold.de",
       "https://searxng.zackptg5.com",
@@ -317,6 +313,7 @@
       "https://serx.ml",
       "https://sh0.it",
       "https://swag.pw",
+      "https://www.higgssearch.com",
       "https://www.webrats.xyz",
       "https://xcxc.ml",
       "https://xo.wtf"
