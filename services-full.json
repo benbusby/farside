@@ -191,6 +191,7 @@
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
       "https://st.manerakai.com",
+      "https://st.odyssey346.dev",
       "https://st.privacydev.net",
       "https://st.tokhmi.xyz",
       "https://tl.vern.cc",
@@ -318,6 +319,7 @@
       "https://serx.ml",
       "https://sh0.it",
       "https://trydex.tk/searxng",
+      "https://www.higgssearch.com",
       "https://www.webrats.xyz",
       "https://xcxc.ml",
       "https://xo.wtf"
@@ -329,6 +331,7 @@
     "fallback": "https://wikiless.org",
     "instances": [
       "https://wiki.604kph.xyz",
+      "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
       "https://wiki.privacytools.io",
       "https://wiki.slipfox.xyz",
