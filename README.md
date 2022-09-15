@@ -65,11 +65,6 @@ For example:
         <td><a href="https://farside.link/piped/watch?v=eBGIQ7ZuuiU">https://farside.link/piped/watch?v=eBGIQ7ZuuiU</a></td>
     </tr>
     <tr>
-        <td><a href="https://sr.ht/~cadence/bibliogram/">Bibliogram</a></td>
-        <td>User Profile</td>
-        <td><a href="https://farside.link/bibliogram/u/kbdfans">https://farside.link/bibliogram/u/kbdfans</a></td>
-    </tr>
-    <tr>
         <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
         <td>Search "Elixir"</td>
         <td><a href="https://farside.link/whoogle/search?q=elixir&lang_interface=en">https://farside.link/whoogle/search?q=elixir&lang_interface=en</a></td>
