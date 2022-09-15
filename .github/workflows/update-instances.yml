@@ -37,19 +37,22 @@ jobs:
 
         # ==============================================================
         # Bibliogram update
+        # NOTE: Bibliogram has been discontinued and the official instance
+        # at bibliogram.art is no longer around. Unless a new "official"
+        # instance pops up, Bibliogram will likely be removed from farside
         # ==============================================================
-        curl -s https://bibliogram.art/api/instances | \
-          jq '[
-            .data |
-            .[] |
-            select(.onion_site | not) |
-            .address
-          ] | sort' > bibliogram-tmp.json
-        jq --slurpfile bibliogram bibliogram-tmp.json \
-          '( .[] | select(.type == "bibliogram") )
-          .instances |= $bibliogram[0]' services-full.json > services-tmp.json
+        #curl -s https://bibliogram.art/api/instances | \
+          #jq '[
+            #.data |
+            #.[] |
+            #select(.onion_site | not) |
+            #.address
+          #] | sort' > bibliogram-tmp.json
+        #jq --slurpfile bibliogram bibliogram-tmp.json \
+          #'( .[] | select(.type == "bibliogram") )
+          #.instances |= $bibliogram[0]' services-full.json > services-tmp.json
 
-        apply_update
+        #apply_update
 
         # ==============================================================
         # searx update

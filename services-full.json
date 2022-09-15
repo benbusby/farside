@@ -70,20 +70,13 @@
   {
     "type": "bibliogram",
     "test_url": "/p/Ch2WRmiLMjj/",
-    "fallback": "https://bibliogram.art",
+    "fallback": "https://bibliogram.1d4.us",
     "instances": [
-      "https://bib.actionsack.com",
       "https://bibliogram.1d4.us",
-      "https://bibliogram.art",
       "https://bibliogram.froth.zone",
       "https://bibliogram.priv.pw",
-      "https://bibliogram.pussthecat.org",
-      "https://bibliogram.snopyta.org",
       "https://ig.beparanoid.de",
-      "https://ig.funami.tech",
-      "https://ig.tokhmi.xyz",
-      "https://insta.trom.tf",
-      "https://insta.tromdienste.de"
+      "https://ig.tokhmi.xyz"
     ]
   },
   {
