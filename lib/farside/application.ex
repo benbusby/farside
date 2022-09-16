@@ -6,10 +6,9 @@ defmodule Farside.Application do
   require Logger
 
   alias Farside.LastUpdated
-  alias Farside.Status
-  alias Farside.Instance.Check
-  alias Farside.Instance.Sync
-  alias Farside.Http
+  alias Farside.Server.HealthyCheck
+  alias Farside.Server.UnHealthyCheck
+  alias Farside.Server.DeadCheck
 
   @impl true
   def start(_type, _args) do
@@ -24,7 +23,7 @@ defmodule Farside.Application do
     maybe_loaded_children =
       case is_nil(System.get_env("FARSIDE_TEST")) do
         true ->
-          [{Check, []},{Sync, []}]
+          [{HealthyCheck, []},{UnHealthyCheck, []},{DeadCheck, []}]
 
         false ->
           Logger.info("Skipping sync job setup...")
@@ -41,10 +40,12 @@ defmodule Farside.Application do
           ]
         ),
         {LastUpdated, DateTime.utc_now()},
-        {Status, :init},
         {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000},
-        {DynamicSupervisor, strategy: :one_for_one, name: :server_supervisor},
-        {Registry, keys: :unique, name: :servers}
+        {DynamicSupervisor, strategy: :one_for_one, name: :instance_supervisor},
+        {DynamicSupervisor, strategy: :one_for_one, name: :service_supervisor},
+        {Registry, keys: :unique, name: :instance},
+        {Registry, keys: :unique, name: :service},
+        {Registry, keys: :duplicate, name: :status, partitions: System.schedulers_online()},
       ] ++ maybe_loaded_children
 
     opts = [strategy: :one_for_one, name: Farside.Supervisor]
@@ -55,7 +56,6 @@ defmodule Farside.Application do
 
   def load(response) do
     services_json_data = Application.fetch_env!(:farside, :services_json_data)
-    queries = Application.fetch_env!(:farside, :queries)
 
     reply =
       case String.length(services_json_data) < 10 do
@@ -78,7 +78,7 @@ defmodule Farside.Application do
 
       struct(%Service{}, service_atom)
       |> Farside.Instance.Supervisor.start()
-      |> Farside.Instances.sync()
+      |> HealthyCheck.load()
     end
 
     LastUpdated.value(DateTime.utc_now())

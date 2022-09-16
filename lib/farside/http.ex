@@ -27,6 +27,7 @@ defmodule Farside.Http do
   end
 
   def request(url, type) do
+
     cond do
       System.get_env("FARSIDE_TEST") ->
         :good
@@ -78,5 +79,36 @@ defmodule Farside.Http do
       end)
 
     %{service | instances: instances}
+  end
+
+  def test_service(service) do
+url = service.url <> service.test_url
+    test_url =
+      EEx.eval_string(
+        url,
+        query: Enum.random(@queries)
+      )
+
+    task =
+      Task.async(fn ->
+        reply = request(test_url, service.type)
+        {test_url, reply, service}
+      end)
+
+    data =
+      case Task.yield(task, @recv_timeout) || Task.shutdown(task) do
+        {:ok, result} ->
+          result
+
+        nil ->
+          nil
+      end
+
+    unless is_nil(data) do
+      {_test_url, value, _service} = data
+      value
+      else
+      :bad
+    end
   end
 end

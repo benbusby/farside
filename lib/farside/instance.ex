@@ -4,10 +4,8 @@ defmodule Farside.Instance do
   require Logger
 
   alias Farside.Http
-  alias Farside.Status
 
-  @registry_name :servers
-  @update_file Application.fetch_env!(:farside, :update_file) <> ".json"
+  @registry_name :instance
 
   def child_spec(args) do
     %{
@@ -34,6 +32,7 @@ defmodule Farside.Instance do
 
   def start_link(arg) do
     name = via_tuple(arg.type)
+
     GenServer.start_link(__MODULE__, arg, name: name)
   end
 
@@ -56,53 +55,10 @@ defmodule Farside.Instance do
     {:stop, :normal, state}
   end
 
-  def handle_cast(
-        :update,
-        state
-      ) do
-    Status.value(:test)
-
-    service = :ets.lookup(String.to_atom(state.type), :default)
-
-    {_, service} = List.first(service)
-
-    service = Http.fetch_instances(service)
-
-    :ets.delete(String.to_atom(state.type), :data)
-
-    :ets.insert(state.ref, {:data, service})
-
-    encoded = service |> Map.from_struct() |> Jason.encode!()
-
-    Farside.save_results(@update_file, encoded)
-
-    Status.value(:wait)
-
-    {:noreply, state}
-  end
-
-  def handle_cast(
-        :check,
-        state
-      ) do
-    service = :ets.lookup(String.to_atom(state.type), :default)
-
-    {_, service} = List.first(service)
-
-    if Enum.count(service.instances) == 0 do
-      service = Http.fetch_instances(service)
-
-      :ets.delete(String.to_atom(state.type), :data)
-
-      :ets.insert(state.ref, {:data, service})
-    end
-
-    {:noreply, state}
-  end
 
   @doc false
-  def via_tuple(data, registry \\ @registry_name) do
-    {:via, Registry, {registry, data}}
+  def via_tuple(id, registry \\ @registry_name) do
+    {:via, Registry, {registry, id}}
   end
 
   @impl true
@@ -111,8 +67,18 @@ defmodule Farside.Instance do
     {:noreply, {names, refs}}
   end
 
+
   @impl true
-  def handle_info(_msg, state) do
+  def handle_info(:load, state) do
+    service = :ets.lookup(String.to_atom(state.type), :default)
+
+    {_, service} = List.first(service)
+    service.instances
+    |> Enum.each(fn url ->
+      initial_state = %{url: url, type: service.type, test_url: service.test_url}
+      Farside.Service.Supervisor.start(initial_state)
+    end)
+
     {:noreply, state}
   end
 end

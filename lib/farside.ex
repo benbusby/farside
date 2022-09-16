@@ -35,29 +35,42 @@ defmodule Farside do
   alias Farside.LastUpdated
 
   def get_services_map do
-    Farside.Instance.Supervisor.list()
-    |> Enum.reduce(%{}, fn service, acc ->
-      {_, data} = :ets.lookup(String.to_atom(service), :data) |> List.first()
+    services_map =
+      Farside.Instance.Supervisor.list()
+      |> Enum.map(fn service ->
+        data = :ets.lookup(String.to_atom(service), :default) |> List.first()
 
-      instances =
-        case Enum.count(data.instances) == 0 do
-          true ->
-            [data.fallback]
+        instances =
+          case is_nil(data) do
+            true ->
+              []
 
-          false ->
-            data.instances
-        end
+            false ->
+              {_, service} = data
 
-      Map.put(
-        acc,
-        String.replace_prefix(
-          service,
-          @service_prefix,
-          ""
-        ),
-        instances
-      )
-    end)
+              registry = "#{service.type}_healthy"
+
+              instances =
+                for instance <- service.instances do
+                  matches = Registry.match(:status, registry, instance)
+
+                  {_, instance} =
+                    case Enum.count(matches) > 0 do
+                      true -> List.first(matches)
+                      false -> {:error, nil}
+                    end
+
+                  instance
+                end
+                |> Enum.reject(fn x -> x == nil end)
+
+              Map.put(
+                service,
+                :instances,
+                instances
+              )
+          end
+      end)
   end
 
   def get_service(service) do
@@ -69,13 +82,47 @@ defmodule Farside do
         end
       )
 
-    data = :ets.lookup(String.to_atom(service_name), :data)
+    data = :ets.lookup(String.to_atom(service_name), :default)
 
-    {_, service} = List.first(data)
+    data =
+      case data do
+        nil -> []
+        _ -> data
+      end
 
-    case Enum.count(service.instances) > 0 do
-      true -> Enum.random(service.instances)
-      false -> service.fallback
+    case Enum.count(data) > 0 do
+      true ->
+        {_, service} = List.first(data)
+
+        registry = "#{service.type}_healthy"
+
+        instances =
+          for instance <- service.instances do
+            matches = Registry.match(:status, registry, instance)
+
+            {_, instance} =
+              case Enum.count(matches) > 0 do
+                true -> List.first(matches)
+                false -> {:error, nil}
+              end
+
+            instance
+          end
+          |> Enum.reject(fn x -> x == nil end)
+
+        service = Map.put(
+          service,
+          :instances,
+          instances
+        )
+
+        case Enum.count(service.instances) > 0 do
+          true -> Enum.random(service.instances)
+          false -> service.fallback
+        end
+
+      false ->
+        "/"
     end
   end
 

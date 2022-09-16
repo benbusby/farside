@@ -38,10 +38,10 @@
       <h3>Last synced <%= DateTime.truncate(last_updated, :second)  %> UTC</h2>
       <div>
         <ul>
-          <%= for {service, instance_list} <- services do %>
-            <li><a href="/<%= service %>"><%= service %></a></li>
+          <%= for service <- services do %>
+            <li><a href="<%= service.fallback %>"><%= service.type %></a></li>
             <ul>
-              <%= for url <- instance_list do %>
+              <%= for url <- service.instances do %>
                 <li><a href="<%= url %>"><%= url %></a></li>
               <% end%>
             </ul>
