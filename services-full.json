@@ -47,6 +47,7 @@
       "https://td.vern.cc",
       "https://tedd.it",
       "https://teddit.adminforge.de",
+      "https://teddit.artemislena.eu",
       "https://teddit.bus-hit.me",
       "https://teddit.domain.glass",
       "https://teddit.encrypted-data.xyz",
@@ -69,7 +70,7 @@
   },
   {
     "type": "bibliogram",
-    "test_url": "/p/Ch2WRmiLMjj/",
+    "test_url": "/p/Ch2WRmiLMjj",
     "fallback": "https://bibliogram.1d4.us",
     "instances": [
       "https://bibliogram.1d4.us",
@@ -172,7 +173,9 @@
       "https://scribe.bus-hit.me",
       "https://scribe.froth.zone",
       "https://scribe.esmailelbob.xyz",
-      "https://scribe.privacydev.net"
+      "https://scribe.privacydev.net",
+      "https://scribe.rawbit.ninja",
+      "https://sc.vern.cc"
     ]
   },
   {
@@ -181,9 +184,9 @@
     "fallback": "https://simplytranslate.org",
     "instances": [
       "https://simplytranslate.esmailelbob.xyz",
+      "https://simplytranslate.manerakai.com",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
-      "https://st.manerakai.com",
       "https://st.odyssey346.dev",
       "https://st.privacydev.net",
       "https://st.tokhmi.xyz",
@@ -248,7 +251,6 @@
     "instances": [
       "https://dynabyte.ca",
       "https://search.neet.works",
-      "https://searx.be",
       "https://searx.divided-by-zero.eu",
       "https://searx.gnu.style",
       "https://searx.ru",
@@ -290,6 +292,7 @@
       "https://search.rhscze.cf",
       "https://search.rowie.at",
       "https://search.sapti.me",
+      "https://search.smnz.de",
       "https://search.teamriverbubbles.com",
       "https://search.unlocked.link",
       "https://search.zzls.xyz",
@@ -302,6 +305,8 @@
       "https://searx.fi",
       "https://searx.fmac.xyz",
       "https://searx.kujonello.cf",
+      "https://searx.mha.fi",
+      "https://searx.mistli.net",
       "https://searx.namejeff.xyz",
       "https://searx.priv.pw",
       "https://searx.prvcy.eu",
@@ -313,6 +318,7 @@
       "https://searxng.zackptg5.com",
       "https://serx.ml",
       "https://sh0.it",
+      "https://swag.pw",
       "https://trydex.tk/searxng",
       "https://www.webrats.xyz",
       "https://xo.wtf"
