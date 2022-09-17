@@ -42,7 +42,14 @@ defmodule Farside.Router do
   end
 
   get "/status" do
-    resp = Jason.encode!(Farside.get_services_map())
+    services = Farside.get_services_map()
+
+    data = %{
+      last_updated: DateTime.truncate(Farside.get_last_updated(), :second),
+      services: services
+    }
+
+    resp = Jason.encode!(data)
 
     conn = conn |> merge_resp_headers([{"content-type", "application/json"}])
 
