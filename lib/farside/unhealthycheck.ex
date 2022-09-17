@@ -5,6 +5,8 @@ defmodule Farside.Server.UnHealthyCheck do
   use Task
   alias Farside.LastUpdated
 
+  require Logger
+
   def child_spec(args) do
     %{
       id: __MODULE__,
@@ -20,7 +22,7 @@ defmodule Farside.Server.UnHealthyCheck do
   def poll() do
     receive do
     after
-      120_000 ->
+      200_000 ->
         run()
         poll()
     end
@@ -28,6 +30,8 @@ defmodule Farside.Server.UnHealthyCheck do
 
   def run() do
     LastUpdated.value(DateTime.utc_now())
+
+    Logger.info("Unhealthy Service Check Running")
 
     Registry.dispatch(:status, "unhealthy", fn entries ->
       for {pid, _} <- entries, do: GenServer.cast(pid, :check)

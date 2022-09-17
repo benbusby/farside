@@ -78,7 +78,18 @@ defmodule Farside.Application do
 
       struct(%Service{}, service_atom)
       |> Farside.Instance.Supervisor.start()
-      |> HealthyCheck.load()
+    end
+
+    response
+    |> maybe_run()
+  end
+
+  def maybe_run(response) do
+    if is_nil(System.get_env("FARSIDE_TEST")) do
+      Task.start(fn ->
+        Process.sleep(10_000)
+        UnHealthyCheck.run()
+      end)
     end
 
     response

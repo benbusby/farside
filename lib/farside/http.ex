@@ -1,6 +1,11 @@
 defmodule Farside.Http do
   require Logger
 
+  @moduledoc """
+  Http
+    the http client
+  """
+
   @headers Application.fetch_env!(:farside, :headers)
   @queries Application.fetch_env!(:farside, :queries)
   @recv_timeout String.to_integer(Application.fetch_env!(:farside, :recv_timeout))
@@ -108,11 +113,11 @@ defmodule Farside.Http do
           nil
       end
 
-    unless is_nil(data) do
+    if is_nil(data) do
+      :bad
+    else
       {_test_url, value, _service} = data
       value
-    else
-      :bad
     end
   end
 end

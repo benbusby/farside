@@ -1,6 +1,11 @@
 defmodule Farside.Service do
   use GenServer
 
+  @moduledoc """
+  Service
+    this will store the service state
+  """
+
   require Logger
 
   alias Farside.Http
@@ -21,19 +26,22 @@ defmodule Farside.Service do
     }
   end
 
+  @impl true
   def init(data) do
     initial_state = %__MODULE__{
       url: data.url,
       type: data.type,
       test_url: data.test_url,
-      last_update: nil,
+      last_update:
+        DateTime.utc_now()
+        |> DateTime.add(-86_400, :second),
       status: []
     }
 
-    healthy = "#{data.type}_healthy"
+    unhealthy = "#{data.type}_unhealthy"
 
-    Registry.register(:status, healthy, data.url)
-    Registry.register(:status, "healthy", data.url)
+    Registry.register(:status, unhealthy, data.url)
+    Registry.register(:status, "unhealthy", data.url)
     {:ok, initial_state}
   end
 
@@ -46,34 +54,13 @@ defmodule Farside.Service do
     GenServer.call(__MODULE__, :shutdown)
   end
 
+  @impl true
   def handle_call(
         :shutdown,
         _from,
         state
       ) do
     {:stop, {:ok, "Normal Shutdown"}, state}
-  end
-
-  def handle_cast(
-        :shutdown,
-        state
-      ) do
-    {:stop, :normal, state}
-  end
-
-  @doc false
-  def via_tuple(id, registry \\ @registry_name) do
-    {:via, Registry, {registry, id}}
-  end
-
-  @impl true
-  def handle_info({:DOWN, ref, :process, _pid, _reason}, data) do
-    {:noreply, data}
-  end
-
-  @impl true
-  def handle_info(_msg, state) do
-    {:noreply, state}
   end
 
   @impl true
@@ -91,57 +78,90 @@ defmodule Farside.Service do
 
   @impl true
   def handle_cast(:check, state) do
-    reply = Http.test_service(state)
-
-    status = state.status ++ [reply]
-
-    max_queue = Application.get_env(:farside, :max_fail_rate, 50) + 5
-
-    status =
-      case Enum.count(status) < max_queue do
-        true -> status
-        false -> []
-      end
-
-    state = %{state | status: status}
-
-    state = %{state | last_update: DateTime.utc_now()}
-
-    healthy = "#{state.type}_healthy"
-    unhealthy = "#{state.type}_unhealthy"
-    dead = "#{state.type}_dead"
-
-    Registry.unregister_match(:status, "healthy", state.url)
-    Registry.unregister_match(:status, "unhealthy", state.url)
-    Registry.unregister_match(:status, "dead", state.url)
-
-    Registry.unregister_match(:status, healthy, state.url)
-    Registry.unregister_match(:status, unhealthy, state.url)
-    Registry.unregister_match(:status, dead, state.url)
+    dt =
+      DateTime.utc_now()
+      |> DateTime.add(-60, :second)
 
     state =
-      if reply != :good do
-        filtered = Enum.reject(status, fn x -> x == :good end)
+      case DateTime.compare(dt, state.last_update) do
+        :gt ->
+          reply = Http.test_service(state)
 
-        fails_before_death = Application.get_env(:farside, :max_fail_rate, 50)
+          status = state.status ++ [reply]
 
-        case Enum.count(filtered) < fails_before_death do
-          true ->
-            Registry.register(:status, "unhealthy", state.url)
-            Registry.register(:status, unhealthy, state.url)
+          max_queue = Application.get_env(:farside, :max_fail_rate, 50) + 5
+
+          status =
+            case Enum.count(status) < max_queue do
+              true -> status
+              false -> []
+            end
+
+          state = %{state | status: status}
+
+          state = %{state | last_update: DateTime.utc_now()}
+
+          healthy = "#{state.type}_healthy"
+          unhealthy = "#{state.type}_unhealthy"
+          dead = "#{state.type}_dead"
+
+          Registry.unregister_match(:status, "healthy", state.url)
+          Registry.unregister_match(:status, "unhealthy", state.url)
+          Registry.unregister_match(:status, "dead", state.url)
+
+          Registry.unregister_match(:status, healthy, state.url)
+          Registry.unregister_match(:status, unhealthy, state.url)
+          Registry.unregister_match(:status, dead, state.url)
+
+          if reply != :good do
+            filtered = Enum.reject(status, fn x -> x == :good end)
+
+            fails_before_death = Application.get_env(:farside, :max_fail_rate, 50)
+
+            case Enum.count(filtered) < fails_before_death do
+              true ->
+                Registry.register(:status, "unhealthy", state.url)
+                Registry.register(:status, unhealthy, state.url)
+                state
+
+              false ->
+                Registry.register(:status, "dead", state.url)
+                Registry.register(:status, dead, state.url)
+                %{state | status: [:bad]}
+            end
+          else
+            Registry.register(:status, "healthy", state.url)
+            Registry.register(:status, healthy, state.url)
             state
+          end
 
-          false ->
-            Registry.register(:status, "dead", state.url)
-            Registry.register(:status, dead, state.url)
-            %{state | status: [:bad]}
-        end
-      else
-        Registry.register(:status, "healthy", state.url)
-        Registry.register(:status, healthy, state.url)
-        state
+        _ ->
+          %{state | last_update: DateTime.utc_now()}
       end
 
+    {:noreply, state}
+  end
+
+  @impl true
+  def handle_cast(
+        :shutdown,
+        state
+      ) do
+    {:stop, :normal, state}
+  end
+
+  @doc false
+  def via_tuple(id, registry \\ @registry_name) do
+    {:via, Registry, {registry, id}}
+  end
+
+  @impl true
+  def handle_info({:DOWN, _ref, :process, _pid, _reason}, data) do
+    {:noreply, data}
+  end
+
+  @impl true
+  def handle_info(_msg, state) do
     {:noreply, state}
   end
 end

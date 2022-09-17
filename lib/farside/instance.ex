@@ -1,9 +1,12 @@
 defmodule Farside.Instance do
   use GenServer
 
-  require Logger
+  @moduledoc """
+  Instance
+    this will store the pointer to ets
+  """
 
-  alias Farside.Http
+  require Logger
 
   @registry_name :instance
 
@@ -15,6 +18,7 @@ defmodule Farside.Instance do
     }
   end
 
+  @impl true
   def init(init_arg) do
     ref =
       :ets.new(String.to_atom(init_arg.type), [
@@ -40,6 +44,7 @@ defmodule Farside.Instance do
     GenServer.call(__MODULE__, :shutdown)
   end
 
+  @impl true
   def handle_call(
         :shutdown,
         _from,
@@ -48,6 +53,7 @@ defmodule Farside.Instance do
     {:stop, {:ok, "Normal Shutdown"}, state}
   end
 
+  @impl true
   def handle_cast(
         :shutdown,
         state
@@ -61,7 +67,7 @@ defmodule Farside.Instance do
   end
 
   @impl true
-  def handle_info({:DOWN, ref, :process, _pid, _reason}, {names, refs}) do
+  def handle_info({:DOWN, _ref, :process, _pid, _reason}, {names, refs}) do
     :ets.delete(names)
     {:noreply, {names, refs}}
   end

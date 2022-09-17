@@ -5,6 +5,8 @@ defmodule Farside.Server.DeadCheck do
   use Task
   alias Farside.LastUpdated
 
+  require Logger
+
   def child_spec(args) do
     %{
       id: __MODULE__,
@@ -20,7 +22,7 @@ defmodule Farside.Server.DeadCheck do
   def poll() do
     receive do
     after
-      1_200_000 ->
+      86_400_000 ->
         run()
         poll()
     end
@@ -28,6 +30,8 @@ defmodule Farside.Server.DeadCheck do
 
   def run() do
     LastUpdated.value(DateTime.utc_now())
+
+    Logger.info("Dead Service Check Running")
 
     Registry.dispatch(:status, "dead", fn entries ->
       for {pid, _} <- entries, do: GenServer.cast(pid, :check)

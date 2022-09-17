@@ -41,6 +41,8 @@ defmodule Farside.MixProject do
       {:jason, "~> 1.1"},
       {:plug_attack, "~> 0.4.2"},
       {:plug_cowboy, "~> 2.0"},
+      {:credo, "~> 1.6.3", only: [:dev, :test], runtime: false},
+      {:mix_audit, "~> 1.0.0", only: [:dev, :test], runtime: false},
       {:bakeware, runtime: false, only: :cli}
     ]
   end

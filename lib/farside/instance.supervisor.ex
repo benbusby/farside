@@ -1,7 +1,11 @@
 defmodule Farside.Instance.Supervisor do
   use DynamicSupervisor
 
-  alias __MODULE__, as: SUPERVISOR
+  @moduledoc """
+  Instance Supervisor
+    this will supervise the instance
+  """
+
   alias Farside.Instance, as: SERVER
 
   @name :instance_supervisor

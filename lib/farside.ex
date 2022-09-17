@@ -1,9 +1,13 @@
 defmodule Farside do
-  @service_prefix Application.fetch_env!(:farside, :service_prefix)
+  @moduledoc """
+  Farside
+    main application functions
 
-  # Define relation between available services and their parent service.
-  # This enables Farside to redirect with links such as:
-  # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
+   This is where we define relation between available services and their parent service.
+   This enables Farside to redirect with links such as:
+   farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  """
+
   @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
   @reddit_regex ~r/reddit.com|libreddit|teddit/
   @instagram_regex ~r/instagram.com|bibliogram/
@@ -35,42 +39,40 @@ defmodule Farside do
   alias Farside.LastUpdated
 
   def get_services_map do
-    services_map =
-      Farside.Instance.Supervisor.list()
-      |> Enum.map(fn service ->
-        data = :ets.lookup(String.to_atom(service), :default) |> List.first()
+    Farside.Instance.Supervisor.list()
+    |> Enum.map(fn service ->
+      data = :ets.lookup(String.to_atom(service), :default) |> List.first()
 
-        instances =
-          case is_nil(data) do
-            true ->
-              []
+      case is_nil(data) do
+        true ->
+          []
 
-            false ->
-              {_, service} = data
+        false ->
+          {_, service} = data
 
-              registry = "#{service.type}_healthy"
+          registry = "#{service.type}_healthy"
 
-              instances =
-                for instance <- service.instances do
-                  matches = Registry.match(:status, registry, instance)
+          instances =
+            for instance <- service.instances do
+              matches = Registry.match(:status, registry, instance)
 
-                  {_, instance} =
-                    case Enum.count(matches) > 0 do
-                      true -> List.first(matches)
-                      false -> {:error, nil}
-                    end
-
-                  instance
+              {_, instance} =
+                case Enum.count(matches) > 0 do
+                  true -> List.first(matches)
+                  false -> {:error, nil}
                 end
-                |> Enum.reject(fn x -> x == nil end)
 
-              Map.put(
-                service,
-                :instances,
-                instances
-              )
-          end
-      end)
+              instance
+            end
+            |> Enum.reject(fn x -> x == nil end)
+
+          Map.put(
+            service,
+            :instances,
+            instances
+          )
+      end
+    end)
   end
 
   def get_service(service) do
@@ -148,19 +150,5 @@ defmodule Farside do
       true ->
         instance
     end
-  end
-
-  def save_results(file, data) do
-    if System.get_env("MIX_ENV") == "dev" do
-      {:ok, file} = File.open(file, [:append])
-      bin = :erlang.term_to_binary(data)
-      IO.binwrite(file, bin)
-      File.close(file)
-    end
-  end
-
-  def restore_term(file) do
-    {:ok, bin} = File.read(file)
-    :erlang.binary_to_term(bin)
   end
 end

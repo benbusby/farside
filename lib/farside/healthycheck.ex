@@ -5,6 +5,8 @@ defmodule Farside.Server.HealthyCheck do
   use Task
   alias Farside.LastUpdated
 
+  require Logger
+
   def child_spec(args) do
     %{
       id: __MODULE__,
@@ -20,27 +22,19 @@ defmodule Farside.Server.HealthyCheck do
   def poll() do
     receive do
     after
-      90_000 ->
+      300_000 ->
         run()
         poll()
     end
   end
 
-  def load(params) do
-    Registry.dispatch(:status, "healthy", fn entries ->
-      for {pid, url} <- entries do
-        GenServer.cast(pid, :check)
-      end
-    end)
-
-    params
-  end
-
   def run() do
     LastUpdated.value(DateTime.utc_now())
 
+    Logger.info("Healthy Service Check Running")
+
     Registry.dispatch(:status, "healthy", fn entries ->
-      for {pid, url} <- entries do
+      for {pid, _url} <- entries do
         GenServer.cast(pid, :check)
       end
     end)

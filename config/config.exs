@@ -1,8 +1,6 @@
 import Config
 
 config :farside,
-  update_file: ".update-results",
-  service_prefix: "service-",
   index: "index.eex",
   route: "route.eex",
   headers: [

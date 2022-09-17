@@ -1,6 +1,11 @@
 defmodule Farside.Service.Supervisor do
   use DynamicSupervisor
 
+  @moduledoc """
+  Service Supervisor
+    this will supervise the service
+  """
+
   alias __MODULE__, as: SUPERVISOR
   alias Farside.Service, as: SERVER
 

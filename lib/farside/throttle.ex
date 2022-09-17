@@ -2,6 +2,8 @@ defmodule Farside.Throttle do
   import Plug.Conn
   use PlugAttack
 
+  @moduledoc nil
+
   rule "throttle per ip", conn do
     # throttle to 1 request per second
     throttle(conn.remote_ip,
