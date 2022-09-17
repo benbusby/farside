@@ -27,7 +27,6 @@ defmodule Farside.Http do
   end
 
   def request(url, type) do
-
     cond do
       System.get_env("FARSIDE_TEST") ->
         :good
@@ -40,6 +39,10 @@ defmodule Farside.Http do
           n when n < 400 ->
             Logger.info("Type: #{type}, Response: [#{n}], Url: #{url}")
             :good
+
+          nil ->
+            Logger.error("Type: #{type}, Response: [408], Url: #{url}")
+            :bad
 
           n ->
             Logger.error("Type: #{type}, Response: [#{n}], Url: #{url}")
@@ -82,7 +85,8 @@ defmodule Farside.Http do
   end
 
   def test_service(service) do
-url = service.url <> service.test_url
+    url = service.url <> service.test_url
+
     test_url =
       EEx.eval_string(
         url,
@@ -107,7 +111,7 @@ url = service.url <> service.test_url
     unless is_nil(data) do
       {_test_url, value, _service} = data
       value
-      else
+    else
       :bad
     end
   end

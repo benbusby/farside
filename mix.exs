@@ -31,8 +31,7 @@ defmodule Farside.MixProject do
   end
 
   defp aliases do
-    [
-    ]
+    []
   end
 
   # Run "mix help deps" to learn about dependencies.
@@ -45,7 +44,6 @@ defmodule Farside.MixProject do
       {:bakeware, runtime: false, only: :cli}
     ]
   end
-
 
   defp description() do
     "A redirecting service for FOSS alternative frontends."

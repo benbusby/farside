@@ -91,10 +91,17 @@ defmodule Farside.Service do
 
   @impl true
   def handle_cast(:check, state) do
-
     reply = Http.test_service(state)
 
     status = state.status ++ [reply]
+
+    max_queue = Application.get_env(:farside, :max_fail_rate, 50) + 5
+
+    status =
+      case Enum.count(status) < max_queue do
+        true -> status
+        false -> []
+      end
 
     state = %{state | status: status}
 
@@ -112,24 +119,28 @@ defmodule Farside.Service do
     Registry.unregister_match(:status, unhealthy, state.url)
     Registry.unregister_match(:status, dead, state.url)
 
-    if reply != :good do
-      filtered = Enum.reject(status, fn x -> x == :good end)
+    state =
+      if reply != :good do
+        filtered = Enum.reject(status, fn x -> x == :good end)
 
-      fails_before_death = Application.get_env(:farside, :max_fail_rate, 50)
+        fails_before_death = Application.get_env(:farside, :max_fail_rate, 50)
 
-      case Enum.count(filtered) < fails_before_death do
-        true ->
-          Registry.register(:status, "unhealthy", state.url)
-          Registry.register(:status, unhealthy, state.url)
+        case Enum.count(filtered) < fails_before_death do
+          true ->
+            Registry.register(:status, "unhealthy", state.url)
+            Registry.register(:status, unhealthy, state.url)
+            state
 
-        false ->
-          Registry.register(:status, "dead", state.url)
-          Registry.register(:status, dead, state.url)
+          false ->
+            Registry.register(:status, "dead", state.url)
+            Registry.register(:status, dead, state.url)
+            %{state | status: [:bad]}
+        end
+      else
+        Registry.register(:status, "healthy", state.url)
+        Registry.register(:status, healthy, state.url)
+        state
       end
-    else
-      Registry.register(:status, "healthy", state.url)
-      Registry.register(:status, healthy, state.url)
-    end
 
     {:noreply, state}
   end

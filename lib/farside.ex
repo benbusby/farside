@@ -110,11 +110,12 @@ defmodule Farside do
           end
           |> Enum.reject(fn x -> x == nil end)
 
-        service = Map.put(
-          service,
-          :instances,
-          instances
-        )
+        service =
+          Map.put(
+            service,
+            :instances,
+            instances
+          )
 
         case Enum.count(service.instances) > 0 do
           true -> Enum.random(service.instances)

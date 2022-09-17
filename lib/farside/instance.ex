@@ -55,7 +55,6 @@ defmodule Farside.Instance do
     {:stop, :normal, state}
   end
 
-
   @doc false
   def via_tuple(id, registry \\ @registry_name) do
     {:via, Registry, {registry, id}}
@@ -67,12 +66,12 @@ defmodule Farside.Instance do
     {:noreply, {names, refs}}
   end
 
-
   @impl true
   def handle_info(:load, state) do
     service = :ets.lookup(String.to_atom(state.type), :default)
 
     {_, service} = List.first(service)
+
     service.instances
     |> Enum.each(fn url ->
       initial_state = %{url: url, type: service.type, test_url: service.test_url}

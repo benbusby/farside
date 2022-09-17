@@ -3,6 +3,7 @@ defmodule Farside.Server.HealthyCheck do
   Module to validate healthy servers
   """
   use Task
+  alias Farside.LastUpdated
 
   def child_spec(args) do
     %{
@@ -31,10 +32,13 @@ defmodule Farside.Server.HealthyCheck do
         GenServer.cast(pid, :check)
       end
     end)
+
     params
   end
 
   def run() do
+    LastUpdated.value(DateTime.utc_now())
+
     Registry.dispatch(:status, "healthy", fn entries ->
       for {pid, url} <- entries do
         GenServer.cast(pid, :check)

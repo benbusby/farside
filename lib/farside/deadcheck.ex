@@ -3,6 +3,7 @@ defmodule Farside.Server.DeadCheck do
   Module to check/validate the instance list only for servers with empty instance list every 90 secs, if a sync/check process isnt already running
   """
   use Task
+  alias Farside.LastUpdated
 
   def child_spec(args) do
     %{
@@ -26,6 +27,8 @@ defmodule Farside.Server.DeadCheck do
   end
 
   def run() do
+    LastUpdated.value(DateTime.utc_now())
+
     Registry.dispatch(:status, "dead", fn entries ->
       for {pid, _} <- entries, do: GenServer.cast(pid, :check)
     end)

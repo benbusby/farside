@@ -23,7 +23,7 @@ defmodule Farside.Application do
     maybe_loaded_children =
       case is_nil(System.get_env("FARSIDE_TEST")) do
         true ->
-          [{HealthyCheck, []},{UnHealthyCheck, []},{DeadCheck, []}]
+          [{HealthyCheck, []}, {UnHealthyCheck, []}, {DeadCheck, []}]
 
         false ->
           Logger.info("Skipping sync job setup...")
@@ -45,7 +45,7 @@ defmodule Farside.Application do
         {DynamicSupervisor, strategy: :one_for_one, name: :service_supervisor},
         {Registry, keys: :unique, name: :instance},
         {Registry, keys: :unique, name: :service},
-        {Registry, keys: :duplicate, name: :status, partitions: System.schedulers_online()},
+        {Registry, keys: :duplicate, name: :status, partitions: System.schedulers_online()}
       ] ++ maybe_loaded_children
 
     opts = [strategy: :one_for_one, name: Farside.Supervisor]
@@ -80,8 +80,6 @@ defmodule Farside.Application do
       |> Farside.Instance.Supervisor.start()
       |> HealthyCheck.load()
     end
-
-    LastUpdated.value(DateTime.utc_now())
 
     response
   end

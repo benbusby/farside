@@ -31,11 +31,11 @@ defmodule Farside.Instance.Supervisor do
   def start(opts \\ %{}) do
     child_spec = {SERVER, opts}
 
-    {:ok,pid} = DynamicSupervisor.start_child(@name, child_spec)
+    {:ok, pid} = DynamicSupervisor.start_child(@name, child_spec)
 
     send(pid, :load)
 
-    {:ok,pid}
+    {:ok, pid}
   end
 
   def stop(id) do
