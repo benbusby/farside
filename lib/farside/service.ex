@@ -80,7 +80,7 @@ defmodule Farside.Service do
   def handle_cast(:check, state) do
     dt =
       DateTime.utc_now()
-      |> DateTime.add(-60, :second)
+      |> DateTime.add(-150, :second)
 
     state =
       case DateTime.compare(dt, state.last_update) do
