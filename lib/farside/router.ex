@@ -29,6 +29,26 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
+  get "/backup" do
+    resp = Jason.encode!(Farside.get_services_map())
+
+    conn =
+      conn
+      |> put_resp_content_type("application/json")
+      |> put_resp_header("content-disposition", "attachment; filename=farside.json")
+      |> Plug.Conn.send_resp(:ok, resp)
+
+    send_resp(conn, 200, resp)
+  end
+
+  get "/status" do
+    resp = Jason.encode!(Farside.get_services_map())
+
+    conn = conn |> merge_resp_headers([{"content-type", "application/json"}])
+
+    send_resp(conn, 200, resp)
+  end
+
   get "/_/:service/*glob" do
     r_path = String.slice(conn.request_path, 2..-1)
 
