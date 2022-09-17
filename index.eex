@@ -28,6 +28,23 @@
     ul {
       margin: 10px;
     }
+
+     .services{
+    list-style-type: none;
+    }
+
+    li.link{
+    list-style-type: none;
+    }
+
+    li.link > a{
+    color: #0066cc
+    }
+
+    li.link > a:hover{
+    font-size: xx-large;
+     color: #004d2e
+    }
   </style>
 </head>
 <body>
@@ -37,13 +54,14 @@
       <hr>
       <h3>Last synced <span id="last_updated"><%= DateTime.truncate(last_updated, :second)  %></span></h2>
       <div>
-        <ul>
+        <ul class = "services">
           <%= for service <- services do %>
-            <li><a href="<%= service.fallback %>"><%= service.type %></a></li>
+            <li><%= service.type %></li>
             <ul>
               <%= for url <- service.instances do %>
-                <li><a href="<%= url %>"><%= url %></a></li>
+                <li class = "link"><a href="<%= url %>"><%= url %></a></li>
               <% end%>
+              <li class = "link"><a href="<%= service.fallback %>"><%= service.fallback %></a></li>
             </ul>
           <% end %>
         </ul>
