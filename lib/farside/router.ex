@@ -30,7 +30,7 @@ defmodule Farside.Router do
   end
 
   get "/backup" do
-    resp = Jason.encode!(Farside.get_services_map())
+    resp = Jason.encode!(Farside.get_instances_map())
 
     conn =
       conn

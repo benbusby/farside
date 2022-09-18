@@ -38,6 +38,14 @@ defmodule Farside do
 
   alias Farside.LastUpdated
 
+  def get_instances_map do
+    Farside.Instance.Supervisor.list()
+    |> Enum.map(fn service ->
+      {_, service} = :ets.lookup(String.to_atom(service), :default) |> List.first()
+      service
+    end)
+  end
+
   def get_services_map do
     Farside.Instance.Supervisor.list()
     |> Enum.map(fn service ->
