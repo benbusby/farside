@@ -27,6 +27,10 @@ available public instances for a particular service, while also helping to
 distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
 
+Farside also integrates smoothly with basic redirector extensions in most
+browsers. For an simple example setup, 
+[refer to the wiki](https://github.com/benbusby/farside/wiki/Browser-Extension).
+
 ## Demo
 
 Farside's links work with the following structure: `farside.link/<service>/<path>`
