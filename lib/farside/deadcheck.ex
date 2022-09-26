@@ -1,6 +1,6 @@
 defmodule Farside.Server.DeadCheck do
   @moduledoc """
-  Module to check/validate the instance list only for servers with empty instance list every 90 secs, if a sync/check process isnt already running
+  Module to check/validate the instance list only for servers with empty instance list every 12 hrs, if a sync/check process isnt already running
   """
   use Task
   alias Farside.LastUpdated
@@ -22,7 +22,7 @@ defmodule Farside.Server.DeadCheck do
   def poll() do
     receive do
     after
-      86_400_000 ->
+      43_200_000 ->
         run()
         poll()
     end

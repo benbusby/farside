@@ -119,6 +119,7 @@ defmodule Farside do
             instance
           end
           |> Enum.reject(fn x -> x == nil end)
+          |> Enum.uniq()
 
         service =
           Map.put(
