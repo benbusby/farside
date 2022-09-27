@@ -42,19 +42,13 @@
   },
   {
     "type": "bibliogram",
-    "test_url": "/u/officialrickastley",
-    "fallback": "https://bibliogram.art",
+    "test_url": "/p/Ch2WRmiLMjj/",
+    "fallback": "https://bibliogram.1d4.us",
     "instances": [
       "https://bibliogram.1d4.us",
-      "https://bibliogram.art",
       "https://bibliogram.froth.zone",
       "https://bibliogram.priv.pw",
-      "https://bibliogram.privacydev.net",
-      "https://bibliogram.pussthecat.org",
-      "https://bibliogram.snopyta.org",
-      "https://ig.beparanoid.de",
-      "https://insta.trom.tf",
-      "https://insta.tromdienste.de"
+      "https://ig.beparanoid.de"
     ]
   },
   {

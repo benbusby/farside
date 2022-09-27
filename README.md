@@ -30,6 +30,7 @@ available public instances for a particular service, while also helping to
 distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
 
+
 ## Heroku deploy
 To load  custom services, you must paste a base64 encoded json into the FARSIDE_SERVICES_JSON_DATA field
 you can encode your json at https://www.base64encode.org
@@ -51,6 +52,10 @@ Run as a service
 systemctl start farside
 systemctl enable farside
 ```
+=======
+Farside also integrates smoothly with basic redirector extensions in most
+browsers. For an simple example setup, 
+[refer to the wiki](https://github.com/benbusby/farside/wiki/Browser-Extension).
 
 ## Demo
 
@@ -88,11 +93,6 @@ For example:
         <td><a href="https://github.com/TeamPiped/Piped">Piped</a></td>
         <td>Video Page</td>
         <td><a href="https://farside.link/piped/watch?v=eBGIQ7ZuuiU">https://farside.link/piped/watch?v=eBGIQ7ZuuiU</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://sr.ht/~cadence/bibliogram/">Bibliogram</a></td>
-        <td>User Profile</td>
-        <td><a href="https://farside.link/bibliogram/u/kbdfans">https://farside.link/bibliogram/u/kbdfans</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
