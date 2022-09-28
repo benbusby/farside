@@ -85,7 +85,29 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": []
+    "instances": [
+      "https://inv.bp.projectsegfau.lt",
+      "https://inv.privacy.com.de",
+      "https://inv.riverside.rocks",
+      "https://inv.vern.cc",
+      "https://invidio.xamh.de",
+      "https://invidious.esmailelbob.xyz",
+      "https://invidious.flokinet.to",
+      "https://invidious.kavin.rocks",
+      "https://invidious.namazso.eu",
+      "https://invidious.nerdvpn.de",
+      "https://invidious.projectsegfau.lt",
+      "https://invidious.rhyshl.live",
+      "https://invidious.sethforprivacy.com",
+      "https://invidious.slipfox.xyz",
+      "https://invidious.snopyta.org",
+      "https://invidious.tiekoetter.com",
+      "https://vid.puffyan.us",
+      "https://y.com.sb",
+      "https://yewtu.be",
+      "https://youtube.076.ne.jp",
+      "https://yt.artemislena.eu"
+    ]
   },
   {
     "type": "piped",
