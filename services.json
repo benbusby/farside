@@ -5,7 +5,6 @@
     "fallback": "https://libredd.it",
     "instances": [
       "https://libreddit.spike.codes",
-      "https://libreddit.dothq.co",
       "https://libreddit.40two.app",
       "https://reddit.phii.me",
       "https://libreddit.sugoma.tk",
@@ -13,7 +12,6 @@
       "https://libreddit.some-things.org",
       "https://reddit.stuehieyr.com",
       "https://libreddit.igna.rocks",
-      "https://libreddit.autarkic.org",
       "https://libreddit.flux.industries",
       "https://libreddit.de",
       "https://libreddit.bus-hit.me"
