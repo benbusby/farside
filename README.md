@@ -180,7 +180,7 @@ goes against what Farside is trying to solve. Use at your own discretion.
 ## Development
 - Install [redis](https://redis.io)
 - Install [elixir](https://elixir-lang.org/install.html)
-- (on Debian systems) Install [erlang-dev](https://https://packages.debian.org/sid/erlang-dev)
+- (on Debian systems) Install [erlang-dev](https://packages.debian.org/sid/erlang-dev)
 - Start redis: `redis-server`
 - Install dependencies: `mix deps.get`
 - Initialize redis contents: `mix run -e Farside.Instances.sync`
