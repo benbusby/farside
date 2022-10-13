@@ -150,8 +150,7 @@
     "fallback": "https://lingva.ml",
     "instances": [
       "https://lingva.ml",
-      "https://translate.igna.rocks",
-      "https://lingva.pussthecat.org"
+      "https://translate.igna.rocks"
     ]
   },
   {
