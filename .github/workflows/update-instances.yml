@@ -176,17 +176,19 @@ jobs:
 
         # ==============================================================
         # Wikiless update
+        # NOTE: Codeberg has removed the Wikiless repo until the maintainer
+        # makes changes. See https://orenom.fi for updates.
         # ==============================================================
-        curl -s https://codeberg.org/orenom/Wikiless/raw/branch/main/instances.json | \
-          jq '[
-            .[] |
-            select((.url | contains(".onion") | not) and (.url | contains("https"))).url ] |
-            sort' > wikiless-tmp.json
-        jq --slurpfile wikiless wikiless-tmp.json \
-          '( .[] | select(.type == "wikiless") )
-          .instances |= $wikiless[0]' services-full.json > services-tmp.json
+        #curl -s https://codeberg.org/orenom/Wikiless/raw/branch/main/instances.json | \
+          #jq '[
+            #.[] |
+            #select((.url | contains(".onion") | not) and (.url | contains("https"))).url ] |
+            #sort' > wikiless-tmp.json
+        #jq --slurpfile wikiless wikiless-tmp.json \
+          #'( .[] | select(.type == "wikiless") )
+          #.instances |= $wikiless[0]' services-full.json > services-tmp.json
 
-        apply_update
+        #apply_update
 
         # ==============================================================
         # TODO: Update instances for other services
