@@ -9,7 +9,7 @@ defmodule Farside.Application do
   def start(_type, _args) do
     redis_conn = Application.fetch_env!(:farside, :redis_conn)
     farside_port = Application.fetch_env!(:farside, :port)
-    IO.puts "Runing on http://localhost:#{farside_port}"
+    IO.puts "Running on http://localhost:#{farside_port}"
     IO.puts "Redis conn: #{redis_conn}"
 
     children = [
