@@ -1,16 +1,13 @@
 defmodule Farside.Application do
-  #@farside_port Application.fetch_env!(:farside, :port)
-  #@redis_conn Application.fetch_env!(:farside, :redis_conn)
   @moduledoc false
 
   use Application
 
   @impl true
   def start(_type, _args) do
-    redis_conn = Application.fetch_env!(:farside, :redis_conn)
     farside_port = Application.fetch_env!(:farside, :port)
+    data_dir = Application.fetch_env!(:farside, :data_dir)
     IO.puts "Running on http://localhost:#{farside_port}"
-    IO.puts "Redis conn: #{redis_conn}"
 
     children = [
       Plug.Cowboy.child_spec(
@@ -21,7 +18,7 @@ defmodule Farside.Application do
         ]
       ),
       {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000},
-      {Redix, {redis_conn, [name: :redix]}},
+      {CubDB, [data_dir: data_dir, name: CubDB]},
       Farside.Scheduler,
       Farside.Server
     ]

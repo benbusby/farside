@@ -35,15 +35,14 @@ defmodule Farside do
   }
 
   def get_services_map do
-    {:ok, service_list} = Redix.command(:redix, ["KEYS", "#{@service_prefix}*"])
+    service_list = CubDB.select(CubDB)
+                   |> Stream.map(fn {key, _value} -> key end)
+                   |> Stream.filter(fn key -> String.starts_with?(key, @service_prefix) end)
+                   |> Enum.to_list
 
     # Match service name to list of available instances
     Enum.reduce(service_list, %{}, fn service, acc ->
-      {:ok, instance_list} =
-        Redix.command(
-          :redix,
-          ["LRANGE", service, "0", "-1"]
-        )
+      instance_list = CubDB.get(CubDB, service)
 
       Map.put(
         acc,
@@ -58,7 +57,7 @@ defmodule Farside do
   end
 
   def get_service(service) do
-    # Check if service has an entry in Redis, otherwise try to
+    # Check if service has an entry in the db, otherwise try to
     # match against available parent services
     service_name = cond do
       !check_service(service) ->
@@ -76,42 +75,18 @@ defmodule Farside do
 
   def check_service(service) do
     # Checks to see if a specific service has instances available
-    # in redis
-    {:ok, instances} =
-      Redix.command(
-        :redix,
-        [
-          "LRANGE",
-          "#{@service_prefix}#{service}",
-          "0",
-          "-1"
-        ]
-      )
+    instances = CubDB.get(CubDB, "#{@service_prefix}#{service}")
 
-    Enum.count(instances) > 0
+    instances != nil && Enum.count(instances) > 0
   end
 
   def last_instance(service) do
     # Fetches the last selected instance for a particular service
-    {:ok, previous} =
-      Redix.command(
-        :redix,
-        ["GET", "#{service}#{@previous_suffix}"]
-      )
-    previous
+    CubDB.get(CubDB, "#{service}#{@previous_suffix}")
   end
 
   def pick_instance(service) do
-    {:ok, instances} =
-      Redix.command(
-        :redix,
-        [
-          "LRANGE",
-          "#{@service_prefix}#{service}",
-          "0",
-          "-1"
-        ]
-      )
+    instances = CubDB.get(CubDB, "#{@service_prefix}#{service}")
 
     # Either pick a random available instance,
     # or fall back to the default one
@@ -127,21 +102,12 @@ defmodule Farside do
             Enum.filter(instances, &(&1 != last_instance(service)))
             |> Enum.random()
 
-          Redix.command(
-            :redix,
-            ["SET", "#{service}#{@previous_suffix}", instance]
-          )
+          CubDB.put(CubDB, "#{service}#{@previous_suffix}", instance)
 
           instance
         end
       else
-        {:ok, result} =
-          Redix.command(
-            :redix,
-            ["GET", "#{service}#{@fallback_suffix}"]
-          )
-
-        result
+        CubDB.get(CubDB, "#{service}#{@fallback_suffix}")
       end
     instance
   end
@@ -165,12 +131,6 @@ defmodule Farside do
   end
 
   def get_last_updated do
-    {:ok, last_updated} =
-      Redix.command(
-        :redix,
-        ["GET", "last_updated"]
-      )
-
-    last_updated
+    CubDB.get(CubDB, "last_updated")
   end
 end

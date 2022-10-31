@@ -40,13 +40,6 @@ defmodule FarsideTest do
     assert conn.status == 200
   end
 
-  test "/ping" do
-    conn = test_conn("/ping")
-    assert conn.state == :sent
-    assert conn.status == 200
-    assert conn.resp_body == "PONG"
-  end
-
   test "/:service" do
     services_json = Application.fetch_env!(:farside, :services_json)
     {:ok, file} = File.read(services_json)

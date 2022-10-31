@@ -29,12 +29,6 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
-  get "/ping" do
-    # Useful for app healthcheck
-    {:ok, resp} = Redix.command(:redix, ["PING"])
-    send_resp(conn, 200, resp)
-  end
-
   get "/_/:service/*glob" do
     r_path = String.slice(conn.request_path, 2..-1)
 

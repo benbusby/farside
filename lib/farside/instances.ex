@@ -12,11 +12,7 @@ defmodule Farside.Instances do
     update()
 
     # Add UTC time of last update
-    Redix.command(:redix, [
-      "SET",
-      "last_updated",
-      Calendar.strftime(DateTime.utc_now(), "%c")
-    ])
+    CubDB.put(CubDB, "last_updated", Calendar.strftime(DateTime.utc_now(), "%c"))
   end
 
   def request(url) do
@@ -69,41 +65,24 @@ defmodule Farside.Instances do
           request(request_url) == :good
         end)
 
-      add_to_redis(service, result)
+      add_to_db(service, result)
       log_results(service.type, result)
     end
   end
 
-  def add_to_redis(service, instances) do
+  def add_to_db(service, instances) do
     # Remove previous list of instances
-    Redix.command(:redix, [
-      "DEL",
-      "#{@service_prefix}#{service.type}"
-    ])
+    CubDB.delete(CubDB, "#{@service_prefix}#{service.type}")
 
     # Update with new list of available instances
-    Redix.command(
-      :redix,
-      [
-        "LPUSH",
-        "#{@service_prefix}#{service.type}"
-      ] ++ instances
-    )
+    CubDB.put(CubDB, "#{@service_prefix}#{service.type}", instances)
 
     # Set fallback to one of the available instances,
     # or the default instance if all are "down"
     if Enum.count(instances) > 0 do
-      Redix.command(:redix, [
-        "SET",
-        "#{service.type}#{@fallback_suffix}",
-        Enum.random(instances)
-      ])
+      CubDB.put(CubDB, "#{service.type}#{@fallback_suffix}", Enum.random(instances))
     else
-      Redix.command(:redix, [
-        "SET",
-        "#{service.type}#{@fallback_suffix}",
-        service.fallback
-      ])
+      CubDB.put(CubDB, "#{service.type}#{@fallback_suffix}", service.fallback)
     end
   end
 

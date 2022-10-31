@@ -28,7 +28,7 @@ distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
 
 Farside also integrates smoothly with basic redirector extensions in most
-browsers. For an simple example setup, 
+browsers. For an simple example setup,
 [refer to the wiki](https://github.com/benbusby/farside/wiki/Browser-Extension).
 
 ## Demo
@@ -126,8 +126,6 @@ Farside's routing is very minimal, with only the following routes:
 
 - `/`
   - The app home page, displaying all live instances for every service
-- `/ping`
-  - A passthrough "ping" to redis to ensure both app and redis are working
 - `/:service/*glob`
   - The main endpoint for redirecting a user to a working instance of a
     particular service with the specified path
@@ -147,8 +145,8 @@ Farside's routing is very minimal, with only the following routes:
   - *Note: Uses Javascript to preserve the page in history*
 
 When a service is requested with the `/:service/...` endpoint, Farside requests
-the list of working instances from Redis and returns a random one from the list
-and adds that instance as a new entry in Redis to remove from subsequent
+the list of working instances from the db and returns a random one from the list
+and adds that instance as a new entry in the db to remove from subsequent
 requests for that service. For example:
 
 A user navigates to `/nitter` and is redirected to `nitter.net`. The next user
@@ -178,12 +176,10 @@ that their mission to centralize the entire web behind their service ultimately
 goes against what Farside is trying to solve. Use at your own discretion.
 
 ## Development
-- Install [redis](https://redis.io)
 - Install [elixir](https://elixir-lang.org/install.html)
 - (on Debian systems) Install [erlang-dev](https://packages.debian.org/sid/erlang-dev)
-- Start redis: `redis-server`
 - Install dependencies: `mix deps.get`
-- Initialize redis contents: `mix run -e Farside.Instances.sync`
+- Initialize db contents: `mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
 
@@ -203,8 +199,8 @@ goes against what Farside is trying to solve. Use at your own discretion.
         <td>The port to run Farside on (default: `4001`)</td>
     </tr>
     <tr>
-        <td>FARSIDE_REDIS_PORT</td>
-        <td>The Redis server port to use (default: `6379`, same as the default for Redis)</td>
+        <td>FARSIDE_DATA_DIR</td>
+        <td>The path to the directory to use for storing instance data (default: `/tmp`)</td>
     </tr>
     <tr>
         <td>FARSIDE_SERVICES_JSON</td>
