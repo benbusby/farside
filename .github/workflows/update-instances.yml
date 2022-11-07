@@ -63,7 +63,6 @@ jobs:
             to_entries[] |
             select(.value.network_type == "normal") |
             select(.value.version | . != null) |
-            select(.value.version | startswith("1.0.0")) |
             select(.value.network.asn_privacy == 0) |
             select(.value.http.error == null) |
             select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
