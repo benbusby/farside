@@ -28,14 +28,5 @@ jobs:
         key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
         restore-keys: ${{ runner.os }}-mix-
 
-    - name: Start Redis
-      uses: supercharge/redis-github-action@1.2.0
-
     - name: Install dependencies
       run: mix deps.get
-
-    - name: Initialize services
-      run: FARSIDE_TEST=1 FARSIDE_SERVICES_JSON=services-full.json mix run -e Farside.Instances.sync
-
-    - name: Run tests
-      run: FARSIDE_TEST=1 FARSIDE_SERVICES_JSON=services-full.json mix test --trace
