@@ -84,7 +84,6 @@
     "instances": [
       "https://inv.bp.projectsegfau.lt",
       "https://inv.odyssey346.dev",
-      "https://inv.privacy.com.de",
       "https://inv.riverside.rocks",
       "https://inv.vern.cc",
       "https://invidio.xamh.de",
@@ -94,9 +93,10 @@
       "https://invidious.flokinet.to",
       "https://invidious.namazso.eu",
       "https://invidious.nerdvpn.de",
-      "https://invidious.projectsegfau.lt",
+      "https://invidious.privacydev.net",
       "https://invidious.rhyshl.live",
       "https://invidious.sethforprivacy.com",
+      "https://invidious.silur.me",
       "https://invidious.slipfox.xyz",
       "https://invidious.snopyta.org",
       "https://invidious.tiekoetter.com",
@@ -246,7 +246,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://darmarit.org/searx",
-      "https://de.xcxc.ml",
       "https://dynabyte.ca",
       "https://etsi.me",
       "https://jackgoss.xyz",
@@ -263,7 +262,6 @@
       "https://search.charleseroop.com",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
-      "https://search.kvj.ovh",
       "https://search.mdosch.de",
       "https://search.neet.works",
       "https://search.ononoki.org",
@@ -286,7 +284,6 @@
       "https://searx.fi",
       "https://searx.fmac.xyz",
       "https://searx.mastodontech.de",
-      "https://searx.mha.fi",
       "https://searx.mistli.net",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
@@ -306,7 +303,6 @@
       "https://sh0.it",
       "https://spot.murena.io",
       "https://swag.pw",
-      "https://trydex.tk/searxng",
       "https://xo.wtf"
     ]
   },
@@ -316,7 +312,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://darmarit.org/searx",
-      "https://de.xcxc.ml",
       "https://etsi.me",
       "https://jackgoss.xyz",
       "https://northboot.xyz",
@@ -332,7 +327,6 @@
       "https://search.charleseroop.com",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
-      "https://search.kvj.ovh",
       "https://search.mdosch.de",
       "https://search.neet.works",
       "https://search.ononoki.org",
@@ -352,7 +346,6 @@
       "https://searx.ericaftereric.top",
       "https://searx.fi",
       "https://searx.fmac.xyz",
-      "https://searx.mha.fi",
       "https://searx.mistli.net",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
@@ -366,7 +359,6 @@
       "https://searxng.au",
       "https://sh0.it",
       "https://swag.pw",
-      "https://trydex.tk/searxng",
       "https://xo.wtf"
     ]
   },
