@@ -18,7 +18,7 @@ defmodule Farside.Application do
         ]
       ),
       {PlugAttack.Storage.Ets, name: Farside.Throttle.Storage, clean_period: 60_000},
-      {CubDB, [data_dir: data_dir, name: CubDB]},
+      {CubDB, [data_dir: data_dir, name: CubDB, auto_compact: true]},
       Farside.Scheduler,
       Farside.Server
     ]
