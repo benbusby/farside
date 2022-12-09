@@ -4,15 +4,26 @@
     "test_url": "/r/popular",
     "fallback": "https://libredd.it",
     "instances": [
+      "https://libredd.it",
       "https://libreddit.spike.codes",
+      "https://libreddit.kavin.rocks",
       "https://libreddit.40two.app",
+      "https://reddit.invak.id",
       "https://reddit.phii.me",
+      "https://lr.riverside.rocks",
+      "https://libreddit.silkky.cloud",
+      "https://libreddit.database.red",
+      "https://libreddit.exonip.de",
       "https://libreddit.sugoma.tk",
       "https://libreddit.some-things.org",
       "https://reddit.stuehieyr.com",
+      "https://lr.mint.lgbt",
       "https://libreddit.igna.rocks",
+      "https://libreddit.drivet.xyz",
       "https://libreddit.de",
-      "https://libreddit.bus-hit.me"
+      "https://libreddit.bus-hit.me",
+      "https://leddit.xyz",
+      "https://de.leddit.xyz"
     ]
   },
   {
@@ -20,31 +31,39 @@
     "test_url": "/r/popular",
     "fallback": "https://teddit.net",
     "instances": [
+      "https://i.opnxng.com",
       "https://incogsnoo.com",
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
+      "https://td.vern.cc",
       "https://teddit.adminforge.de",
+      "https://teddit.artemislena.eu",
       "https://teddit.bus-hit.me",
       "https://teddit.froth.zone",
+      "https://teddit.ggc-project.de",
+      "https://teddit.hostux.net",
+      "https://teddit.manasiwibi.com",
+      "https://teddit.namazso.eu",
       "https://teddit.net",
       "https://teddit.pussthecat.org",
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
+      "https://teddit.tokhmi.xyz",
       "https://teddit.totaldarkness.net",
-      "https://teddit.zaggy.nl",
-      "https://teddit.artemislena.eu"
+      "https://teddit.zaggy.nl"
     ]
   },
   {
     "type": "bibliogram",
-    "test_url": "/p/Ch2WRmiLMjj/",
+    "test_url": "/p/Ch2WRmiLMjj",
     "fallback": "https://bibliogram.1d4.us",
     "instances": [
       "https://bibliogram.1d4.us",
       "https://bibliogram.froth.zone",
       "https://bibliogram.priv.pw",
-      "https://ig.beparanoid.de"
+      "https://ig.beparanoid.de",
+      "https://ig.tokhmi.xyz"
     ]
   },
   {
@@ -53,12 +72,18 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.bp.projectsegfau.lt",
+      "https://inv.odyssey346.dev",
+      "https://inv.riverside.rocks",
       "https://inv.vern.cc",
+      "https://invidio.xamh.de",
+      "https://invidious.baczek.me",
+      "https://invidious.dhusch.de",
+      "https://invidious.drivet.xyz",
       "https://invidious.esmailelbob.xyz",
       "https://invidious.flokinet.to",
+      "https://invidious.namazso.eu",
       "https://invidious.nerdvpn.de",
-      "https://invidious.osi.kr",
-      "https://invidious.projectsegfau.lt",
+      "https://invidious.privacydev.net",
       "https://invidious.sethforprivacy.com",
       "https://invidious.slipfox.xyz",
       "https://invidious.snopyta.org",
@@ -67,8 +92,8 @@
       "https://vid.puffyan.us",
       "https://y.com.sb",
       "https://yewtu.be",
-      "https://youtube.076.ne.jp",
-      "https://yt.artemislena.eu"
+      "https://yt.artemislena.eu",
+      "https://yt.funami.tech"
     ]
   },
   {
@@ -76,7 +101,9 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://piped.kavin.rocks",
     "instances": [
-      "https://piped.mint.lgbt"
+      "https://piped.silkky.cloud",
+      "https://watch.whatever.social",
+      "https://watch.whatevertinfoil.de"
     ]
   },
   {
@@ -90,21 +117,30 @@
       "https://nitter.nixnet.services",
       "https://nitter.fdn.fr",
       "https://nitter.1d4.us",
+      "https://nitter.kavin.rocks",
       "https://nitter.vxempire.xyz",
       "https://nitter.unixfox.eu",
       "https://nitter.eu",
+      "https://nitter.namazso.eu",
       "https://nitter.mailstation.de",
       "https://nitter.cattube.org",
+      "https://nitter.hu",
+      "https://nitter.exonip.de",
       "https://twitr.gq",
+      "https://nitter.moomoo.me",
       "https://bird.trom.tf",
-      "https://nitter.it",
+      "https://twitter.censors.us",
       "https://nitter.grimneko.de",
+      "https://nitter.koyu.space",
+      "https://nitter.ir",
       "https://n.0x0.st",
       "https://n.hyperborea.cloud",
       "https://nitter.ca",
       "https://twitter.076.ne.jp",
       "https://nitter.sethforprivacy.com",
       "https://nitter.bus-hit.me",
+      "https://nttr.stream",
+      "https://de.nttr.stream",
       "https://n.l5.ca",
       "https://unofficialbird.com"
     ]
@@ -119,7 +155,9 @@
       "https://scribe.citizen4.eu",
       "https://scribe.bus-hit.me",
       "https://scribe.froth.zone",
-      "https://scribe.esmailelbob.xyz"
+      "https://scribe.esmailelbob.xyz",
+      "https://scribe.privacydev.net",
+      "https://sc.vern.cc"
     ]
   },
   {
@@ -128,16 +166,20 @@
     "fallback": "https://simplytranslate.org",
     "instances": [
       "https://simplytranslate.esmailelbob.xyz",
+      "https://simplytranslate.manerakai.com",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
-      "https://st.manerakai.com",
+      "https://st.odyssey346.dev",
       "https://st.privacydev.net",
+      "https://st.tokhmi.xyz",
       "https://tl.vern.cc",
       "https://translate.beparanoid.de",
       "https://translate.bus-hit.me",
       "https://translate.josias.dev",
+      "https://translate.namazso.eu",
       "https://translate.northboot.xyz",
       "https://translate.priv.pw",
+      "https://translate.riverside.rocks",
       "https://translate.slipfox.xyz",
       "https://translate.tiekoetter.com"
     ]
@@ -158,6 +200,7 @@
     "instances": [
       "https://i.bcow.xyz",
       "https://rimgo.pussthecat.org",
+      "https://img.riverside.rocks",
       "https://rimgo.totaldarkness.net",
       "https://rimgo.bus-hit.me"
     ]
@@ -168,12 +211,14 @@
     "fallback": "https://whoogle.fossho.st",
     "instances": [
       "https://gowogle.voring.me",
+      "https://s.tokhmi.xyz",
+      "https://search.albony.xyz",
       "https://search.sethforprivacy.com",
+      "https://wg.vern.cc",
+      "https://whoogle.dcs0.hu",
       "https://whoogle.esmailelbob.xyz",
-      "https://whoogle.fossho.st",
-      "https://whoogle.lunar.icu",
-      "https://whoogle.privacydev.net",
-      "https://www.whooglesearch.ml"
+      "https://whoogle.hostux.net",
+      "https://whoogle.privacydev.net"
     ]
   },
   {
@@ -181,16 +226,68 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://anon.sx",
+      "https://darmarit.org/searx",
       "https://dynabyte.ca",
+      "https://etsi.me",
+      "https://jackgoss.xyz",
+      "https://northboot.xyz",
+      "https://notsearch.uk",
+      "https://opnxng.com",
+      "https://paulgo.io",
+      "https://priv.au",
+      "https://s.frlt.one",
+      "https://s.trung.fun",
+      "https://s.zhaocloud.net",
+      "https://search.0relay.com",
+      "https://search.bus-hit.me",
+      "https://search.charleseroop.com",
+      "https://search.chemicals-in-the-water.eu",
+      "https://search.gcomm.ch",
+      "https://search.mdosch.de",
       "https://search.neet.works",
+      "https://search.ononoki.org",
+      "https://search.projectsegfau.lt",
+      "https://search.rabbit-company.com",
+      "https://search.rhscz.eu",
+      "https://search.rowie.at",
+      "https://search.sapti.me",
+      "https://search.smnz.de",
+      "https://search.suenram.us",
+      "https://search.unlocked.link",
+      "https://search.us.projectsegfau.lt",
+      "https://search.zzls.xyz",
+      "https://searx.baczek.me",
+      "https://searx.be",
+      "https://searx.becomesovran.com",
+      "https://searx.catfluori.de",
+      "https://searx.chocoflan.net",
+      "https://searx.cthd.icu",
       "https://searx.divided-by-zero.eu",
+      "https://searx.dresden.network",
+      "https://searx.ericaftereric.top",
+      "https://searx.fi",
+      "https://searx.fmac.xyz",
+      "https://searx.mastodontech.de",
+      "https://searx.mha.fi",
+      "https://searx.mistli.net",
+      "https://searx.namejeff.xyz",
+      "https://searx.oakleycord.dev",
+      "https://searx.priv.pw",
+      "https://searx.prvcy.eu",
+      "https://searx.rasp.fr",
       "https://searx.ru",
+      "https://searx.sev.monster",
+      "https://searx.slipfox.xyz/searx",
       "https://searx.sp-codes.de",
       "https://searx.stuehieyr.com",
-      "https://searx.tyil.nl",
+      "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searx.webheberg.info",
-      "https://searx.xyz"
+      "https://searxng.au",
+      "https://sh0.it",
+      "https://spot.murena.io",
+      "https://swag.pw",
+      "https://xo.wtf"
     ]
   },
   {
@@ -199,39 +296,58 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://darmarit.org/searx",
-      "https://de.xcxc.ml",
+      "https://etsi.me",
       "https://jackgoss.xyz",
+      "https://northboot.xyz",
+      "https://notsearch.uk",
+      "https://opnxng.com",
+      "https://paulgo.io",
       "https://priv.au",
+      "https://s.frlt.one",
+      "https://s.trung.fun",
       "https://s.zhaocloud.net",
-      "https://saber.tk",
       "https://search.0relay.com",
-      "https://search.ashs.club",
       "https://search.bus-hit.me",
+      "https://search.charleseroop.com",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
       "https://search.mdosch.de",
       "https://search.neet.works",
       "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
+      "https://search.rabbit-company.com",
+      "https://search.rhscz.eu",
+      "https://search.rowie.at",
       "https://search.sapti.me",
+      "https://search.smnz.de",
+      "https://search.suenram.us",
+      "https://search.unlocked.link",
+      "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
+      "https://searx.baczek.me",
       "https://searx.be",
       "https://searx.becomesovran.com",
+      "https://searx.catfluori.de",
       "https://searx.chocoflan.net",
-      "https://searx.ebnar.xyz",
+      "https://searx.cthd.icu",
       "https://searx.ericaftereric.top",
+      "https://searx.fi",
       "https://searx.fmac.xyz",
       "https://searx.mha.fi",
       "https://searx.mistli.net",
+      "https://searx.namejeff.xyz",
+      "https://searx.oakleycord.dev",
       "https://searx.priv.pw",
       "https://searx.prvcy.eu",
+      "https://searx.rasp.fr",
       "https://searx.sev.monster",
       "https://searx.slipfox.xyz/searx",
       "https://searx.tiekoetter.com",
-      "https://searxng.tordenskjold.de",
-      "https://serx.ml",
+      "https://searx.tuxcloud.net",
+      "https://searxng.au",
+      "https://sh0.it",
       "https://swag.pw",
-      "https://xcxc.ml"
+      "https://xo.wtf"
     ]
   },
   {
@@ -239,14 +355,17 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
+      "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
       "https://wiki.slipfox.xyz",
       "https://wikiless.esmailelbob.xyz",
+      "https://wikiless.funami.tech",
       "https://wikiless.lunar.icu",
       "https://wikiless.northboot.xyz",
       "https://wikiless.org",
       "https://wikiless.sethforprivacy.com",
-      "https://wikiless.tiekoetter.com"
+      "https://wikiless.tiekoetter.com",
+      "https://wl.vern.cc"
     ]
   },
   {
@@ -278,7 +397,9 @@
     "fallback": "https://librex.beparanoid.de",
     "instances": [
       "https://librex.beparanoid.de",
-      "https://search.davidovski.xyz"
+      "https://search.davidovski.xyz",
+      "https://search.funami.tech",
+      "https://librex.catalyst.sx"
     ]
   },
   {
@@ -291,6 +412,7 @@
       "https://quetre.pussthecat.org",
       "https://wuetre.herokuapp.com",
       "https://quetreus.herokuapp.com",
+      "https://quetre.tokhmi.xyz",
       "https://quetre.projectsegfau.lt",
       "https://quetre.esmailelbob.xyz"
     ]
@@ -303,6 +425,7 @@
       "https://libremdb.herokuapp.com",
       "https://libremdb.pussthecat.org",
       "https://libremdbeu.herokuapp.com",
+      "https://lmdb.tokhmi.xyz",
       "https://libremdb.esmailelbob.xyz"
     ]
   }
