@@ -2,7 +2,7 @@
   {
     "type": "libreddit",
     "test_url": "/r/popular",
-    "fallback": "https://libredd.it",
+    "fallback": "https://libreddit.spike.codes",
     "instances": [
       "https://libreddit.albony.xyz",
       "https://libredd.it",
