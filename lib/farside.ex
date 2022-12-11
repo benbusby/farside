@@ -91,7 +91,7 @@ defmodule Farside do
     # Either pick a random available instance,
     # or fall back to the default one
     instance =
-      if Enum.count(instances) > 0 do
+      if instances != nil && Enum.count(instances) > 0 do
         if Enum.count(instances) == 1 do
           # If there's only one instance, just return that one...
           List.first(instances)

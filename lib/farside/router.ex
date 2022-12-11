@@ -18,7 +18,7 @@ defmodule Farside.Router do
     end
   end
 
-  get "/" do
+  match "/" do
     resp =
       EEx.eval_file(
         @index,
@@ -29,7 +29,7 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
-  get "/_/:service/*glob" do
+  match "/_/:service/*glob" do
     r_path = String.slice(conn.request_path, 2..-1)
 
     resp =
@@ -41,7 +41,7 @@ defmodule Farside.Router do
     send_resp(conn, 200, resp)
   end
 
-  get "/:service/*glob" do
+  match "/:service/*glob" do
     service_name = cond do
       service =~ "http" ->
         List.first(glob)
