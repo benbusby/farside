@@ -190,6 +190,21 @@ jobs:
         #apply_update
 
         # ==============================================================
+        # libreddit update
+        # ==============================================================
+        curl -s https://raw.githubusercontent.com/libreddit/libreddit-instances/master/instances.json | \
+          jq '[
+            .instances[] |
+            select(.url) |
+            .url ] |
+            sort' > libreddit-tmp.json
+        jq --slurpfile libreddit libreddit-tmp.json \
+          '( .[] | select(.type == "libreddit") )
+          .instances |= $libreddit[0]' services-full.json > services-tmp.json
+
+        apply_update
+
+        # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
 
