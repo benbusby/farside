@@ -14,7 +14,7 @@ while read -r line; do
         for ip in $ips
         do
             echo "    - $ip"
-            resp=$(curl -s "$ip")
+            resp=$(curl --connect-timeout 5 --max-time 5 -s "$ip")
 
             # Cloudflare does not allow accessing sites using their IP,
             # and returns a 1003 error code when attempting to do so. This
@@ -36,7 +36,7 @@ while read -r line; do
 done <$file
 
 # Remove any trailing commas from new instance lists
-#sed -i -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
+sed -i -e ':begin' -e '$!N' -e 's/,\n]/\n]/g' -e 'tbegin' -e 'P' -e 'D' out.json
 
-#cat out.json | jq --indent 2 . > services.json
-#rm -f out.json
+cat out.json | jq --indent 2 . > services.json
+rm -f out.json
