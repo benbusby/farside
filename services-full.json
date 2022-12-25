@@ -283,6 +283,7 @@
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://etsi.me",
+      "https://gsch.eu",
       "https://jackgoss.xyz",
       "https://northboot.xyz",
       "https://notsearch.uk",
@@ -352,7 +353,9 @@
     "instances": [
       "https://baresearch.org",
       "https://darmarit.org/searx",
+      "https://dynabyte.ca",
       "https://etsi.me",
+      "https://gsch.eu",
       "https://jackgoss.xyz",
       "https://northboot.xyz",
       "https://notsearch.uk",
