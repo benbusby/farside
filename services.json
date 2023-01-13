@@ -9,7 +9,6 @@
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.dcs0.hu",
-      "https://libreddit.de",
       "https://libreddit.drivet.xyz",
       "https://libreddit.esmailelbob.xyz",
       "https://libreddit.foss.wtf",
@@ -45,7 +44,8 @@
       "https://reddit.simo.sh",
       "https://reddit.smnz.de",
       "https://reddit.stuehieyr.com",
-      "https://reddit.utsav2.dev"
+      "https://reddit.utsav2.dev",
+      "https://safereddit.com"
     ]
   },
   {
@@ -245,6 +245,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://etsi.me",
@@ -316,6 +317,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://etsi.me",
