@@ -461,16 +461,22 @@
   {
     "type": "quetre",
     "test_url": "/How-does-the-Z-boson-decay",
-    "fallback": "https://quetre.herokuapp.com",
+    "fallback": "https://quetre.iket.me",
     "instances": [
-      "https://quetre.herokuapp.com",
+      "https://quetre.iket.me",
       "https://quora.vern.cc",
       "https://quetre.pussthecat.org",
-      "https://wuetre.herokuapp.com",
-      "https://quetreus.herokuapp.com",
       "https://quetre.tokhmi.xyz",
       "https://quetre.projectsegfau.lt",
-      "https://quetre.esmailelbob.xyz"
+      "https://quetre.esmailelbob.xyz",
+      "https://quetre.odyssey346.dev",
+      "https://quetre.privacydev.net",
+      "https://ask.habedieeh.re",
+      "https://quetre.marcopisco.com",
+      "https://quetre.blackdrgn.nl",
+      "https://quetre.pufe.org",
+      "https://quetre.lunar.icu",
+      "https://que.wilbvr.me"
     ]
   },
   {
