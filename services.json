@@ -45,7 +45,8 @@
       "https://reddit.smnz.de",
       "https://reddit.stuehieyr.com",
       "https://reddit.utsav2.dev",
-      "https://safereddit.com"
+      "https://safereddit.com",
+      "https://www.futureddit.gq"
     ]
   },
   {
@@ -429,16 +430,20 @@
   {
     "type": "quetre",
     "test_url": "/How-does-the-Z-boson-decay",
-    "fallback": "https://quetre.herokuapp.com",
+    "fallback": "https://quetre.iket.me",
     "instances": [
-      "https://quetre.herokuapp.com",
+      "https://quetre.iket.me",
       "https://quora.vern.cc",
       "https://quetre.pussthecat.org",
-      "https://wuetre.herokuapp.com",
-      "https://quetreus.herokuapp.com",
       "https://quetre.tokhmi.xyz",
       "https://quetre.projectsegfau.lt",
-      "https://quetre.esmailelbob.xyz"
+      "https://quetre.esmailelbob.xyz",
+      "https://quetre.odyssey346.dev",
+      "https://quetre.privacydev.net",
+      "https://ask.habedieeh.re",
+      "https://quetre.blackdrgn.nl",
+      "https://quetre.pufe.org",
+      "https://que.wilbvr.me"
     ]
   },
   {
