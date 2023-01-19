@@ -86,7 +86,7 @@
       "https://bibliogram.1d4.us",
       "https://bibliogram.froth.zone",
       "https://bibliogram.priv.pw",
-      "https://ig.beparanoid.de",
+      "https://ig.femboy.hu",
       "https://ig.tokhmi.xyz"
     ]
   },
@@ -414,9 +414,9 @@
   {
     "type": "librex",
     "test_url": "/search.php?q=<%=query%>",
-    "fallback": "https://librex.beparanoid.de",
+    "fallback": "https://search.femboy.hu",
     "instances": [
-      "https://librex.beparanoid.de",
+      "https://search.femboy.hu",
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
       "https://librex.catalyst.sx"
