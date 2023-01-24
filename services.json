@@ -128,11 +128,21 @@
   {
     "type": "piped",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
-    "fallback": "https://piped.kavin.rocks",
+    "fallback": "https://piped.video",
     "instances": [
-      "https://piped.silkky.cloud",
       "https://watch.whatever.social",
-      "https://watch.whatevertinfoil.de"
+      "https://yt.jae.fi",
+      "https://il.ax",
+      "https://piped.esmailelbob.xyz",
+      "https://piped.projectsegfau.lt",
+      "https://piped.privacydev.net",
+      "https://piped.palveluntarjoaja.eu",
+      "https://piped.smnz.de",
+      "https://piped.adminforge.de",
+      "https://piped.qdi.fi",
+      "https://piped.hostux.net",
+      "https://pd.vern.cc",
+      "https://piped.chauvet.pro"
     ]
   },
   {
