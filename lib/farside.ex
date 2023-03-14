@@ -18,7 +18,7 @@ defmodule Farside do
   @tiktok_regex ~r/tiktok.com|proxitok/
   @imdb_regex ~r/imdb.com|libremdb/
   @quora_regex ~r/quora.com|quetre/
-  @google_regex ~r/google.com|whoogle/
+  @gsearch_regex ~r/google.com\/search|whoogle/
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
@@ -33,7 +33,7 @@ defmodule Farside do
     @tiktok_regex => ["proxitok"],
     @imdb_regex => ["libremdb"],
     @quora_regex => ["quetre"],
-    @google_regex => ["whoogle"]
+    @gsearch_regex => ["whoogle"]
   }
 
   def get_services_map do
