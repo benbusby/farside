@@ -18,6 +18,7 @@
       "https://libreddit.foss.wtf",
       "https://libreddit.freedit.eu",
       "https://libreddit.garudalinux.org",
+      "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
       "https://libreddit.kylrth.com",
@@ -31,7 +32,6 @@
       "https://libreddit.projectsegfau.lt",
       "https://libreddit.pufe.org",
       "https://libreddit.pussthecat.org",
-      "https://libreddit.spike.codes",
       "https://libreddit.strongthany.cc",
       "https://libreddit.tiekoetter.com",
       "https://libreddit.totaldarkness.net",
@@ -60,6 +60,7 @@
       "https://reddit.simo.sh",
       "https://reddit.smnz.de",
       "https://reddit.thekitty.zone",
+      "https://reddit.utsav2.dev",
       "https://safereddit.com",
       "https://snoo.habedieeh.re"
     ]
@@ -128,6 +129,7 @@
       "https://invidious.lunar.icu",
       "https://invidious.nerdvpn.de",
       "https://invidious.privacydev.net",
+      "https://invidious.projectsegfau.lt",
       "https://invidious.sethforprivacy.com",
       "https://invidious.slipfox.xyz",
       "https://invidious.snopyta.org",
@@ -289,7 +291,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://freesearch.club",
@@ -358,7 +359,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://freesearch.club",
