@@ -291,6 +291,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://freesearch.club",
@@ -359,6 +360,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://dynabyte.ca",
       "https://freesearch.club",
