@@ -18,6 +18,17 @@
 
 </div>
 
+Contents
+1. [About](#about)
+2. [Demo](#demo)
+3. [How It Works](#how-it-works)
+4. [Cloudflare](#regarding-cloudflare)
+5. [Development](#development)
+    1. [Compiling](#compiling)
+    1. [Environment Variables](#environment-variables)
+
+## About
+
 A redirecting service for FOSS alternative frontends.
 
 [Farside](https://farside.link) provides links that automatically redirect to
@@ -178,10 +189,28 @@ goes against what Farside is trying to solve. Use at your own discretion.
 ## Development
 - Install [elixir](https://elixir-lang.org/install.html)
 - (on Debian systems) Install [erlang-dev](https://packages.debian.org/sid/erlang-dev)
+
+To run Farside without compiling, you can perform the following steps:
+
 - Install dependencies: `mix deps.get`
 - Initialize db contents: `mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
+
+### Compiling
+
+You can create a standalone Farside app using the steps below. In the example, the
+Farside executable is copied to `/usr/local/bin`, but can be moved to any preferred
+destination. Note that the executable still depends on the C runtime of the machine
+it is built on, so if you want a more portable binary, you should build Farside on a
+system with older library versions.
+
+```
+MIX_ENV=cli && mix deps.get && mix release
+cp _build/cli/rel/bakeware/farside /usr/local/bin
+sudo chmod +x /usr/local/bin/farside
+farside
+```
 
 ### Environment Variables
 
