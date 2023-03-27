@@ -17,6 +17,7 @@
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
       "https://libreddit.kylrth.com",
+      "https://libreddit.lunar.icu",
       "https://libreddit.mha.fi",
       "https://libreddit.nl",
       "https://libreddit.northboot.xyz",
@@ -64,6 +65,7 @@
       "https://reddit.lol",
       "https://snoo.ioens.is",
       "https://td.vern.cc",
+      "https://tedd.it",
       "https://teddit.adminforge.de",
       "https://teddit.artemislena.eu",
       "https://teddit.bus-hit.me",
@@ -130,6 +132,7 @@
     "fallback": "https://piped.video",
     "instances": [
       "https://watch.whatever.social",
+      "https://piped.lunar.icu",
       "https://yt.jae.fi",
       "https://il.ax",
       "https://piped.esmailelbob.xyz",
@@ -239,6 +242,7 @@
       "https://whoogle.dcs0.hu",
       "https://whoogle.esmailelbob.xyz",
       "https://whoogle.hostux.net",
+      "https://whoogle.lunar.icu",
       "https://whoogle.privacydev.net"
     ]
   },
@@ -421,8 +425,27 @@
     "fallback": "https://search.femboy.hu",
     "instances": [
       "https://search.femboy.hu",
+      "https://lx.vern.cc",
+      "https://search.sesu.cc",
+      "https://librex.zzls.xyz",
+      "https://librex.revvy.de",
+      "https://librex.mikata.ru",
+      "https://search.milivojevic.in.rs",
+      "https://search.ahwx.org",
       "https://search.davidovski.xyz",
-      "https://search.funami.tech"
+      "https://search.madreyk.xyz",
+      "https://search.pabloferreiro.es",
+      "https://buscar.weblibre.org",
+      "https://librex.pufe.org",
+      "https://librex.ratakor.com",
+      "https://search.tildevarsh.in",
+      "https://librex.myroware.eu",
+      "https://lx.drain.win",
+      "https://librex.bloatcat.tk",
+      "https://librex.retro-hax.net",
+      "https://search.funami.tech",
+      "https://search.zeroish.xyz",
+      "https://librex.baczek.me"
     ]
   },
   {
@@ -441,6 +464,7 @@
       "https://ask.habedieeh.re",
       "https://quetre.blackdrgn.nl",
       "https://quetre.pufe.org",
+      "https://quetre.lunar.icu",
       "https://que.wilbvr.me"
     ]
   },
