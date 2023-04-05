@@ -472,5 +472,18 @@
       "https://lmdb.tokhmi.xyz",
       "https://libremdb.esmailelbob.xyz"
     ]
+  },
+  {
+    "type": "dumb",
+    "test_url": "/Naughty-boy-la-la-la-lyrics",
+    "fallback": "https://dumb.privacydev.net",
+    "instances": [
+      "https://dumb.privacydev.net",
+      "https://dm.vern.cc",
+      "https://sing.whatever.social",
+      "https://dumb.nunosempere.com",
+      "https://dumb.lunar.icu",
+      "https://dumb.esmailelbob.xyz"
+    ]
   }
 ]
