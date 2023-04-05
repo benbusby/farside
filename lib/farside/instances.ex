@@ -7,6 +7,10 @@ defmodule Farside.Instances do
   @debug_header "======== "
   @debug_spacer "         "
 
+  # SearXNG instance uptimes are inspected as part of the nightly Farside build,
+  # and should not be included in the constant periodic update.
+  @skip_service_updates ["searxng"]
+
   def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
     update()
@@ -51,19 +55,23 @@ defmodule Farside.Instances do
 
       IO.puts("#{@debug_header}#{service.type}")
 
-      result =
-        Enum.filter(service.instances, fn instance_url ->
-          request_url =
-            instance_url <>
-              EEx.eval_string(
-                service.test_url,
-                query: Enum.random(@queries)
-              )
+      result = cond do
+        Enum.member?(@skip_service_updates, service.type) ->
+          service.instances
+        true ->
+          Enum.filter(service.instances, fn instance_url ->
+            request_url =
+              instance_url <>
+                EEx.eval_string(
+                  service.test_url,
+                  query: Enum.random(@queries)
+                )
 
-          IO.puts("#{@debug_spacer}#{request_url}")
+            IO.puts("#{@debug_spacer}#{request_url}")
 
-          request(request_url) == :good
-        end)
+            request(request_url) == :good
+          end)
+      end
 
       add_to_db(service, result)
       log_results(service.type, result)

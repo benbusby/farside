@@ -93,6 +93,7 @@ jobs:
             select(.value.version | . != null) |
             select(.value.network.asn_privacy == 0) |
             select(.value.http.error == null) |
+            select(.value.uptime.uptimeDay >= 99) |
             select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
             select(.value.http.grade == "A+" or .value.http.grade == "A") |
             select(.value.html.grade == "V" or .value.html.grade == "F") |
