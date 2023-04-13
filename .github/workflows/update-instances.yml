@@ -112,15 +112,18 @@ jobs:
         # ==============================================================
         # SimplyTranslate update
         # ==============================================================
-        curl -s https://simple-web.org/instances/simplytranslate > st-out
-        sed -i -e 's/^/https:\/\//' st-out
-        jq -ncR '[inputs]' <<< "$(cat st-out | sort)" > st-tmp.json
+        # TODO: simple-web.org seems to have been down for >1 week (13 Apr 2023)
+        # This needs to be reevaluated later to see if this is a permanent
+        # issue.
+        #curl -s https://simple-web.org/instances/simplytranslate > st-out
+        #sed -i -e 's/^/https:\/\//' st-out
+        #jq -ncR '[inputs]' <<< "$(cat st-out | sort)" > st-tmp.json
 
-        jq --slurpfile simplytranslate st-tmp.json \
-          '( .[] | select(.type == "simplytranslate") )
-          .instances |= $simplytranslate[0]' services-full.json > services-tmp.json
+        #jq --slurpfile simplytranslate st-tmp.json \
+          #'( .[] | select(.type == "simplytranslate") )
+          #.instances |= $simplytranslate[0]' services-full.json > services-tmp.json
 
-        apply_update
+        #apply_update
 
         # ==============================================================
         # Whoogle update
