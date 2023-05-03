@@ -319,6 +319,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
@@ -327,6 +328,7 @@
       "https://paulgo.io",
       "https://priv.au",
       "https://s.frlt.one",
+      "https://s.trung.fun",
       "https://s.zhaocloud.net",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
