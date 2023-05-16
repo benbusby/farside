@@ -408,11 +408,21 @@
   {
     "type": "proxitok",
     "test_url": "/discover",
-    "fallback": "https://proxitok.herokuapp.com",
+    "fallback": "https://proxitok.pabloferreiro.es",
     "instances": [
-      "https://proxitok.herokuapp.com",
+      "https://proxitok.pabloferreiro.es",
       "https://proxitok.pussthecat.org",
-      "https://proxitok.privacydev.net"
+      "https://proxitok.privacydev.net",
+      "https://tok.habedieeh.re",
+      "https://proxitok.esmailelbob.xyz",
+      "https://tok.artemislena.eu",
+      "https://tok.adminforge.de",
+      "https://tik.hostux.net",
+      "https://tt.vern.cc",
+      "https://cringe.whatever.social",
+      "https://proxitok.lunar.icu",
+      "https://proxitok.privacy.com.de",
+      "https://tiktok.chauvet.pro"
     ]
   },
   {
