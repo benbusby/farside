@@ -225,6 +225,7 @@
     "fallback": "https://simplytranslate.org",
     "instances": [
       "https://simplytranslate.esmailelbob.xyz",
+      "https://simplytranslate.leemoon.network",
       "https://simplytranslate.manerakai.com",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
@@ -350,7 +351,8 @@
       "https://searx.work",
       "https://searxng.au",
       "https://searxng.nicfab.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
@@ -373,6 +375,7 @@
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
+      "https://search.houba.rocks",
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
@@ -452,16 +455,16 @@
       "https://proxitok.pabloferreiro.es",
       "https://proxitok.pussthecat.org",
       "https://proxitok.privacydev.net",
-	  "https://tok.habedieeh.re",
-	  "https://proxitok.esmailelbob.xyz",
-	  "https://tok.artemislena.eu",
-	  "https://tok.adminforge.de",
-	  "https://tik.hostux.net",
-	  "https://tt.vern.cc",
-	  "https://cringe.whatever.social",
-	  "https://proxitok.lunar.icu",
-	  "https://proxitok.privacy.com.de",
-	  "https://tiktok.chauvet.pro"
+      "https://tok.habedieeh.re",
+      "https://proxitok.esmailelbob.xyz",
+      "https://tok.artemislena.eu",
+      "https://tok.adminforge.de",
+      "https://tik.hostux.net",
+      "https://tt.vern.cc",
+      "https://cringe.whatever.social",
+      "https://proxitok.lunar.icu",
+      "https://proxitok.privacy.com.de",
+      "https://tiktok.chauvet.pro"
     ]
   },
   {

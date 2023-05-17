@@ -196,6 +196,7 @@
     "fallback": "https://simplytranslate.org",
     "instances": [
       "https://simplytranslate.esmailelbob.xyz",
+      "https://simplytranslate.leemoon.network",
       "https://simplytranslate.manerakai.com",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
@@ -314,7 +315,8 @@
       "https://searx.work",
       "https://searxng.au",
       "https://searxng.nicfab.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
@@ -337,6 +339,7 @@
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
+      "https://search.houba.rocks",
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
