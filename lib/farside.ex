@@ -1,7 +1,7 @@
 defmodule Farside do
-  @service_prefix Application.fetch_env!(:farside, :service_prefix)
-  @fallback_suffix Application.fetch_env!(:farside, :fallback_suffix)
-  @previous_suffix Application.fetch_env!(:farside, :previous_suffix)
+  @service_prefix Application.compile_env!(:farside, :service_prefix)
+  @fallback_suffix Application.compile_env!(:farside, :fallback_suffix)
+  @previous_suffix Application.compile_env!(:farside, :previous_suffix)
 
   # Define relation between available services and their parent service.
   # This enables Farside to redirect with links such as:
@@ -19,6 +19,7 @@ defmodule Farside do
   @imdb_regex ~r/imdb.com|libremdb/
   @quora_regex ~r/quora.com|quetre/
   @gsearch_regex ~r/google.com\/search|whoogle/
+  @fandom_regex ~r/fandom.com|breezewiki/
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
@@ -33,7 +34,8 @@ defmodule Farside do
     @tiktok_regex => ["proxitok"],
     @imdb_regex => ["libremdb"],
     @quora_regex => ["quetre"],
-    @gsearch_regex => ["whoogle"]
+    @gsearch_regex => ["whoogle"],
+    @fandom_regex => ["breezewiki"]
   }
 
   def get_services_map do
@@ -124,6 +126,15 @@ defmodule Farside do
            !String.starts_with?(path, "p/") and
            !String.starts_with?(path, "u/") do
           "#{instance}/u"
+        else
+          instance
+        end
+      String.match?(service, @fandom_regex) ->
+        # Fandom links require the subdomain to be preserved, otherwise the
+        # requested path won't work.
+        if String.contains?(service, ".fandom.com") do
+          wiki = String.replace(service, ".fandom.com", "")
+          "#{instance}/#{wiki}"
         else
           instance
         end

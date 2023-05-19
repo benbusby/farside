@@ -544,5 +544,20 @@
       "https://dumb.lunar.icu",
       "https://dumb.esmailelbob.xyz"
     ]
+  },
+  {
+    "type": "breezewiki",
+    "test_url": "/undertale/wiki/Hot_Dog...%3F",
+    "fallback": "https://breezewiki.com",
+    "instances": [
+      "https://breezewiki.com",
+      "https://antifandom.com",
+      "https://breezewiki.pussthecat.org",
+      "https://bw.projectsegfau.lt",
+      "https://breeze.hostux.net",
+      "https://bw.artemislena.eu",
+      "https://breeze.777.tf",
+      "https://breezewiki.esmailelbob.xyz"
+    ]
   }
 ]
