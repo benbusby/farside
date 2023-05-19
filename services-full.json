@@ -297,7 +297,6 @@
     "instances": [
       "https://baresearch.org",
       "https://coppedge.info",
-      "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
@@ -325,7 +324,6 @@
       "https://search.serginho.dev",
       "https://search.smnz.de",
       "https://search.us.projectsegfau.lt",
-      "https://search.zzls.xyz",
       "https://searx.baczek.me",
       "https://searx.be",
       "https://searx.catfluori.de",
@@ -362,7 +360,6 @@
     "instances": [
       "https://baresearch.org",
       "https://coppedge.info",
-      "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
@@ -380,6 +377,7 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.modalogi.com",
+      "https://search.neet.works",
       "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rabbit-company.com",
@@ -389,7 +387,6 @@
       "https://search.serginho.dev",
       "https://search.smnz.de",
       "https://search.us.projectsegfau.lt",
-      "https://search.zzls.xyz",
       "https://searx.baczek.me",
       "https://searx.be",
       "https://searx.catfluori.de",
@@ -402,13 +399,15 @@
       "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
+      "https://searx.prvcy.eu",
       "https://searx.si",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.au",
       "https://searxng.nicfab.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
@@ -526,7 +525,7 @@
       "https://libremdb.iket.me",
       "https://ld.vern.cc",
       "https://binge.whatever.social",
-	  "https://binge.whateveritworks.social",
+      "https://binge.whateveritworks.social",
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
       "https://libremdb.nerdyfam.tech",
