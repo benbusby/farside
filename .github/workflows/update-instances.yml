@@ -209,7 +209,7 @@ jobs:
         # BreezeWiki update
         # ==============================================================
         curl -s https://docs.breezewiki.com/files/instances.json | \
-          jq '[.[] | .instance]' > bw-tmp.json
+          jq '[.[] | .instance]' > breezewiki-tmp.json
         jq --slurpfile breezewiki breezewiki-tmp.json \
           '(.[] | select(.type == "breezewiki") )
           .instances |= $breezewiki[0]' services-full.json > services-tmp.json
