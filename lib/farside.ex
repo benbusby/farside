@@ -20,6 +20,7 @@ defmodule Farside do
   @quora_regex ~r/quora.com|quetre/
   @gsearch_regex ~r/google.com\/search|whoogle/
   @fandom_regex ~r/fandom.com|breezewiki/
+  @stackoverflow_regex ~r/stackoverflow.com|anonymousoverflow/
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
@@ -35,7 +36,8 @@ defmodule Farside do
     @imdb_regex => ["libremdb"],
     @quora_regex => ["quetre"],
     @gsearch_regex => ["whoogle"],
-    @fandom_regex => ["breezewiki"]
+    @fandom_regex => ["breezewiki"],
+    @stackoverflow_regex => ["anonymousoverflow"]
   }
 
   def get_services_map do
