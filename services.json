@@ -219,7 +219,9 @@
     "fallback": "https://lingva.ml",
     "instances": [
       "https://lingva.ml",
-      "https://translate.igna.rocks"
+      "https://translate.plausibility.cloud",
+      "https://lingva.lunar.icu",
+      "https://translate.sapti.me"
     ]
   },
   {
@@ -344,20 +346,19 @@
       "https://search.modalogi.com",
       "https://search.neet.works",
       "https://search.ononoki.org",
-      "https://search.projectsegfau.lt",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.serginho.dev",
       "https://search.us.projectsegfau.lt",
+      "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
-      "https://searx.kutay.dev",
       "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
