@@ -81,6 +81,7 @@
       "https://teddit.tinfoil-hat.net",
       "https://teddit.tokhmi.xyz",
       "https://teddit.totaldarkness.net",
+      "https://teddit.xbdm.fun",
       "https://teddit.zaggy.nl"
     ]
   },
@@ -262,18 +263,20 @@
     "instances": [
       "https://baresearch.org",
       "https://coppedge.info",
+      "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.frlt.one",
-      "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
       "https://search.in.projectsegfau.lt",
       "https://search.inetol.net",
+      "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.modalogi.com",
@@ -322,18 +325,19 @@
     "instances": [
       "https://baresearch.org",
       "https://coppedge.info",
+      "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.frlt.one",
-      "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
       "https://search.gcomm.ch",
-      "https://search.in.projectsegfau.lt",
       "https://search.inetol.net",
+      "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.modalogi.com",
@@ -347,19 +351,20 @@
       "https://search.serginho.dev",
       "https://search.smnz.de",
       "https://search.us.projectsegfau.lt",
-      "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
+      "https://searx.kutay.dev",
       "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
       "https://searx.prvcy.eu",
       "https://searx.si",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.au",
       "https://searxng.nicfab.eu",
@@ -503,9 +508,11 @@
       "https://breezewiki.com",
       "https://antifandom.com",
       "https://breezewiki.pussthecat.org",
+      "https://bw.hamstro.dev",
       "https://bw.projectsegfau.lt",
       "https://breeze.hostux.net",
-      "https://bw.artemislena.eu"
+      "https://bw.artemislena.eu",
+      "https://nerd.whatever.social"
     ]
   },
   {
@@ -522,7 +529,8 @@
       "https://overflow.adminforge.de",
       "https://ao.foss.wtf",
       "https://overflow.hostux.net",
-      "https://overflow.projectsegfau.lt"
+      "https://overflow.projectsegfau.lt",
+      "https://code.xbdm.fun"
     ]
   }
 ]
