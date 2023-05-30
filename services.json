@@ -220,6 +220,7 @@
       "https://lingva.ml",
       "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
+      "https://translate.whateveritworks.org",
       "https://translate.sapti.me"
     ]
   },
@@ -230,9 +231,17 @@
     "instances": [
       "https://i.bcow.xyz",
       "https://rimgo.pussthecat.org",
-      "https://img.riverside.rocks",
       "https://rimgo.totaldarkness.net",
-      "https://rimgo.bus-hit.me"
+      "https://rimgo.bus-hit.me",
+      "https://imgur.artemislena.eu",
+      "https://rimgo.vern.cc",
+      "https://rim.odyssey346.dev",
+      "https://i.habedieeh.re",
+      "https://rimgo.hostux.net",
+      "https://ri.zzls.xyz",
+      "https://rimgo.lunar.icu",
+      "https://rimgo.kling.gg",
+      "https://rimgo.projectsegfau.lt"
     ]
   },
   {
@@ -269,10 +278,8 @@
       "https://paulgo.io",
       "https://priv.au",
       "https://s.frlt.one",
-      "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
-      "https://search.gcomm.ch",
       "https://search.in.projectsegfau.lt",
       "https://search.inetol.net",
       "https://search.laksith.dev",
@@ -288,7 +295,6 @@
       "https://search.sapti.me",
       "https://search.serginho.dev",
       "https://search.smnz.de",
-      "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.catfluori.de",
@@ -307,6 +313,7 @@
       "https://searx.ru",
       "https://searx.si",
       "https://searx.sp-codes.de",
+      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.webheberg.info",
       "https://searx.work",
@@ -325,16 +332,14 @@
       "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://myprivatesrx.us",
+      "https://northboot.xyz",
       "https://notsearch.uk",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.frlt.one",
-      "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
-      "https://search.gcomm.ch",
-      "https://search.in.projectsegfau.lt",
       "https://search.inetol.net",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
@@ -349,10 +354,10 @@
       "https://search.sapti.me",
       "https://search.serginho.dev",
       "https://search.smnz.de",
-      "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
       "https://searx.be",
       "https://searx.catfluori.de",
+      "https://searx.cthd.icu",
       "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
@@ -528,8 +533,7 @@
       "https://overflow.adminforge.de",
       "https://ao.foss.wtf",
       "https://overflow.hostux.net",
-      "https://overflow.projectsegfau.lt",
-      "https://code.xbdm.fun"
+      "https://overflow.projectsegfau.lt"
     ]
   }
 ]
