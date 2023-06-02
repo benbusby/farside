@@ -4,21 +4,16 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
+      "https://bob.fr.to",
       "https://discuss.whatever.social",
       "https://l.opnxng.com",
-      "https://libreddit.albr.to",
-      "https://libreddit.billbert.co",
       "https://libreddit.bus-hit.me",
       "https://libreddit.cachyos.org",
       "https://libreddit.dcs0.hu",
       "https://libreddit.de",
       "https://libreddit.domain.glass",
-      "https://libreddit.esmailelbob.xyz",
-      "https://libreddit.eu.org",
-      "https://libreddit.foss.wtf",
       "https://libreddit.freedit.eu",
       "https://libreddit.garudalinux.org",
-      "https://libreddit.gq",
       "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
@@ -50,7 +45,6 @@
       "https://r.darklab.sh",
       "https://r.nf",
       "https://r.walkx.fyi",
-      "https://rd.777.tf",
       "https://rd.funami.tech",
       "https://reddi.tk",
       "https://reddit.baby",
@@ -61,7 +55,7 @@
       "https://reddit.rtrace.io",
       "https://reddit.simo.sh",
       "https://reddit.smnz.de",
-      "https://reddit.thekitty.zone",
+      "https://reddit.utsav2.dev",
       "https://safereddit.com",
       "https://snoo.habedieeh.re"
     ]
@@ -128,6 +122,7 @@
       "https://invidious.flokinet.to",
       "https://invidious.kavin.rocks",
       "https://invidious.lunar.icu",
+      "https://invidious.nerdvpn.de",
       "https://invidious.nogafa.org",
       "https://invidious.privacydev.net",
       "https://invidious.projectsegfau.lt",
@@ -364,7 +359,8 @@
       "https://searx.work",
       "https://searxng.au",
       "https://searxng.nicfab.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
@@ -385,6 +381,7 @@
       "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.chemicals-in-the-water.eu",
+      "https://search.cronobox.one",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.inetol.net",
@@ -394,6 +391,7 @@
       "https://search.modalogi.com",
       "https://search.neet.works",
       "https://search.ononoki.org",
+      "https://search.projectsegfau.lt",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
