@@ -14,7 +14,6 @@
       "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
-      "https://libreddit.kylrth.com",
       "https://libreddit.lunar.icu",
       "https://libreddit.mha.fi",
       "https://libreddit.nl",
@@ -47,7 +46,6 @@
       "https://reddit.dr460nf1r3.org",
       "https://reddit.invak.id",
       "https://reddit.leptons.xyz",
-      "https://reddit.moe.ngo",
       "https://reddit.rtrace.io",
       "https://reddit.simo.sh",
       "https://reddit.smnz.de",
@@ -109,19 +107,18 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.bp.projectsegfau.lt",
-      "https://inv.riverside.rocks",
+      "https://inv.citw.lgbt",
+      "https://inv.in.projectsegfau.lt",
+      "https://inv.makerlab.tech",
       "https://inv.tux.pizza",
       "https://inv.zzls.xyz",
       "https://invidious.0011.lt",
       "https://invidious.baczek.me",
-      "https://invidious.flokinet.to",
-      "https://invidious.kavin.rocks",
       "https://invidious.lunar.icu",
       "https://invidious.privacydev.net",
       "https://invidious.projectsegfau.lt",
       "https://invidious.protokolla.fi",
       "https://invidious.slipfox.xyz",
-      "https://invidious.snopyta.org",
       "https://invidious.tiekoetter.com",
       "https://iv.ggtyler.dev",
       "https://iv.melmac.space",
@@ -132,8 +129,7 @@
       "https://y.com.sb",
       "https://yewtu.be",
       "https://yt.artemislena.eu",
-      "https://yt.floss.media",
-      "https://yt.funami.tech"
+      "https://yt.floss.media"
     ]
   },
   {
@@ -301,17 +297,18 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://coppedge.info",
-      "https://s.trung.fun",
-      "https://search.gcomm.ch",
-      "https://search.leptons.xyz",
-      "https://search.modalogi.com",
-      "https://search.projectsegfau.lt",
-      "https://search.rabbit-company.com",
-      "https://search.rowie.at",
-      "https://search.zzls.xyz",
-      "https://searx.cthd.icu",
-      "https://searx.doofpot.nl"
+      "https://baresearch.org",
+      "https://northboot.xyz",
+      "https://notsearch.uk",
+      "https://paulgo.io",
+      "https://priv.au",
+      "https://search.in.projectsegfau.lt",
+      "https://search.laksith.dev",
+      "https://search.ononoki.org",
+      "https://searx.oakleycord.dev",
+      "https://searx.tiekoetter.com",
+      "https://searxng.xcxc.eu",
+      "https://xo.wtf"
     ]
   },
   {
@@ -319,16 +316,18 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://s.trung.fun",
-      "https://search.gcomm.ch",
-      "https://search.leptons.xyz",
-      "https://search.modalogi.com",
-      "https://search.projectsegfau.lt",
-      "https://search.rabbit-company.com",
-      "https://search.rowie.at",
-      "https://search.zzls.xyz",
-      "https://searx.cthd.icu",
-      "https://searx.doofpot.nl"
+      "https://baresearch.org",
+      "https://northboot.xyz",
+      "https://notsearch.uk",
+      "https://paulgo.io",
+      "https://priv.au",
+      "https://search.in.projectsegfau.lt",
+      "https://search.laksith.dev",
+      "https://search.ononoki.org",
+      "https://searx.oakleycord.dev",
+      "https://searx.tiekoetter.com",
+      "https://searxng.xcxc.eu",
+      "https://xo.wtf"
     ]
   },
   {
