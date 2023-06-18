@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://discuss.whatever.social",
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.dcs0.hu",
@@ -12,6 +11,7 @@
       "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
+      "https://libreddit.kylrth.com",
       "https://libreddit.lunar.icu",
       "https://libreddit.mha.fi",
       "https://libreddit.nl",
@@ -28,7 +28,6 @@
       "https://libreddit.tux.pizza",
       "https://lr.4201337.xyz",
       "https://lr.artemislena.eu",
-      "https://lr.mint.lgbt",
       "https://lr.odyssey346.dev",
       "https://lr.riverside.rocks",
       "https://lr.slipfox.xyz",
@@ -288,6 +287,7 @@
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
+      "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
       "https://searx.be",
@@ -307,7 +307,6 @@
       "https://searx.ru",
       "https://searx.si",
       "https://searx.sp-codes.de",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.nicfab.eu",
@@ -327,6 +326,7 @@
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.frlt.one",
@@ -348,6 +348,8 @@
       "https://search.rabbit-company.com",
       "https://search.rowie.at",
       "https://search.sapti.me",
+      "https://search.smnz.de",
+      "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
       "https://searx.be",
@@ -362,7 +364,6 @@
       "https://searx.oakleycord.dev",
       "https://searx.prvcy.eu",
       "https://searx.si",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.nicfab.eu",
@@ -521,15 +522,13 @@
     "fallback": "https://code.whatever.social",
     "instances": [
       "https://code.whatever.social",
-      "https://overflow.777.tf",
       "https://ao.vern.cc",
       "https://overflow.smnz.de",
-      "https://anonymousoverflow.esmailelbob.xyz",
       "https://overflow.lunar.icu",
       "https://overflow.adminforge.de",
-      "https://ao.foss.wtf",
       "https://overflow.hostux.net",
-      "https://overflow.projectsegfau.lt"
+      "https://overflow.projectsegfau.lt",
+      "https://ao.bloatcat.tk"
     ]
   }
 ]
