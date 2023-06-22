@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://discuss.whatever.social",
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.de",
@@ -258,15 +257,12 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://baresearch.org",
       "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
       "https://opnxng.com",
-      "https://paulgo.io",
-      "https://priv.au",
       "https://s.frlt.one",
       "https://s.trung.fun",
       "https://search.bus-hit.me",
@@ -281,7 +277,6 @@
       "https://search.mdosch.de",
       "https://search.modalogi.com",
       "https://search.neet.works",
-      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
@@ -309,13 +304,11 @@
       "https://searx.ru",
       "https://searx.si",
       "https://searx.sp-codes.de",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.nicfab.eu",
       "https://searxng.xcxc.eu",
-      "https://spot.murena.io",
-      "https://xo.wtf"
+      "https://spot.murena.io"
     ]
   },
   {
@@ -323,15 +316,12 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://baresearch.org",
       "https://coppedge.info",
       "https://darmarit.org/searx",
       "https://myprivatesrx.us",
       "https://northboot.xyz",
       "https://notsearch.uk",
       "https://opnxng.com",
-      "https://paulgo.io",
-      "https://priv.au",
       "https://s.frlt.one",
       "https://s.trung.fun",
       "https://search.bus-hit.me",
@@ -346,8 +336,8 @@
       "https://search.mdosch.de",
       "https://search.modalogi.com",
       "https://search.neet.works",
-      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
+      "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -355,7 +345,9 @@
       "https://search.us.projectsegfau.lt",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
+      "https://searx.be",
       "https://searx.catfluori.de",
+      "https://searx.cthd.icu",
       "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
@@ -366,13 +358,10 @@
       "https://searx.ox2.fr",
       "https://searx.prvcy.eu",
       "https://searx.si",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
-      "https://searxng.nicfab.eu",
       "https://searxng.xcxc.eu",
-      "https://spot.murena.io",
-      "https://xo.wtf"
+      "https://spot.murena.io"
     ]
   },
   {
