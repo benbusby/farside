@@ -162,7 +162,7 @@
   },
   {
     "type": "nitter",
-    "test_url": "/twitter",
+    "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
