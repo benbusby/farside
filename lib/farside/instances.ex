@@ -20,6 +20,8 @@ defmodule Farside.Instances do
   end
 
   def request(url) do
+    IO.puts("#{@debug_spacer}#{url}")
+
     cond do
       System.get_env("FARSIDE_TEST") ->
         :good
@@ -57,19 +59,26 @@ defmodule Farside.Instances do
 
       result = cond do
         Enum.member?(@skip_service_updates, service.type) ->
-          service.instances
+          get_service_vals(service.instances)
         true ->
           Enum.filter(service.instances, fn instance_url ->
-            request_url =
-              instance_url <>
-                EEx.eval_string(
-                  service.test_url,
-                  query: Enum.random(@queries)
-                )
+            test_url = get_test_val(instance_url)
+            test_path = get_test_val(service.test_url)
+            test_request_url = gen_validation_url(test_url, test_path)
 
-            IO.puts("#{@debug_spacer}#{request_url}")
+            service_url = get_service_val(instance_url)
+            service_path = get_service_val(service.test_url)
+            service_request_url = gen_validation_url(service_url, service_path)
 
-            request(request_url) == :good
+            cond do
+              service_url != test_url ->
+                service_up = request(service_request_url)
+                test_up = request(test_request_url)
+
+                service_up == :good && test_up == :good
+              true ->
+                request(test_request_url) == :good
+            end
           end)
       end
 
@@ -79,6 +88,9 @@ defmodule Farside.Instances do
   end
 
   def add_to_db(service, instances) do
+    # Ensure only service URLs are inserted, not test URLs (separated by "|")
+    instances = get_service_vals(instances)
+
     # Remove previous list of instances
     CubDB.delete(CubDB, "#{@service_prefix}#{service.type}")
 
@@ -98,5 +110,25 @@ defmodule Farside.Instances do
     {:ok, file} = File.open(@update_file, [:append, {:delayed_write, 100, 20}])
     IO.write(file, "#{service_name}: #{inspect(results)}\n")
     File.close(file)
+  end
+
+  def gen_validation_url(url, path) do
+    url <> EEx.eval_string(path, query: Enum.random(@queries))
+  end
+
+  def get_service_vals(services) do
+    Enum.map(services, fn x -> get_service_val(x) end)
+  end
+
+  def get_service_val(service) do
+    String.split(service, "|") |> List.first
+  end
+
+  def get_test_vals(services) do
+    Enum.map(services, fn x -> get_test_val(x) end)
+  end
+
+  def get_test_val(service) do
+    String.split(service, "|") |> List.last
   end
 end
