@@ -6,7 +6,7 @@ file="services-full.json"
 
 while read -r line; do
     if [[ "$line" == "\"https://"* ]]; then
-        domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//")
+        domain=$(echo "$line" | sed -e "s/^\"https:\/\///" -e "s/\",//" -e "s/\"//" | awk -F  '|' '{print $1}')
         ips=$(dig "$domain" +short || true)
         cf=0
         echo "$domain"
