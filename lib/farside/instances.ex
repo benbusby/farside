@@ -29,7 +29,7 @@ defmodule Farside.Instances do
         |> then(&elem(&1, 1))
         |> Map.get(:status_code)
         |> case do
-          n when n < 400 ->
+          n when n < 300 ->
             IO.puts("#{@debug_spacer}✓ [#{n}]")
             :good
 
