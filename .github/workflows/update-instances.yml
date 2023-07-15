@@ -217,6 +217,18 @@ jobs:
         apply_update
 
         # ==============================================================
+        # GotHub update
+        # ==============================================================
+
+        curl -s https://codeberg.org/gothub/gothub-instances/raw/branch/master/instances.json | \
+          jq '[.[] | .link]' > gothub-tmp.json
+        jq --slurpfile gothub-tmp.json \
+          '(.[] | select(.type == "gothub") )
+          .instances |= $gothub[0]' services-full.json > services-tmp.json
+
+          apply_update
+
+        # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
 
