@@ -7,7 +7,10 @@ defmodule Farside.Server do
   end
 
   def start_link(arg) do
-    if System.get_env("FARSIDE_TEST") do
+    test = System.get_env("FARSIDE_TEST")
+    cron = System.get_env("FARSIDE_CRON")
+
+    if test == "1" || cron == "0" do
       IO.puts("Skipping sync job setup...")
     else
       Farside.Scheduler.new_job()

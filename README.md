@@ -193,7 +193,7 @@ goes against what Farside is trying to solve. Use at your own discretion.
 To run Farside without compiling, you can perform the following steps:
 
 - Install dependencies: `mix deps.get`
-- Initialize db contents: `mix run -e Farside.Instances.sync`
+- Initialize db contents: `FARSIDE_CRON=0 mix run -e Farside.Instances.sync`
 - Run Farside: `mix run --no-halt`
   - Uses localhost:4001
 
@@ -233,7 +233,11 @@ farside
     </tr>
     <tr>
         <td>FARSIDE_SERVICES_JSON</td>
-        <td>The "services" JSON file to use for selecting instances (default: `services.json`)</td>
+        <td>The JSON file to use for selecting instances (default: `services.json`)</td>
+    </tr>
+    <tr>
+        <td>FARSIDE_CRON</td>
+        <td>Set to 0 to deactivate the scheduled instance availability check (default on).</td>
     </tr>
 </table>
 
