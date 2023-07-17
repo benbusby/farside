@@ -565,6 +565,20 @@
     ]
   },
   {
+    "type": "gothub",
+    "test_url": "/benbusby/farside",
+    "fallback": "https://gothub.projectsegfau.lt",
+    "instances": [
+      "https://gh.bloatcat.tk",
+      "https://gothub.lunar.icu",
+      "https://gothub.no-logs.com",
+      "https://gh.owo.si",
+      "https://gothub.projectsegfau.lt",
+      "https://gh.whateveritworks.org",
+      "https://gothub.dev.projectsegfau.lt"
+    ]
+  },
+  {
     "type": "anonymousoverflow",
     "test_url": "/questions/6591213/how-do-i-rename-a-local-git-branch",
     "fallback": "https://code.whatever.social",

@@ -20,6 +20,7 @@ defmodule Farside do
   @quora_regex ~r/quora.com|quetre/
   @gsearch_regex ~r/google.com\/search|whoogle/
   @fandom_regex ~r/fandom.com|breezewiki/
+  @github_regex ~r/github.com|gothub/
   @stackoverflow_regex ~r/stackoverflow.com|anonymousoverflow/
 
   @parent_services %{
@@ -37,6 +38,7 @@ defmodule Farside do
     @quora_regex => ["quetre"],
     @gsearch_regex => ["whoogle"],
     @fandom_regex => ["breezewiki"],
+    @github_regex => ["gothub"],
     @stackoverflow_regex => ["anonymousoverflow"]
   }
 
