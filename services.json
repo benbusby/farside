@@ -4,23 +4,30 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://libreddit.bus-hit.me",
-      "https://libreddit.kavin.rocks",
+      "https://l.opnxng.com",
+      "https://libreddit.hu",
       "https://libreddit.kutay.dev",
       "https://libreddit.kylrth.com",
-      "https://libreddit.lunar.icu",
+      "https://libreddit.mha.fi",
       "https://libreddit.northboot.xyz",
       "https://libreddit.oxymagnesium.com",
+      "https://libreddit.privacy.com.de",
       "https://libreddit.privacydev.net",
       "https://libreddit.pussthecat.org",
+      "https://libreddit.strongthany.cc",
+      "https://libreddit.tiekoetter.com",
       "https://libreddit.tux.pizza",
       "https://lr.4201337.xyz",
       "https://lr.artemislena.eu",
+      "https://lr.riverside.rocks",
+      "https://lr.slipfox.xyz",
+      "https://lr.vern.cc",
       "https://r.darklab.sh",
       "https://rd.funami.tech",
+      "https://reddit.baby",
       "https://reddit.leptons.xyz",
-      "https://reddit.moe.ngo",
-      "https://reddit.smnz.de",
+      "https://reddit.rtrace.io",
+      "https://reddit.simo.sh",
       "https://reddit.utsav2.dev",
       "https://safereddit.com",
       "https://snoo.habedieeh.re"
@@ -256,7 +263,6 @@
       "https://search.kokomo.cloud",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
-      "https://search.lightinthedark.space",
       "https://search.lvkaszus.pl",
       "https://search.mdosch.de",
       "https://search.modalogi.com",
@@ -297,7 +303,8 @@
       "https://searxng.online",
       "https://searxng.se",
       "https://searxng.xcxc.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
@@ -319,9 +326,7 @@
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.kokomo.cloud",
-      "https://search.laksith.dev",
       "https://search.leptons.xyz",
-      "https://search.lightinthedark.space",
       "https://search.lvkaszus.pl",
       "https://search.mdosch.de",
       "https://search.modalogi.com",
@@ -332,7 +337,6 @@
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
-      "https://search.us.projectsegfau.lt",
       "https://search.xcloud.live",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
@@ -359,7 +363,8 @@
       "https://searxng.online",
       "https://searxng.se",
       "https://searxng.xcxc.eu",
-      "https://spot.murena.io"
+      "https://spot.murena.io",
+      "https://xo.wtf"
     ]
   },
   {
