@@ -110,6 +110,23 @@ jobs:
         apply_update
 
         # ==============================================================
+        # Nitter update
+        # ==============================================================
+        curl -s https://status.d420.de/api/v1/instances | \
+          jq '[
+            .hosts |
+            to_entries[] |
+            select(.value.healthy == true) |
+            .value.url ] |
+            sort' > nitter-tmp.json
+
+        jq --slurpfile nitter nitter-tmp.json \
+          '( .[] | select(.type == "nitter") )
+          .instances |= $nitter[0]' services-full.json > services.tmp.json
+
+        apply_update
+
+        # ==============================================================
         # SimplyTranslate update
         # ==============================================================
         curl -s https://codeberg.org/SimpleWeb/Website/raw/branch/master/config.json | jq -r '.projects | map(select(.id == "simplytranslate"))[0].instances | .[]' > st-out

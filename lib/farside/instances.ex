@@ -7,9 +7,9 @@ defmodule Farside.Instances do
   @debug_header "======== "
   @debug_spacer "         "
 
-  # SearXNG instance uptimes are inspected as part of the nightly Farside build,
+  # These instance uptimes are inspected as part of the nightly Farside build,
   # and should not be included in the constant periodic update.
-  @skip_service_updates ["searxng"]
+  @skip_service_updates ["searxng", "nitter"]
 
   def sync() do
     File.rename(@update_file, "#{@update_file}-prev")
