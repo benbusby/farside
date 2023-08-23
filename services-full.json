@@ -138,25 +138,11 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.cz",
+      "https://nitter.d420.de",
       "https://nitter.net",
-      "https://nitter.42l.fr",
-      "https://nitter.fdn.fr",
-      "https://nitter.1d4.us",
-      "https://nitter.kavin.rocks",
-      "https://nitter.unixfox.eu",
-      "https://n.actionsack.com",
-      "https://nitter.moomoo.me",
-      "https://bird.trom.tf",
-      "https://nitter.it",
-      "https://twat.marsey.cat",
-      "https://twitter.censors.us",
-      "https://nitter.grimneko.de",
-      "https://nitter.sethforprivacy.com",
-      "https://nitter.bus-hit.me",
-      "https://n.l5.ca",
-      "https://unofficialbird.com",
-      "https://nitter.ungovernable.men",
-      "https://tweet.whateveritworks.org"
+      "https://nitter.privacydev.net",
+      "https://nitter.salastil.com"
     ]
   },
   {
