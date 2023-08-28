@@ -542,5 +542,14 @@
       "https://overflow.projectsegfau.lt",
       "https://ao.bloatcat.tk"
     ]
+  },
+  {
+    "type": "4get",
+    "test_url": "/web?s=<%=query%>",
+    "fallback": "https://4get.ca",
+    "instances": [
+      "https://4get.ca",
+      "https://4get.zzls.xyz"
+    ]
   }
 ]
