@@ -4,22 +4,29 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.kutay.dev",
-      "https://libreddit.lunar.icu",
+      "https://libreddit.kylrth.com",
       "https://libreddit.mha.fi",
+      "https://libreddit.northboot.xyz",
+      "https://libreddit.oxymagnesium.com",
       "https://libreddit.privacy.com.de",
       "https://libreddit.privacydev.net",
+      "https://libreddit.pussthecat.org",
+      "https://libreddit.strongthany.cc",
+      "https://libreddit.tiekoetter.com",
       "https://libreddit.tux.pizza",
       "https://lr.4201337.xyz",
       "https://lr.artemislena.eu",
+      "https://lr.slipfox.xyz",
       "https://lr.vern.cc",
-      "https://r.darklab.sh",
       "https://reddit.baby",
       "https://reddit.invak.id",
       "https://reddit.leptons.xyz",
+      "https://reddit.rtrace.io",
+      "https://reddit.simo.sh",
       "https://reddit.smnz.de",
+      "https://reddit.utsav2.dev",
       "https://safereddit.com",
       "https://snoo.habedieeh.re"
     ]
@@ -131,7 +138,7 @@
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://nitter.salastil.com",
-      "https://nitter.unixfox.eu"
+      "https://nitter.services.woodland.cafe"
     ]
   },
   {
@@ -202,6 +209,7 @@
       "https://ri.zzls.xyz",
       "https://rimgo.lunar.icu",
       "https://rimgo.kling.gg",
+      "https://i.01r.xyz",
       "https://rimgo.projectsegfau.lt"
     ]
   },
@@ -264,7 +272,6 @@
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://search.us.projectsegfau.lt",
-      "https://search.whateveritworks.org",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
       "https://searx.be",
@@ -272,6 +279,7 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
+      "https://searx.doofpot.nl",
       "https://searx.dresden.network",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
@@ -333,9 +341,9 @@
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://search.us.projectsegfau.lt",
-      "https://search.whateveritworks.org",
       "https://search.zzls.xyz",
       "https://searx.baczek.me",
+      "https://searx.be",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
@@ -352,14 +360,12 @@
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
-      "https://searx.zhenyapav.com",
       "https://searxng.ch",
       "https://searxng.nicfab.eu",
       "https://searxng.online",
       "https://searxng.se",
       "https://searxng.xcxc.eu",
-      "https://spot.murena.io",
-      "https://xo.wtf"
+      "https://spot.murena.io"
     ]
   },
   {
@@ -503,6 +509,7 @@
       "https://breeze.hostux.net",
       "https://bw.artemislena.eu",
       "https://nerd.whatever.social",
+      "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network"
     ]
   },
