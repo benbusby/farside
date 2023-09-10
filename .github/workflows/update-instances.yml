@@ -61,7 +61,7 @@ jobs:
         # searx update
         # ==============================================================
         curl -s https://raw.githubusercontent.com/searx/searx-instances/master/searxinstances/instances.yml | \
-          yq -o=json "keys | sort" > searx-tmp.json
+          yq -o=json 'keys | sort' > searx-tmp.json
         jq --slurpfile searx searx-tmp.json \
           '( .[] | select(.type == "searx") )
           .instances |= $searx[0]' services-full.json > services-tmp.json
