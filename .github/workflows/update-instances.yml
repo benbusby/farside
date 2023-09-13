@@ -10,7 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install dependencies
-      run: sudo apt-get install -y jq dnsutils
+      run: |
+        sudo apt-get install -y jq dnsutils
+        sudo curl -L https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -o /usr/local/bin/yq
+        sudo chmod a+rx /usr/local/bin/yq
 
     - uses: webfactory/ssh-agent@v0.5.3
       with:
@@ -57,23 +60,8 @@ jobs:
         # ==============================================================
         # searx update
         # ==============================================================
-        curl -s https://searx.space/data/instances.json | \
-          jq '[
-            .instances |
-            to_entries[] |
-            select(.value.network_type == "normal") |
-            select(.value.version | . != null) |
-            select(.value.network.asn_privacy == 0) |
-            select(.value.http.error == null) |
-            select(.value.tls.grade == "A+" or .value.tls.grade == "A") |
-            select(.value.http.grade == "A+" or .value.http.grade == "A") |
-            select(.value.html.grade == "V" or .value.html.grade == "F") |
-            select(.key | contains(".i2p") | not) |
-            .key
-          ] | sort' > searx-tmp.json
-
-        cat searx-tmp.json | jq .
-
+        curl -s https://raw.githubusercontent.com/searx/searx-instances/master/searxinstances/instances.yml | \
+          yq -o=json 'keys | sort' > searx-tmp.json
         jq --slurpfile searx searx-tmp.json \
           '( .[] | select(.type == "searx") )
           .instances |= $searx[0]' services-full.json > services-tmp.json
