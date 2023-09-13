@@ -456,7 +456,7 @@
   {
     "type": "librex",
     "test_url": "/search.php?q=<%=query%>",
-    "fallback": "https://search.femboy.hu",
+    "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://search.femboy.hu",
       "https://lx.vern.cc",
@@ -593,7 +593,10 @@
     "fallback": "https://4get.ca",
     "instances": [
       "https://4get.ca",
-      "https://4get.zzls.xyz"
+      "https://4get.zzls.xyz",
+      "https://4getus.zzls.xyz",
+      "https://4get.silly.computer",
+      "https://4get.cynic.moe"
     ]
   },
   {
