@@ -246,6 +246,22 @@ jobs:
           apply_update
 
         # ==============================================================
+        # librex update
+        # ==============================================================
+        curl -s https://raw.githubusercontent.com/Ahwxorg/LibreY/main/instances.json | \
+          jq '[
+            .instances |
+            .[] |
+            select(.librey|not) |
+            .clearnet] |
+            sort' > librex-tmp.json
+        jq --slurpfile librex librex-tmp.json \
+          '( .[] | select(.type == "librex") )
+          .instances |= $librex[0]' services-full.json > services-tmp.json
+
+        apply_update
+
+        # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
 

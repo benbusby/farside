@@ -421,7 +421,7 @@
   {
     "type": "librex",
     "test_url": "/search.php?q=<%=query%>",
-    "fallback": "https://search.femboy.hu",
+    "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://search.femboy.hu",
       "https://lx.vern.cc",
