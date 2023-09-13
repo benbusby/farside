@@ -555,5 +555,30 @@
       "https://4get.silly.computer",
       "https://4get.cynic.moe"
     ]
+  },
+  {
+    "type": "librey",
+    "test_url": "/search.php?q=<%=query%>",
+    "fallback": "https://search.ahwx.org",
+    "instances": [
+      "https://librex.me",
+      "https://librex.nohost.network",
+      "https://librex.retro-hax.net",
+      "https://librex.revvy.de",
+      "https://librex.yogeshlamichhane.com.np",
+      "https://librex.zzls.xyz",
+      "https://librey.baczek.me",
+      "https://librey.bloatcat.tk/",
+      "https://librey.org",
+      "https://librey.spaceint.fr",
+      "https://lx.benike.me",
+      "https://lx.vern.cc",
+      "https://search.ahwx.org",
+      "https://search.davidovski.xyz",
+      "https://search.funami.tech",
+      "https://search.pabloferreiro.es",
+      "https://search.ratakor.com",
+      "https://search2.ahwx.org"
+    ]
   }
 ]
