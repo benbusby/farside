@@ -170,6 +170,7 @@ jobs:
         curl -s https://codeberg.org/teddit/teddit/raw/branch/main/instances.json | \
           jq '[
             .[] |
+            select(.url != null) |
             select(.url | contains("https")) |
             .url ] |
             sort' > teddit-tmp.json
