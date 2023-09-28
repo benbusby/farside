@@ -214,10 +214,12 @@
     "fallback": "https://lingva.ml",
     "instances": [
       "https://lingva.ml",
+      "https://lingva.garudalinux.org",      
+      "https://lingva.frontendfriendly.xyz",
+      "https://lingva.retiolus.net",
       "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
       "https://translate.dr460nf1r3.org",
-      "https://lingva.garudalinux.org",
       "https://translate.whateveritworks.org",
       "https://translate.sapti.me",
       "https://lingva.fuk.world",
