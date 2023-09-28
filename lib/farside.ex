@@ -9,7 +9,7 @@ defmodule Farside do
   @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
   @reddit_regex ~r/reddit.com|libreddit|teddit/
   @instagram_regex ~r/instagram.com|bibliogram/
-  @twitter_regex ~r/twitter.com|nitter/
+  @twitter_regex ~r/twitter.com|x.com|nitter/
   @wikipedia_regex ~r/wikipedia.org|wikiless/
   @medium_regex ~r/medium.com|scribe/
   @odysee_regex ~r/odysee.com|librarian/
