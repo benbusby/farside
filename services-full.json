@@ -6,7 +6,6 @@
     "instances": [
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
-      "https://libreddit.domain.glass",
       "https://libreddit.freedit.eu",
       "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
@@ -27,12 +26,9 @@
       "https://r.darklab.sh",
       "https://r.walkx.fyi",
       "https://reddit.invak.id",
-      "https://reddit.rtrace.io",
       "https://reddit.simo.sh",
-      "https://reddit.smnz.de",
       "https://reddit.utsav2.dev",
-      "https://safereddit.com",
-      "https://snoo.habedieeh.re"
+      "https://safereddit.com"
     ]
   },
   {
@@ -156,7 +152,10 @@
       "https://nitter.cz",
       "https://nitter.d420.de",
       "https://nitter.eu.projectsegfau.lt",
+      "https://nitter.hostux.net",
+      "https://nitter.mint.lgbt",
       "https://nitter.net",
+      "https://nitter.nohost.network",
       "https://nitter.onthescent.xyz",
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
@@ -259,6 +258,7 @@
       "https://search.albony.xyz",
       "https://search.dr460nf1r3.org",
       "https://search.garudalinux.org",
+      "https://search.neadond.space",
       "https://search.notrustverify.ch",
       "https://search.rubberverse.xyz",
       "https://search.sethforprivacy.com",
@@ -330,8 +330,8 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
-      "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
+      "https://searx.fmac.xyz",
       "https://searx.kutay.dev",
       "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
