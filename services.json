@@ -4,28 +4,24 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
-      "https://libreddit.hu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
       "https://libreddit.kylrth.com",
-      "https://libreddit.mha.fi",
-      "https://libreddit.northboot.xyz",
+      "https://libreddit.lunar.icu",
       "https://libreddit.oxymagnesium.com",
       "https://libreddit.privacydev.net",
-      "https://libreddit.pussthecat.org",
+      "https://libreddit.spike.codes",
       "https://libreddit.strongthany.cc",
-      "https://libreddit.tiekoetter.com",
       "https://libreddit.tux.pizza",
-      "https://lr.4201337.xyz",
       "https://lr.artemislena.eu",
-      "https://lr.slipfox.xyz",
       "https://r.darklab.sh",
       "https://reddit.invak.id",
+      "https://reddit.rtrace.io",
       "https://reddit.simo.sh",
       "https://reddit.utsav2.dev",
-      "https://safereddit.com"
+      "https://safereddit.com",
+      "https://snoo.habedieeh.re"
     ]
   },
   {
@@ -129,10 +125,9 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://n.opnxng.com",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
-      "https://nitter.eu.projectsegfau.lt",
-      "https://nitter.hostux.net",
       "https://nitter.hyperreal.coffee",
       "https://nitter.mint.lgbt",
       "https://nitter.net",
@@ -143,7 +138,8 @@
       "https://nitter.projectsegfau.lt",
       "https://nitter.salastil.com",
       "https://nitter.services.woodland.cafe",
-      "https://nitter.unixfox.eu"
+      "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt"
     ]
   },
   {
@@ -295,7 +291,6 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
-      "https://searx.doofpot.nl",
       "https://searx.ericaftereric.top",
       "https://searx.fmac.xyz",
       "https://searx.kutay.dev",
@@ -439,7 +434,8 @@
       "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network",
       "https://z.opnxng.com",
-      "https://wiki.hyperreal.coffee",
+      "https://breezewiki.hyperreal.coffee",
+      "https://breezewiki.catsarch.com",
       "http://bw.skunky7dhv7nohsoalpwe3sxfz3fbkad7r3wk632riye25vqm3meqead.onion"
     ]
   },
