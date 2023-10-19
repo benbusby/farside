@@ -129,12 +129,11 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.catsarch.com",
-      "https://nitter.cz",
       "https://nitter.dafriser.be",
       "https://nitter.eu.projectsegfau.lt",
       "https://nitter.hostux.net",
+      "https://nitter.in.projectsegfau.lt",
       "https://nitter.ktachibana.party",
       "https://nitter.mint.lgbt",
       "https://nitter.net",
@@ -146,6 +145,7 @@
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -272,6 +272,7 @@
     "instances": [
       "https://baresearch.org",
       "https://darmarit.org/searx",
+      "https://fgiggle.com",
       "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
@@ -279,7 +280,6 @@
       "https://priv.au",
       "https://s.trung.fun",
       "https://search.bowlman.org",
-      "https://search.bus-hit.me",
       "https://search.citw.lgbt",
       "https://search.cronobox.one",
       "https://search.demoniak.ch",
@@ -494,7 +494,8 @@
       "https://4get.ca",
       "https://4get.zzls.xyz",
       "https://4getus.zzls.xyz",
-      "https://4get.silly.computer"
+      "https://4get.silly.computer",
+      "https://4get.cynic.moe"
     ]
   },
   {
