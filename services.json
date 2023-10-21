@@ -132,12 +132,13 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.dafriser.be",
+      "https://nitter.esmailelbob.xyz",
       "https://nitter.eu.projectsegfau.lt",
       "https://nitter.hostux.net",
+      "https://nitter.in.projectsegfau.lt",
       "https://nitter.ktachibana.party",
       "https://nitter.mint.lgbt",
       "https://nitter.net",
@@ -148,6 +149,7 @@
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -282,7 +284,6 @@
       "https://search.cronobox.one",
       "https://search.gcomm.ch",
       "https://search.in.projectsegfau.lt",
-      "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.lvkaszus.pl",
       "https://search.mdosch.de",
@@ -501,7 +502,6 @@
       "https://librex.yogeshlamichhane.com.np",
       "https://librex.zzls.xyz",
       "https://librey.baczek.me",
-      "https://librey.bloatcat.tk",
       "https://librey.org",
       "https://librey.spaceint.fr",
       "https://lx.benike.me",
