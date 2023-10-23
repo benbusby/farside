@@ -123,6 +123,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://n.opnxng.com",
+      "https://n.populas.no",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.dafriser.be",
@@ -141,7 +142,6 @@
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
-      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -290,7 +290,6 @@
       "https://search.smnz.de",
       "https://search.zzls.xyz",
       "https://searx.catfluori.de",
-      "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
       "https://searx.ericaftereric.top",
