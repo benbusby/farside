@@ -4,20 +4,24 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
+      "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.freedit.eu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kylrth.com",
+      "https://libreddit.lunar.icu",
       "https://libreddit.northboot.xyz",
+      "https://libreddit.oxymagnesium.com",
+      "https://libreddit.privacydev.net",
       "https://libreddit.pussthecat.org",
-      "https://libreddit.spike.codes",
       "https://libreddit.strongthany.cc",
+      "https://libreddit.tux.pizza",
+      "https://lr.aeong.one",
       "https://lr.artemislena.eu",
-      "https://lr.slipfox.xyz",
       "https://reddit.invak.id",
+      "https://reddit.rtrace.io",
       "https://reddit.simo.sh",
       "https://reddit.utsav2.dev",
-      "https://safereddit.com",
       "https://snoo.habedieeh.re"
     ]
   },
@@ -143,6 +147,7 @@
       "https://n.populas.no",
       "https://nitter.1d4.us",
       "https://nitter.catsarch.com",
+      "https://nitter.cz",
       "https://nitter.d420.de",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
@@ -153,6 +158,7 @@
       "https://nitter.nohost.network",
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
+      "https://nitter.privacydev.net",
       "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
@@ -160,8 +166,10 @@
       "https://nitter.tinfoil-hat.net",
       "https://nitter.uni-sonia.com",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe",
-      "https://nitter.x86-64-unknown-linux-gnu.zip"
+      "https://nitter.x86-64-unknown-linux-gnu.zip",
+      "https://nt.ggtyler.dev"
     ]
   },
   {
@@ -324,6 +332,7 @@
       "https://searx.perennialte.ch",
       "https://searx.tiekoetter.com",
       "https://searx.zhenyapav.com",
+      "https://searxng.ch",
       "https://searxng.xcxc.eu",
       "https://xo.wtf"
     ]
