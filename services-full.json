@@ -516,7 +516,7 @@
   },
   {
     "type": "4get",
-    "test_url": "/web?s=<%=query%>",
+    "test_url": "/ami4get",
     "fallback": "https://4get.ca",
     "instances": [
       "https://4get.ca",
