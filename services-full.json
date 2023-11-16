@@ -10,18 +10,21 @@
       "https://libreddit.freedit.eu",
       "https://libreddit.kavin.rocks",
       "https://libreddit.kylrth.com",
+      "https://libreddit.lunar.icu",
       "https://libreddit.northboot.xyz",
       "https://libreddit.oxymagnesium.com",
       "https://libreddit.privacydev.net",
       "https://libreddit.pussthecat.org",
+      "https://libreddit.spike.codes",
       "https://libreddit.strongthany.cc",
+      "https://libreddit.tiekoetter.com",
       "https://lr.artemislena.eu",
+      "https://lr.slipfox.xyz",
       "https://reddit.invak.id",
       "https://reddit.simo.sh",
       "https://reddit.utsav2.dev",
       "https://safereddit.com",
-      "https://snoo.habedieeh.re",
-      "https://libreddit.frontendfriendly.xyz"
+      "https://snoo.habedieeh.re"
     ]
   },
   {
@@ -106,8 +109,7 @@
       "https://yt.artemislena.eu",
       "https://yt.cdaut.de",
       "https://yt.drgnz.club",
-      "https://yt.oelrichsgarcia.de",
-      "https://invidious.frontendfriendly.xyz"
+      "https://yt.oelrichsgarcia.de"
     ]
   },
   {
@@ -141,7 +143,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://n.biendeo.com",
       "https://n.opnxng.com",
       "https://nitter.1d4.us",
       "https://nitter.catsarch.com",
@@ -149,7 +150,6 @@
       "https://nitter.d420.de",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
       "https://nitter.freedit.eu",
       "https://nitter.in.projectsegfau.lt",
       "https://nitter.ktachibana.party",
@@ -159,6 +159,7 @@
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
+      "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
@@ -304,6 +305,7 @@
       "https://darmarit.org/searx",
       "https://fgiggle.com",
       "https://northboot.xyz",
+      "https://opnxng.com",
       "https://s.trung.fun",
       "https://search.citw.lgbt",
       "https://search.gcomm.ch",
@@ -313,10 +315,10 @@
       "https://search.mdosch.de",
       "https://search.modalogi.com",
       "https://search.rabbit-company.com",
-      "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
+      "https://search.zzls.xyz",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
