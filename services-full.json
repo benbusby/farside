@@ -310,6 +310,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://darmarit.org/searx",
       "https://freesearch.club",
       "https://northboot.xyz",
@@ -335,7 +336,6 @@
       "https://searx.daetalytica.io",
       "https://searx.fmac.xyz",
       "https://searx.mha.fi",
-      "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.tiekoetter.com",
       "https://searx.zhenyapav.com",
