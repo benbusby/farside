@@ -5,20 +5,14 @@
     "fallback": "https://libreddit.spike.codes",
     "instances": [
       "https://l.opnxng.com",
-      "https://libreddit.bus-hit.me",
-      "https://libreddit.kutay.dev",
-      "https://libreddit.kylrth.com",
-      "https://libreddit.lunar.icu",
-      "https://libreddit.oxymagnesium.com",
-      "https://libreddit.privacydev.net",
+      "https://libreddit.northboot.xyz",
       "https://libreddit.pussthecat.org",
-      "https://libreddit.tiekoetter.com",
-      "https://lr.slipfox.xyz",
-      "https://r.darklab.sh",
+      "https://libreddit.spike.codes",
+      "https://libreddit.strongthany.cc",
       "https://reddit.invak.id",
+      "https://reddit.simo.sh",
       "https://reddit.utsav2.dev",
-      "https://safereddit.com",
-      "https://snoo.habedieeh.re"
+      "https://safereddit.com"
     ]
   },
   {
@@ -125,11 +119,12 @@
       "https://n.opnxng.com",
       "https://n.populas.no",
       "https://nitter.1d4.us",
+      "https://nitter.adminforge.de",
+      "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
       "https://nitter.eu.projectsegfau.lt",
-      "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
       "https://nitter.kylrth.com",
@@ -145,6 +140,7 @@
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -272,7 +268,6 @@
     "instances": [
       "https://baresearch.org",
       "https://darmarit.org/searx",
-      "https://fgiggle.com",
       "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
@@ -308,6 +303,7 @@
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.prvcy.eu",
+      "https://searx.si",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
