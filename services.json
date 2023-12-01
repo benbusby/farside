@@ -124,7 +124,7 @@
       "https://nitter.cz",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
+      "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
       "https://nitter.kylrth.com",
@@ -135,12 +135,10 @@
       "https://nitter.oksocial.net",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
-      "https://nitter.projectsegfau.lt",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
-      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -268,6 +266,7 @@
     "instances": [
       "https://baresearch.org",
       "https://darmarit.org/searx",
+      "https://fgiggle.com",
       "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
@@ -287,6 +286,7 @@
       "https://search.modalogi.com",
       "https://search.ononoki.org",
       "https://search.ovh",
+      "https://search.projectsegfau.lt",
       "https://search.rabbit-company.com",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -296,7 +296,6 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
-      "https://searx.fmac.xyz",
       "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
       "https://searx.mha.fi",
@@ -310,8 +309,7 @@
       "https://searx.zhenyapav.com",
       "https://searxng.ch",
       "https://searxng.online",
-      "https://searxng.xcxc.eu",
-      "https://xo.wtf"
+      "https://searxng.xcxc.eu"
     ]
   },
   {
