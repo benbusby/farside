@@ -5,15 +5,21 @@
     "fallback": "https://libreddit.spike.codes",
     "instances": [
       "https://l.opnxng.com",
+      "https://libreddit.bus-hit.me",
+      "https://libreddit.domain.glass",
       "https://libreddit.freedit.eu",
+      "https://libreddit.kavin.rocks",
+      "https://libreddit.kutay.dev",
+      "https://libreddit.lunar.icu",
       "https://libreddit.northboot.xyz",
-      "https://libreddit.pussthecat.org",
-      "https://libreddit.spike.codes",
-      "https://libreddit.strongthany.cc",
+      "https://libreddit.privacydev.net",
+      "https://libreddit.tux.pizza",
+      "https://lr.aeong.one",
+      "https://lr.artemislena.eu",
+      "https://r.darklab.sh",
       "https://reddit.invak.id",
-      "https://reddit.simo.sh",
-      "https://reddit.utsav2.dev",
-      "https://safereddit.com"
+      "https://safereddit.com",
+      "https://snoo.habedieeh.re"
     ]
   },
   {
@@ -155,6 +161,7 @@
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
+      "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
@@ -299,8 +306,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://darmarit.org/searx",
-      "https://fgiggle.com",
       "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
@@ -330,9 +335,9 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
+      "https://searx.fmac.xyz",
       "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
-      "https://searx.mha.fi",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.prvcy.eu",
@@ -343,7 +348,9 @@
       "https://searx.zhenyapav.com",
       "https://searxng.ch",
       "https://searxng.online",
-      "https://searxng.xcxc.eu"
+      "https://searxng.xcxc.eu",
+      "https://sx.t-1.org",
+      "https://xo.wtf"
     ]
   },
   {
