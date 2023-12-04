@@ -4,22 +4,17 @@
     "test_url": "/r/popular",
     "fallback": "https://libreddit.spike.codes",
     "instances": [
-      "https://l.opnxng.com",
-      "https://libreddit.bus-hit.me",
-      "https://libreddit.domain.glass",
       "https://libreddit.freedit.eu",
-      "https://libreddit.kavin.rocks",
       "https://libreddit.kutay.dev",
-      "https://libreddit.lunar.icu",
+      "https://libreddit.kylrth.com",
       "https://libreddit.northboot.xyz",
-      "https://libreddit.privacydev.net",
+      "https://libreddit.pussthecat.org",
       "https://libreddit.tux.pizza",
       "https://lr.aeong.one",
       "https://lr.artemislena.eu",
       "https://r.darklab.sh",
       "https://reddit.invak.id",
-      "https://safereddit.com",
-      "https://snoo.habedieeh.re"
+      "https://safereddit.com"
     ]
   },
   {
@@ -138,6 +133,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://n.biendeo.com",
       "https://n.opnxng.com",
       "https://n.populas.no",
       "https://nitter.1d4.us",
@@ -161,12 +157,14 @@
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
+      "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.uni-sonia.com",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe",
       "https://nitter.x86-64-unknown-linux-gnu.zip"
     ]
@@ -310,6 +308,7 @@
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.citw.lgbt",
+      "https://search.in.projectsegfau.lt",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
@@ -324,9 +323,9 @@
       "https://searx.daetalytica.io",
       "https://searx.divided-by-zero.eu",
       "https://searx.fmac.xyz",
-      "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
       "https://searx.namejeff.xyz",
+      "https://searx.perennialte.ch",
       "https://searx.prvcy.eu",
       "https://searx.si",
       "https://searx.tuxcloud.net",
