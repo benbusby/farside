@@ -149,7 +149,6 @@
     "instances": [
       "https://n.biendeo.com",
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
@@ -157,7 +156,6 @@
       "https://nitter.d420.de",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
       "https://nitter.freedit.eu",
       "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
@@ -171,13 +169,13 @@
       "https://nitter.perennialte.ch",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
-      "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.uni-sonia.com",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe",
       "https://nitter.x86-64-unknown-linux-gnu.zip"
     ]
@@ -319,6 +317,7 @@
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.gcomm.ch",
+      "https://search.in.projectsegfau.lt",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.modalogi.com",
@@ -551,7 +550,8 @@
       "https://search.pabloferreiro.es",
       "https://search.ratakor.com",
       "https://search.seitan-ayoub.lol",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://search3.ahwx.org"
     ]
   }
 ]

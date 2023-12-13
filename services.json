@@ -130,14 +130,12 @@
     "instances": [
       "https://n.biendeo.com",
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.dafriser.be",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
       "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
@@ -149,11 +147,11 @@
       "https://nitter.oksocial.net",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
-      "https://nitter.projectsegfau.lt",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -283,6 +281,7 @@
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.gcomm.ch",
+      "https://search.in.projectsegfau.lt",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.modalogi.com",
@@ -502,7 +501,8 @@
       "https://search.pabloferreiro.es",
       "https://search.ratakor.com",
       "https://search.seitan-ayoub.lol",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://search3.ahwx.org"
     ]
   }
 ]
