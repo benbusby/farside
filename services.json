@@ -8,7 +8,6 @@
       "https://libreddit.lunar.icu",
       "https://libreddit.northboot.xyz",
       "https://libreddit.projectsegfau.lt",
-      "https://libreddit.spike.codes",
       "https://libreddit.strongthany.cc",
       "https://libreddit.tux.pizza",
       "https://lr.artemislena.eu",
@@ -119,11 +118,12 @@
     "instances": [
       "https://n.biendeo.com",
       "https://n.opnxng.com",
-      "https://nitter.1d4.us",
+      "https://n.populas.no",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.esmailelbob.xyz",
+      "https://nitter.eu.projectsegfau.lt",
       "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
@@ -134,6 +134,7 @@
       "https://nitter.nohost.network",
       "https://nitter.oksocial.net",
       "https://nitter.poast.org",
+      "https://nitter.projectsegfau.lt",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tinfoil-hat.net",
@@ -265,6 +266,7 @@
       "https://copp.gg",
       "https://northboot.xyz",
       "https://s.mble.dk",
+      "https://s.trung.fun",
       "https://search.gcomm.ch",
       "https://search.in.projectsegfau.lt",
       "https://search.laksith.dev",
@@ -278,8 +280,7 @@
       "https://searx.daetalytica.io",
       "https://searx.fmac.xyz",
       "https://searx.zhenyapav.com",
-      "https://searxng.ch",
-      "https://searxng.xcxc.eu"
+      "https://searxng.ch"
     ]
   },
   {
