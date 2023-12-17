@@ -63,7 +63,6 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://anontube.lvkaszus.pl",
-      "https://inv.citw.lgbt",
       "https://inv.in.projectsegfau.lt",
       "https://inv.tux.pizza",
       "https://inv.us.projectsegfau.lt",
@@ -74,7 +73,6 @@
       "https://invidious.io.lol",
       "https://invidious.lunar.icu",
       "https://invidious.nerdvpn.de",
-      "https://invidious.no-logs.com",
       "https://invidious.privacydev.net",
       "https://invidious.private.coffee",
       "https://invidious.projectsegfau.lt",
@@ -118,12 +116,11 @@
     "instances": [
       "https://n.biendeo.com",
       "https://n.opnxng.com",
-      "https://n.populas.no",
+      "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
       "https://nitter.in.projectsegfau.lt",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
@@ -132,12 +129,10 @@
       "https://nitter.net",
       "https://nitter.no-logs.com",
       "https://nitter.nohost.network",
-      "https://nitter.oksocial.net",
       "https://nitter.poast.org",
-      "https://nitter.projectsegfau.lt",
+      "https://nitter.privacydev.net",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
-      "https://nitter.tinfoil-hat.net",
       "https://nitter.unixfox.eu",
       "https://nitter.woodland.cafe"
     ]
@@ -214,6 +209,7 @@
       "https://rimgo.kling.gg",
       "https://i.01r.xyz",
       "https://rimgo.projectsegfau.lt",
+      "https://rimgo.fascinated.cc",
       "https://rimgo.catsarch.com",
       "https://rimgo.frontendfriendly.xyz"
     ]
@@ -268,13 +264,11 @@
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.gcomm.ch",
-      "https://search.in.projectsegfau.lt",
       "https://search.laksith.dev",
       "https://search.leptons.xyz",
       "https://search.modalogi.com",
       "https://search.rabbit-company.com",
       "https://search.rowie.at",
-      "https://search.zzls.xyz",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
@@ -360,6 +354,7 @@
       "https://quetre.pufe.org",
       "https://quetre.lunar.icu",
       "https://que.wilbvr.me",
+      "https://quetre.fascinated.cc",
       "https://quetre.catsarch.com",
       "https://quetre.frontendfriendly.xyz"
     ]
@@ -379,6 +374,7 @@
       "https://binge.whateveritworks.social",
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
+      "https://libremdb.fascinated.cc",
       "https://libremdb.catsarch.com",
       "https://libremdb.frontendfriendly.xyz"
     ]
@@ -446,6 +442,7 @@
       "https://overflow.adminforge.de",
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
+      "https://overflow.fascinated.cc",
       "https://ao.bloatcat.tk",
       "https://anonoverflow.frontendfriendly.xyz"
     ]
