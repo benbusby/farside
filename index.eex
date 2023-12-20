@@ -28,6 +28,15 @@
     ul {
       margin: 10px;
     }
+    @media (prefers-color-scheme: dark) {
+      html {
+        color: #fff;
+        background: #121517;
+      }
+      a:link, a:visited {
+        color: #AA8AC1;
+      }
+    }
   </style>
 </head>
 <body>
