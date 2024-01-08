@@ -166,19 +166,19 @@ jobs:
 
         # ==============================================================
         # teddit update
+        # Note: no longer maintained
         # ==============================================================
-        curl -s https://codeberg.org/teddit/teddit/raw/branch/main/instances.json | \
-          jq '[
-            .[] |
-            select(.url != null) |
-            select(.url | contains("https")) |
-            .url ] |
-            sort' > teddit-tmp.json
-        jq --slurpfile teddit teddit-tmp.json \
-          '( .[] | select(.type == "teddit") )
-          .instances |= $teddit[0]' services-full.json > services-tmp.json
+        #curl -s https://codeberg.org/teddit/teddit/raw/branch/main/instances.json | \
+          #jq '[
+            #.[] |
+            #select(.url | contains("https")) |
+            #.url ] |
+            #sort' > teddit-tmp.json
+        #jq --slurpfile teddit teddit-tmp.json \
+          #'( .[] | select(.type == "teddit") )
+          #.instances |= $teddit[0]' services-full.json > services-tmp.json
 
-        apply_update
+        #apply_update
 
         # ==============================================================
         # Wikiless update
@@ -197,17 +197,24 @@ jobs:
         #apply_update
 
         # ==============================================================
-        # libreddit update
+        # libreddit + redlib update
         # ==============================================================
-        curl -s https://raw.githubusercontent.com/libreddit/libreddit-instances/master/instances.json | \
+        curl -s https://raw.githubusercontent.com/redlib-org/redlib-instances/main/instances.json | \
           jq '[
             .instances[] |
             select(.url) |
             .url ] |
             sort' > libreddit-tmp.json
+
         jq --slurpfile libreddit libreddit-tmp.json \
           '( .[] | select(.type == "libreddit") )
           .instances |= $libreddit[0]' services-full.json > services-tmp.json
+
+        mv services-tmp.json services-full.json
+
+        jq --slurpfile redlib libreddit-tmp.json \
+          '( .[] | select(.type == "redlib") )
+          .instances |= $redlib[0]' services-full.json > services-tmp.json
 
         apply_update
 

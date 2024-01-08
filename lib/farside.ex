@@ -1,4 +1,4 @@
-defmodule Farside do
+  defmodule Farside do
   @service_prefix Application.compile_env!(:farside, :service_prefix)
   @fallback_suffix Application.compile_env!(:farside, :fallback_suffix)
   @previous_suffix Application.compile_env!(:farside, :previous_suffix)
@@ -7,9 +7,9 @@ defmodule Farside do
   # This enables Farside to redirect with links such as:
   # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
   @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
-  @reddit_regex ~r/reddit.com|libreddit|teddit/
-  @instagram_regex ~r/instagram.com|bibliogram/
   @twitter_regex ~r/twitter.com|x.com|nitter/
+  @reddit_regex ~r/reddit.com|libreddit|redlib/
+  @instagram_regex ~r/instagram.com|proxigram/
   @wikipedia_regex ~r/wikipedia.org|wikiless/
   @medium_regex ~r/medium.com|scribe/
   @odysee_regex ~r/odysee.com|librarian/
@@ -25,8 +25,8 @@ defmodule Farside do
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
-    @reddit_regex => ["libreddit", "teddit"],
-    @instagram_regex => ["bibliogram"],
+    @reddit_regex => ["libreddit", "redlib"],
+    @instagram_regex => ["proxigram"],
     @twitter_regex => ["nitter"],
     @wikipedia_regex => ["wikiless"],
     @medium_regex => ["scribe"],
@@ -122,17 +122,6 @@ defmodule Farside do
 
   def amend_instance(instance, service, path) do
     cond do
-      String.match?(service, @instagram_regex) ->
-        # Bibliogram doesn't have a 1:1 matching to Instagram URLs for users,
-        # so a "/u" is appended if the requested path doesn't explicitly include
-        # "/p" for a post or an empty path for the home page.
-        if String.length(path) > 0 and
-           !String.starts_with?(path, "p/") and
-           !String.starts_with?(path, "u/") do
-          "#{instance}/u"
-        else
-          instance
-        end
       String.match?(service, @fandom_regex) ->
         # Fandom links require the subdomain to be preserved, otherwise the
         # requested path won't work.

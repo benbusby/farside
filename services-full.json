@@ -2,19 +2,31 @@
   {
     "type": "libreddit",
     "test_url": "/r/popular",
-    "fallback": "https://libreddit.spike.codes",
+    "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
-      "https://libreddit.freedit.eu",
-      "https://libreddit.kylrth.com",
-      "https://libreddit.lunar.icu",
-      "https://libreddit.northboot.xyz",
-      "https://libreddit.privacydev.net",
+      "https://libreddit.bus-hit.me",
       "https://libreddit.projectsegfau.lt",
-      "https://libreddit.strongthany.cc",
-      "https://lr.artemislena.eu",
+      "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
-      "https://reddit.simo.sh"
+      "https://redlib.catsarch.com",
+      "https://redlib.freedit.eu",
+      "https://redlib.matthew.science"
+    ]
+  },
+  {
+    "type": "redlib",
+    "test_url": "/r/popular",
+    "fallback": "https://redlib.freedit.eu",
+    "instances": [
+      "https://l.opnxng.com",
+      "https://libreddit.bus-hit.me",
+      "https://libreddit.projectsegfau.lt",
+      "https://reddit.idevicehacked.com",
+      "https://reddit.invak.id",
+      "https://redlib.catsarch.com",
+      "https://redlib.freedit.eu",
+      "https://redlib.matthew.science"
     ]
   },
   {
@@ -53,14 +65,17 @@
     ]
   },
   {
-    "type": "bibliogram",
+    "type": "proxigram",
     "test_url": "/p/Ch2WRmiLMjj",
-    "fallback": "https://bibliogram.1d4.us",
+    "fallback": "https://ig.opnxng.com",
     "instances": [
-      "https://bibliogram.1d4.us",
-      "https://bibliogram.froth.zone",
-      "https://bibliogram.priv.pw",
-      "https://ig.femboy.hu"
+	  "https://ig.opnxng.com",
+	  "https://proxigram.lunar.icu",
+	  "https://gram.whatever.social",
+	  "https://ig.snine.nl",
+	  "https://ig.floppa.one",
+	  "https://proxigram.kyun.li",
+	  "https://proxigram.ducks.party"
     ]
   },
   {
