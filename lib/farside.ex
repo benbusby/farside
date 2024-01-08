@@ -7,7 +7,7 @@ defmodule Farside do
   # This enables Farside to redirect with links such as:
   # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
   @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
-  @reddit_regex ~r/reddit.com|libreddit|teddit/
+  @reddit_regex ~r/reddit.com|libreddit|redlib/
   @instagram_regex ~r/instagram.com|bibliogram/
   @twitter_regex ~r/twitter.com|nitter/
   @wikipedia_regex ~r/wikipedia.org|wikiless/
@@ -22,7 +22,7 @@ defmodule Farside do
 
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
-    @reddit_regex => ["libreddit", "teddit"],
+    @reddit_regex => ["libreddit", "redlib"],
     @instagram_regex => ["bibliogram"],
     @twitter_regex => ["nitter"],
     @wikipedia_regex => ["wikiless"],
