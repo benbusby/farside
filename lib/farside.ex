@@ -8,7 +8,7 @@ defmodule Farside do
   # farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ
   @youtube_regex ~r/youtu(.be|be.com)|invidious|piped/
   @reddit_regex ~r/reddit.com|libreddit|redlib/
-  @instagram_regex ~r/instagram.com|bibliogram/
+  @instagram_regex ~r/instagram.com|proxigram/
   @twitter_regex ~r/twitter.com|nitter/
   @wikipedia_regex ~r/wikipedia.org|wikiless/
   @medium_regex ~r/medium.com|scribe/
@@ -23,7 +23,7 @@ defmodule Farside do
   @parent_services %{
     @youtube_regex => ["invidious", "piped"],
     @reddit_regex => ["libreddit", "redlib"],
-    @instagram_regex => ["bibliogram"],
+    @instagram_regex => ["proxigram"],
     @twitter_regex => ["nitter"],
     @wikipedia_regex => ["wikiless"],
     @medium_regex => ["scribe"],
@@ -112,24 +112,6 @@ defmodule Farside do
         CubDB.get(CubDB, "#{service}#{@fallback_suffix}")
       end
     instance
-  end
-
-  def amend_instance(instance, service, path) do
-    cond do
-      String.match?(service, @instagram_regex) ->
-        # Bibliogram doesn't have a 1:1 matching to Instagram URLs for users,
-        # so a "/u" is appended if the requested path doesn't explicitly include
-        # "/p" for a post or an empty path for the home page.
-        if String.length(path) > 0 and
-           !String.starts_with?(path, "p/") and
-           !String.starts_with?(path, "u/") do
-          "#{instance}/u"
-        else
-          instance
-        end
-      true ->
-        instance
-    end
   end
 
   def get_last_updated do

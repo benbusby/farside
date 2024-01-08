@@ -62,7 +62,6 @@ defmodule Farside.Router do
       true ->
         instance = Farside.get_service(service_name)
             |> Farside.pick_instance
-            |> Farside.amend_instance(service_name, path)
 
         # Redirect to the available instance
         conn

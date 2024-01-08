@@ -58,15 +58,17 @@
     ]
   },
   {
-    "type": "bibliogram",
+    "type": "proxigram",
     "test_url": "/p/Ch2WRmiLMjj",
-    "fallback": "https://bibliogram.1d4.us",
+    "fallback": "https://ig.opnxng.com",
     "instances": [
-      "https://bibliogram.1d4.us",
-      "https://bibliogram.froth.zone",
-      "https://bibliogram.priv.pw",
-      "https://ig.femboy.hu",
-      "https://ig.tokhmi.xyz"
+	  "https://ig.opnxng.com",
+	  "https://proxigram.lunar.icu",
+	  "https://gram.whatever.social",
+	  "https://ig.snine.nl",
+	  "https://ig.floppa.one",
+	  "https://proxigram.kyun.li",
+	  "https://proxigram.ducks.party"
     ]
   },
   {
