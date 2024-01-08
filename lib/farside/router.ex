@@ -56,23 +56,21 @@ defmodule Farside.Router do
         Enum.join(glob, "/")
     end
 
-    instance = cond do
+    cond do
       conn.assigns[:throttle] != nil ->
-        Farside.get_service(service_name)
-        |> Farside.last_instance
-        |> Farside.amend_instance(service_name, path)
+        send_resp(conn, :too_many_requests, "Too many requests - max request rate is 1 per second")
       true ->
-        Farside.get_service(service_name)
-        |> Farside.pick_instance
-        |> Farside.amend_instance(service_name, path)
-    end
+        instance = Farside.get_service(service_name)
+            |> Farside.pick_instance
+            |> Farside.amend_instance(service_name, path)
 
-    # Redirect to the available instance
-    conn
-    |> Plug.Conn.resp(:found, "")
-    |> Plug.Conn.put_resp_header(
-      "location",
-      "#{instance}/#{path}#{get_query_params(conn)}"
-    )
+        # Redirect to the available instance
+        conn
+        |> Plug.Conn.resp(:found, "")
+        |> Plug.Conn.put_resp_header(
+          "location",
+          "#{instance}/#{path}#{get_query_params(conn)}"
+        )
+    end
   end
 end
