@@ -400,7 +400,28 @@
     "type": "librex",
     "test_url": "/search.php?q=<%=query%>",
     "fallback": "https://librex.myroware.eu",
-    "instances": []
+    "instances": [
+      "https://glass.prpl.wtf",
+      "https://librex.nohost.network",
+      "https://librex.retro-hax.net",
+      "https://librex.uk.to",
+      "https://librey.baczek.me",
+      "https://librey.ix.tc",
+      "https://librey.myroware.net",
+      "https://librey.nezumi.party",
+      "https://librey.org",
+      "https://lx.benike.me",
+      "https://ly.owo.si",
+      "https://search.ahwx.org",
+      "https://search.davidovski.xyz",
+      "https://search.funami.tech",
+      "https://search.pabloferreiro.es",
+      "https://search.seitan-ayoub.lol",
+      "https://search.zeroish.xyz",
+      "https://search.zeroish.xyz",
+      "https://search2.ahwx.org",
+      "https://search3.ahwx.org"
+	]
   },
   {
     "type": "quetre",
