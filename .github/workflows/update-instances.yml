@@ -242,31 +242,21 @@ jobs:
           apply_update
 
         # ==============================================================
-        # librex update
+        # LibreX/LibreY update
         # ==============================================================
         curl -s https://raw.githubusercontent.com/Ahwxorg/LibreY/main/instances.json | \
           jq '[
             .instances |
             .[] |
-            select(.librey|not) |
             .clearnet] |
-            sort' > librex-tmp.json
-        jq --slurpfile librex librex-tmp.json \
+            sort' > librey-tmp.json
+
+        jq --slurpfile librex librey-tmp.json \
           '( .[] | select(.type == "librex") )
           .instances |= $librex[0]' services-full.json > services-tmp.json
 
-        apply_update
+        mv services-tmp.json services-full.json
 
-        # ==============================================================
-        # librey update
-        # ==============================================================
-        curl -s https://raw.githubusercontent.com/Ahwxorg/LibreY/main/instances.json | \
-          jq '[
-            .instances |
-            .[] |
-            select(.librey == true) |
-            .clearnet] |
-            sort' > librey-tmp.json
         jq --slurpfile librey librey-tmp.json \
           '( .[] | select(.type == "librey") )
           .instances |= $librey[0]' services-full.json > services-tmp.json
