@@ -62,13 +62,12 @@
     "test_url": "/p/Ch2WRmiLMjj",
     "fallback": "https://ig.opnxng.com",
     "instances": [
-	  "https://ig.opnxng.com",
-	  "https://proxigram.lunar.icu",
-	  "https://gram.whatever.social",
-	  "https://ig.snine.nl",
-	  "https://ig.floppa.one",
-	  "https://proxigram.kyun.li",
-	  "https://proxigram.ducks.party"
+      "https://ig.opnxng.com",
+      "https://proxigram.lunar.icu",
+      "https://gram.whatever.social",
+      "https://ig.floppa.one",
+      "https://proxigram.kyun.li",
+      "https://proxigram.ducks.party"
     ]
   },
   {
@@ -76,13 +75,10 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://anontube.lvkaszus.pl",
-      "https://inv.in.projectsegfau.lt",
       "https://inv.n8pjl.ca",
       "https://inv.tux.pizza",
       "https://inv.us.projectsegfau.lt",
       "https://inv.zzls.xyz",
-      "https://invidious.12a.app",
       "https://invidious.drgns.space",
       "https://invidious.fdn.fr",
       "https://invidious.lunar.icu",
@@ -99,6 +95,7 @@
       "https://vid.priv.au",
       "https://vid.puffyan.us",
       "https://yewtu.be",
+      "https://youtube.owacon.moe",
       "https://yt.artemislena.eu",
       "https://yt.cdaut.de",
       "https://yt.drgnz.club"
@@ -128,9 +125,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://n.biendeo.com",
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
@@ -138,20 +133,16 @@
       "https://nitter.esmailelbob.xyz",
       "https://nitter.io.lol",
       "https://nitter.ktachibana.party",
-      "https://nitter.kylrth.com",
-      "https://nitter.kavin.rocks",
-      "https://nitter.unixfox.eu",
-      "https://n.actionsack.com",
+      "https://nitter.mint.lgbt",
       "https://nitter.moomoo.me",
       "https://nitter.net",
-      "https://nitter.no-logs.com",
-      "https://nitter.nohost.network",
+      "https://nitter.oksocial.net",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
+      "https://nitter.tux.pizza",
       "https://nitter.unixfox.eu",
-      "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe"
     ]
   },
@@ -167,7 +158,8 @@
       "https://scribe.froth.zone",
       "https://scribe.privacydev.net",
       "https://sc.vern.cc",
-      "https://m.opnxng.com"
+      "https://m.opnxng.com",
+      "https://scribe.manasiwibi.com"
     ]
   },
   {
@@ -205,8 +197,7 @@
       "https://translate.dr460nf1r3.org",
       "https://translate.whateveritworks.org",
       "https://translate.sapti.me",
-      "https://translate.colinslegacy.com",
-      "https://translate.igna.rocks"
+      "https://translate.colinslegacy.com"
     ]
   },
   {
@@ -228,7 +219,6 @@
       "https://rimgo.kling.gg",
       "https://i.01r.xyz",
       "https://rimgo.projectsegfau.lt",
-      "https://rimgo.fascinated.cc",
       "https://rimgo.catsarch.com",
       "https://rimgo.frontendfriendly.xyz"
     ]
@@ -241,6 +231,7 @@
       "https://gowogle.voring.me",
       "https://s.tokhmi.xyz",
       "https://search.dr460nf1r3.org",
+      "https://search.nezumi.party",
       "https://search.notrustverify.ch",
       "https://search.sethforprivacy.com",
       "https://wg.vern.cc",
@@ -282,18 +273,17 @@
       "https://copp.gg",
       "https://freesearch.club",
       "https://northboot.xyz",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
-      "https://search.bus-hit.me",
       "https://search.demoniak.ch",
+      "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.modalogi.com",
-      "https://search.projectsegfau.lt",
+      "https://search.ononoki.org",
       "https://search.rabbit-company.com",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -303,15 +293,18 @@
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
-      "https://searx.fmac.xyz",
+      "https://searx.fmhy.net",
       "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.si",
-      "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
+      "https://searx.work",
+      "https://searx.zhenyapav.com",
       "https://searxng.ch",
+      "https://searxng.site",
       "https://sx.t-1.org",
       "https://xo.wtf"
     ]
@@ -370,10 +363,7 @@
     "type": "librex",
     "test_url": "/search.php?q=<%=query%>",
     "fallback": "https://librex.myroware.eu",
-    "instances": [
-      "https://librex.baczek.me",
-      "https://search.zeroish.xyz"
-    ]
+    "instances": []
   },
   {
     "type": "quetre",
@@ -393,7 +383,6 @@
       "https://quetre.pufe.org",
       "https://quetre.lunar.icu",
       "https://que.wilbvr.me",
-      "https://quetre.fascinated.cc",
       "https://quetre.catsarch.com",
       "https://quetre.frontendfriendly.xyz"
     ]
@@ -413,7 +402,6 @@
       "https://binge.whateveritworks.social",
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
-      "https://libremdb.fascinated.cc",
       "https://libremdb.catsarch.com",
       "https://libremdb.frontendfriendly.xyz"
     ]
@@ -481,7 +469,6 @@
       "https://overflow.adminforge.de",
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
-      "https://overflow.fascinated.cc",
       "https://ao.bloatcat.tk",
       "https://anonoverflow.frontendfriendly.xyz"
     ]
@@ -506,14 +493,14 @@
     "test_url": "/search.php?q=<%=query%>",
     "fallback": "https://search.ahwx.org",
     "instances": [
-      "https://librex.ix.tc",
+      "https://glass.prpl.wtf",
       "https://librex.nohost.network",
       "https://librex.retro-hax.net",
-      "https://librex.supernets.org",
       "https://librex.uk.to",
-      "https://librex.yogeshlamichhane.com.np",
       "https://librey.baczek.me",
-      "https://librey.danyaal.xyz",
+      "https://librey.ix.tc",
+      "https://librey.myroware.net",
+      "https://librey.nezumi.party",
       "https://librey.org",
       "https://lx.benike.me",
       "https://ly.owo.si",
@@ -521,8 +508,9 @@
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
       "https://search.pabloferreiro.es",
-      "https://search.ratakor.com",
       "https://search.seitan-ayoub.lol",
+      "https://search.zeroish.xyz",
+      "https://search.zeroish.xyz",
       "https://search2.ahwx.org",
       "https://search3.ahwx.org"
     ]
