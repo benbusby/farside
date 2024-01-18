@@ -6,12 +6,16 @@
     "instances": [
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
+      "https://libreddit.privacydev.net",
       "https://libreddit.projectsegfau.lt",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.freedit.eu",
-      "https://redlib.matthew.science"
+      "https://redlib.matthew.science",
+      "https://redlib.perennialte.ch",
+      "https://redlib.tux.pizza",
+      "https://redlib.vimmer.dev"
     ]
   },
   {
@@ -21,12 +25,16 @@
     "instances": [
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
+      "https://libreddit.privacydev.net",
       "https://libreddit.projectsegfau.lt",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.freedit.eu",
-      "https://redlib.matthew.science"
+      "https://redlib.matthew.science",
+      "https://redlib.perennialte.ch",
+      "https://redlib.tux.pizza",
+      "https://redlib.vimmer.dev"
     ]
   },
   {
@@ -157,7 +165,6 @@
       "https://nitter.kylrth.com",
       "https://nitter.lanterne-rouge.info",
       "https://nitter.mint.lgbt",
-      "https://nitter.moomoo.me",
       "https://nitter.net",
       "https://nitter.nohost.network",
       "https://nitter.oksocial.net",
@@ -165,10 +172,10 @@
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://nitter.projectsegfau.lt",
-      "https://nitter.rawbit.ninja",
       "https://nitter.salastil.com",
       "https://nitter.soopy.moe",
       "https://nitter.tux.pizza",
+      "https://nitter.uni-sonia.com",
       "https://nitter.unixfox.eu",
       "https://nitter.us.projectsegfau.lt",
       "https://nitter.woodland.cafe",
@@ -318,7 +325,9 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
+      "https://search.broker",
       "https://search.bus-hit.me",
+      "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.in.projectsegfau.lt",
@@ -343,7 +352,6 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.si",
-      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searx.zhenyapav.com",
       "https://searxng.ch",
