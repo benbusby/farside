@@ -151,7 +151,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
       "https://nitter.cz",
@@ -165,6 +164,7 @@
       "https://nitter.kylrth.com",
       "https://nitter.lanterne-rouge.info",
       "https://nitter.mint.lgbt",
+      "https://nitter.moomoo.me",
       "https://nitter.net",
       "https://nitter.nohost.network",
       "https://nitter.oksocial.net",
@@ -325,7 +325,6 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
-      "https://search.broker",
       "https://search.bus-hit.me",
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
