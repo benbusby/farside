@@ -264,6 +264,22 @@ jobs:
         apply_update
 
         # ==============================================================
+        # Rimgo update
+        # ==============================================================
+
+        curl -s https://rimgo.codeberg.page/api.json | \
+          jq '[
+            .clearnet[] |
+            .url] |
+            sort' > rimgo-tmp.json
+
+        jq --slurpfile rimgo rimgo-tmp.json \
+          '(.[] | select(.type == "rimgo") )
+          .instances |= $rimgo[0]' services-full.json > services-tmp.json
+
+          apply_update
+
+        # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
 
