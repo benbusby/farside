@@ -560,19 +560,23 @@
     "fallback": "https://4get.ca",
     "instances": [
       "https://4g.ggtyler.dev",
+      "https://4g.opnxng.com",
       "https://4get.ca",
       "https://4get.dcs0.hu",
       "https://4get.etenie.pl",
       "https://4get.hbubli.cc",
       "https://4get.kizuki.lol",
       "https://4get.konakona.moe",
+      "https://4get.lunar.icu",
       "https://4get.lvkaszus.pl",
       "https://4get.perennialte.ch",
       "https://4get.plunked.party",
       "https://4get.psily.garden",
       "https://4get.seitan-ayoub.lol",
       "https://4get.sijh.net",
-      "https://4get.silly.computer"
+      "https://4get.silly.computer",
+      "https://4get.zzls.xyz",
+      "https://4getus.zzls.xyz"
     ]
   },
   {
