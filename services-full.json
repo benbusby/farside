@@ -13,10 +13,10 @@
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.freedit.eu",
+      "https://redlib.matthew.science",
       "https://redlib.perennialte.ch",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -34,10 +34,10 @@
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.freedit.eu",
+      "https://redlib.matthew.science",
       "https://redlib.perennialte.ch",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -154,27 +154,19 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://n.populas.no",
       "https://ni.holo-mix.com",
-      "https://nitter.adminforge.de",
       "https://nitter.catsarch.com",
-      "https://nitter.cz",
+      "https://nitter.esmailelbob.xyz",
       "https://nitter.eu.projectsegfau.lt",
       "https://nitter.freedit.eu",
-      "https://nitter.in.projectsegfau.lt",
       "https://nitter.jakefrosty.com",
-      "https://nitter.kylrth.com",
-      "https://nitter.moomoo.me",
-      "https://nitter.oksocial.net",
+      "https://nitter.lanterne-rouge.info",
       "https://nitter.perennialte.ch",
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
-      "https://nitter.projectsegfau.lt",
       "https://nitter.rawbit.ninja",
-      "https://nitter.salastil.com",
-      "https://nitter.tux.pizza",
-      "https://nitter.unixfox.eu",
-      "https://nitter.us.projectsegfau.lt",
-      "https://nitter.woodland.cafe"
+      "https://nitter.soopy.moe",
+      "https://nitter.unixfox.eu"
     ]
   },
   {
