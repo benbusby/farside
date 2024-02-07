@@ -238,7 +238,7 @@
   {
     "type": "whoogle",
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
-    "fallback": "https://whoogle.fossho.st",
+    "fallback": "https://search.sethforprivacy.com",
     "instances": [
       "https://gowogle.voring.me",
       "https://s.tokhmi.xyz",
