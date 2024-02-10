@@ -11,11 +11,9 @@
       "https://libreddit.projectsegfau.lt",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
-      "https://redlib.matthew.science",
+      "https://redlib.catsarch.com",
       "https://redlib.nohost.network",
-      "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat"
     ]
   },
@@ -31,11 +29,9 @@
       "https://libreddit.projectsegfau.lt",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
-      "https://redlib.matthew.science",
+      "https://redlib.catsarch.com",
       "https://redlib.nohost.network",
-      "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat"
     ]
   },
@@ -139,16 +135,15 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://n.opnxng.com",
-      "https://n.populas.no",
       "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.cz",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.lanterne-rouge.info",
-      "https://nitter.mint.lgbt",
-      "https://nitter.oksocial.net",
+      "https://nitter.in.projectsegfau.lt",
       "https://nitter.privacydev.net",
-      "https://nitter.unixfox.eu"
+      "https://nitter.projectsegfau.lt",
+      "https://nitter.soopy.moe",
+      "https://nitter.tux.pizza"
     ]
   },
   {
@@ -290,7 +285,6 @@
       "https://s.trung.fun",
       "https://search.broker",
       "https://search.bus-hit.me",
-      "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.in.projectsegfau.lt",
@@ -298,7 +292,6 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
-      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -321,7 +314,8 @@
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
-      "https://searxng.site"
+      "https://searxng.site",
+      "https://xo.wtf"
     ]
   },
   {
@@ -507,6 +501,7 @@
       "https://overflow.adminforge.de",
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
+      "https://code.xbdm.fun",
       "https://ao.bloatcat.tk",
       "https://anonoverflow.frontendfriendly.xyz"
     ]
