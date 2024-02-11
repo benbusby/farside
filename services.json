@@ -134,16 +134,16 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://n.opnxng.com",
       "https://nitter.1d4.us",
       "https://nitter.adminforge.de",
       "https://nitter.cz",
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.in.projectsegfau.lt",
+      "https://nitter.kylrth.com",
+      "https://nitter.lanterne-rouge.info",
+      "https://nitter.mint.lgbt",
       "https://nitter.privacydev.net",
       "https://nitter.projectsegfau.lt",
-      "https://nitter.soopy.moe",
-      "https://nitter.tux.pizza"
+      "https://nitter.soopy.moe"
     ]
   },
   {
@@ -226,7 +226,8 @@
       "https://rimgo.pussthecat.org",
       "https://rimgo.quantenzitrone.eu",
       "https://rimgo.totaldarkness.net",
-      "https://rimgo.us.projectsegfau.lt"
+      "https://rimgo.us.projectsegfau.lt",
+      "https://rimgo.whateveritworks.org"
     ]
   },
   {
@@ -287,11 +288,11 @@
       "https://search.bus-hit.me",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.in.projectsegfau.lt",
       "https://search.itstechtime.com",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
+      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -304,7 +305,6 @@
       "https://searx.daetalytica.io",
       "https://searx.ee",
       "https://searx.fmhy.net",
-      "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
@@ -314,8 +314,7 @@
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
-      "https://searxng.site",
-      "https://xo.wtf"
+      "https://searxng.site"
     ]
   },
   {
@@ -365,7 +364,8 @@
       "https://tik.hostux.net",
       "https://proxitok.lunar.icu",
       "https://proxitok.privacy.com.de",
-      "https://tiktok.chauvet.pro"
+      "https://tiktok.chauvet.pro",
+      "https://cringe.whateveritworks.org"
     ]
   },
   {
@@ -413,6 +413,7 @@
       "https://quetre.pufe.org",
       "https://quetre.lunar.icu",
       "https://que.wilbvr.me",
+      "https://questions.whateveritworks.org",
       "https://quetre.catsarch.com",
       "https://quetre.frontendfriendly.xyz"
     ]
@@ -464,6 +465,7 @@
       "https://nerd.whatever.social",
       "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network",
+      "https://breeze.whateveritworks.org",
       "https://z.opnxng.com",
       "https://breezewiki.hyperreal.coffee",
       "https://breezewiki.catsarch.com",
@@ -486,6 +488,7 @@
       "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
+      "https://gh.whateveritworks.org",
       "https://gothub.dev.projectsegfau.lt"
     ]
   },
