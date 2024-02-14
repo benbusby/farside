@@ -140,15 +140,14 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://n.opnxng.com",
-      "https://nitter.adminforge.de",
+      "https://nitter.cz",
       "https://nitter.esmailelbob.xyz",
+      "https://nitter.lanterne-rouge.info",
       "https://nitter.mint.lgbt",
-      "https://nitter.oksocial.net",
       "https://nitter.privacydev.net",
-      "https://nitter.projectsegfau.lt",
-      "https://nitter.soopy.moe",
-      "https://nitter.us.projectsegfau.lt"
+      "https://nitter.unixfox.eu",
+      "https://nitter.us.projectsegfau.lt",
+      "https://nitter.woodland.cafe"
     ]
   },
   {
@@ -289,7 +288,6 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
-      "https://search.broker",
       "https://search.bus-hit.me",
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
@@ -299,14 +297,12 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
-      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
-      "https://searx.ankha.ac",
       "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
