@@ -141,9 +141,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.eu.projectsegfau.lt",
-      "https://nitter.in.projectsegfau.lt",
-      "https://nitter.mint.lgbt",
       "https://nitter.privacydev.net",
       "https://nitter.projectsegfau.lt",
       "https://nitter.unixfox.eu"
@@ -303,7 +300,6 @@
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
-      "https://search.sapti.me",
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
       "https://searx.ankha.ac",
