@@ -163,12 +163,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.mint.lgbt",
-      "https://nitter.oksocial.net",
-      "https://nitter.perennialte.ch",
-      "https://nitter.privacydev.net",
-      "https://nitter.tux.pizza",
-      "https://nitter.unixfox.eu"
+      "https://nitter.mint.lgbt"
     ]
   },
   {
@@ -326,13 +321,11 @@
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.in.projectsegfau.lt",
       "https://search.itstechtime.com",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.ononoki.org",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
