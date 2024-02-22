@@ -14,14 +14,13 @@
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.freedit.eu",
+      "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
       "https://redlib.r4fo.com",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -39,14 +38,13 @@
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.freedit.eu",
+      "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
       "https://redlib.r4fo.com",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -163,7 +161,9 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.mint.lgbt"
+      "https://nitter.mint.lgbt",
+      "https://nitter.privacydev.net",
+      "https://nitter.tux.pizza"
     ]
   },
   {
@@ -344,7 +344,6 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
-      "https://searx.si",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",

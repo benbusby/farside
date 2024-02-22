@@ -13,12 +13,11 @@
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
+      "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -35,12 +34,11 @@
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
+      "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -142,7 +140,9 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.mint.lgbt"
+      "https://nitter.mint.lgbt",
+      "https://nitter.privacydev.net",
+      "https://nitter.tux.pizza"
     ]
   },
   {
@@ -312,7 +312,6 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
-      "https://searx.si",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
@@ -412,7 +411,6 @@
       "https://quetre.esmailelbob.xyz",
       "https://quetre.privacydev.net",
       "https://ask.habedieeh.re",
-      "https://quetre.marcopisco.com",
       "https://quetre.blackdrgn.nl",
       "https://quetre.pufe.org",
       "https://quetre.lunar.icu",
@@ -528,7 +526,6 @@
       "https://4get.konakona.moe",
       "https://4get.lunar.icu",
       "https://4get.lvkaszus.pl",
-      "https://4get.plunked.party",
       "https://4get.psily.garden",
       "https://4get.seitan-ayoub.lol",
       "https://4get.silly.computer",
