@@ -161,9 +161,8 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.mint.lgbt",
-      "https://nitter.privacydev.net",
-      "https://nitter.tux.pizza"
+      "https://nitter.no-logs.com",
+      "https://nitter.privacydev.net"
     ]
   },
   {
@@ -317,15 +316,18 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
+      "https://search.broker",
       "https://search.bus-hit.me",
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
+      "https://search.in.projectsegfau.lt",
       "https://search.itstechtime.com",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.ononoki.org",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -344,6 +346,7 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
+      "https://searx.si",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
