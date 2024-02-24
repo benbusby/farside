@@ -12,12 +12,12 @@
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -33,12 +33,12 @@
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -139,8 +139,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.esmailelbob.xyz",
-      "https://nitter.no-logs.com",
+      "https://nitter.mint.lgbt",
       "https://nitter.privacydev.net"
     ]
   },
