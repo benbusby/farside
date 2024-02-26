@@ -12,10 +12,12 @@
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
+      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -33,10 +35,12 @@
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.matthew.science",
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
+      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -139,7 +143,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.mint.lgbt",
       "https://nitter.privacydev.net"
     ]
   },
@@ -157,7 +160,8 @@
       "https://sc.vern.cc",
       "https://m.opnxng.com",
       "https://scribe.manasiwibi.com",
-      "https://scribe.r4fo.com"
+      "https://scribe.r4fo.com",
+      "https://scribe.privacyredirect.com"
     ]
   },
   {
@@ -292,8 +296,8 @@
       "https://search.itstechtime.com",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.nadeko.net",
       "https://search.ononoki.org",
+      "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -304,7 +308,6 @@
       "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
-      "https://searx.daetalytica.io",
       "https://searx.ee",
       "https://searx.fmhy.net",
       "https://searx.headpat.exchange",
