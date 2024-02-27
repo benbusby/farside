@@ -45,7 +45,7 @@
       "https://safereddit.com"
     ]
   },
-{
+  {
     "type": "hyperpipe",
     "test_url": "/watch?v=lYBUbBu4W08",
     "fallback": "https://hyperpipe.surge.sh",
