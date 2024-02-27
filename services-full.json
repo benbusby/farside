@@ -25,6 +25,23 @@
       "https://safereddit.com"
     ]
   },
+  {
+    "type": "hyperpipe",
+    "test_url": "/watch?v=lYBUbBu4W08",
+    "fallback": "https://hyperpipe.surge.sh",
+    "instances": [
+      "https://hyperpipe.esmailelbob.xyz",
+      "https://listen.whatever.social",
+      "https://hyperpipe.drgns.space",
+      "https://hp.ggtyler.dev",
+      "https://music.adminforge.de",
+      "https://music.pfcd.me",  
+      "https://hyperpipe.ducks.party",
+      "https://hyperpipe.frontendfriendly.xyz",
+      "https://hp.ngn.tf",
+      "https://hp.iqbalrifai.eu.org"
+    ]
+  },
     {
     "type": "nitter",
     "test_url": "/jack/status/20",
