@@ -42,7 +42,7 @@
       "https://hp.iqbalrifai.eu.org"
     ]
   },
-    {
+  {
     "type": "nitter",
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
