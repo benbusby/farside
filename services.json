@@ -17,7 +17,6 @@
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -40,7 +39,6 @@
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://redlib.xn--hackerhhle-kcb.org",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -281,8 +279,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -300,6 +296,7 @@
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
+      "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
@@ -532,7 +529,6 @@
       "https://4get.konakona.moe",
       "https://4get.lunar.icu",
       "https://4get.lvkaszus.pl",
-      "https://4get.plunked.party",
       "https://4get.psily.garden",
       "https://4get.seitan-ayoub.lol",
       "https://4get.silly.computer",
