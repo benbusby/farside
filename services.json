@@ -17,7 +17,8 @@
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -38,7 +39,8 @@
       "https://redlib.nohost.network",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -139,7 +141,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.no-logs.com",
+      "https://nitter.esmailelbob.xyz",
       "https://nitter.privacydev.net"
     ]
   },
@@ -284,13 +286,13 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
+      "https://search.broker",
       "https://search.bus-hit.me",
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.nadeko.net",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -299,6 +301,7 @@
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.cthd.icu",
@@ -311,7 +314,9 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.si",
+      "https://searx.tuxcloud.net",
       "https://searx.work",
+      "https://searxng.ca",
       "https://searxng.ch",
       "https://searxng.site",
       "https://sx.thatxtreme.dev",
