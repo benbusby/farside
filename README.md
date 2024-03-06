@@ -110,7 +110,7 @@ For example:
         <td><a href="https://farside.link/rimgo/a/H8M4rcp">https://farside.link/rimgo/a/H8M4rcp</a></td>
     </tr>
     <tr>
-        <td><a href="https://sr.ht/~edwardloveall/scribe/">Scribe</a></td>
+        <td><a href="https://sr.ht/~edwardloveall/Scribe/">Scribe</a></td>
         <td>View Medium post</td>
         <td><a href="https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c">https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</a></td>
     </tr>
