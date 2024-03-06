@@ -95,7 +95,7 @@ For example:
         <td><a href="https://farside.link/searxng/search?q=EFF">https://farside.link/searxng/search?q=EFF</a></td>
     </tr>
     <tr>
-        <td><a href="https://git.sr.ht/~metalune/simplytranslate_web">SimplyTranslate</a></td>
+        <td><a href="https://codeberg.org/ManeraKai/simplytranslate">SimplyTranslate</a></td>
         <td>Translate "hola"</td>
         <td><a href="https://farside.link/simplytranslate/?engine=google&text=hola">https://farside.link/simplytranslate/?engine=google&text=hola</a></td>
     </tr>
