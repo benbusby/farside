@@ -27,7 +27,8 @@ defmodule Farside.Router do
         services: Farside.get_services_map()
       )
 
-    send_resp(conn, 200, resp)
+    put_resp_header(conn, "content-type", "text/html")
+        |> send_resp(200, resp)
   end
 
   match "/_/:service/*glob" do
