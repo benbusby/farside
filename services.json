@@ -328,7 +328,6 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
-      "https://wiki.604kph.xyz",
       "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
       "https://wiki.slipfox.xyz",
