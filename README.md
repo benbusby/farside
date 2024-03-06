@@ -39,7 +39,7 @@ distribute traffic more evenly across all instances and avoid performance
 bottlenecks and rate-limiting.
 
 Farside also integrates smoothly with basic redirector extensions in most
-browsers. For an simple example setup,
+browsers. For a simple example setup,
 [refer to the wiki](https://github.com/benbusby/farside/wiki/Browser-Extension).
 
 ## Demo
