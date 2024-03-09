@@ -276,7 +276,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -305,7 +304,6 @@
       "https://searx.cthd.icu",
       "https://searx.daetalytica.io",
       "https://searx.ee",
-      "https://searx.headpat.exchange",
       "https://searx.kutay.dev",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
