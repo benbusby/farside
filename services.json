@@ -300,7 +300,6 @@
       "https://search.demoniak.ch",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
@@ -470,27 +469,7 @@
     "type": "breezewiki",
     "test_url": "/undertale/wiki/Hot_Dog...%3F",
     "fallback": "https://breezewiki.com",
-    "instances": [
-      "https://breezewiki.com",
-      "https://antifandom.com",
-      "https://breezewiki.pussthecat.org",
-      "https://bw.hamstro.dev",
-      "https://bw.projectsegfau.lt",
-      "https://breeze.hostux.net",
-      "https://bw.artemislena.eu",
-      "https://nerd.whatever.social",
-      "https://breezewiki.frontendfriendly.xyz",
-      "https://breeze.nohost.network",
-      "https://breeze.whateveritworks.org",
-      "https://z.opnxng.com",
-      "https://breezewiki.hyperreal.coffee",
-      "https://breezewiki.catsarch.com",
-      "https://breeze.mint.lgbt",
-      "https://breezewiki.woodland.cafe",
-      "https://breezewiki.nadeko.net",
-      "http://bw.skunky7dhv7nohsoalpwe3sxfz3fbkad7r3wk632riye25vqm3meqead.onion",
-      "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion"
-    ]
+    "instances": null
   },
   {
     "type": "gothub",
