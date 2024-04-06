@@ -27,7 +27,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -58,7 +59,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -176,6 +178,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.no-logs.com",
       "https://nitter.privacydev.net"
     ]
   },
