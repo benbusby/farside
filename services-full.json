@@ -178,7 +178,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.no-logs.com",
       "https://nitter.privacydev.net"
     ]
   },
