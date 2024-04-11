@@ -288,7 +288,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -296,7 +295,6 @@
       "https://s.trung.fun",
       "https://search.bus-hit.me",
       "https://search.datura.network",
-      "https://search.demoniak.ch",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
