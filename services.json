@@ -14,7 +14,6 @@
       "https://red.ngn.tf",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
-      "https://reddit.owo.si",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
@@ -42,7 +41,6 @@
       "https://red.ngn.tf",
       "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
-      "https://reddit.owo.si",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
@@ -155,6 +153,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.esmailelbob.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net"
     ]
@@ -224,6 +223,7 @@
       "https://imgur.010032.xyz",
       "https://imgur.artemislena.eu",
       "https://ri.nadeko.net",
+      "https://rimgo.bloat.cat",
       "https://rimgo.bus-hit.me",
       "https://rimgo.catsarch.com",
       "https://rimgo.drgns.space",
@@ -320,6 +320,7 @@
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
