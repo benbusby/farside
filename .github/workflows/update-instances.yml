@@ -280,6 +280,23 @@ jobs:
           apply_update
 
         # ==============================================================
+        # Tent update
+        # ==============================================================
+
+        curl -s https://forgejo.sny.sh/sun/Tent/raw/branch/main/instances.json | \
+          jq '[
+            .[] |
+            select(.type == "http") |
+            .url] |
+            sort' > tent-tmp.json
+
+        jq --slurpfile tent tent-tmp.json \
+          '(.[] | select(.type == "tent") )
+          .instances |= $tent[0]' services-full.json > services-tmp.json
+
+          apply_update
+
+        # ==============================================================
         # TODO: Update instances for other services
         # ==============================================================
 

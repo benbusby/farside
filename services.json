@@ -585,5 +585,15 @@
       "https://search.zeroish.xyz",
       "https://search2.ahwx.org"
     ]
+  },
+  {
+    "type": "tent",
+    "test_url": "/search.php?query=<%=query%>",
+    "fallback": "https://tent.sny.sh",
+    "instances": [
+      "https://tent.bloat.cat",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
