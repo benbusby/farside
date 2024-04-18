@@ -22,8 +22,7 @@
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -49,8 +48,7 @@
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -295,7 +293,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
+      "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -309,7 +307,6 @@
       "https://search.im-in.space",
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
-      "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.ngn.tf",
       "https://search.ononoki.org",
@@ -324,13 +321,13 @@
       "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
-      "https://searx.dresden.network",
       "https://searx.foss.family",
       "https://searx.headpat.exchange",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.si",
+      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ca",
       "https://searxng.ch",
