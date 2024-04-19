@@ -64,7 +64,6 @@
       "https://td.vern.cc",
       "https://teddit.adminforge.de",
       "https://teddit.bus-hit.me",
-      "https://teddit.encrypted-data.xyz",
       "https://teddit.froth.zone",
       "https://teddit.garudalinux.org",
       "https://teddit.ggc-project.de",
@@ -134,7 +133,6 @@
     "instances": [
       "https://watch.whatever.social|https://watchapi.whatever.social",
       "https://piped.lunar.icu|https://piped-api.lunar.icu",
-      "https://il.ax|https://pa.il.ax",
       "https://piped.projectsegfau.lt|https://api.piped.projectsegfau.lt",
       "https://piped.privacydev.net|https://api.piped.privacydev.net",
       "https://piped.palveluntarjoaja.eu|https://pipedapi.palveluntarjoaja.eu",
