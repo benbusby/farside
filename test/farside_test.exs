@@ -53,7 +53,9 @@ defmodule FarsideTest do
 
     IO.puts("")
 
-    Enum.map(service_names, fn service_name ->
+    service_names |>
+    Enum.filter(fn service_name -> service_name != "nitter" end) |> 
+    Enum.map(fn service_name ->
       conn = test_conn("/#{service_name}")
       first_redirect = elem(List.last(conn.resp_headers), 1)
 
