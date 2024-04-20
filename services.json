@@ -12,7 +12,6 @@
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
-      "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
@@ -22,7 +21,8 @@
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -38,7 +38,6 @@
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
-      "https://reddit.idevicehacked.com",
       "https://reddit.invak.id",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
@@ -48,7 +47,8 @@
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -182,6 +182,7 @@
       "https://simplytranslate.manerakai.com",
       "https://simplytranslate.org",
       "https://simplytranslate.pussthecat.org",
+      "https://st.odyssey346.dev",
       "https://st.privacydev.net",
       "https://st.tokhmi.xyz",
       "https://tl.vern.cc",
@@ -298,6 +299,8 @@
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.bus-hit.me",
+      "https://search.datura.network",
+      "https://search.demoniak.ch",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
@@ -308,6 +311,7 @@
       "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -330,7 +334,6 @@
       "https://searxng.online",
       "https://searxng.site",
       "https://sx.thatxtreme.dev",
-      "https://sxng.violets-purgatory.dev",
       "https://twinkpad.pl",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
@@ -583,6 +586,7 @@
     "fallback": "https://tent.sny.sh",
     "instances": [
       "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
       "https://tent.sny.sh",
       "https://tn.vern.cc"
     ]
