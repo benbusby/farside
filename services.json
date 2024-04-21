@@ -291,6 +291,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://freesearch.club",
       "https://northboot.xyz",
       "https://opnxng.com",
@@ -324,8 +325,6 @@
       "https://searx.foss.family",
       "https://searx.headpat.exchange",
       "https://searx.ox2.fr",
-      "https://searx.perennialte.ch",
-      "https://searx.rhscz.eu",
       "https://searx.si",
       "https://searx.tuxcloud.net",
       "https://searx.work",
