@@ -103,8 +103,7 @@
       "https://gram.whatever.social",
       "https://ig.snine.nl",
       "https://ig.floppa.one",
-      "https://proxigram.kyun.li",
-      "https://proxigram.ducks.party"
+      "https://proxigram.kyun.li"
     ]
   },
   {
@@ -163,7 +162,8 @@
       "https://piped.qdi.fi|https://pipedapi.qdi.fi",
       "https://piped.hostux.net|https://piped-api.hostux.net",
       "https://pd.vern.cc|https://pdapi.vern.cc",
-      "https://piped.colinslegacy.com|https://pipedapi.colinslegacy.com"
+      "https://piped.colinslegacy.com|https://pipedapi.colinslegacy.com",
+      "https://piped.ducks.party|https://pipedapi.ducks.party"
     ]
   },
   {
@@ -192,7 +192,8 @@
       "https://m.opnxng.com",
       "https://scribe.manasiwibi.com",
       "https://scribe.r4fo.com",
-      "https://scribe.privacyredirect.com"
+      "https://scribe.privacyredirect.com",
+      "https://scribe.ducks.party"
     ]
   },
   {
@@ -215,7 +216,8 @@
       "https://translate.priv.pw",
       "https://translate.riverside.rocks",
       "https://translate.slipfox.xyz",
-      "https://translate.tiekoetter.com"
+      "https://translate.tiekoetter.com",
+      "https://simplytranslate.ducks.party"
     ]
   },
   {
@@ -477,7 +479,8 @@
       "https://questions.whateveritworks.org",
       "https://quetre.fascinated.cc",
       "https://quetre.catsarch.com",
-      "https://quetre.frontendfriendly.xyz"
+      "https://quetre.frontendfriendly.xyz",
+      "https://quetre.ducks.party"
     ]
   },
   {
@@ -498,7 +501,8 @@
       "https://libremdb.nerdyfam.tech",
       "https://libremdb.fascinated.cc",
       "https://libremdb.catsarch.com",
-      "https://libremdb.frontendfriendly.xyz"
+      "https://libremdb.frontendfriendly.xyz",
+      "https://libremdb.ducks.party"
     ]
   },
   {
@@ -511,7 +515,8 @@
       "https://sing.whatever.social",
       "https://dumb.nunosempere.com",
       "https://dumb.lunar.icu",
-      "https://dumb.esmailelbob.xyz"
+      "https://dumb.esmailelbob.xyz",
+      "https://dumb.ducks.party"
     ]
   },
   {
@@ -554,7 +559,8 @@
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
       "https://gh.whateveritworks.org",
-      "https://gothub.dev.projectsegfau.lt"
+      "https://gothub.dev.projectsegfau.lt",
+      "https://gothub.ducks.party"
     ]
   },
   {
@@ -572,7 +578,8 @@
       "https://code.xbdm.fun",
       "https://overflow.fascinated.cc",
       "https://ao.bloatcat.tk",
-      "https://anonoverflow.frontendfriendly.xyz"
+      "https://anonoverflow.frontendfriendly.xyz",
+      "https://overflow.ducks.party"
     ]
   },
   {
@@ -597,7 +604,8 @@
       "https://4get.sijh.net",
       "https://4get.silly.computer",
       "https://4get.zzls.xyz",
-      "https://4getus.zzls.xyz"
+      "https://4getus.zzls.xyz",
+      "https://4get.ducks.party"
     ]
   },
   {
