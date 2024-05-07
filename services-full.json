@@ -170,7 +170,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net"
     ]
   },
@@ -342,6 +341,7 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -368,6 +368,7 @@
       "https://searxng.online",
       "https://searxng.site",
       "https://sx.thatxtreme.dev",
+      "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
     ]
