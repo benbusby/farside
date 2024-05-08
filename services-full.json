@@ -25,6 +25,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
+      "https://redlib.vimmer.dev",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -54,6 +56,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
+      "https://redlib.vimmer.dev",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -170,6 +174,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.esmailelbob.xyz",
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net"
     ]
   },
@@ -356,7 +361,6 @@
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
       "https://searx.foss.family",
-      "https://searx.hu",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
@@ -367,7 +371,6 @@
       "https://searxng.cryptocalcu.top",
       "https://searxng.online",
       "https://searxng.site",
-      "https://sx.thatxtreme.dev",
       "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
