@@ -289,9 +289,8 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://freesearch.club",
-      "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -306,7 +305,9 @@
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -314,7 +315,6 @@
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
-      "https://search.us.projectsegfau.lt",
       "https://searx.aleteoryx.me",
       "https://searx.ankha.ac",
       "https://searx.ari.lt",
@@ -326,17 +326,15 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
-      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ca",
       "https://searxng.ch",
-      "https://searxng.cryptocalcu.top",
       "https://searxng.online",
       "https://searxng.site",
       "https://skyrimhater.com",
       "https://sx.thatxtreme.dev",
-      "https://sxng.violets-purgatory.dev",
-      "https://vanderwilhelm.me"
+      "https://vanderwilhelm.me",
+      "https://xo.wtf"
     ]
   },
   {
