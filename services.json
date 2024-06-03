@@ -103,7 +103,36 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": []
+    "instances": [
+      "https://inv.in.projectsegfau.lt",
+      "https://inv.nadeko.net",
+      "https://inv.tux.pizza",
+      "https://inv.us.projectsegfau.lt",
+      "https://invidious.drgns.space",
+      "https://invidious.einfachzocken.eu",
+      "https://invidious.fdn.fr",
+      "https://invidious.flokinet.to",
+      "https://invidious.incogniweb.net",
+      "https://invidious.jing.rocks",
+      "https://invidious.lunar.icu",
+      "https://invidious.materialio.us",
+      "https://invidious.nerdvpn.de",
+      "https://invidious.privacydev.net",
+      "https://invidious.privacyredirect.com",
+      "https://invidious.private.coffee",
+      "https://invidious.protokolla.fi",
+      "https://invidious.reallyaweso.me",
+      "https://invidious.yourdevice.ch",
+      "https://iv.datura.network",
+      "https://iv.ggtyler.dev",
+      "https://iv.melmac.space",
+      "https://iv.nboeck.de",
+      "https://vid.puffyan.us",
+      "https://yewtu.be",
+      "https://yt.artemislena.eu",
+      "https://yt.cdaut.de",
+      "https://yt.drgnz.club"
+    ]
   },
   {
     "type": "piped",
@@ -289,7 +318,6 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -304,7 +332,6 @@
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
-      "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
@@ -315,6 +342,7 @@
       "https://searxng.online",
       "https://searxng.site",
       "https://skyrimhater.com",
+      "https://sx.thatxtreme.dev",
       "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
@@ -567,6 +595,11 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
