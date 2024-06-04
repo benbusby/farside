@@ -14,17 +14,17 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
-      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.incogniweb.net",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
+      "https://redlib.nezumi.party",
       "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
       "https://redlib.privacyredirect.com",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://redlib.vimmer.dev",
       "https://rl.bloat.cat"
     ]
   },
@@ -43,17 +43,17 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
-      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.incogniweb.net",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
+      "https://redlib.nezumi.party",
       "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
       "https://redlib.privacyredirect.com",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://redlib.vimmer.dev",
       "https://rl.bloat.cat"
     ]
   },
@@ -301,7 +301,6 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -317,7 +316,9 @@
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -343,7 +344,6 @@
       "https://searxng.site",
       "https://skyrimhater.com",
       "https://sx.thatxtreme.dev",
-      "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
     ]
@@ -595,11 +595,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://tent.bloat.cat",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.sny.sh",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
