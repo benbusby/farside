@@ -14,6 +14,8 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://reddit.owo.si",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.incogniweb.net",
@@ -25,7 +27,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -43,6 +46,8 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://reddit.owo.si",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.incogniweb.net",
@@ -54,7 +59,8 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -317,8 +323,8 @@
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -329,10 +335,10 @@
       "https://search.us.projectsegfau.lt",
       "https://searx.aleteoryx.me",
       "https://searx.ankha.ac",
-      "https://searx.ari.lt",
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
+      "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
@@ -345,7 +351,7 @@
       "https://searxng.online",
       "https://searxng.site",
       "https://skyrimhater.com",
-      "https://sx.thatxtreme.dev",
+      "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
     ]
@@ -505,6 +511,7 @@
       "https://breeze.mint.lgbt",
       "https://breezewiki.woodland.cafe",
       "https://breezewiki.nadeko.net",
+      "https://breezewiki.4o1x5.dev",
       "http://bw.skunky7dhv7nohsoalpwe3sxfz3fbkad7r3wk632riye25vqm3meqead.onion",
       "http://breezewiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
       "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion"
@@ -597,6 +604,11 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
