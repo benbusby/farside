@@ -21,17 +21,15 @@
       "https://redlib.freedit.eu",
       "https://redlib.incogniweb.net",
       "https://redlib.kittywi.re",
-      "https://redlib.nadeko.net",
       "https://redlib.nezumi.party",
       "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
+      "https://redlib.privacy.deals",
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://redlib.vimmer.dev"
     ]
   },
   {
@@ -56,17 +54,15 @@
       "https://redlib.freedit.eu",
       "https://redlib.incogniweb.net",
       "https://redlib.kittywi.re",
-      "https://redlib.nadeko.net",
       "https://redlib.nezumi.party",
       "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
+      "https://redlib.privacy.deals",
       "https://redlib.privacyredirect.com",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://redlib.vimmer.dev",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://redlib.vimmer.dev"
     ]
   },
   {
@@ -338,14 +334,12 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
-      "https://search.bus-hit.me",
       "https://search.citw.lgbt",
       "https://search.darkness.services",
       "https://search.datura.network",
