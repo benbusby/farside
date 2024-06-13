@@ -334,6 +334,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -350,6 +351,7 @@
       "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ngn.tf",
       "https://search.ononoki.org",
