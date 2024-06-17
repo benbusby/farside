@@ -114,6 +114,7 @@
       "https://invidious.incogniweb.net",
       "https://invidious.jing.rocks",
       "https://invidious.materialio.us",
+      "https://invidious.privacydev.net",
       "https://invidious.privacyredirect.com",
       "https://invidious.private.coffee",
       "https://invidious.protokolla.fi",
@@ -149,7 +150,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://bird.habedieeh.re",
-      "https://nitter.bird.froth.zone",
       "https://nitter.kavin.rocks",
       "https://nitter.lunar.icu",
       "https://nitter.poast.org",
@@ -333,6 +333,7 @@
       "https://searx.hu",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
+      "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
@@ -342,9 +343,7 @@
       "https://searxng.online",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://skyrimhater.com",
       "https://sx.thatxtreme.dev",
-      "https://sxng.violets-purgatory.dev",
       "https://vanderwilhelm.me",
       "https://xo.wtf"
     ]
@@ -599,6 +598,11 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
