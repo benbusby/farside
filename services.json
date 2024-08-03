@@ -160,7 +160,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.privacydev.net",
+      "https://nitter.poast.org",
       "https://xcancel.com"
     ]
   },

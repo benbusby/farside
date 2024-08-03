@@ -179,7 +179,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.lucabased.xyz",
-      "https://nitter.privacydev.net",
+      "https://nitter.poast.org",
       "https://xcancel.com"
     ]
   },
