@@ -304,9 +304,8 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://baresearch.org",
       "https://copp.gg",
-      "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -320,8 +319,8 @@
       "https://search.im-in.space",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -331,9 +330,11 @@
       "https://search.smnz.de",
       "https://search.tommy-tran.com",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
+      "https://searx.electroncash.de",
       "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.namejeff.xyz",
@@ -341,11 +342,8 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
-      "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
-      "https://searxng.shreven.org",
       "https://searxng.site",
       "https://skyrimhater.com",
       "https://sx.ca.zorby.top",
@@ -610,11 +608,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://tent.bloat.cat",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.sny.sh",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
