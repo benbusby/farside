@@ -323,7 +323,6 @@
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ngn.tf",
-      "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
@@ -332,10 +331,10 @@
       "https://search.smnz.de",
       "https://search.tommy-tran.com",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
-      "https://searx.electroncash.de",
       "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.namejeff.xyz",
@@ -350,6 +349,7 @@
       "https://searxng.site",
       "https://skyrimhater.com",
       "https://sx.ca.zorby.top",
+      "https://sx.thatxtreme.dev",
       "https://sx.zorby.top",
       "https://xo.wtf"
     ]
@@ -610,6 +610,11 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
