@@ -116,11 +116,9 @@
     "instances": [
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
-      "https://invidious.materialio.us",
       "https://invidious.nerdvpn.de",
-      "https://iv.melmac.space",
-      "https://yewtu.be",
-      "https://yt.artemislena.eu"
+      "https://iv.ggtyler.dev",
+      "https://yewtu.be"
     ]
   },
   {
@@ -322,7 +320,6 @@
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
-      "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
@@ -599,6 +596,7 @@
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
     "instances": [
+      "https://bandcamp.lurkmore.com",
       "https://tent.bloat.cat",
       "https://tent.deep-swarm.xyz",
       "https://tent.sny.sh",
