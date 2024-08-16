@@ -117,6 +117,8 @@
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
+      "https://invidious.privacyredirect.com",
+      "https://invidious.reallyaweso.me",
       "https://iv.ggtyler.dev",
       "https://yewtu.be"
     ]
@@ -291,9 +293,9 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
       "https://search.blitzw.in",
@@ -306,6 +308,7 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
