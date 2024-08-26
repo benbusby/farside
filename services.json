@@ -200,7 +200,6 @@
     "test_url": "/auto/en/hola",
     "fallback": "https://lingva.ml",
     "instances": [
-      "https://lingva.frontendfriendly.xyz",
       "https://lingva.retiolus.net",
       "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
@@ -228,7 +227,6 @@
       "https://rimgo.drgns.space",
       "https://rimgo.ducks.party",
       "https://rimgo.eu.projectsegfau.lt",
-      "https://rimgo.frontendfriendly.xyz",
       "https://rimgo.frylo.net",
       "https://rimgo.hostux.net",
       "https://rimgo.in.projectsegfau.lt",
@@ -295,6 +293,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -310,8 +309,10 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -326,12 +327,14 @@
       "https://searx.hu",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
+      "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://sx.thatxtreme.dev",
       "https://sx.zorby.top"
     ]
@@ -434,8 +437,7 @@
       "https://quetre.lunar.icu",
       "https://que.wilbvr.me",
       "https://questions.whateveritworks.org",
-      "https://quetre.catsarch.com",
-      "https://quetre.frontendfriendly.xyz"
+      "https://quetre.catsarch.com"
     ]
   },
   {
@@ -453,8 +455,7 @@
       "https://binge.whateveritworks.social",
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
-      "https://libremdb.catsarch.com",
-      "https://libremdb.frontendfriendly.xyz"
+      "https://libremdb.catsarch.com"
     ]
   },
   {
@@ -483,7 +484,6 @@
       "https://breeze.hostux.net",
       "https://bw.artemislena.eu",
       "https://nerd.whatever.social",
-      "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network",
       "https://breeze.whateveritworks.org",
       "https://z.opnxng.com",
@@ -509,7 +509,6 @@
     "test_url": "/benbusby/farside",
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
-      "https://gothub.frontendfriendly.xyz",
       "https://gothub.lunar.icu",
       "https://g.opnxng.com",
       "https://gh.owo.si",
@@ -533,8 +532,7 @@
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
       "https://code.xbdm.fun",
-      "https://ao.bloatcat.tk",
-      "https://anonoverflow.frontendfriendly.xyz"
+      "https://ao.bloatcat.tk"
     ]
   },
   {
