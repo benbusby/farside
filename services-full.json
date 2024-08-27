@@ -133,6 +133,7 @@
       "https://invidious.privacyredirect.com",
       "https://invidious.reallyaweso.me",
       "https://iv.ggtyler.dev",
+      "https://iv.nboeck.de",
       "https://yewtu.be"
     ]
   },
@@ -167,7 +168,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.lucabased.xyz",
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -342,7 +342,6 @@
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ngn.tf",
-      "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
@@ -355,6 +354,7 @@
       "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
+      "https://searx.electroncash.de",
       "https://searx.foss.family",
       "https://searx.hu",
       "https://searx.namejeff.xyz",
@@ -362,12 +362,11 @@
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://sx.thatxtreme.dev",
+      "https://skyrimhater.com",
       "https://sx.zorby.top"
     ]
   },
