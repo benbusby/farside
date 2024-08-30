@@ -134,6 +134,7 @@
       "https://invidious.reallyaweso.me",
       "https://iv.ggtyler.dev",
       "https://iv.nboeck.de",
+      "https://iv.nowhere.moe",
       "https://yewtu.be"
     ]
   },
@@ -167,7 +168,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.lucabased.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
@@ -354,10 +354,9 @@
       "https://search.tommy-tran.com",
       "https://searx.aleteoryx.me",
       "https://searx.daetalytica.io",
+      "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
-      "https://searx.hu",
-      "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
