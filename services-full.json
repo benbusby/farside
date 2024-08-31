@@ -126,6 +126,7 @@
     "instances": [
       "https://inv.nadeko.net",
       "https://inv.tux.pizza",
+      "https://invidious.adminforge.de",
       "https://invidious.einfachzocken.eu",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
@@ -168,6 +169,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.lucabased.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
@@ -353,10 +355,13 @@
       "https://search.smnz.de",
       "https://search.tommy-tran.com",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
+      "https://searx.hu",
+      "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
