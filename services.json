@@ -122,6 +122,7 @@
       "https://invidious.nerdvpn.de",
       "https://invidious.privacyredirect.com",
       "https://invidious.reallyaweso.me",
+      "https://invidious.yourdevice.ch",
       "https://iv.ggtyler.dev",
       "https://iv.nboeck.de",
       "https://iv.nowhere.moe",
@@ -296,7 +297,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -333,7 +333,6 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
