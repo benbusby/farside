@@ -114,14 +114,9 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://inv.tux.pizza",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
-      "https://invidious.privacyredirect.com",
-      "https://invidious.reallyaweso.me",
-      "https://invidious.yourdevice.ch",
-      "https://iv.ggtyler.dev",
-      "https://yewtu.be"
+      "https://invidious.privacyredirect.com"
     ]
   },
   {
@@ -148,7 +143,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -223,7 +217,6 @@
       "https://rimgo.bus-hit.me",
       "https://rimgo.canine.tools",
       "https://rimgo.catsarch.com",
-      "https://rimgo.darkness.services",
       "https://rimgo.drgns.space",
       "https://rimgo.ducks.party",
       "https://rimgo.eu.projectsegfau.lt",
@@ -310,14 +303,15 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
+      "https://search.smnz.de",
       "https://searx.aleteoryx.me",
+      "https://searx.ankha.ac",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
       "https://searx.foss.family",
@@ -331,7 +325,8 @@
       "https://searxng.hweeren.com",
       "https://searxng.site",
       "https://seek.fyi",
-      "https://skyrimhater.com"
+      "https://skyrimhater.com",
+      "https://tritest.site"
     ]
   },
   {
