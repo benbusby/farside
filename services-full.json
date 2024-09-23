@@ -124,6 +124,7 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
+      "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
       "https://invidious.privacyredirect.com"
@@ -160,6 +161,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.lucabased.xyz",
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -327,7 +329,6 @@
       "https://search.blitzw.in",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
-      "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
@@ -335,6 +336,7 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -355,9 +357,9 @@
       "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
+      "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi",
-      "https://skyrimhater.com",
       "https://tritest.site"
     ]
   },
