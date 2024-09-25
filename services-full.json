@@ -161,8 +161,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.lucabased.xyz",
-      "https://nitter.poast.org",
-      "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
   },
@@ -337,6 +335,7 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
+      "https://search.nerdvpn.de",
       "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
@@ -360,8 +359,7 @@
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi",
-      "https://skyrimhater.com",
-      "https://tritest.site"
+      "https://skyrimhater.com"
     ]
   },
   {
