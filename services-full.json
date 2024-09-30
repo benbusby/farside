@@ -160,7 +160,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.lucabased.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
@@ -320,6 +319,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -342,6 +342,7 @@
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
+      "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
@@ -421,6 +422,7 @@
     "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
       "https://librey.4o1x5.dev",
@@ -600,6 +602,7 @@
     "fallback": "https://search.ahwx.org",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
       "https://librey.4o1x5.dev",
