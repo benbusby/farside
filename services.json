@@ -8,20 +8,29 @@
       "https://libreddit.bus-hit.me",
       "https://libreddit.privacydev.net",
       "https://libreddit.projectsegfau.lt",
+      "https://lr.ggtyler.dev",
       "https://lr.n8pjl.ca",
       "https://r.darrennathanael.com",
+      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
-      "https://reddit.owo.si",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
-      "https://redlib.kittywi.re",
+      "https://redlib.incogniweb.net",
+      "https://redlib.nadeko.net",
+      "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
+      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
       "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.rootdo.com"
     ]
   },
   {
@@ -33,20 +42,29 @@
       "https://libreddit.bus-hit.me",
       "https://libreddit.privacydev.net",
       "https://libreddit.projectsegfau.lt",
+      "https://lr.ggtyler.dev",
       "https://lr.n8pjl.ca",
       "https://r.darrennathanael.com",
+      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
-      "https://reddit.owo.si",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
-      "https://redlib.kittywi.re",
+      "https://redlib.incogniweb.net",
+      "https://redlib.nadeko.net",
+      "https://redlib.nirn.quest",
       "https://redlib.nohost.network",
+      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://redlib.vimmer.dev",
       "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.rootdo.com"
     ]
   },
   {
@@ -95,31 +113,11 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
+      "https://inv.owo.si",
       "https://inv.nadeko.net",
-      "https://inv.oikei.net",
-      "https://inv.tux.pizza",
-      "https://inv.us.projectsegfau.lt",
-      "https://invidious.drgns.space",
-      "https://invidious.einfachzocken.eu",
-      "https://invidious.fdn.fr",
-      "https://invidious.flokinet.to",
       "https://invidious.jing.rocks",
-      "https://invidious.lunar.icu",
       "https://invidious.nerdvpn.de",
-      "https://invidious.privacydev.net",
-      "https://invidious.privacyredirect.com",
-      "https://invidious.private.coffee",
-      "https://invidious.projectsegfau.lt",
-      "https://invidious.protokolla.fi",
-      "https://iv.datura.network",
-      "https://iv.ggtyler.dev",
-      "https://iv.melmac.space",
-      "https://iv.nboeck.de",
-      "https://vid.puffyan.us",
-      "https://yewtu.be",
-      "https://yt.artemislena.eu",
-      "https://yt.cdaut.de",
-      "https://yt.drgnz.club"
+      "https://invidious.privacyredirect.com"
     ]
   },
   {
@@ -128,6 +126,7 @@
     "fallback": "https://piped.video",
     "instances": [
       "https://watch.whatever.social|https://watchapi.whatever.social",
+      "https://piped.garudalinux.org|https://piped-api.garudalinux.org",
       "https://piped.lunar.icu|https://piped-api.lunar.icu",
       "https://piped.projectsegfau.lt|https://api.piped.projectsegfau.lt",
       "https://piped.privacydev.net|https://api.piped.privacydev.net",
@@ -146,9 +145,9 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.esmailelbob.xyz",
       "https://nitter.poast.org",
-      "https://nitter.privacydev.net"
+      "https://nitter.privacydev.net",
+      "https://xcancel.com"
     ]
   },
   {
@@ -199,7 +198,6 @@
     "test_url": "/auto/en/hola",
     "fallback": "https://lingva.ml",
     "instances": [
-      "https://lingva.frontendfriendly.xyz",
       "https://lingva.retiolus.net",
       "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
@@ -217,14 +215,16 @@
       "https://i.habedieeh.re",
       "https://imgur.010032.xyz",
       "https://imgur.artemislena.eu",
+      "https://imgur.nerdvpn.de",
       "https://ri.nadeko.net",
+      "https://rimgo.4o1x5.dev",
       "https://rimgo.bloat.cat",
       "https://rimgo.bus-hit.me",
+      "https://rimgo.canine.tools",
       "https://rimgo.catsarch.com",
       "https://rimgo.drgns.space",
       "https://rimgo.ducks.party",
       "https://rimgo.eu.projectsegfau.lt",
-      "https://rimgo.frontendfriendly.xyz",
       "https://rimgo.frylo.net",
       "https://rimgo.hostux.net",
       "https://rimgo.in.projectsegfau.lt",
@@ -236,6 +236,7 @@
       "https://rimgo.pussthecat.org",
       "https://rimgo.quantenzitrone.eu",
       "https://rimgo.reallyaweso.me",
+      "https://rimgo.thebunny.zone",
       "https://rimgo.totaldarkness.net",
       "https://rimgo.us.projectsegfau.lt",
       "https://rimgo.whateveritworks.org",
@@ -291,20 +292,19 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://freesearch.club",
       "https://northboot.xyz",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
       "https://s.trung.fun",
+      "https://search.blitzw.in",
       "https://search.bus-hit.me",
+      "https://search.canine.tools",
       "https://search.citw.lgbt",
-      "https://search.datura.network",
-      "https://search.demoniak.ch",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.in.projectsegfau.lt",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
@@ -319,27 +319,21 @@
       "https://search.smnz.de",
       "https://searx.aleteoryx.me",
       "https://searx.ankha.ac",
-      "https://searx.ari.lt",
-      "https://searx.catfluori.de",
       "https://searx.daetalytica.io",
       "https://searx.dresden.network",
       "https://searx.foss.family",
-      "https://searx.headpat.exchange",
-      "https://searx.hu",
+      "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
-      "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
+      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searx.work",
-      "https://searxng.ca",
       "https://searxng.ch",
-      "https://searxng.online",
+      "https://searxng.hweeren.com",
       "https://searxng.site",
-      "https://sx.thatxtreme.dev",
-      "https://sxng.violets-purgatory.dev",
-      "https://twinkpad.pl",
-      "https://vanderwilhelm.me",
-      "https://xo.wtf"
+      "https://seek.fyi",
+      "https://skyrimhater.com",
+      "https://sx.thatxtreme.dev"
     ]
   },
   {
@@ -347,6 +341,7 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
+      "https://wiki.owo.si",
       "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
       "https://wiki.slipfox.xyz",
@@ -398,14 +393,16 @@
     "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre.blitzw.in",
       "https://librex.nohost.network",
-      "https://librex.retro-hax.net",
       "https://librex.uk.to",
+      "https://librey.4o1x5.dev",
       "https://librey.baczek.me",
       "https://librey.franklyflawless.org",
       "https://librey.ix.tc",
+      "https://librey.milivojevic.in.rs",
       "https://librey.myroware.net",
-      "https://librey.nezumi.party",
+      "https://librey.nirn.quest",
       "https://librey.org",
       "https://lx.benike.me",
       "https://ly.owo.si",
@@ -440,7 +437,8 @@
       "https://questions.whateveritworks.org",
       "https://quetre.catsarch.com",
       "https://quetre.frontendfriendly.xyz",
-      "https://quetre.ducks.party"
+      "https://quetre.ducks.party",
+      "https://quetre.catsarch.com"
     ]
   },
   {
@@ -460,7 +458,8 @@
       "https://lmdb.hostux.net",
       "https://libremdb.catsarch.com",
       "https://libremdb.frontendfriendly.xyz",
-      "https://libremdb.ducks.party"
+      "https://libremdb.ducks.party",
+      "https://libremdb.catsarch.com"
     ]
   },
   {
@@ -490,7 +489,6 @@
       "https://breeze.hostux.net",
       "https://bw.artemislena.eu",
       "https://nerd.whatever.social",
-      "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network",
       "https://breeze.whateveritworks.org",
       "https://z.opnxng.com",
@@ -499,9 +497,17 @@
       "https://breeze.mint.lgbt",
       "https://breezewiki.woodland.cafe",
       "https://breezewiki.nadeko.net",
+      "https://fandom.reallyaweso.me",
+      "https://breezewiki.4o1x5.dev",
+      "https://breezewiki.r4fo.com",
+      "https://breezewiki.private.coffee",
+      "https://fan.blitzw.in",
       "http://bw.skunky7dhv7nohsoalpwe3sxfz3fbkad7r3wk632riye25vqm3meqead.onion",
       "http://breezewiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-      "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion"
+      "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion",
+      "http://breezewiki.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion",
+      "http://breezewiki.r4focoma7gu2zdwwcjjad47ysxt634lg73sxmdbkdozanwqslho5ohyd.onion",
+      "http://breezewiki.coffee2m3bjsrrqqycx6ghkxrnejl2q6nl7pjw2j4clchjj6uk5zozad.onion"
     ]
   },
   {
@@ -509,15 +515,14 @@
     "test_url": "/benbusby/farside",
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
-      "https://gh.bloatcat.tk",
-      "https://gothub.frontendfriendly.xyz",
       "https://gothub.lunar.icu",
-      "https://gothub.no-logs.com",
       "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
       "https://gh.whateveritworks.org",
+      "https://gothub.r4fo.com",
       "https://gothub.dev.projectsegfau.lt",
+      "https://gh.phreedom.club",
       "https://gothub.ducks.party"
     ]
   },
@@ -526,6 +531,7 @@
     "test_url": "/questions/6591213/how-do-i-rename-a-local-git-branch",
     "fallback": "https://code.whatever.social",
     "instances": [
+      "https://ao.owo.si",
       "https://code.whatever.social",
       "https://ao.vern.cc",
       "https://overflow.smnz.de",
@@ -534,9 +540,9 @@
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
       "https://code.xbdm.fun",
-      "https://ao.bloatcat.tk",
       "https://anonoverflow.frontendfriendly.xyz",
-      "https://overflow.ducks.party"
+      "https://overflow.ducks.party",
+      "https://ao.bloatcat.tk"
     ]
   },
   {
@@ -568,14 +574,16 @@
     "fallback": "https://search.ahwx.org",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre.blitzw.in",
       "https://librex.nohost.network",
-      "https://librex.retro-hax.net",
       "https://librex.uk.to",
+      "https://librey.4o1x5.dev",
       "https://librey.baczek.me",
       "https://librey.franklyflawless.org",
       "https://librey.ix.tc",
+      "https://librey.milivojevic.in.rs",
       "https://librey.myroware.net",
-      "https://librey.nezumi.party",
+      "https://librey.nirn.quest",
       "https://librey.org",
       "https://lx.benike.me",
       "https://ly.owo.si",
@@ -594,6 +602,7 @@
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
     "instances": [
+      "https://bandcamp.lurkmore.com",
       "https://tent.bloat.cat",
       "https://tent.deep-swarm.xyz",
       "https://tent.sny.sh",
