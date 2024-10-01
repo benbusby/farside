@@ -123,7 +123,6 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://inv.owo.si",
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
@@ -160,6 +159,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.lucabased.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
@@ -181,8 +181,7 @@
       "https://m.opnxng.com",
       "https://scribe.manasiwibi.com",
       "https://scribe.r4fo.com",
-      "https://scribe.privacyredirect.com",
-      "https://scribe.ducks.party"
+      "https://scribe.privacyredirect.com"
     ]
   },
   {
@@ -205,8 +204,7 @@
       "https://translate.priv.pw",
       "https://translate.riverside.rocks",
       "https://translate.slipfox.xyz",
-      "https://translate.tiekoetter.com",
-      "https://simplytranslate.ducks.party"
+      "https://translate.tiekoetter.com"
     ]
   },
   {
@@ -339,7 +337,6 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -360,7 +357,7 @@
       "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
-      "https://searxng.site",
+      "https://searxng.shreven.org",
       "https://seek.fyi",
       "https://skyrimhater.com",
       "https://sx.thatxtreme.dev"
@@ -553,8 +550,6 @@
       "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
-      "https://gh.whateveritworks.org",
-      "https://gothub.dev.projectsegfau.lt",
       "https://gothub.r4fo.com",
       "https://gothub.dev.projectsegfau.lt",
       "https://gh.phreedom.club",
