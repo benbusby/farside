@@ -159,7 +159,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.lucabased.xyz",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
@@ -337,6 +336,7 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
+      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
