@@ -319,7 +319,6 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -337,7 +336,6 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -353,10 +351,8 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
-      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://seek.fyi",
       "https://skyrimhater.com",
@@ -422,6 +418,7 @@
     "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre-find.online",
       "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
@@ -443,7 +440,8 @@
       "https://search.seitan-ayoub.lol",
       "https://search.technicalvoid.dev",
       "https://search.zeroish.xyz",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://serp.catswords.net"
     ]
   },
   {
@@ -609,6 +607,7 @@
     "fallback": "https://search.ahwx.org",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre-find.online",
       "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
@@ -630,7 +629,8 @@
       "https://search.seitan-ayoub.lol",
       "https://search.technicalvoid.dev",
       "https://search.zeroish.xyz",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://serp.catswords.net"
     ]
   },
   {

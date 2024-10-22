@@ -18,6 +18,7 @@
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
+      "https://redlib.frontendfriendly.xyz",
       "https://redlib.incogniweb.net",
       "https://redlib.nadeko.net",
       "https://redlib.nirn.quest",
@@ -52,6 +53,7 @@
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
+      "https://redlib.frontendfriendly.xyz",
       "https://redlib.incogniweb.net",
       "https://redlib.nadeko.net",
       "https://redlib.nirn.quest",
@@ -193,6 +195,7 @@
     "test_url": "/auto/en/hola",
     "fallback": "https://lingva.ml",
     "instances": [
+      "https://lingva.frontendfriendly.xyz",
       "https://lingva.retiolus.net",
       "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
@@ -221,6 +224,7 @@
       "https://rimgo.drgns.space",
       "https://rimgo.ducks.party",
       "https://rimgo.eu.projectsegfau.lt",
+      "https://rimgo.frontendfriendly.xyz",
       "https://rimgo.frylo.net",
       "https://rimgo.hostux.net",
       "https://rimgo.in.projectsegfau.lt",
@@ -288,7 +292,6 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -306,7 +309,6 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
@@ -322,10 +324,8 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searx.work",
       "https://searxng.ch",
-      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://seek.fyi",
       "https://skyrimhater.com",
@@ -389,6 +389,7 @@
     "fallback": "https://librex.myroware.eu",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre-find.online",
       "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
@@ -410,7 +411,8 @@
       "https://search.seitan-ayoub.lol",
       "https://search.technicalvoid.dev",
       "https://search.zeroish.xyz",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://serp.catswords.net"
     ]
   },
   {
@@ -433,6 +435,7 @@
       "https://que.wilbvr.me",
       "https://questions.whateveritworks.org",
       "https://quetre.catsarch.com",
+      "https://quetre.frontendfriendly.xyz",
       "https://quetre.ducks.party"
     ]
   },
@@ -452,6 +455,7 @@
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
       "https://libremdb.catsarch.com",
+      "https://libremdb.frontendfriendly.xyz",
       "https://libremdb.ducks.party"
     ]
   },
@@ -482,6 +486,7 @@
       "https://breeze.hostux.net",
       "https://bw.artemislena.eu",
       "https://nerd.whatever.social",
+      "https://breezewiki.frontendfriendly.xyz",
       "https://breeze.nohost.network",
       "https://breeze.whateveritworks.org",
       "https://z.opnxng.com",
@@ -533,6 +538,7 @@
       "https://overflow.projectsegfau.lt",
       "https://code.xbdm.fun",
       "https://ao.bloatcat.tk",
+      "https://anonoverflow.frontendfriendly.xyz",
       "https://overflow.ducks.party"
     ]
   },
@@ -565,6 +571,7 @@
     "fallback": "https://search.ahwx.org",
     "instances": [
       "https://glass.prpl.wtf",
+      "https://libre-find.online",
       "https://libre.blitzw.in",
       "https://librex.nohost.network",
       "https://librex.uk.to",
@@ -586,7 +593,8 @@
       "https://search.seitan-ayoub.lol",
       "https://search.technicalvoid.dev",
       "https://search.zeroish.xyz",
-      "https://search2.ahwx.org"
+      "https://search2.ahwx.org",
+      "https://serp.catswords.net"
     ]
   },
   {
