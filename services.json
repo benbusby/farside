@@ -117,6 +117,7 @@
     "instances": [
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
+      "https://yewtu.be",
       "https://yt.drgnz.club"
     ]
   },
@@ -144,6 +145,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -292,6 +294,7 @@
       "https://baresearch.org",
       "https://copp.gg",
       "https://kantan.cat",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -308,10 +311,7 @@
       "https://search.mdosch.de",
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
-      "https://search.ngn.tf",
-      "https://search.ononoki.org",
       "https://search.privacyredirect.com",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -325,9 +325,9 @@
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
+      "https://searx.technicalvoid.dev",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searx.work",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
