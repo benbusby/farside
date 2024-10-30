@@ -125,6 +125,7 @@
     "instances": [
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
+      "https://invidious.nerdvpn.de",
       "https://yewtu.be",
       "https://yt.drgnz.club"
     ]
@@ -319,16 +320,10 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
-      "https://kantan.cat",
-      "https://northboot.xyz",
       "https://opnxng.com",
-      "https://paulgo.io",
       "https://priv.au",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
-      "https://search.citw.lgbt",
-      "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.getcobalt.org",
       "https://search.im-in.space",
@@ -337,7 +332,7 @@
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
-      "https://search.privacyredirect.com",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -351,14 +346,12 @@
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
-      "https://searx.technicalvoid.dev",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://seek.fyi",
-      "https://skyrimhater.com",
       "https://sx.thatxtreme.dev"
     ]
   },
