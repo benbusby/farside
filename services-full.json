@@ -124,10 +124,10 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
+      "https://invidious.catspeed.cc",
       "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
-      "https://yewtu.be",
-      "https://yt.drgnz.club"
+      "https://yewtu.be"
     ]
   },
   {
@@ -160,7 +160,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -329,6 +328,7 @@
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
+      "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.getcobalt.org",
       "https://search.im-in.space",
@@ -344,7 +344,6 @@
       "https://search.sapti.me",
       "https://search.tommy-tran.com",
       "https://searx.aleteoryx.me",
-      "https://searx.ankha.ac",
       "https://searx.be",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
@@ -353,6 +352,7 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.technicalvoid.dev",
+      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
