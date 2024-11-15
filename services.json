@@ -292,11 +292,9 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://kantan.cat",
       "https://opnxng.com",
       "https://paulgo.io",
-      "https://priv.au",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
