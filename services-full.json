@@ -319,7 +319,6 @@
     "instances": [
       "https://baresearch.org",
       "https://kantan.cat",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://search.bus-hit.me",
@@ -352,6 +351,8 @@
       "https://searx.technicalvoid.dev",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
+      "https://searxng.hweeren.com",
+      "https://searxng.site",
       "https://seek.fyi",
       "https://skyrimhater.com"
     ]
@@ -549,7 +550,6 @@
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
       "https://gothub.r4fo.com",
-      "https://gothub.dev.projectsegfau.lt",
       "https://gh.phreedom.club",
       "https://gothub.ducks.party"
     ]
