@@ -108,6 +108,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -268,10 +269,8 @@
       "https://baresearch.org",
       "https://copp.gg",
       "https://kantan.cat",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
-      "https://priv.au",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
@@ -298,9 +297,9 @@
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
+      "https://searx.rhscz.eu",
       "https://searx.technicalvoid.dev",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.hweeren.com",
       "https://searxng.site",
       "https://seek.fyi",
