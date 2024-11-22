@@ -4,10 +4,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
+      "https://libreddit.bus-hit.me",
+      "https://red.arancia.click",
+      "https://red.ngn.tf",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.ducks.party",
+      "https://redlib.nadeko.net",
       "https://redlib.nohost.network",
-      "https://redlib.privacy.com.de",
-      "https://safereddit.com"
+      "https://redlib.perennialte.ch",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -15,10 +23,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
+      "https://libreddit.bus-hit.me",
+      "https://red.arancia.click",
+      "https://red.ngn.tf",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.ducks.party",
+      "https://redlib.nadeko.net",
       "https://redlib.nohost.network",
-      "https://redlib.privacy.com.de",
-      "https://safereddit.com"
+      "https://redlib.perennialte.ch",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -269,8 +285,11 @@
       "https://baresearch.org",
       "https://copp.gg",
       "https://kantan.cat",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
+      "https://s.mble.dk",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
@@ -284,7 +303,6 @@
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -300,6 +318,8 @@
       "https://searx.rhscz.eu",
       "https://searx.technicalvoid.dev",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
+      "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.site",
       "https://seek.fyi",
