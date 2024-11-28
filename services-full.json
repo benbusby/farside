@@ -5,6 +5,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://eu.safereddit.com",
+      "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.projectsegfau.lt",
       "https://red.arancia.click",
@@ -20,6 +21,7 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.seasi.dev",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -30,6 +32,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://eu.safereddit.com",
+      "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://libreddit.projectsegfau.lt",
       "https://red.arancia.click",
@@ -45,6 +48,7 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.seasi.dev",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -303,6 +307,7 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.bus-hit.me",
+      "https://search.canine.tools",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
@@ -331,6 +336,7 @@
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://seek.fyi",
       "https://skyrimhater.com"
     ]
