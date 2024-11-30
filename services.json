@@ -18,6 +18,7 @@
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
@@ -43,6 +44,7 @@
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
@@ -274,7 +276,6 @@
       "https://copp.gg",
       "https://kantan.cat",
       "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -290,9 +291,12 @@
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
+      "https://search.privacyredirect.com",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
+      "https://search.tommy-tran.com",
       "https://searx.ankha.ac",
       "https://searx.be",
       "https://searx.colbster937.dev",
@@ -302,7 +306,6 @@
       "https://searx.namejeff.xyz",
       "https://searx.rhscz.eu",
       "https://searx.technicalvoid.dev",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
@@ -585,12 +588,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.sny.sh",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
