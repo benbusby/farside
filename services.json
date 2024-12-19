@@ -124,6 +124,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -270,9 +271,10 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
       "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.bus-hit.me",
