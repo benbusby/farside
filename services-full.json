@@ -108,7 +108,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -293,6 +292,7 @@
       "https://search.tommy-tran.com",
       "https://searx.ankha.ac",
       "https://searx.be",
+      "https://searx.colbster937.dev",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
@@ -306,8 +306,7 @@
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.world",
-      "https://seek.fyi",
-      "https://skyrimhater.com"
+      "https://seek.fyi"
     ]
   },
   {
@@ -594,12 +593,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.sny.sh",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
