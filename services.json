@@ -4,8 +4,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com"
     ]
   },
@@ -14,8 +14,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com"
     ]
   },
@@ -94,6 +94,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -558,6 +559,12 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
