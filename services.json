@@ -260,7 +260,6 @@
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -281,7 +280,8 @@
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.world",
-      "https://seek.fyi"
+      "https://seek.fyi",
+      "https://skyrimhater.com"
     ]
   },
   {
@@ -468,7 +468,6 @@
     "test_url": "/benbusby/farside",
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
-      "https://gothub.lunar.icu",
       "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
