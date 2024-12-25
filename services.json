@@ -84,7 +84,7 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
-      "https://invidious.jing.rocks",
+      "https://invidious.nerdvpn.de",
       "https://yewtu.be"
     ]
   },
@@ -113,7 +113,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.poast.org",
-      "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
   },
@@ -259,6 +258,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
