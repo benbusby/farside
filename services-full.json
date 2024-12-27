@@ -126,7 +126,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -295,7 +294,6 @@
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
-      "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.leptons.xyz",
