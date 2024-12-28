@@ -7,6 +7,7 @@
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
@@ -14,6 +15,7 @@
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -25,6 +27,7 @@
       "https://l.opnxng.com",
       "https://libreddit.bus-hit.me",
       "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
@@ -32,6 +35,7 @@
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -110,6 +114,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -263,9 +268,11 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.080609.xyz",
+      "https://search.blitzw.in",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
       "https://search.citw.lgbt",
+      "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.leptons.xyz",
@@ -281,6 +288,7 @@
       "https://search.tommy-tran.com",
       "https://searx.ankha.ac",
       "https://searx.be",
+      "https://searx.colbster937.dev",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
@@ -288,14 +296,12 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.ch",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.world",
-      "https://seek.fyi",
-      "https://skyrimhater.com"
+      "https://seek.fyi"
     ]
   },
   {
