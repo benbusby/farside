@@ -276,12 +276,14 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://baresearch.org",
       "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
+      "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.bus-hit.me",
       "https://search.canine.tools",
@@ -318,7 +320,6 @@
       "https://searxng.site",
       "https://searxng.world",
       "https://seek.fyi",
-      "https://skyrimhater.com",
       "https://technewsheads.com"
     ]
   },
@@ -605,6 +606,12 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.sny.sh",
+      "https://tn.vern.cc"
+    ]
   }
 ]
