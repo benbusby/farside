@@ -5,12 +5,20 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
+      "https://libreddit.bus-hit.me",
       "https://red.arancia.click",
+      "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
-      "https://redlib.kittywi.re"
+      "https://redlib.kittywi.re",
+      "https://redlib.nadeko.net",
+      "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -19,12 +27,20 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
+      "https://libreddit.bus-hit.me",
       "https://red.arancia.click",
+      "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
-      "https://redlib.kittywi.re"
+      "https://redlib.kittywi.re",
+      "https://redlib.nadeko.net",
+      "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -102,7 +118,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -275,10 +290,8 @@
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
-      "https://search.tommy-tran.com",
       "https://searx.ankha.ac",
       "https://searx.be",
-      "https://searx.colbster937.dev",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
@@ -292,6 +305,7 @@
       "https://searxng.site",
       "https://searxng.world",
       "https://seek.fyi",
+      "https://skyrimhater.com",
       "https://technewsheads.com"
     ]
   },
@@ -479,6 +493,7 @@
     "test_url": "/benbusby/farside",
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
+      "https://gothub.lunar.icu",
       "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
