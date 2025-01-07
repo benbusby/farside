@@ -118,6 +118,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -292,6 +293,7 @@
       "https://search.sapti.me",
       "https://searx.ankha.ac",
       "https://searx.be",
+      "https://searx.colbster937.dev",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foss.family",
