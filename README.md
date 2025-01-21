@@ -7,7 +7,7 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
 [![MIT License](https://img.shields.io/github/license/benbusby/earthbound-themes.svg)](http://opensource.org/licenses/MIT)
-[![Elixir CI](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml/badge.svg)](https://github.com/benbusby/privacy-revolver/actions/workflows/elixir.yml)
+[![Tests](https://github.com/benbusby/farside/actions/workflows/tests.yml/badge.svg)](https://github.com/benbusby/farside/actions/workflows/tests.yml)
 
 <table>
   <tr>
@@ -24,7 +24,6 @@ Contents
 3. [How It Works](#how-it-works)
 4. [Cloudflare](#regarding-cloudflare)
 5. [Development](#development)
-    1. [Compiling](#compiling)
     1. [Environment Variables](#environment-variables)
 
 ## About
@@ -187,30 +186,9 @@ that their mission to centralize the entire web behind their service ultimately
 goes against what Farside is trying to solve. Use at your own discretion.
 
 ## Development
-- Install [elixir](https://elixir-lang.org/install.html)
-- (on Debian systems) Install [erlang-dev](https://packages.debian.org/sid/erlang-dev)
 
-To run Farside without compiling, you can perform the following steps:
-
-- Install dependencies: `mix deps.get`
-- Initialize db contents: `FARSIDE_CRON=0 mix run -e Farside.Instances.sync`
-- Run Farside: `mix run --no-halt`
-  - Uses localhost:4001
-
-### Compiling
-
-You can create a standalone Farside app using the steps below. In the example, the
-Farside executable is copied to `/usr/local/bin`, but can be moved to any preferred
-destination. Note that the executable still depends on the C runtime of the machine
-it is built on, so if you want a more portable binary, you should build Farside on a
-system with older library versions.
-
-```
-MIX_ENV=cli && mix deps.get && mix release
-cp _build/cli/rel/bakeware/farside /usr/local/bin
-sudo chmod +x /usr/local/bin/farside
-farside
-```
+- Install [Go](https://go.dev/doc/install)
+- Compile with `go build`
 
 ### Environment Variables
 
@@ -221,23 +199,23 @@ farside
     </tr>
     <tr>
         <td>FARSIDE_TEST</td>
-        <td>If enabled, bypasses the instance availability check and adds all instances to the pool.</td>
+        <td>If enabled, bypasses the instance availability check and adds all instances to the pool</td>
     </tr>
     <tr>
         <td>FARSIDE_PORT</td>
         <td>The port to run Farside on (default: `4001`)</td>
     </tr>
     <tr>
-        <td>FARSIDE_DATA_DIR</td>
-        <td>The path to the directory to use for storing instance data (default: `/tmp`)</td>
+        <td>FARSIDE_DB_DIR</td>
+        <td>The path to the directory to use for storing instance data (default: `./`)</td>
     </tr>
     <tr>
-        <td>FARSIDE_SERVICES_JSON</td>
-        <td>The JSON file to use for selecting instances (default: `services.json`)</td>
+        <td>FARSIDE_CF_ENABLED</td>
+        <td>Set to 1 to enable redirecting to instances behind cloudflare</td>
     </tr>
     <tr>
         <td>FARSIDE_CRON</td>
-        <td>Set to 0 to deactivate the scheduled instance availability check (default on).</td>
+        <td>Set to 0 to deactivate the periodic instance availability check</td>
     </tr>
 </table>
 

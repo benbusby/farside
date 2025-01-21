@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <title>Farside</title>
   <style>
@@ -44,19 +47,20 @@
     <div id="child-div">
       <h1>Farside [<a href="https://sr.ht/~benbusby/farside">SourceHut</a>, <a href="https://github.com/benbusby/farside">GitHub</a>]</h1>
       <hr>
-      <h3>Last synced <%= last_updated %> UTC</h2>
+      <h3>Updated: {{ .LastUpdated }}</h2>
       <div>
         <ul>
-          <%= for {service, instance_list} <- services do %>
-            <li><a href="/<%= service %>"><%= service %></a></li>
-            <ul>
-              <%= for url <- instance_list do %>
-                <li><a href="<%= url %>"><%= url %></a></li>
-              <% end%>
-            </ul>
-          <% end %>
-        </ul>
+		{{ range $i, $service := .ServiceList }}
+		<li><a href="/{{ $service.Type }}">{{ $service.Type }}</a></li>
+		<ul>
+			{{ range $j, $instance := $service.Instances }}
+			<li><a href="{{ $instance }}">{{ $instance }}</li>
+			{{ end  }}
+		</ul>
+		{{ end }}
+	</ul>
       </div>
     </div>
   </div>
 </body>
+

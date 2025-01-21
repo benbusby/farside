@@ -1,0 +1,10 @@
+<head>
+	<title>Farside Redirect</title>
+	<meta http-equiv="refresh" content="1; url={{ .InstanceURL }}">
+	<script>
+		history.pushState({page: 1}, "Farside Redirect");
+	</script>
+</head>
+<body>
+	<span>Redirecting to {{ .InstanceURL }}...</span>
+</body>
