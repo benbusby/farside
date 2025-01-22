@@ -17,10 +17,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = services.InitializeServices()
-	if err != nil {
-		log.Fatal(err)
-	}
+	go func() {
+		err = services.InitializeServices()
+		if err != nil {
+			log.Println("Error intializing services", err)
+		}
+	}()
 
 	db.InitCronTasks()
 
