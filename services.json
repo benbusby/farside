@@ -5,7 +5,6 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
-      "https://libreddit.bus-hit.me",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
@@ -14,7 +13,7 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.privacyredirect.com",
-      "https://rl.bloat.cat"
+      "https://rl.rootdo.com"
     ]
   },
   {
@@ -23,7 +22,6 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
-      "https://libreddit.bus-hit.me",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
@@ -32,7 +30,7 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.privacyredirect.com",
-      "https://rl.bloat.cat"
+      "https://rl.rootdo.com"
     ]
   },
   {
@@ -110,7 +108,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -270,7 +267,6 @@
       "https://search.catboy.house",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
-      "https://search.gcomm.ch",
       "https://search.im-in.space",
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
@@ -293,6 +289,7 @@
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
+      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
