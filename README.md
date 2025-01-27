@@ -201,6 +201,8 @@ goes against what Farside is trying to solve. Use at your own discretion.
 
 ### Kagi
 
+https://kagi.com
+
 On the settings page, go to `Search > Advanced > Open Redirects` and setup your redirects.
 
 With the exception of BreezeWiki, most redirect rules can just extract the path of the
@@ -217,6 +219,8 @@ For example:
 `^https://([^/]+).fandom.com/(.*)|https://farside.link/breezewiki/$1/$2`
 
 ### Whoogle Search
+
+https://github.com/benbusby/whoogle-search
 
 Whoogle automatically routes eligible links through Farside when the `Replace
 Social Media Links` option in the home page settings menu is enabled.
