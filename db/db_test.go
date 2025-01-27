@@ -44,12 +44,12 @@ func TestDatabase(t *testing.T) {
 		}
 	}
 
-	firstInstance, err := GetInstance(service)
+	firstInstance, err := GetInstance(service, "")
 	if err != nil {
 		t.Fatalf("Failed to fetch single instance: %v\n", err)
 	}
 
-	secondInstance, err := GetInstance(service)
+	secondInstance, err := GetInstance(service, "")
 	if err != nil {
 		t.Fatalf("Failed to fetch single instance (second): %v\n", err)
 	} else if firstInstance == secondInstance {
