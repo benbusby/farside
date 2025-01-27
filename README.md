@@ -25,6 +25,9 @@ Contents
 4. [Cloudflare](#regarding-cloudflare)
 5. [Development](#development)
     1. [Environment Variables](#environment-variables)
+6. [Search Integration](#search-integration)
+    1. [Kagi](#kagi)
+    2. [Whoogle Search](#whoogle-search)
 
 ## About
 
@@ -194,3 +197,26 @@ goes against what Farside is trying to solve. Use at your own discretion.
     </tr>
 </table>
 
+## Search Integration
+
+### Kagi
+
+On the settings page, go to `Search > Advanced > Open Redirects` and setup your redirects.
+
+With the exception of BreezeWiki, most redirect rules can just extract the path of the
+link you're visiting and append them to whichever Farside redirect you want to use.
+
+For example:
+
+##### Medium -> Scribe
+
+`^https://medium.com/(.*)|https://farside.link/scribe/$1`
+
+##### Fandom -> BreezeWiki
+
+`^https://([^/]+).fandom.com/(.*)|https://farside.link/breezewiki/$1/$2`
+
+### Whoogle Search
+
+Whoogle automatically routes eligible links through Farside when the `Replace
+Social Media Links` option in the home page settings menu is enabled.
