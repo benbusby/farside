@@ -3,10 +3,12 @@ package db
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 	"log"
 	"math/rand"
 	"os"
 	"slices"
+	"strings"
 	"time"
 
 	"github.com/benbusby/farside/services"
@@ -55,7 +57,7 @@ func SetInstances(service string, instances []string) error {
 	return nil
 }
 
-func GetInstance(service string) (string, error) {
+func GetInstance(service, path string) (string, error) {
 	instances, err := GetAllInstances(service)
 	if err != nil || len(instances) == 0 {
 		if err != nil {
@@ -80,6 +82,12 @@ func GetInstance(service string) (string, error) {
 	index := rand.Intn(len(instances))
 	value := instances[index]
 	selectionMap[service] = value
+
+	if len(path) > 0 {
+		value = strings.TrimSuffix(value, "/")
+		value = fmt.Sprintf("%s/%s", value, path)
+	}
+
 	return value, nil
 }
 

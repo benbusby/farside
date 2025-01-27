@@ -54,39 +54,19 @@ For example:
         <td>Farside Link</td>
     </tr>
     <tr>
+        <td><a href="https://sr.ht/~edwardloveall/Scribe/">Scribe</a></td>
+        <td>View Medium post</td>
+        <td><a href="https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c">https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</a></td>
+    </tr>
+    <tr>
         <td><a href="https://github.com/spikecodes/libreddit">Libreddit</a></td>
         <td>/r/popular</td>
         <td><a href="https://farside.link/libreddit/r/popular">https://farside.link/libreddit/r/popular</a></td>
     </tr>
     <tr>
-        <td><a href="https://codeberg.org/teddit/teddit">Teddit</a></td>
-        <td>/r/popular</td>
-        <td><a href="https://farside.link/teddit/r/popular">https://farside.link/teddit/r/popular</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/zedeus/nitter">Nitter</a></td>
-        <td>User Profile</td>
-        <td><a href="https://farside.link/nitter/josevalim">https://farside.link/nitter/josevalim</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/iv-org/invidious">Invidious</a></td>
-        <td>Home Page</td>
-        <td><a href="https://farside.link/invidious">https://farside.link/invidious</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/TeamPiped/Piped">Piped</a></td>
-        <td>Video Page</td>
-        <td><a href="https://farside.link/piped/watch?v=eBGIQ7ZuuiU">https://farside.link/piped/watch?v=eBGIQ7ZuuiU</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/benbusby/whoogle-search">Whoogle</a></td>
-        <td>Search "Elixir"</td>
-        <td><a href="https://farside.link/whoogle/search?q=elixir&lang_interface=en">https://farside.link/whoogle/search?q=elixir&lang_interface=en</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/searx/searx">SearX</a></td>
-        <td>Search "Redis"</td>
-        <td><a href="https://farside.link/searx/search?q=redis">https://farside.link/searx/search?q=redis</a></td>
+        <td><a href="https://gitdab.com/cadence/breezewiki">BreezeWiki</a></td>
+        <td>Balatro Wiki</td>
+        <td><a href="https://farside.link/breezewiki/balatrogame">https://farside.link/https://balatrogame.fandom.com</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/searxng/searxng">SearXNG</a></td>
@@ -108,18 +88,13 @@ For example:
         <td>View photo album</td>
         <td><a href="https://farside.link/rimgo/a/H8M4rcp">https://farside.link/rimgo/a/H8M4rcp</a></td>
     </tr>
-    <tr>
-        <td><a href="https://sr.ht/~edwardloveall/Scribe/">Scribe</a></td>
-        <td>View Medium post</td>
-        <td><a href="https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c">https://farside.link/scribe/@ftrain/big-data-small-effort-b62607a43a8c</a></td>
-    </tr>
 </table>
 
 <sup>Note: This table doesn't include all available services. For a complete list of supported frontends, see: https://farside.link</sup>
 
 Farside also accepts URLs to "parent" services, and will redirect to an appropriate front end service, for example:
 
-- https://farside.link/https://www.youtube.com/watch?v=dQw4w9WgXcQ will redirect to a [Piped](https://github.com/TeamPiped/Piped) or [Invidious](https://github.com/iv-org/invidious) instance
+- https://farside.link/https://balatrogame.fandom.com/wiki/Abandoned_Deck will redirect to a [BreezeWiki](https://gitdab.com/cadence/breezewiki) instance
 - https://farside.link/reddit.com/r/popular will redirect to a [Libreddit](https://github.com/spikecodes/libreddit) or [Teddit](https://codeberg.org/teddit/teddit) instance
 - etc.
 

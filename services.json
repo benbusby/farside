@@ -449,7 +449,7 @@
   },
   {
     "type": "breezewiki",
-    "test_url": "/undertale/wiki/Hot_Dog...%3F",
+    "test_url": "/balatrogame/wiki/Abandoned_Deck",
     "fallback": "https://breezewiki.com",
     "instances": [
       "https://breezewiki.com",

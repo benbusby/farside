@@ -86,7 +86,17 @@ func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool) {
 		return
 	}
 
-	instance, err := db.GetInstance(target)
+	var servicePath string
+	if target == "breezewiki" {
+		// Breezewiki requires the subdomain of the instance to be
+		// preserved for correct routing
+		splitDomain := strings.Split(path, ".")
+		if len(splitDomain) > 2 {
+			servicePath = strings.Split(path, ".")[0]
+		}
+	}
+
+	instance, err := db.GetInstance(target, servicePath)
 	if err != nil {
 		log.Printf("Error fetching instance from db: %v\n", err)
 		http.Error(

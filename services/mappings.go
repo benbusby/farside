@@ -69,7 +69,7 @@ var regexMap = []RegexMapping{
 	},
 	{
 		// Fandom
-		Pattern: regexp.MustCompile(`fandom\.com|breezewiki`),
+		Pattern: regexp.MustCompile(`.*fandom\.com|breezewiki`),
 		Targets: []string{"breezewiki"},
 	},
 	{
