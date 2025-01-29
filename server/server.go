@@ -79,6 +79,10 @@ func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool) {
 	path := strings.TrimPrefix(url.Path, "/")
 	segments := strings.Split(path, "/")
 
+	if len(segments[0]) == 0 {
+		http.Redirect(w, r, "", http.StatusTemporaryRedirect)
+	}
+
 	target, err := services.MatchRequest(segments[0])
 	if err != nil {
 		log.Printf("Error during match request: %v\n", err)

@@ -53,6 +53,7 @@ func queryServiceInstances() {
 			SetInstances(service.Type, service.Instances)
 		}
 
+		LastUpdate = time.Now().UTC()
 		return
 	}
 
