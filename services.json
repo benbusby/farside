@@ -6,18 +6,14 @@
     "instances": [
       "https://l.opnxng.com",
       "https://r.darrennathanael.com",
-      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
-      "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://rl.bloat.cat",
-      "https://rl.rootdo.com",
       "https://safereddit.com"
     ]
   },
@@ -28,18 +24,14 @@
     "instances": [
       "https://l.opnxng.com",
       "https://r.darrennathanael.com",
-      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
-      "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://rl.bloat.cat",
-      "https://rl.rootdo.com",
       "https://safereddit.com"
     ]
   },
@@ -90,7 +82,6 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
-      "https://invidious.nerdvpn.de",
       "https://yewtu.be"
     ]
   },
@@ -266,7 +257,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -280,7 +270,6 @@
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
-      "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nadeko.net",
@@ -288,7 +277,6 @@
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
-      "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
       "https://search.url4irl.com",
@@ -302,6 +290,7 @@
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
