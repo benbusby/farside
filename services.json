@@ -10,8 +10,8 @@
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://rl.bloat.cat",
       "https://safereddit.com"
@@ -28,8 +28,8 @@
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://rl.bloat.cat",
       "https://safereddit.com"
@@ -257,7 +257,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -277,7 +276,6 @@
       "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
-      "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
