@@ -124,7 +124,6 @@
     "instances": [
       "https://lightbrd.com",
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://nitter.space",
       "https://xcancel.com"
@@ -284,12 +283,15 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://baresearch.org",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.blitzw.in",
+      "https://search.canine.tools",
       "https://search.catboy.house",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
@@ -312,7 +314,6 @@
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foobar.vip",
-      "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
