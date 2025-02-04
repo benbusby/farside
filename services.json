@@ -9,9 +9,12 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
+      "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -26,9 +29,12 @@
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
+      "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -78,9 +84,7 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": [
-      "https://inv.nadeko.net"
-    ]
+    "instances": null
   },
   {
     "type": "piped",
@@ -107,6 +111,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -255,7 +260,6 @@
     "instances": [
       "https://baresearch.org",
       "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -269,8 +273,6 @@
       "https://search.im-in.space",
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
-      "https://search.mdosch.de",
-      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
@@ -284,6 +286,7 @@
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
       "https://searx.foobar.vip",
+      "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.ox2.fr",
       "https://searx.rhscz.eu",
