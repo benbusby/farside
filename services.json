@@ -5,6 +5,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
+      "https://libreddit.projectsegfau.lt",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
@@ -13,8 +14,9 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
+      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.tux.pizza",
+      "https://redlib.private.coffee",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -25,6 +27,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
+      "https://libreddit.projectsegfau.lt",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
@@ -33,8 +36,9 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
+      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.tux.pizza",
+      "https://redlib.private.coffee",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -183,9 +187,11 @@
       "https://i.habedieeh.re",
       "https://imgur.010032.xyz",
       "https://imgur.artemislena.eu",
+      "https://imgur.fsky.io",
       "https://imgur.nerdvpn.de",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
+      "https://rimgo.astrial.org",
       "https://rimgo.bloat.cat",
       "https://rimgo.bus-hit.me",
       "https://rimgo.canine.tools",
@@ -265,8 +271,8 @@
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
+      "https://s.datuan.dev",
       "https://s.mble.dk",
-      "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.canine.tools",
       "https://search.catboy.house",
@@ -289,7 +295,6 @@
       "https://searx.be",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
-      "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.perennialte.ch",
