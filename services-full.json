@@ -4,8 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
-      "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -14,11 +12,9 @@
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -26,8 +22,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
-      "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -36,11 +30,9 @@
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -293,12 +285,14 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.datuan.dev",
       "https://s.mble.dk",
+      "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.canine.tools",
       "https://search.catboy.house",
@@ -309,6 +303,7 @@
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
