@@ -13,9 +13,9 @@
       "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -32,9 +32,9 @@
       "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -287,10 +287,12 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
+      "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.canine.tools",
@@ -302,7 +304,6 @@
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.nadeko.net",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
