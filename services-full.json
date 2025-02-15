@@ -287,12 +287,9 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://kantan.cat",
-      "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
-      "https://s.mble.dk",
+      "https://s.datuan.dev",
       "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.canine.tools",
