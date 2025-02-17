@@ -283,7 +283,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://kantan.cat",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -301,7 +301,6 @@
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.privacyredirect.com",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
