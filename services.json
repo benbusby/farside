@@ -4,14 +4,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://r.darrennathanael.com",
+      "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacyredirect.com",
-      "https://rl.bloat.cat"
+      "https://redlib.privacy.com.de",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -19,14 +23,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://r.darrennathanael.com",
+      "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacyredirect.com",
-      "https://rl.bloat.cat"
+      "https://redlib.privacy.com.de",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -258,6 +266,7 @@
       "https://paulgo.io",
       "https://priv.au",
       "https://s.datuan.dev",
+      "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.blitzw.in",
       "https://search.canine.tools",
@@ -270,7 +279,7 @@
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
-      "https://search.privacyredirect.com",
+      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -357,6 +366,7 @@
       "https://librey.baczek.me",
       "https://librey.darkness.services",
       "https://librey.org",
+      "https://librey.sny.sh",
       "https://ly.owo.si",
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
@@ -531,6 +541,7 @@
       "https://librey.baczek.me",
       "https://librey.darkness.services",
       "https://librey.org",
+      "https://librey.sny.sh",
       "https://ly.owo.si",
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
