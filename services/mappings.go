@@ -24,8 +24,8 @@ var regexMap = []RegexMapping{
 	},
 	{
 		// Reddit
-		Pattern: regexp.MustCompile(`reddit\.com|libreddit|redlib`),
-		Targets: []string{"libreddit", "redlib"},
+		Pattern: regexp.MustCompile(`reddit\.com|libreddit|redlib|teddit`),
+		Targets: []string{"libreddit", "redlib", "teddit"},
 	},
 	{
 		// Google Search
@@ -59,8 +59,8 @@ var regexMap = []RegexMapping{
 	},
 	{
 		// Google Translate
-		Pattern: regexp.MustCompile(`translate\.google\.com|lingva`),
-		Targets: []string{"lingva"},
+		Pattern: regexp.MustCompile(`translate\.google\.com|lingva|simplytranslate`),
+		Targets: []string{"lingva", "simplytranslate"},
 	},
 	{
 		// TikTok
@@ -91,6 +91,11 @@ var regexMap = []RegexMapping{
 		// StackOverflow
 		Pattern: regexp.MustCompile(`stackoverflow\.com|anonymousoverflow`),
 		Targets: []string{"anonymousoverflow"},
+	},
+	{
+		// Genius
+		Pattern: regexp.MustCompile(`genius\.com|dumb`),
+		Targets: []string{"dumb"},
 	},
 }
 
