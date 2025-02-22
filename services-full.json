@@ -11,11 +11,14 @@
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
+      "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://redlib.seasi.dev",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -32,11 +35,14 @@
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
+      "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
       "https://redlib.r4fo.com",
-      "https://redlib.seasi.dev",
+      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -291,6 +297,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
