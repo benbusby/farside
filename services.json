@@ -16,9 +16,11 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -38,9 +40,11 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -80,6 +84,7 @@
       "https://ig.opnxng.com",
       "https://proxigram.lunar.icu",
       "https://gram.whatever.social",
+      "https://ig.snine.nl",
       "https://ig.floppa.one",
       "https://proxigram.kyun.li"
     ]
@@ -117,7 +122,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -230,6 +234,7 @@
       "https://search.nezumi.party",
       "https://search.notrustverify.ch",
       "https://search.sethforprivacy.com",
+      "https://search.snine.nl",
       "https://wg.vern.cc",
       "https://wgl.frail.duckdns.org",
       "https://whoogle-search--replitcomreside.repl.co",
@@ -267,7 +272,6 @@
     "instances": [
       "https://baresearch.org",
       "https://kantan.cat",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -294,6 +298,8 @@
       "https://searx.ankha.ac",
       "https://searx.be",
       "https://searx.dresden.network",
+      "https://searx.electroncash.de",
+      "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
