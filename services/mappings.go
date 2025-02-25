@@ -111,6 +111,14 @@ var regexMap = []RegexMapping{
 		Pattern: regexp.MustCompile("librex|librey"),
 		Targets: []string{"librey"},
 	},
+	{
+		// Tent
+		// Note: This is a Bandcamp alternative, but the endpoints are
+		// completely different than Bandcamp, so 1-to-1 mapping of URLs
+		// is not possible without some additional work
+		Pattern: regexp.MustCompile("tent"),
+		Targets: []string{"tent"},
+	},
 }
 
 func MatchRequest(service string) (string, error) {
