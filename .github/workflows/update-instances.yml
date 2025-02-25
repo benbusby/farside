@@ -251,12 +251,6 @@ jobs:
             .clearnet] |
             sort' > librey-tmp.json
 
-        jq --slurpfile librex librey-tmp.json \
-          '( .[] | select(.type == "librex") )
-          .instances |= $librex[0]' services-full.json > services-tmp.json
-
-        mv services-tmp.json services-full.json
-
         jq --slurpfile librey librey-tmp.json \
           '( .[] | select(.type == "librey") )
           .instances |= $librey[0]' services-full.json > services-tmp.json

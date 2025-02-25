@@ -86,8 +86,9 @@ func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool, query strin
 
 	target, err := services.MatchRequest(segments[0])
 	if err != nil {
+		errMsg := fmt.Sprintf("No routing found for '%s'", segments[0])
 		log.Printf("Error during match request: %v\n", err)
-		http.Error(w, "No routing found for "+target, http.StatusBadRequest)
+		http.Error(w, errMsg, http.StatusBadRequest)
 		return
 	}
 

@@ -367,29 +367,6 @@
     ]
   },
   {
-    "type": "librex",
-    "test_url": "/search.php?q=<%=query%>",
-    "fallback": "https://librex.myroware.eu",
-    "instances": [
-      "https://libre.blitzw.in",
-      "https://librex.nohost.network",
-      "https://librey.4o1x5.dev",
-      "https://librey.baczek.me",
-      "https://librey.darkness.services",
-      "https://librey.nube-gran.de",
-      "https://librey.org",
-      "https://librey.sny.sh",
-      "https://ly.owo.si",
-      "https://search.davidovski.xyz",
-      "https://search.funami.tech",
-      "https://search.liv.town",
-      "https://search.revvy.de",
-      "https://search.technicalvoid.dev",
-      "https://search.uwabaki.party",
-      "https://serp.catswords.net"
-    ]
-  },
-  {
     "type": "quetre",
     "test_url": "/How-does-the-Z-boson-decay",
     "fallback": "https://quetre.iket.me",

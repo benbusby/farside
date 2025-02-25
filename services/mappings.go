@@ -97,6 +97,20 @@ var regexMap = []RegexMapping{
 		Pattern: regexp.MustCompile(`genius\.com|dumb`),
 		Targets: []string{"dumb"},
 	},
+	{
+		// 4get
+		// Note: Could be used for redirecting other search engine
+		// requests, but would need special handling
+		Pattern: regexp.MustCompile("4get"),
+		Targets: []string{"4get"},
+	},
+	{
+		// LibreY
+		// Note: Could be used for redirecting other search engine
+		// requests, but would need special handling
+		Pattern: regexp.MustCompile("librex|librey"),
+		Targets: []string{"librey"},
+	},
 }
 
 func MatchRequest(service string) (string, error) {
