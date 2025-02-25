@@ -4,6 +4,7 @@ import (
 	"errors"
 	"math/rand"
 	"regexp"
+	"strings"
 )
 
 type RegexMapping struct {
@@ -30,7 +31,7 @@ var regexMap = []RegexMapping{
 	{
 		// Google Search
 		Pattern: regexp.MustCompile(`google\.com|whoogle|searx|searxng`),
-		Targets: []string{"whoogle", "searx", "searxng"},
+		Targets: []string{"whoogle", "searxng"},
 	},
 	{
 		// Instagram
@@ -122,10 +123,15 @@ var regexMap = []RegexMapping{
 }
 
 func MatchRequest(service string) (string, error) {
+
 	for _, mapping := range regexMap {
 		hasMatch := mapping.Pattern.MatchString(service)
 		if !hasMatch {
 			continue
+		}
+
+		if !strings.Contains(service, ".") {
+			return service, nil
 		}
 
 		index := rand.Intn(len(mapping.Targets))
