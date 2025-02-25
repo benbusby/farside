@@ -3,6 +3,7 @@ package server
 import (
 	_ "embed"
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"log"
 	"net/http"
@@ -61,22 +62,22 @@ func state(w http.ResponseWriter, r *http.Request) {
 }
 
 func baseRouting(w http.ResponseWriter, r *http.Request) {
-	routing(w, r, false)
+	routing(w, r, false, r.URL.RawQuery)
 }
 
 func jsRouting(w http.ResponseWriter, r *http.Request) {
 	r.URL.Path = strings.Replace(r.URL.Path, "/_", "", 1)
-	routing(w, r, true)
+	routing(w, r, true, r.URL.RawQuery)
 }
 
-func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool) {
+func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool, query string) {
 	value := r.PathValue("routing")
 	if len(value) == 0 {
 		value = r.URL.Path
 	}
 
-	url, _ := url.Parse(value)
-	path := strings.TrimPrefix(url.Path, "/")
+	parsedURL, _ := url.Parse(value)
+	path := strings.TrimPrefix(parsedURL.Path, "/")
 	segments := strings.Split(path, "/")
 
 	if len(segments[0]) == 0 {
@@ -119,6 +120,7 @@ func routing(w http.ResponseWriter, r *http.Request, jsEnabled bool) {
 	w.Header().Set("Pragma", "no-cache")
 	w.Header().Set("Expires", "0")
 
+	instance += fmt.Sprintf("?%s", query)
 	if jsEnabled {
 		data := routeData{
 			InstanceURL: instance,
