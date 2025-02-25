@@ -138,6 +138,7 @@
     "instances": [
       "https://lightbrd.com",
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://nitter.space",
       "https://xcancel.com"
@@ -300,6 +301,7 @@
     "instances": [
       "https://baresearch.org",
       "https://kantan.cat",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -307,6 +309,7 @@
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.blitzw.in",
+      "https://search.canine.tools",
       "https://search.catboy.house",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
@@ -326,8 +329,6 @@
       "https://searx.ankha.ac",
       "https://searx.be",
       "https://searx.dresden.network",
-      "https://searx.electroncash.de",
-      "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
