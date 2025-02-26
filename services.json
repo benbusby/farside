@@ -16,11 +16,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -40,11 +37,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -228,26 +222,10 @@
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://search.sethforprivacy.com",
     "instances": [
-      "https://gowogle.voring.me",
-      "https://s.tokhmi.xyz",
-      "https://search.albony.xyz",
-      "https://search.dr460nf1r3.org",
-      "https://search.nezumi.party",
-      "https://search.notrustverify.ch",
       "https://search.sethforprivacy.com",
-      "https://search.snine.nl",
       "https://wg.vern.cc",
-      "https://wgl.frail.duckdns.org",
-      "https://whoogle-search--replitcomreside.repl.co",
-      "https://whoogle.datura.network",
-      "https://whoogle.dcs0.hu",
-      "https://whoogle.ftw.lol",
-      "https://whoogle.hostux.net",
-      "https://whoogle.hxvy0.gq",
       "https://whoogle.lunar.icu",
-      "https://whoogle.no-logs.com",
-      "https://whoogle.privacydev.net",
-      "https://whoogle.yepserver.xyz"
+      "https://whoogle.privacydev.net"
     ]
   },
   {
@@ -272,8 +250,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://kantan.cat",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -301,6 +277,7 @@
       "https://searx.ankha.ac",
       "https://searx.be",
       "https://searx.dresden.network",
+      "https://searx.electroncash.de",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
@@ -549,6 +526,7 @@
       "https://bandcamp.lurkmore.com",
       "https://tent.bloat.cat",
       "https://tent.deep-swarm.xyz",
+      "https://tent.qunn.link",
       "https://tent.sny.sh",
       "https://tn.vern.cc"
     ]
