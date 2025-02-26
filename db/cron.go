@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"slices"
 	"strings"
 	"time"
 
@@ -18,9 +19,14 @@ const defaultPrimary = "https://farside.link/state"
 const defaultCFPrimary = "https://cf.farside.link/state"
 
 var LastUpdate time.Time
+var skipInstanceChecks = []string{
+	"searx",
+	"searxng",
+}
 
 func InitCronTasks() {
 	log.Println("Initializing cron tasks...")
+	updateServiceList()
 
 	cronDisabled := os.Getenv("FARSIDE_CRON")
 	if len(cronDisabled) == 0 || cronDisabled == "1" {
@@ -58,6 +64,8 @@ func queryServiceInstances() {
 	}
 
 	for _, service := range services.ServiceList {
+		canSkip := slices.Contains[[]string, string](skipInstanceChecks, service.Type)
+
 		fmt.Printf("===== %s =====\n", service.Type)
 		var instances []string
 		for _, instance := range service.Instances {
@@ -68,7 +76,7 @@ func queryServiceInstances() {
 			available := queryServiceInstance(
 				instance,
 				testURL,
-			)
+				canSkip)
 
 			if available {
 				instances = append(instances, instance)
@@ -105,9 +113,14 @@ func fetchInstancesFromPrimary() ([]services.Service, error) {
 	return serviceList, err
 }
 
-func queryServiceInstance(instance, testURL string) bool {
+func queryServiceInstance(instance, testURL string, canSkipCheck bool) bool {
 	testMode := os.Getenv("FARSIDE_TEST")
 	if len(testMode) > 0 && testMode == "1" {
+		return true
+	}
+
+	if canSkipCheck {
+		fmt.Printf("    [INFO] Adding %s\n", instance)
 		return true
 	}
 

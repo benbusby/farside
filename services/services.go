@@ -47,7 +47,6 @@ func GetServicesFileName() string {
 	return serviceJSON
 }
 
-
 func FetchServicesFile(serviceJSON string) ([]byte, error) {
 	resp, err := http.Get(baseRepoLink + serviceJSON)
 	if err != nil {
