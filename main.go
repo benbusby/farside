@@ -24,7 +24,7 @@ func main() {
 		}
 	}()
 
-	db.InitCronTasks()
+	go db.InitCronTasks()
 
 	signalChan := make(chan os.Signal, 1)
 	signal.Notify(signalChan, os.Interrupt, syscall.SIGTERM)
