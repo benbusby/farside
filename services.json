@@ -116,7 +116,6 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
@@ -250,6 +249,8 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://kantan.cat",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -278,8 +279,10 @@
       "https://searx.be",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
+      "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
+      "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
