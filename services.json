@@ -125,7 +125,6 @@
     "instances": [
       "https://nitter.net",
       "https://nitter.poast.org",
-      "https://nitter.privacydev.net",
       "https://xcancel.com"
     ]
   },
@@ -214,6 +213,7 @@
       "https://rimgo.in.projectsegfau.lt",
       "https://rimgo.lunar.icu",
       "https://rimgo.nohost.network",
+      "https://rimgo.perennialte.ch",
       "https://rimgo.privacyredirect.com",
       "https://rimgo.projectsegfau.lt",
       "https://rimgo.pussthecat.org",
@@ -293,9 +293,7 @@
       "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
-      "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.shreven.org",
       "https://searxng.site",
