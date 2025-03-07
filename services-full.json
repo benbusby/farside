@@ -98,7 +98,9 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": null
+    "instances": [
+      "https://inv.nadeko.net"
+    ]
   },
   {
     "type": "piped",
@@ -305,6 +307,7 @@
       "https://searx.be",
       "https://searx.dresden.network",
       "https://searx.foobar.vip",
+      "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
