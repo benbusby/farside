@@ -4,9 +4,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
-      "https://r.darrennathanael.com",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -16,9 +15,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -28,9 +26,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
-      "https://r.darrennathanael.com",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -40,9 +37,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacy.com.de",
+      "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
