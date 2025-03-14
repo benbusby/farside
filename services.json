@@ -4,22 +4,21 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
-      "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -27,22 +26,21 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
-      "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -122,6 +120,7 @@
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
+      "https://nitter.privacyredirect.com",
       "https://xcancel.com"
     ]
   },
@@ -265,7 +264,6 @@
       "https://search.080609.xyz",
       "https://search.canine.tools",
       "https://search.catboy.house",
-      "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.gcomm.ch",
       "https://search.im-in.space",
@@ -286,13 +284,11 @@
       "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
-      "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
