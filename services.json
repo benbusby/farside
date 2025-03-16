@@ -4,11 +4,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
@@ -16,9 +18,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.private.coffee",
-      "https://redlib.seasi.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -26,11 +27,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.ducks.party",
@@ -38,9 +41,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
-      "https://redlib.private.coffee",
-      "https://redlib.seasi.dev",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -185,41 +187,7 @@
     "type": "rimgo",
     "test_url": "/a/H8M4rcp",
     "fallback": "https://rimgo.projectsegfau.lt",
-    "instances": [
-      "https://i.habedieeh.re",
-      "https://imgur.010032.xyz",
-      "https://imgur.artemislena.eu",
-      "https://imgur.fsky.io",
-      "https://imgur.nerdvpn.de",
-      "https://ri.nadeko.net",
-      "https://rimgo.4o1x5.dev",
-      "https://rimgo.astrial.org",
-      "https://rimgo.bloat.cat",
-      "https://rimgo.bus-hit.me",
-      "https://rimgo.canine.tools",
-      "https://rimgo.catsarch.com",
-      "https://rimgo.darkness.services",
-      "https://rimgo.drgns.space",
-      "https://rimgo.ducks.party",
-      "https://rimgo.eu.projectsegfau.lt",
-      "https://rimgo.frontendfriendly.xyz",
-      "https://rimgo.frylo.net",
-      "https://rimgo.gitro.xyz",
-      "https://rimgo.hostux.net",
-      "https://rimgo.in.projectsegfau.lt",
-      "https://rimgo.lunar.icu",
-      "https://rimgo.nohost.network",
-      "https://rimgo.perennialte.ch",
-      "https://rimgo.privacyredirect.com",
-      "https://rimgo.projectsegfau.lt",
-      "https://rimgo.pussthecat.org",
-      "https://rimgo.quantenzitrone.eu",
-      "https://rimgo.reallyaweso.me",
-      "https://rimgo.thebunny.zone",
-      "https://rimgo.totaldarkness.net",
-      "https://rimgo.us.projectsegfau.lt",
-      "https://rmgur.com"
-    ]
+    "instances": null
   },
   {
     "type": "whoogle",
@@ -259,7 +227,6 @@
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
-      "https://s.datuan.dev",
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.canine.tools",
@@ -288,6 +255,7 @@
       "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
+      "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
