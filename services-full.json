@@ -4,8 +4,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
+      "https://libreddit.eu.org",
       "https://libreddit.privacydev.net",
-      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -14,7 +15,6 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
@@ -22,8 +22,7 @@
       "https://redlib.reallyaweso.me",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -31,8 +30,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
+      "https://libreddit.eu.org",
       "https://libreddit.privacydev.net",
-      "https://red.arancia.click",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -41,7 +41,6 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.nohost.network",
       "https://redlib.perennialte.ch",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
@@ -49,8 +48,7 @@
       "https://redlib.reallyaweso.me",
       "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -140,6 +138,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://lightbrd.com",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacydev.net",
@@ -286,8 +285,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.datuan.dev",
@@ -322,7 +319,6 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
