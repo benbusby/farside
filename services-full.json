@@ -233,7 +233,6 @@
       "https://rimgo.fascinated.cc",
       "https://rimgo.frontendfriendly.xyz",
       "https://rimgo.frylo.net",
-      "https://rimgo.gitro.xyz",
       "https://rimgo.hostux.net",
       "https://rimgo.in.projectsegfau.lt",
       "https://rimgo.lunar.icu",
@@ -285,6 +284,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.datuan.dev",
@@ -319,6 +319,7 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
