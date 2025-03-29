@@ -136,7 +136,6 @@
     "instances": [
       "https://lightbrd.com",
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://xcancel.com"
@@ -280,8 +279,8 @@
     "instances": [
       "https://baresearch.org",
       "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://s.datuan.dev",
       "https://s.mble.dk",
       "https://search.080609.xyz",
@@ -294,6 +293,7 @@
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
+      "https://search.nerdvpn.de",
       "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
