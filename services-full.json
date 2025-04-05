@@ -287,6 +287,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -324,7 +325,6 @@
       "https://searx.tuxcloud.net",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
-      "https://searxng.site",
       "https://searxng.world",
       "https://seek.fyi",
       "https://suche.dasnetzundich.de"
