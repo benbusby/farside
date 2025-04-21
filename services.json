@@ -257,7 +257,6 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://baresearch.org",
       "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
