@@ -5,22 +5,22 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://libreddit.privacydev.net",
-      "https://libreddit.projectsegfau.lt",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.owo.si",
-      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -29,22 +29,22 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://libreddit.privacydev.net",
-      "https://libreddit.projectsegfau.lt",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.owo.si",
-      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
       "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
+      "https://redlib.private.coffee",
+      "https://redlib.reallyaweso.me",
+      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat",
-      "https://safereddit.com"
+      "https://rl.bloat.cat"
     ]
   },
   {
@@ -260,6 +260,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -298,8 +299,7 @@
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.world",
-      "https://seek.fyi",
-      "https://suche.dasnetzundich.de"
+      "https://seek.fyi"
     ]
   },
   {
