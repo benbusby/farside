@@ -133,7 +133,8 @@
       "https://piped.hostux.net|https://piped-api.hostux.net",
       "https://pd.vern.cc|https://pdapi.vern.cc",
       "https://piped.colinslegacy.com|https://pipedapi.colinslegacy.com",
-      "https://piped.ducks.party|https://pipedapi.ducks.party"
+      "https://piped.ducks.party|https://pipedapi.ducks.party",
+      "https://piped.futureofthe.tech|https://piped.futureofthe.tech/api"
     ]
   },
   {
@@ -325,7 +326,8 @@
       "https://searxng.site",
       "https://searxng.world",
       "https://seek.fyi",
-      "https://suche.dasnetzundich.de"
+      "https://suche.dasnetzundich.de",
+      "https://search.futureofthe.tech"
     ]
   },
   {
