@@ -4,23 +4,23 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
+      "https://eu.safereddit.com",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.owo.si",
+      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -28,23 +28,23 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
+      "https://eu.safereddit.com",
       "https://r.darrennathanael.com",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.owo.si",
+      "https://redlib.4o1x5.dev",
       "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.seasi.dev",
       "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -127,6 +127,7 @@
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
+      "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
   },
@@ -167,6 +168,7 @@
       "https://translate.northboot.xyz",
       "https://translate.priv.pw",
       "https://translate.riverside.rocks",
+      "https://translate.slipfox.xyz",
       "https://translate.tiekoetter.com"
     ]
   },
@@ -196,6 +198,7 @@
       "https://imgur.artemislena.eu",
       "https://imgur.fsky.io",
       "https://imgur.nerdvpn.de",
+      "https://imgur.sudovanilla.org",
       "https://r.opnxng.com",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
@@ -259,10 +262,9 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://northboot.xyz",
-      "https://opnxng.com",
+      "https://copp.gg",
       "https://paulgo.io",
-      "https://priv.au",
+      "https://s.datuan.dev",
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.catboy.house",
@@ -272,7 +274,6 @@
       "https://search.im-in.space",
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
-      "https://search.librenode.com",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
@@ -293,7 +294,9 @@
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
+      "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
+      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.world",
@@ -538,6 +541,8 @@
       "https://tent.private.coffee",
       "https://tent.qunn.link",
       "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
       "https://tn.vern.cc"
     ]
   }
