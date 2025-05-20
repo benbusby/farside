@@ -5,6 +5,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://libreddit.privacydev.net",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -14,10 +15,11 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://rl.bloat.cat"
+      "https://redlib.tux.pizza",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -26,6 +28,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://libreddit.privacydev.net",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
@@ -35,10 +38,11 @@
       "https://redlib.ducks.party",
       "https://redlib.kittywi.re",
       "https://redlib.nadeko.net",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
-      "https://rl.bloat.cat"
+      "https://redlib.tux.pizza",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -257,11 +261,10 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
-      "https://priv.au",
       "https://s.datuan.dev",
+      "https://search.catboy.house",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.im-in.space",
@@ -281,6 +284,7 @@
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oakleycord.dev",
+      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
