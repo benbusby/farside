@@ -13,7 +13,7 @@ var (
 )
 
 const (
-	baseRepoLink = "https://git.sr.ht/~benbusby/farside/blob/main/"
+	baseRepoLink = "https://raw.githubusercontent.com/benbusby/farside/refs/heads/main/"
 
 	noCFServicesJSON = "services.json"
 	fullServicesJSON = "services-full.json"
@@ -24,11 +24,6 @@ type Service struct {
 	TestURL   string   `json:"test_url,omitempty"`
 	Fallback  string   `json:"fallback,omimtempty"`
 	Instances []string `json:"instances"`
-}
-
-func ingestServicesList(servicesBytes []byte) error {
-	err := json.Unmarshal(servicesBytes, &ServiceList)
-	return err
 }
 
 func GetServicesFileName() string {
@@ -78,7 +73,7 @@ func InitializeServices() error {
 		}
 	}
 
-	err = ingestServicesList(fileBytes)
+	err = json.Unmarshal(fileBytes, &ServiceList)
 	if err != nil {
 		return err
 	}
