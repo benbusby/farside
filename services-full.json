@@ -136,6 +136,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://lightbrd.com",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -284,7 +285,6 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -321,7 +321,8 @@
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://seek.fyi"
+      "https://seek.fyi",
+      "https://suche.dasnetzundich.de"
     ]
   },
   {
