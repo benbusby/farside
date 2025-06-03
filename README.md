@@ -1,5 +1,5 @@
 <div align="center" style="margin-bottom: 10px;">
-<img src="https://benbusby.com/assets/images/farside.svg" alt="Farside">
+<img src="https://raw.githubusercontent.com/benbusby/farside/refs/heads/main/img/farside.svg" alt="Farside">
 </div>
 <br>
 
