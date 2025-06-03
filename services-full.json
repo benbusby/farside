@@ -93,7 +93,6 @@
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
     "instances": [
-      "https://id.420129.xyz",
       "https://inv.nadeko.net",
       "https://invidious.f5.si",
       "https://invidious.nerdvpn.de",
@@ -279,6 +278,7 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.datuan.dev",
@@ -286,7 +286,6 @@
       "https://search.080609.xyz",
       "https://search.404.fo",
       "https://search.catboy.house",
-      "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.im-in.space",
       "https://search.ipv6s.net",
@@ -314,7 +313,8 @@
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://seek.fyi"
+      "https://seek.fyi",
+      "https://suche.dasnetzundich.de"
     ]
   },
   {
