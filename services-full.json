@@ -6,18 +6,21 @@
     "instances": [
       "https://libreddit.eu.org",
       "https://libreddit.privacydev.net",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://reddit.owo.si",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat"
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -27,18 +30,21 @@
     "instances": [
       "https://libreddit.eu.org",
       "https://libreddit.privacydev.net",
+      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
       "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
+      "https://reddit.owo.si",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacy.com.de",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.r4fo.com",
-      "https://rl.bloat.cat"
+      "https://redlib.seasi.dev",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -286,6 +292,7 @@
       "https://search.080609.xyz",
       "https://search.404.fo",
       "https://search.catboy.house",
+      "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
       "https://search.im-in.space",
       "https://search.ipv6s.net",
@@ -307,14 +314,13 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
+      "https://searx.sev.monster",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
-      "https://searxng.site",
-      "https://seek.fyi",
-      "https://suche.dasnetzundich.de"
+      "https://searxng.site"
     ]
   },
   {
