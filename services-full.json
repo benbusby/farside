@@ -4,17 +4,19 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.r4fo.com",
-      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -24,17 +26,19 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
       "https://redlib.private.coffee",
       "https://redlib.r4fo.com",
-      "https://redlib.tux.pizza",
       "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
@@ -128,6 +132,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://lightbrd.com",
+      "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -279,7 +284,6 @@
       "https://find.xenorio.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
-      "https://priv.au",
       "https://s.mble.dk",
       "https://search.080609.xyz",
       "https://search.catboy.house",
@@ -292,7 +296,6 @@
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -302,19 +305,19 @@
       "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
-      "https://searx.oakleycord.dev",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
+      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://seek.fyi",
-      "https://suche.dasnetzundich.de"
+      "https://seek.fyi"
     ]
   },
   {
