@@ -4,12 +4,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
-      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
-      "https://red.ngn.tf",
+      "https://reddit.owo.si",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.private.coffee",
       "https://redlib.tux.pizza",
@@ -21,12 +20,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
-      "https://libreddit.projectsegfau.lt",
       "https://red.artemislena.eu",
-      "https://red.ngn.tf",
+      "https://reddit.owo.si",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.private.coffee",
       "https://redlib.tux.pizza",
@@ -111,6 +109,7 @@
     "instances": [
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -262,7 +261,6 @@
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -279,6 +277,7 @@
       "https://searx.tiekoetter.com",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
+      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi",
