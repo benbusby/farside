@@ -4,17 +4,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
-      "https://reddit.owo.si",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
-      "https://redlib.nadeko.net",
-      "https://redlib.perennialte.ch",
-      "https://redlib.private.coffee",
-      "https://redlib.r4fo.com",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://libreddit.privacydev.net",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.catsarch.com"
     ]
   },
   {
@@ -22,17 +14,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
-      "https://reddit.owo.si",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
-      "https://redlib.nadeko.net",
-      "https://redlib.perennialte.ch",
-      "https://redlib.private.coffee",
-      "https://redlib.r4fo.com",
-      "https://redlib.tux.pizza",
-      "https://rl.bloat.cat"
+      "https://libreddit.privacydev.net",
+      "https://reddit.nerdvpn.de",
+      "https://redlib.catsarch.com"
     ]
   },
   {
@@ -124,6 +108,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://lightbrd.com",
+      "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -294,6 +279,7 @@
       "https://search.sapti.me",
       "https://search.url4irl.com",
       "https://searx.ankha.ac",
+      "https://searx.dresden.network",
       "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
@@ -303,9 +289,9 @@
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
-      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi",
