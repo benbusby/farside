@@ -4,9 +4,22 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
+      "https://libreddit.diffraction.dev",
       "https://libreddit.privacydev.net",
+      "https://lr.ptr.moe",
       "https://reddit.nerdvpn.de",
-      "https://redlib.catsarch.com"
+      "https://reddit.rtrace.io",
+      "https://redlib.catsarch.com",
+      "https://redlib.minihoot.site",
+      "https://redlib.nadeko.net",
+      "https://redlib.perennialte.ch",
+      "https://redlib.privacyredirect.com",
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com",
+      "https://redlib.scanash.xyz",
+      "https://redlib.tux.pizza",
+      "https://rl.blitzw.in"
     ]
   },
   {
@@ -14,9 +27,22 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
+      "https://libreddit.diffraction.dev",
       "https://libreddit.privacydev.net",
+      "https://lr.ptr.moe",
       "https://reddit.nerdvpn.de",
-      "https://redlib.catsarch.com"
+      "https://reddit.rtrace.io",
+      "https://redlib.catsarch.com",
+      "https://redlib.minihoot.site",
+      "https://redlib.nadeko.net",
+      "https://redlib.perennialte.ch",
+      "https://redlib.privacyredirect.com",
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com",
+      "https://redlib.scanash.xyz",
+      "https://redlib.tux.pizza",
+      "https://rl.blitzw.in"
     ]
   },
   {
@@ -110,7 +136,6 @@
       "https://lightbrd.com",
       "https://nitter.kareem.one",
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
@@ -283,13 +308,11 @@
       "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
-      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
