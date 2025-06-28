@@ -4,22 +4,19 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://lr.ptr.moe",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.minihoot.site",
-      "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.r4fo.com",
-      "https://redlib.scanash.xyz",
-      "https://redlib.tux.pizza",
-      "https://rl.blitzw.in"
+      "https://redlib.thebunny.zone",
+      "https://rl.blitzw.in",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -27,22 +24,19 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://lr.ptr.moe",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.minihoot.site",
-      "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.r4fo.com",
-      "https://redlib.scanash.xyz",
-      "https://redlib.tux.pizza",
-      "https://rl.blitzw.in"
+      "https://redlib.thebunny.zone",
+      "https://rl.blitzw.in",
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -136,6 +130,7 @@
       "https://lightbrd.com",
       "https://nitter.kareem.one",
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
@@ -558,18 +553,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.private.coffee",
-      "https://tent.qunn.link",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
