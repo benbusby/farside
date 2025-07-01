@@ -128,6 +128,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://lightbrd.com",
+      "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -276,8 +277,8 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://find.xenorio.xyz",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -310,7 +311,6 @@
       "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
