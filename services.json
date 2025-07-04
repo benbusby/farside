@@ -4,16 +4,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://red.ngn.tf",
+      "https://lr.ptr.moe",
       "https://reddit.nerdvpn.de",
+      "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
-      "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone",
-      "https://redlib.tux.pizza",
-      "https://rl.blitzw.in"
+      "https://redlib.privacyredirect.com"
     ]
   },
   {
@@ -21,16 +20,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://red.ngn.tf",
+      "https://lr.ptr.moe",
       "https://reddit.nerdvpn.de",
+      "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.catsarch.com",
-      "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone",
-      "https://redlib.tux.pizza",
-      "https://rl.blitzw.in"
+      "https://redlib.privacyredirect.com"
     ]
   },
   {
@@ -109,6 +107,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.kuuro.net",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -272,7 +271,6 @@
       "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
-      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
@@ -281,7 +279,6 @@
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
-      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi",
