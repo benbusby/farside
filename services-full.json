@@ -4,12 +4,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
+      "https://lr.ptr.moe",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.minihoot.site",
       "https://redlib.orangenet.cc",
@@ -17,8 +18,9 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com",
-      "https://redlib.thebunny.zone",
+      "https://redlib.tux.pizza",
       "https://rl.blitzw.in",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -27,12 +29,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://eu.safereddit.com",
       "https://libreddit.diffraction.dev",
-      "https://libreddit.privacydev.net",
-      "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
+      "https://lr.ptr.moe",
+      "https://red.ngn.tf",
       "https://reddit.nerdvpn.de",
       "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.minihoot.site",
       "https://redlib.orangenet.cc",
@@ -40,8 +43,9 @@
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com",
-      "https://redlib.thebunny.zone",
+      "https://redlib.tux.pizza",
       "https://rl.blitzw.in",
+      "https://rl.bloat.cat",
       "https://safereddit.com"
     ]
   },
@@ -96,12 +100,7 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": [
-      "https://inv.nadeko.net",
-      "https://invidious.f5.si",
-      "https://invidious.nerdvpn.de",
-      "https://yewtu.be"
-    ]
+    "instances": null
   },
   {
     "type": "piped",
@@ -137,6 +136,7 @@
       "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
       "https://nuku.trabun.org",
@@ -284,8 +284,6 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
-      "https://find.xenorio.xyz",
-      "https://northboot.xyz",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
@@ -299,7 +297,9 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
+      "https://search.ononoki.org",
       "https://search.projectsegfau.lt",
+      "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.url4irl.com",
       "https://searx.ankha.ac",
@@ -311,9 +311,10 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.ppeb.me",
+      "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
-      "https://searxng.f24o.zip",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://seek.fyi"
