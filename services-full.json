@@ -100,7 +100,12 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": null
+    "instances": [
+      "https://inv.nadeko.net",
+      "https://invidious.f5.si",
+      "https://invidious.nerdvpn.de",
+      "https://yewtu.be"
+    ]
   },
   {
     "type": "piped",
@@ -297,8 +302,6 @@
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
-      "https://search.ononoki.org",
-      "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.url4irl.com",
@@ -312,10 +315,10 @@
       "https://searx.perennialte.ch",
       "https://searx.ppeb.me",
       "https://searx.rhscz.eu",
+      "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
-      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://seek.fyi"
     ]
