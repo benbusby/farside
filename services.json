@@ -4,16 +4,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
+      "https://eu.safereddit.com",
       "https://reddit.nerdvpn.de",
-      "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
+      "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://redlib.thebunny.zone",
+      "https://redlib.tux.pizza"
     ]
   },
   {
@@ -21,16 +20,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
+      "https://eu.safereddit.com",
       "https://reddit.nerdvpn.de",
-      "https://reddit.rtrace.io",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
+      "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://redlib.thebunny.zone",
+      "https://redlib.tux.pizza"
     ]
   },
   {
@@ -259,8 +257,10 @@
       "https://search.federicociro.com",
       "https://search.im-in.space",
       "https://search.leptons.xyz",
+      "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.nordh.tech",
+      "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.url4irl.com",
@@ -273,7 +273,7 @@
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
       "https://searx.ppeb.me",
-      "https://searx.rhscz.eu",
+      "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
@@ -512,6 +512,18 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.canine.tools",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.lab8.cz",
+      "https://tent.private.coffee",
+      "https://tent.qunn.link",
+      "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
+      "https://tn.vern.cc"
+    ]
   }
 ]
