@@ -111,6 +111,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.kuuro.net",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -266,6 +267,7 @@
       "https://search.nerdvpn.de",
       "https://search.nordh.tech",
       "https://search.projectsegfau.lt",
+      "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.url4irl.com",
       "https://searx.ankha.ac",
@@ -276,6 +278,7 @@
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.perennialte.ch",
+      "https://searx.ppeb.me",
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
@@ -283,7 +286,6 @@
       "https://searxng.deliberate.world",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
-      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
