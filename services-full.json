@@ -296,12 +296,12 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.080609.xyz",
+      "https://search.2b9t.xyz",
       "https://search.ashisgreat.xyz",
       "https://search.buddyverse.net",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.citw.lgbt",
-      "https://search.einfachzocken.eu",
       "https://search.im-in.space",
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
@@ -314,6 +314,7 @@
       "https://search.url4irl.com",
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
+      "https://searx.foobar.vip",
       "https://searx.foss.family",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
@@ -570,18 +571,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
-      "https://tent.private.coffee",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
