@@ -8,11 +8,11 @@
       "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
+      "https://r.darrennathanael.com",
+      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
       "https://reddit.nerdvpn.de",
-      "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
-      "https://redlib.catsarch.com",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.minihoot.site",
       "https://redlib.orangenet.cc",
@@ -22,7 +22,8 @@
       "https://redlib.r4fo.com",
       "https://redlib.thebunny.zone",
       "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -34,11 +35,11 @@
       "https://l.opnxng.com",
       "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
+      "https://r.darrennathanael.com",
+      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
       "https://reddit.nerdvpn.de",
-      "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
-      "https://redlib.catsarch.com",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.minihoot.site",
       "https://redlib.orangenet.cc",
@@ -48,7 +49,8 @@
       "https://redlib.r4fo.com",
       "https://redlib.thebunny.zone",
       "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -146,6 +148,7 @@
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
+      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -288,46 +291,23 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://baresearch.org",
       "https://copp.gg",
-      "https://find.xenorio.xyz",
       "https://northboot.xyz",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
-      "https://search.080609.xyz",
-      "https://search.2b9t.xyz",
       "https://search.ashisgreat.xyz",
       "https://search.buddyverse.net",
-      "https://search.charliewhiskey.net",
-      "https://search.citw.lgbt",
-      "https://search.hbubli.cc",
-      "https://search.im-in.space",
       "https://search.ipsys.bf",
-      "https://search.ipv6s.net",
-      "https://search.leptons.xyz",
-      "https://search.mdosch.de",
       "https://search.nerdvpn.de",
-      "https://search.rowie.at",
       "https://search.system51.co.uk",
       "https://search.url4irl.com",
       "https://searx.dresden.network",
       "https://searx.foobar.vip",
       "https://searx.foss.family",
-      "https://searx.namejeff.xyz",
-      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
-      "https://searx.ppeb.me",
-      "https://searx.stream",
-      "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
-      "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
-      "https://searxng.hweeren.com",
-      "https://searxng.shreven.org",
-      "https://searxng.site",
-      "https://seek.fyi"
+      "https://searxng.shreven.org"
     ]
   },
   {
