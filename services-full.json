@@ -6,9 +6,10 @@
     "instances": [
       "https://eu.safereddit.com",
       "https://l.opnxng.com",
+      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
-      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
+      "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.frontendfriendly.xyz",
@@ -16,10 +17,9 @@
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone",
       "https://redlib.tux.pizza",
-      "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -29,9 +29,10 @@
     "instances": [
       "https://eu.safereddit.com",
       "https://l.opnxng.com",
+      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
-      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
+      "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.frontendfriendly.xyz",
@@ -39,10 +40,9 @@
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone",
       "https://redlib.tux.pizza",
-      "https://rl.blitzw.in",
-      "https://rl.bloat.cat"
+      "https://rl.bloat.cat",
+      "https://safereddit.com"
     ]
   },
   {
@@ -135,7 +135,6 @@
     "instances": [
       "https://lightbrd.com",
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
@@ -298,7 +297,6 @@
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.im-in.space",
-      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.ipsys.bf",
       "https://search.ipv6s.net",
