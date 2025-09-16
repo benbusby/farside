@@ -4,18 +4,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://eu.safereddit.com",
       "https://l.opnxng.com",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
-      "https://reddit.rtrace.io",
+      "https://reddit.adminforge.de",
       "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
       "https://redlib.thebunny.zone",
-      "https://rl.blitzw.in"
+      "https://rl.blitzw.in",
+      "https://safereddit.com"
     ]
   },
   {
@@ -23,18 +23,18 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://eu.safereddit.com",
       "https://l.opnxng.com",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
-      "https://reddit.rtrace.io",
+      "https://reddit.adminforge.de",
       "https://redlib.4o1x5.dev",
+      "https://redlib.baczek.me",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
       "https://redlib.thebunny.zone",
-      "https://rl.blitzw.in"
+      "https://rl.blitzw.in",
+      "https://safereddit.com"
     ]
   },
   {
@@ -252,6 +252,7 @@
       "https://baresearch.org",
       "https://copp.gg",
       "https://find.xenorio.xyz",
+      "https://northboot.xyz",
       "https://o5.gg",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -267,13 +268,14 @@
       "https://search.ethibox.fr",
       "https://search.iguru.gr",
       "https://search.im-in.space",
-      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.ipsys.bf",
+      "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
       "https://search.nerdvpn.de",
       "https://search.ononoki.org",
+      "https://search.perditum.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.system51.co.uk",
@@ -293,6 +295,7 @@
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
+      "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi"
