@@ -4,12 +4,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://lr.ptr.moe",
       "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.baczek.me",
-      "https://redlib.frontendfriendly.xyz",
+      "https://redlib.nohost.network",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.thebunny.zone"
@@ -20,12 +16,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://lr.ptr.moe",
       "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.baczek.me",
-      "https://redlib.frontendfriendly.xyz",
+      "https://redlib.nohost.network",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.thebunny.zone"
@@ -106,6 +98,7 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
@@ -249,6 +242,8 @@
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
+      "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
@@ -262,6 +257,7 @@
       "https://search.mdosch.de",
       "https://search.mycotrip.tech",
       "https://search.nerdvpn.de",
+      "https://search.oh64.moe",
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -282,7 +278,6 @@
       "https://searx.tuxcloud.net",
       "https://searxng.deliberate.world",
       "https://searxng.f24o.zip",
-      "https://searxng.hweeren.com",
       "https://searxng.mcgee.red",
       "https://searxng.shreven.org",
       "https://searxng.site",
@@ -294,7 +289,6 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
-      "https://wiki.owo.si",
       "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
       "https://wikiless.esmailelbob.xyz",
@@ -452,7 +446,6 @@
     "test_url": "/questions/6591213/how-do-i-rename-a-local-git-branch",
     "fallback": "https://code.whatever.social",
     "instances": [
-      "https://ao.owo.si",
       "https://code.whatever.social",
       "https://ao.vern.cc",
       "https://overflow.smnz.de",
@@ -504,7 +497,6 @@
       "https://librey.nube-gran.de",
       "https://librey.org",
       "https://librey.sny.sh",
-      "https://ly.owo.si",
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
       "https://search.liv.town",
