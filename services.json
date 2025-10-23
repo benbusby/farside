@@ -78,6 +78,7 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
+      "https://inv.perditum.com",
       "https://invidious.nerdvpn.de",
       "https://yewtu.be"
     ]
@@ -243,6 +244,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://copp.gg",
       "https://find.xenorio.xyz",
       "https://northboot.xyz",
       "https://o5.gg",
@@ -256,6 +258,7 @@
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
+      "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
@@ -264,11 +267,10 @@
       "https://search.mdosch.de",
       "https://search.mycotrip.tech",
       "https://search.nerdvpn.de",
-      "https://search.oh64.moe",
       "https://search.ononoki.org",
+      "https://search.pollorebozado.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
-      "https://search.undertale.uk",
       "https://search.url4irl.com",
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
