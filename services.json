@@ -5,10 +5,9 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://lr.ptr.moe",
-      "https://reddit.adminforge.de",
       "https://reddit.rtrace.io",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.orangenet.cc",
       "https://redlib.reallyaweso.me"
@@ -20,10 +19,9 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://lr.ptr.moe",
-      "https://reddit.adminforge.de",
       "https://reddit.rtrace.io",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.frontendfriendly.xyz",
       "https://redlib.orangenet.cc",
       "https://redlib.reallyaweso.me"
@@ -252,6 +250,7 @@
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
@@ -277,7 +276,6 @@
       "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searxng.f24o.zip",
       "https://searxng.hweeren.com",
       "https://searxng.shreven.org",
       "https://searxng.site",
