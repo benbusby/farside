@@ -107,10 +107,8 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
-      "https://nitter.tiekoetter.com",
-      "https://xcancel.com"
+      "https://nitter.tiekoetter.com"
     ]
   },
   {
@@ -252,13 +250,14 @@
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
-      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
+      "https://search.internetsucks.net",
+      "https://search.ipsys.bf",
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
@@ -279,8 +278,6 @@
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.f24o.zip",
-      "https://searxng.hweeren.com",
-      "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi"
     ]
