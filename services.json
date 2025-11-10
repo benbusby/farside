@@ -5,10 +5,13 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://lr.ptr.moe",
+      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
       "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
+      "https://redlib.frontendfriendly.xyz",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.reallyaweso.me"
@@ -20,10 +23,13 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://lr.ptr.moe",
+      "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
       "https://reddit.rtrace.io",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
+      "https://redlib.frontendfriendly.xyz",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.reallyaweso.me"
@@ -107,8 +113,10 @@
     "fallback": "https://nitter.net",
     "instances": [
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
-      "https://nitter.tiekoetter.com"
+      "https://nitter.tiekoetter.com",
+      "https://xcancel.com"
     ]
   },
   {
@@ -242,7 +250,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://find.xenorio.xyz",
       "https://o5.gg",
       "https://opnxng.com",
@@ -250,12 +257,14 @@
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
+      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.ipsys.bf",
       "https://search.ipv6s.net",
@@ -272,6 +281,7 @@
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
+      "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
@@ -508,6 +518,18 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.canine.tools",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.lab8.cz",
+      "https://tent.nbh.ax",
+      "https://tent.private.coffee",
+      "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
+      "https://tn.vern.cc"
+    ]
   }
 ]
