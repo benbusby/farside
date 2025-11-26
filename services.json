@@ -4,6 +4,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
@@ -14,8 +15,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.thebunny.zone"
+      "https://redlib.privadency.com",
+      "https://redlib.reallyaweso.me"
     ]
   },
   {
@@ -23,6 +24,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
@@ -33,8 +35,8 @@
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
-      "https://redlib.reallyaweso.me",
-      "https://redlib.thebunny.zone"
+      "https://redlib.privadency.com",
+      "https://redlib.reallyaweso.me"
     ]
   },
   {
@@ -253,12 +255,12 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://find.xenorio.xyz",
+      "https://o5.gg",
       "https://opnxng.com",
-      "https://paulgo.io",
       "https://priv.au",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
