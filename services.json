@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
@@ -16,7 +15,8 @@
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.reallyaweso.me"
+      "https://redlib.reallyaweso.me",
+      "https://redlib.thebunny.zone"
     ]
   },
   {
@@ -24,7 +24,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://libreddit.privacydev.net",
       "https://lr.ptr.moe",
       "https://red.artemislena.eu",
       "https://reddit.adminforge.de",
@@ -36,7 +35,8 @@
       "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
-      "https://redlib.reallyaweso.me"
+      "https://redlib.reallyaweso.me",
+      "https://redlib.thebunny.zone"
     ]
   },
   {
@@ -117,6 +117,7 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -255,15 +256,18 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://find.xenorio.xyz",
       "https://o5.gg",
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.anoni.net",
+      "https://search.atl.tools",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
-      "https://search.einfachzocken.eu",
+      "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
@@ -278,7 +282,6 @@
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
-      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
@@ -286,6 +289,7 @@
       "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
+      "https://searxng.cups.moe",
       "https://searxng.f24o.zip",
       "https://searxng.shreven.org",
       "https://searxng.site",
@@ -508,18 +512,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
-      "https://tent.private.coffee",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
