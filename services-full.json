@@ -4,9 +4,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://lr.ptr.moe",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip"
+      "https://redlib.cow.rip",
+      "https://redlib.privacyredirect.com"
     ]
   },
   {
@@ -14,9 +16,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://lr.ptr.moe",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip"
+      "https://redlib.cow.rip",
+      "https://redlib.privacyredirect.com"
     ]
   },
   {
@@ -282,7 +286,6 @@
       "https://search.ipv6s.net",
       "https://search.leptons.xyz",
       "https://search.mdosch.de",
-      "https://search.oh64.moe",
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.undertale.uk",
