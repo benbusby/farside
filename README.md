@@ -18,6 +18,10 @@
 
 </div>
 
+___
+Thank you to [Miget](https://miget.com) for generously hosting Farside's official instance ([farside.link](https://farside.link))!
+___
+
 Contents
 1. [About](#about)
 2. [Demo](#demo)
