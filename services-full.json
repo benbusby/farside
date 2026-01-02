@@ -4,12 +4,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.nadeko.net",
+      "https://redlib.ducks.party",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
       "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone"
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -17,12 +18,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.nadeko.net",
+      "https://redlib.ducks.party",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
       "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone"
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -274,12 +276,12 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.atl.tools",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
-      "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
