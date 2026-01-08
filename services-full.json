@@ -5,14 +5,11 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
-      "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
     ]
   },
@@ -22,14 +19,11 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://l.opnxng.com",
-      "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
-      "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
     ]
   },
@@ -85,8 +79,6 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
-      "https://inv.perditum.com",
-      "https://invidious.f5.si",
       "https://invidious.nerdvpn.de",
       "https://yewtu.be"
     ]
@@ -123,7 +115,6 @@
     "instances": [
       "https://lightbrd.com",
       "https://nitter.catsarch.com",
-      "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
@@ -281,13 +272,10 @@
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
-      "https://search.anoni.net",
       "https://search.atl.tools",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
-      "https://search.einfachzocken.eu",
-      "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
@@ -298,6 +286,7 @@
       "https://search.oh64.moe",
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
+      "https://search.rowie.at",
       "https://search.undertale.uk",
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
@@ -311,7 +300,6 @@
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
       "https://searxng.site",
