@@ -4,13 +4,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
+      "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.r4fo.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com",
+      "https://redlib.thebunny.zone"
     ]
   },
   {
@@ -18,13 +20,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
+      "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.r4fo.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com",
+      "https://redlib.thebunny.zone"
     ]
   },
   {
@@ -113,14 +117,10 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://lightbrd.com",
-      "https://nitter.net",
+      "https://nitter.catsarch.com",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
-      "https://nitter.space",
-      "https://nitter.tiekoetter.com",
-      "https://nuku.trabun.org",
-      "https://xcancel.com"
+      "https://nitter.tiekoetter.com"
     ]
   },
   {
@@ -267,10 +267,10 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
-      "https://paulgo.io",
+      "https://opnxng.com",
       "https://priv.au",
       "https://s.mble.dk",
-      "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.atl.tools",
       "https://search.bladerunn.in",
@@ -280,7 +280,6 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.ipv6s.net",
       "https://search.mdosch.de",
@@ -291,7 +290,9 @@
       "https://search.rowie.at",
       "https://search.undertale.uk",
       "https://search.url4irl.com",
+      "https://search.wdpserver.com",
       "https://search.zina.dev",
+      "https://searx.ankha.ac",
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
@@ -300,7 +301,6 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
-      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
@@ -534,18 +534,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
-      "https://tent.private.coffee",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
