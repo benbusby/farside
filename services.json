@@ -101,12 +101,7 @@
     "type": "nitter",
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
-    "instances": [
-      "https://nitter.catsarch.com",
-      "https://nitter.poast.org",
-      "https://nitter.privacyredirect.com",
-      "https://nitter.tiekoetter.com"
-    ]
+    "instances": []
   },
   {
     "type": "scribe",
@@ -245,6 +240,7 @@
       "https://opnxng.com",
       "https://priv.au",
       "https://s.mble.dk",
+      "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.atl.tools",
@@ -255,7 +251,7 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.internetsucks.net",
+      "https://search.inetol.net",
       "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
@@ -263,7 +259,6 @@
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
-      "https://search.undertale.uk",
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
       "https://search.zina.dev",
@@ -276,6 +271,7 @@
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
+      "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
@@ -498,6 +494,18 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.canine.tools",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.lab8.cz",
+      "https://tent.nbh.ax",
+      "https://tent.private.coffee",
+      "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
+      "https://tn.vern.cc"
+    ]
   }
 ]
