@@ -4,12 +4,12 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone"
+      "https://redlib.privadency.com"
     ]
   },
   {
@@ -17,12 +17,12 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com",
-      "https://redlib.thebunny.zone"
+      "https://redlib.privadency.com"
     ]
   },
   {
@@ -101,7 +101,14 @@
     "type": "nitter",
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
-    "instances": []
+    "instances": [
+      "https://nitter.catsarch.com",
+      "https://nitter.net",
+      "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
+      "https://nitter.tiekoetter.com",
+      "https://xcancel.com"
+    ]
   },
   {
     "type": "scribe",
@@ -241,7 +248,6 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
-      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.atl.tools",
       "https://search.bladerunn.in",
@@ -252,6 +258,7 @@
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
+      "https://search.internetsucks.net",
       "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
@@ -259,6 +266,7 @@
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
+      "https://search.undertale.uk",
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
       "https://search.zina.dev",
