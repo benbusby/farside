@@ -9,7 +9,8 @@
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -22,7 +23,8 @@
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -171,39 +173,24 @@
     "test_url": "/a/H8M4rcp",
     "fallback": "https://rimgo.projectsegfau.lt",
     "instances": [
-      "https://i.datuan.dev",
-      "https://imgur.010032.xyz",
       "https://imgur.artemislena.eu",
       "https://imgur.nerdvpn.de",
-      "https://imgur.sudovanilla.org",
       "https://r.opnxng.com",
       "https://rg.kuuro.net",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
-      "https://rimgo.astrial.org",
       "https://rimgo.bloat.cat",
-      "https://rimgo.bus-hit.me",
       "https://rimgo.canine.tools",
       "https://rimgo.catsarch.com",
       "https://rimgo.darkness.services",
-      "https://rimgo.drgns.space",
       "https://rimgo.ducks.party",
-      "https://rimgo.eu.projectsegfau.lt",
       "https://rimgo.frontendfriendly.xyz",
-      "https://rimgo.frylo.net",
       "https://rimgo.hostux.net",
-      "https://rimgo.in.projectsegfau.lt",
-      "https://rimgo.lunar.icu",
       "https://rimgo.nohost.network",
-      "https://rimgo.perennialte.ch",
       "https://rimgo.privacyredirect.com",
-      "https://rimgo.projectsegfau.lt",
       "https://rimgo.pussthecat.org",
-      "https://rimgo.quantenzitrone.eu",
       "https://rimgo.reallyaweso.me",
-      "https://rimgo.thebunny.zone",
       "https://rimgo.totaldarkness.net",
-      "https://rimgo.us.projectsegfau.lt",
       "https://rmgur.com"
     ]
   },
@@ -245,10 +232,11 @@
       "https://grep.vim.wtf",
       "https://o5.gg",
       "https://opnxng.com",
+      "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
-      "https://search.anoni.net",
+      "https://search.abohiccups.com",
       "https://search.atl.tools",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
@@ -267,7 +255,6 @@
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.undertale.uk",
-      "https://search.url4irl.com",
       "https://search.wdpserver.com",
       "https://search.zina.dev",
       "https://searx.ankha.ac",
