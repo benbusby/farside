@@ -5,10 +5,8 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
-      "https://redlib.perennialte.ch",
       "https://redlib.privadency.com"
     ]
   },
@@ -18,10 +16,8 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
-      "https://redlib.perennialte.ch",
       "https://redlib.privadency.com"
     ]
   },
@@ -34,22 +30,18 @@
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
-      "https://t.sneed.network",
       "https://td.vern.cc",
       "https://teddit.adminforge.de",
       "https://teddit.bus-hit.me",
-      "https://teddit.domain.glass",
       "https://teddit.froth.zone",
       "https://teddit.garudalinux.org",
       "https://teddit.ggc-project.de",
       "https://teddit.hostux.net",
-      "https://teddit.httpjames.space",
       "https://teddit.laserdisc.tokyo",
       "https://teddit.net",
       "https://teddit.no-logs.com",
       "https://teddit.projectsegfau.lt",
       "https://teddit.pussthecat.org",
-      "https://teddit.rawbit.ninja",
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
       "https://teddit.tokhmi.xyz",
@@ -85,14 +77,10 @@
     "test_url": "/watch?v=dQw4w9WgXcQ|/streams/dQw4w9WgXcQ",
     "fallback": "https://piped.video",
     "instances": [
-      "https://piped.video|https://pipedapi.kavin.rocks",
       "https://piped.tokhmi.xyz|https://pipedapi.tokhmi.xyz",
       "https://piped.moomoo.me|https://pipedapi.moomoo.me",
-      "https://piped.mha.fi|https://api-piped.mha.fi",
-      "https://efy.piped.pages.dev|https://pipedapi.aeong.one",
       "https://watch.whatever.social|https://watchapi.whatever.social",
       "https://piped.garudalinux.org|https://piped-api.garudalinux.org",
-      "https://watch.leptons.xyz|https://pipedapi.leptons.xyz",
       "https://piped.lunar.icu|https://piped-api.lunar.icu",
       "https://piped.projectsegfau.lt|https://api.piped.projectsegfau.lt",
       "https://piped.privacydev.net|https://api.piped.privacydev.net",
@@ -237,6 +225,7 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -251,6 +240,7 @@
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
+      "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.oh64.moe",
@@ -273,6 +263,7 @@
       "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
