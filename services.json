@@ -4,10 +4,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
-      "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com"
+      "https://redlib.orangenet.cc"
     ]
   },
   {
@@ -15,10 +16,11 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
+      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
-      "https://redlib.orangenet.cc",
-      "https://redlib.privadency.com"
+      "https://redlib.orangenet.cc"
     ]
   },
   {
@@ -225,7 +227,6 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://s.mble.dk",
@@ -243,7 +244,6 @@
       "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
-      "https://search.oh64.moe",
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -255,7 +255,6 @@
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
-      "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.stream",
