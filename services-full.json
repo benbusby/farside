@@ -156,22 +156,7 @@
     "test_url": "/?engine=google&text=simplicado",
     "fallback": "https://simplytranslate.org",
     "instances": [
-      "https://simplytranslate.esmailelbob.xyz",
-      "https://simplytranslate.leemoon.network",
-      "https://simplytranslate.manerakai.com",
-      "https://simplytranslate.org",
-      "https://simplytranslate.pussthecat.org",
-      "https://st.odyssey346.dev",
-      "https://st.privacydev.net",
-      "https://st.tokhmi.xyz",
-      "https://tl.vern.cc",
-      "https://translate.bus-hit.me",
-      "https://translate.josias.dev",
-      "https://translate.northboot.xyz",
-      "https://translate.priv.pw",
-      "https://translate.riverside.rocks",
-      "https://translate.slipfox.xyz",
-      "https://translate.tiekoetter.com"
+      ""
     ]
   },
   {
@@ -261,18 +246,15 @@
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
+      "https://s.mble.dk",
       "https://search.2b9t.xyz",
-      "https://search.abohiccups.com",
-      "https://search.bladerunn.in",
       "https://search.catboy.house",
-      "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
-      "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -280,11 +262,11 @@
       "https://search.rowie.at",
       "https://search.undertale.uk",
       "https://search.url4irl.com",
+      "https://search.zina.dev",
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
-      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
@@ -293,6 +275,7 @@
       "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
@@ -522,6 +505,18 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.canine.tools",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.lab8.cz",
+      "https://tent.nbh.ax",
+      "https://tent.private.coffee",
+      "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
+      "https://tn.vern.cc"
+    ]
   }
 ]
