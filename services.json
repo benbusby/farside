@@ -6,9 +6,7 @@
     "instances": [
       "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.privadency.com"
@@ -21,9 +19,7 @@
     "instances": [
       "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.privadency.com"
@@ -137,7 +133,22 @@
     "test_url": "/?engine=google&text=simplicado",
     "fallback": "https://simplytranslate.org",
     "instances": [
-      ""
+      "https://simplytranslate.esmailelbob.xyz",
+      "https://simplytranslate.leemoon.network",
+      "https://simplytranslate.manerakai.com",
+      "https://simplytranslate.org",
+      "https://simplytranslate.pussthecat.org",
+      "https://st.odyssey346.dev",
+      "https://st.privacydev.net",
+      "https://st.tokhmi.xyz",
+      "https://tl.vern.cc",
+      "https://translate.bus-hit.me",
+      "https://translate.josias.dev",
+      "https://translate.northboot.xyz",
+      "https://translate.priv.pw",
+      "https://translate.riverside.rocks",
+      "https://translate.slipfox.xyz",
+      "https://translate.tiekoetter.com"
     ]
   },
   {
@@ -221,13 +232,15 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.catboy.house",
+      "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
-      "https://search.internetsucks.net",
+      "https://search.ipv6s.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -240,6 +253,7 @@
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
+      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
@@ -248,7 +262,6 @@
       "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
-      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
