@@ -4,15 +4,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -20,15 +20,15 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://reddit.adminforge.de",
-      "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.orangenet.cc",
       "https://redlib.perennialte.ch",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -201,6 +201,7 @@
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
       "https://rimgo.aketawi.space",
+      "https://rimgo.astrial.org",
       "https://rimgo.bloat.cat",
       "https://rimgo.canine.tools",
       "https://rimgo.catsarch.com",
@@ -254,19 +255,18 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
-      "https://s.mble.dk",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
-      "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
+      "https://search.internetsucks.net",
       "https://search.ipsys.bf",
       "https://search.ipv6s.net",
       "https://search.mdosch.de",
@@ -287,8 +287,10 @@
       "https://searx.rhscz.eu",
       "https://searx.stream",
       "https://searx.tiekoetter.com",
+      "https://searx.tuxcloud.net",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
