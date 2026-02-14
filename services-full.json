@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
@@ -21,7 +20,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
       "https://redlib.catsarch.com",
@@ -38,7 +36,6 @@
     "test_url": "/r/popular",
     "fallback": "https://teddit.net",
     "instances": [
-      "https://i.opnxng.com",
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
@@ -69,9 +66,8 @@
   {
     "type": "proxigram",
     "test_url": "/p/Ch2WRmiLMjj",
-    "fallback": "https://ig.opnxng.com",
+    "fallback": "https://proxigram.lunar.icu",
     "instances": [
-      "https://ig.opnxng.com",
       "https://proxigram.lunar.icu",
       "https://gram.whatever.social",
       "https://ig.snine.nl",
@@ -143,7 +139,6 @@
       "https://scribe.privacydev.net",
       "https://scribe.rawbit.ninja",
       "https://sc.vern.cc",
-      "https://m.opnxng.com",
       "https://scribe.manasiwibi.com",
       "https://scribe.r4fo.com",
       "https://scribe.privacyredirect.com"
@@ -198,7 +193,6 @@
     "instances": [
       "https://imgur.artemislena.eu",
       "https://imgur.nerdvpn.de",
-      "https://r.opnxng.com",
       "https://rg.kuuro.net",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
@@ -417,7 +411,6 @@
       "https://antifandom.com",
       "https://breezewiki.pussthecat.org",
       "https://breeze.mint.lgbt",
-      "https://z.opnxng.com",
       "https://breezewiki.hyperreal.coffee",
       "https://breezewiki.woodland.cafe",
       "https://breezewiki.catsarch.com",
@@ -439,7 +432,6 @@
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
       "https://gothub.lunar.icu",
-      "https://g.opnxng.com",
       "https://gh.owo.si",
       "https://gothub.projectsegfau.lt",
       "https://gothub.r4fo.com",
@@ -475,7 +467,6 @@
     "fallback": "https://4get.ca",
     "instances": [
       "https://4g.ggtyler.dev",
-      "https://4g.opnxng.com",
       "https://4get.ca",
       "https://4get.dcs0.hu",
       "https://4get.etenie.pl",
