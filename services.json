@@ -4,9 +4,12 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://redlib.4o1x5.dev",
+      "https://red.artemislena.eu",
       "https://redlib.nadeko.net",
-      "https://redlib.privacyredirect.com"
+      "https://redlib.perennialte.ch",
+      "https://redlib.privacyredirect.com",
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -14,9 +17,12 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://redlib.4o1x5.dev",
+      "https://red.artemislena.eu",
       "https://redlib.nadeko.net",
-      "https://redlib.privacyredirect.com"
+      "https://redlib.perennialte.ch",
+      "https://redlib.privacyredirect.com",
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -28,18 +34,23 @@
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
+      "https://t.sneed.network",
       "https://td.vern.cc",
       "https://teddit.adminforge.de",
       "https://teddit.bus-hit.me",
+      "https://teddit.domain.glass",
       "https://teddit.froth.zone",
       "https://teddit.garudalinux.org",
       "https://teddit.ggc-project.de",
       "https://teddit.hostux.net",
+      "https://teddit.httpjames.space",
       "https://teddit.laserdisc.tokyo",
       "https://teddit.net",
       "https://teddit.no-logs.com",
+      "https://teddit.privacytools.io",
       "https://teddit.projectsegfau.lt",
       "https://teddit.pussthecat.org",
+      "https://teddit.rawbit.ninja",
       "https://teddit.sethforprivacy.com",
       "https://teddit.tinfoil-hat.net",
       "https://teddit.tokhmi.xyz",
@@ -75,10 +86,14 @@
     "test_url": "/watch?v=dQw4w9WgXcQ|/streams/dQw4w9WgXcQ",
     "fallback": "https://piped.video",
     "instances": [
+      "https://piped.video|https://pipedapi.kavin.rocks",
       "https://piped.tokhmi.xyz|https://pipedapi.tokhmi.xyz",
       "https://piped.moomoo.me|https://pipedapi.moomoo.me",
+      "https://piped.mha.fi|https://api-piped.mha.fi",
+      "https://efy.piped.pages.dev|https://pipedapi.aeong.one",
       "https://watch.whatever.social|https://watchapi.whatever.social",
       "https://piped.garudalinux.org|https://piped-api.garudalinux.org",
+      "https://watch.leptons.xyz|https://pipedapi.leptons.xyz",
       "https://piped.lunar.icu|https://piped-api.lunar.icu",
       "https://piped.projectsegfau.lt|https://api.piped.projectsegfau.lt",
       "https://piped.privacydev.net|https://api.piped.privacydev.net",
@@ -96,11 +111,14 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://lightbrd.com",
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
+      "https://nitter.space",
       "https://nitter.tiekoetter.com",
+      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -115,6 +133,7 @@
       "https://scribe.bus-hit.me",
       "https://scribe.froth.zone",
       "https://scribe.privacydev.net",
+      "https://scribe.rawbit.ninja",
       "https://sc.vern.cc",
       "https://m.opnxng.com",
       "https://scribe.manasiwibi.com",
@@ -150,12 +169,16 @@
     "test_url": "/auto/en/hola",
     "fallback": "https://lingva.ml",
     "instances": [
+      "https://lingva.ml",
+      "https://lingva.garudalinux.org",
       "https://lingva.frontendfriendly.xyz",
       "https://lingva.retiolus.net",
+      "https://translate.plausibility.cloud",
       "https://lingva.lunar.icu",
       "https://translate.dr460nf1r3.org",
       "https://translate.whateveritworks.org",
       "https://translate.sapti.me",
+      "https://lingva.fuk.world",
       "https://translate.colinslegacy.com",
       "https://translate.catswords.net"
     ]
@@ -171,6 +194,7 @@
       "https://rg.kuuro.net",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
+      "https://rimgo.aketawi.space",
       "https://rimgo.astrial.org",
       "https://rimgo.bloat.cat",
       "https://rimgo.canine.tools",
@@ -180,6 +204,7 @@
       "https://rimgo.hostux.net",
       "https://rimgo.nohost.network",
       "https://rimgo.privacyredirect.com",
+      "https://rimgo.proxik.cloud",
       "https://rimgo.pussthecat.org",
       "https://rimgo.reallyaweso.me",
       "https://rmgur.com"
@@ -190,6 +215,7 @@
     "test_url": "/search?cookies_disabled=1&q=<%=query%>",
     "fallback": "https://search.sethforprivacy.com",
     "instances": [
+      "https://search.garudalinux.org",
       "https://search.sethforprivacy.com",
       "https://wg.vern.cc",
       "https://whoogle.4040940.xyz",
@@ -209,6 +235,7 @@
       "https://searx.mxchange.org",
       "https://searx.nixnet.services",
       "https://searx.roflcopter.fr",
+      "https://searx.ru",
       "https://searx.zapashcanon.fr"
     ]
   },
@@ -218,23 +245,21 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
       "https://opnxng.com",
       "https://priv.au",
-      "https://s.mble.dk",
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
-      "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
+      "https://search.internetsucks.net",
       "https://search.ipsys.bf",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
@@ -246,15 +271,16 @@
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
       "https://search.zina.dev",
+      "https://searx.ankha.ac",
       "https://searx.dresden.network",
       "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
+      "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.shreven.org",
-      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
@@ -263,13 +289,16 @@
     "test_url": "/wiki/Wikipedia?lang=en",
     "fallback": "https://wikiless.org",
     "instances": [
+      "https://wiki.owo.si",
       "https://wiki.adminforge.de",
       "https://wiki.froth.zone",
+      "https://wiki.privacytools.io",
       "https://wikiless.esmailelbob.xyz",
       "https://wikiless.funami.tech",
       "https://wikiless.lunar.icu",
       "https://wikiless.northboot.xyz",
       "https://wikiless.org",
+      "https://wikiless.rawbit.ninja",
       "https://wikiless.sethforprivacy.com",
       "https://wikiless.tiekoetter.com",
       "https://wl.vern.cc"
@@ -326,6 +355,7 @@
       "https://quetre.lunar.icu",
       "https://que.wilbvr.me",
       "https://questions.whateveritworks.org",
+      "https://quetre.fascinated.cc",
       "https://quetre.frontendfriendly.xyz",
       "https://quetre.ducks.party"
     ]
@@ -345,6 +375,8 @@
       "https://binge.whateveritworks.social",
       "https://libremdb.lunar.icu",
       "https://lmdb.hostux.net",
+      "https://libremdb.nerdyfam.tech",
+      "https://libremdb.fascinated.cc",
       "https://libremdb.catsarch.com",
       "https://libremdb.frontendfriendly.xyz",
       "https://libremdb.ducks.party"
@@ -409,6 +441,7 @@
     "test_url": "/questions/6591213/how-do-i-rename-a-local-git-branch",
     "fallback": "https://code.whatever.social",
     "instances": [
+      "https://ao.owo.si",
       "https://code.whatever.social",
       "https://ao.vern.cc",
       "https://overflow.smnz.de",
@@ -417,6 +450,7 @@
       "https://overflow.hostux.net",
       "https://overflow.projectsegfau.lt",
       "https://code.xbdm.fun",
+      "https://overflow.fascinated.cc",
       "https://ao.bloatcat.tk",
       "https://anonoverflow.frontendfriendly.xyz",
       "https://overflow.ducks.party",
@@ -439,6 +473,7 @@
       "https://4get.lunar.icu",
       "https://4get.lvkaszus.pl",
       "https://4get.perennialte.ch",
+      "https://4get.plunked.party",
       "https://4get.psily.garden",
       "https://4get.seitan-ayoub.lol",
       "https://4get.silly.computer",
