@@ -6,8 +6,6 @@
     "instances": [
       "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -20,8 +18,6 @@
     "instances": [
       "https://l.opnxng.com",
       "https://red.artemislena.eu",
-      "https://redlib.4o1x5.dev",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -226,8 +222,8 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://find.xenorio.xyz",
+      "https://grep.vim.wtf",
       "https://o5.gg",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -236,13 +232,13 @@
       "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
+      "https://search.catboy.house",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
-      "https://search.ipsys.bf",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -255,13 +251,13 @@
       "https://search.zina.dev",
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
+      "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
-      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searx.tuxcloud.net",
+      "https://searxng.deggo.fyi",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi"
