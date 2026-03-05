@@ -189,28 +189,7 @@
     "type": "rimgo",
     "test_url": "/a/H8M4rcp",
     "fallback": "https://rimgo.projectsegfau.lt",
-    "instances": [
-      "https://imgur.artemislena.eu",
-      "https://imgur.nerdvpn.de",
-      "https://r.opnxng.com",
-      "https://rg.kuuro.net",
-      "https://ri.nadeko.net",
-      "https://rimgo.4o1x5.dev",
-      "https://rimgo.aketawi.space",
-      "https://rimgo.astrial.org",
-      "https://rimgo.bloat.cat",
-      "https://rimgo.canine.tools",
-      "https://rimgo.catsarch.com",
-      "https://rimgo.darkness.services",
-      "https://rimgo.ducks.party",
-      "https://rimgo.hostux.net",
-      "https://rimgo.nohost.network",
-      "https://rimgo.privacyredirect.com",
-      "https://rimgo.proxik.cloud",
-      "https://rimgo.pussthecat.org",
-      "https://rimgo.reallyaweso.me",
-      "https://rmgur.com"
-    ]
+    "instances": null
   },
   {
     "type": "whoogle",
@@ -247,6 +226,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
@@ -257,13 +237,13 @@
       "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
-      "https://search.catboy.house",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
+      "https://search.ipsys.bf",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -278,11 +258,12 @@
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
+      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
-      "https://searxng.deggo.fyi",
+      "https://searx.tuxcloud.net",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi"
@@ -514,18 +495,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
-      "https://tent.private.coffee",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
