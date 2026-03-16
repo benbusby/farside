@@ -4,13 +4,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.r4fo.com",
-      "https://redlib.reallyaweso.me"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -18,13 +18,13 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://l.opnxng.com",
       "https://red.artemislena.eu",
       "https://redlib.4o1x5.dev",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.r4fo.com",
-      "https://redlib.reallyaweso.me"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -250,10 +250,11 @@
       "https://copp.gg",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
-      "https://o5.gg",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://s.mble.dk",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
@@ -263,7 +264,6 @@
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
-      "https://search.ipsys.bf",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -274,16 +274,14 @@
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
       "https://search.zina.dev",
-      "https://searx.ankha.ac",
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
-      "https://searx.oloke.xyz",
       "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
+      "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searxng.deggo.fyi",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://seek.fyi"
