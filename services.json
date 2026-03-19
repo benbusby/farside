@@ -102,6 +102,8 @@
     "instances": [
       "https://nitter.catsarch.com",
       "https://nitter.net",
+      "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -233,13 +235,13 @@
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
-      "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
       "https://search.inetol.net",
       "https://search.internetsucks.net",
+      "https://search.ipsys.bf",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -260,6 +262,7 @@
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://seek.fyi"
     ]
   },
