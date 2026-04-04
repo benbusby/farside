@@ -6,8 +6,6 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
@@ -22,8 +20,6 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
@@ -121,9 +117,9 @@
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
-      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -262,7 +258,6 @@
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
-      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
