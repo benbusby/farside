@@ -4,10 +4,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
@@ -20,10 +18,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privacyredirect.com",
@@ -83,8 +79,10 @@
     "fallback": "https://invidious.snopyta.org",
     "instances": [
       "https://inv.nadeko.net",
+      "https://inv.thepixora.com",
       "https://invidious.nerdvpn.de",
-      "https://yewtu.be"
+      "https://yewtu.be",
+      "https://yt.chocolatemoo53.com"
     ]
   },
   {
@@ -124,7 +122,6 @@
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
-      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -263,13 +260,14 @@
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.inetol.net",
+      "https://search.internetsucks.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
@@ -283,7 +281,6 @@
       "https://searx.dresden.network",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
-      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rhscz.eu",
