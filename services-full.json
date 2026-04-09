@@ -122,6 +122,7 @@
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
+      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -249,7 +250,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -267,10 +267,12 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
+      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
+      "https://search.pereira.is",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
