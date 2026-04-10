@@ -4,7 +4,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -15,7 +17,9 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -226,13 +230,11 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
-      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
@@ -244,7 +246,6 @@
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
-      "https://search.pereira.is",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
