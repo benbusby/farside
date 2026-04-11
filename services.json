@@ -106,7 +106,6 @@
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
-      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -226,15 +225,17 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://failsearx.culturanerd.it",
+      "https://copp.gg",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.abohiccups.com",
       "https://search.anoni.net",
+      "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.charliewhiskey.net",
       "https://search.einfachzocken.eu",
