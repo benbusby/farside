@@ -6,10 +6,10 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -19,10 +19,10 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privadency.com"
+      "https://redlib.privadency.com",
+      "https://redlib.r4fo.com"
     ]
   },
   {
@@ -115,6 +115,7 @@
       "https://lightbrd.com",
       "https://nitter.catsarch.com",
       "https://nitter.net",
+      "https://nitter.poast.org",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
       "https://nuku.trabun.org",
@@ -263,7 +264,6 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
