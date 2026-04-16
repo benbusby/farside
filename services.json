@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
@@ -15,7 +14,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
@@ -101,6 +99,7 @@
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -211,6 +210,7 @@
       "https://searx.mxchange.org",
       "https://searx.nixnet.services",
       "https://searx.roflcopter.fr",
+      "https://searx.ru",
       "https://searx.zapashcanon.fr"
     ]
   },
@@ -220,6 +220,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -237,6 +238,7 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
+      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
