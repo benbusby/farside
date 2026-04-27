@@ -256,6 +256,7 @@
     "instances": [
       "https://baresearch.org",
       "https://copp.gg",
+      "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://o5.gg",
@@ -267,6 +268,7 @@
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.chocolatemoo53.com",
+      "https://search.datenkrake.ch",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
@@ -276,6 +278,7 @@
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
+      "https://search.pereira.is",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
@@ -525,6 +528,18 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": null
+    "instances": [
+      "https://bandcamp.lurkmore.com",
+      "https://tent.bloat.cat",
+      "https://tent.canine.tools",
+      "https://tent.deep-swarm.xyz",
+      "https://tent.lab8.cz",
+      "https://tent.nbh.ax",
+      "https://tent.private.coffee",
+      "https://tent.sny.sh",
+      "https://tn.dc09.ru",
+      "https://tn.maid.zone",
+      "https://tn.vern.cc"
+    ]
   }
 ]
