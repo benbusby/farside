@@ -54,7 +54,6 @@
       "https://teddit.net",
       "https://teddit.no-logs.com",
       "https://teddit.privacytools.io",
-      "https://teddit.projectsegfau.lt",
       "https://teddit.pussthecat.org",
       "https://teddit.rawbit.ninja",
       "https://teddit.sethforprivacy.com",
@@ -104,7 +103,6 @@
       "https://piped.garudalinux.org|https://piped-api.garudalinux.org",
       "https://watch.leptons.xyz|https://pipedapi.leptons.xyz",
       "https://piped.lunar.icu|https://piped-api.lunar.icu",
-      "https://piped.projectsegfau.lt|https://api.piped.projectsegfau.lt",
       "https://piped.privacydev.net|https://api.piped.privacydev.net",
       "https://piped.smnz.de|https://pipedapi.smnz.de",
       "https://piped.adminforge.de|https://pipedapi.adminforge.de",
@@ -195,7 +193,7 @@
   {
     "type": "rimgo",
     "test_url": "/a/H8M4rcp",
-    "fallback": "https://rimgo.projectsegfau.lt",
+    "fallback": "https://imgur.artemislena.eu",
     "instances": [
       "https://anaimg.starbeamrainbowlabs.com",
       "https://imgur.artemislena.eu",
@@ -362,7 +360,6 @@
       "https://quora.vern.cc",
       "https://quetre.pussthecat.org",
       "https://quetre.tokhmi.xyz",
-      "https://quetre.projectsegfau.lt",
       "https://quetre.esmailelbob.xyz",
       "https://quetre.privacydev.net",
       "https://ask.habedieeh.re",
@@ -441,14 +438,12 @@
   {
     "type": "gothub",
     "test_url": "/benbusby/farside",
-    "fallback": "https://gothub.projectsegfau.lt",
+    "fallback": "https://gothub.lunar.icu",
     "instances": [
       "https://gothub.lunar.icu",
       "https://g.opnxng.com",
       "https://gh.owo.si",
-      "https://gothub.projectsegfau.lt",
       "https://gothub.r4fo.com",
-      "https://gothub.dev.projectsegfau.lt",
       "https://gh.phreedom.club",
       "https://gothub.ducks.party"
     ]
@@ -465,7 +460,6 @@
       "https://overflow.lunar.icu",
       "https://overflow.adminforge.de",
       "https://overflow.hostux.net",
-      "https://overflow.projectsegfau.lt",
       "https://code.xbdm.fun",
       "https://overflow.fascinated.cc",
       "https://ao.bloatcat.tk",
