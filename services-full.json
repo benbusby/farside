@@ -9,7 +9,6 @@
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
     ]
@@ -24,7 +23,6 @@
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
-      "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
     ]
@@ -254,6 +252,7 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -274,7 +273,6 @@
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
       "https://search.ononoki.org",
-      "https://search.pereira.is",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
