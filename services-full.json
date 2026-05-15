@@ -247,7 +247,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -276,10 +275,8 @@
       "https://searx.ankha.ac",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
-      "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
-      "https://searx.rajimayur.me",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tsmdt.de",
