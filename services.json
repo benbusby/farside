@@ -6,6 +6,7 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
     ]
@@ -17,6 +18,7 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
+      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
     ]
@@ -103,6 +105,7 @@
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -223,12 +226,12 @@
       "https://grep.vim.wtf",
       "https://opnxng.com",
       "https://paulgo.io",
-      "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.chocolatemoo53.com",
+      "https://search.ctq.ro",
       "https://search.datenkrake.ch",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
@@ -400,13 +403,11 @@
     "fallback": "https://gothub.projectsegfau.lt",
     "instances": [
       "https://gothub.lunar.icu",
-      "https://g.opnxng.com",
-      "https://gh.owo.si",
-      "https://gothub.projectsegfau.lt",
       "https://gothub.r4fo.com",
       "https://gothub.dev.projectsegfau.lt",
-      "https://gh.phreedom.club",
-      "https://gothub.ducks.party"
+      "https://gothub.projectsegfau.lt",
+      "https://gothub.libre.tw",
+      "https://gothub.wuemeli.com"
     ]
   },
   {
