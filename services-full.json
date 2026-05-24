@@ -4,10 +4,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
-      "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
@@ -18,10 +16,8 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
-      "https://redlib.nadeko.net",
       "https://redlib.perennialte.ch",
       "https://redlib.privadency.com",
       "https://redlib.r4fo.com"
@@ -118,7 +114,9 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://lightbrd.com",
       "https://nitter.catsarch.com",
+      "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -270,6 +268,7 @@
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
       "https://search.ononoki.org",
+      "https://search.pereira.is",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
@@ -282,7 +281,7 @@
       "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
-      "https://searx.redgarden.cv",
+      "https://searx.rajimayur.me",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tsmdt.de",
