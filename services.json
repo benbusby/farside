@@ -4,7 +4,10 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
+      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
+      "https://redlib.orangenet.cc",
       "https://redlib.privadency.com"
     ]
   },
@@ -13,7 +16,10 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
+      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
+      "https://redlib.orangenet.cc",
       "https://redlib.privadency.com"
     ]
   },
@@ -165,6 +171,7 @@
       "https://imgur.nerdvpn.de",
       "https://r.opnxng.com",
       "https://rg.kuuro.net",
+      "https://ri.bcow.xyz",
       "https://ri.nadeko.net",
       "https://rimgo.4o1x5.dev",
       "https://rimgo.astrial.org",
@@ -178,6 +185,7 @@
       "https://rimgo.privacyredirect.com",
       "https://rimgo.pussthecat.org",
       "https://rimgo.reallyaweso.me",
+      "https://rimgo.wuemeli.com",
       "https://rmgur.com"
     ]
   },
@@ -229,6 +237,7 @@
       "https://search.chocolatemoo53.com",
       "https://search.ctq.ro",
       "https://search.datenkrake.ch",
+      "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
@@ -250,6 +259,7 @@
       "https://searx.party",
       "https://searx.perennialte.ch",
       "https://searx.rajimayur.me",
+      "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tsmdt.de",
