@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -15,7 +14,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
@@ -226,12 +224,14 @@
       "https://grep.vim.wtf",
       "https://opnxng.com",
       "https://paulgo.io",
+      "https://priv.au",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.chocolatemoo53.com",
       "https://search.ctq.ro",
+      "https://search.datenkrake.ch",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
@@ -240,11 +240,15 @@
       "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
+      "https://search.serpensin.com",
       "https://search.url4irl.com",
       "https://search.wdpserver.com",
+      "https://search.zina.dev",
       "https://searx.ankha.ac",
       "https://searx.namejeff.xyz",
+      "https://searx.oloke.xyz",
       "https://searx.party",
+      "https://searx.perennialte.ch",
       "https://searx.rajimayur.me",
       "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
@@ -369,24 +373,7 @@
     "type": "breezewiki",
     "test_url": "/balatrogame/wiki/Abandoned_Deck",
     "fallback": "https://breezewiki.com",
-    "instances": [
-      "https://breezewiki.com",
-      "https://antifandom.com",
-      "https://breezewiki.pussthecat.org",
-      "https://breeze.mint.lgbt",
-      "https://z.opnxng.com",
-      "https://breezewiki.hyperreal.coffee",
-      "https://breezewiki.woodland.cafe",
-      "https://breezewiki.nadeko.net",
-      "https://fandom.reallyaweso.me",
-      "https://breezewiki.r4fo.com",
-      "https://bw.artemislena.eu",
-      "https://breeze.hostux.net",
-      "https://breezewiki.private.coffee",
-      "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion",
-      "http://breezewiki.r4focoma7gu2zdwwcjjad47ysxt634lg73sxmdbkdozanwqslho5ohyd.onion",
-      "http://breezewiki.coffee2m3bjsrrqqycx6ghkxrnejl2q6nl7pjw2j4clchjj6uk5zozad.onion"
-    ]
+    "instances": null
   },
   {
     "type": "gothub",
