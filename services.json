@@ -222,7 +222,6 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
-      "https://baresearch.org",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -241,7 +240,6 @@
       "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
-      "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
@@ -262,8 +260,7 @@
       "https://searxng.gdebest.net",
       "https://searxng.shreven.org",
       "https://searxng.site",
-      "https://searxng.website",
-      "https://seek.fyi"
+      "https://searxng.website"
     ]
   },
   {
