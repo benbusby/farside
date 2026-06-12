@@ -7,6 +7,7 @@
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
+      "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
     ]
@@ -19,6 +20,7 @@
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
+      "https://redlib.orangenet.cc",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
     ]
@@ -105,7 +107,6 @@
     "instances": [
       "https://nitter.catsarch.com",
       "https://nitter.net",
-      "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
@@ -222,6 +223,7 @@
     "test_url": "/search?q=<%=query%>",
     "fallback": "https://searx.be",
     "instances": [
+      "https://baresearch.org",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
@@ -240,6 +242,7 @@
       "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.mdosch.de",
+      "https://search.ononoki.org",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
