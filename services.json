@@ -32,6 +32,7 @@
       "https://rdt.trom.tf",
       "https://reddit.lol",
       "https://snoo.ioens.is",
+      "https://t.sneed.network",
       "https://td.vern.cc",
       "https://teddit.adminforge.de",
       "https://teddit.bus-hit.me",
@@ -105,8 +106,9 @@
     "instances": [
       "https://nitter.catsarch.com",
       "https://nitter.net",
-      "https://nitter.privacyredirect.com",
+      "https://nitter.poast.org",
       "https://nitter.tiekoetter.com",
+      "https://nt.vern.cc",
       "https://xcancel.com"
     ]
   },
@@ -226,7 +228,6 @@
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
