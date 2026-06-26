@@ -4,6 +4,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
@@ -18,6 +19,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
@@ -118,14 +120,14 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
+      "https://lightbrd.com",
       "https://nitter.catsarch.com",
-      "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
+      "https://nitter.space",
       "https://nitter.tiekoetter.com",
       "https://nt.vern.cc",
-      "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
   },
@@ -264,7 +266,6 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.internetsucks.net",
       "https://search.liuzj.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
@@ -275,10 +276,12 @@
       "https://search.wdpserver.com",
       "https://search.zina.dev",
       "https://searx.ankha.ac",
+      "https://searx.linxx.net",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
       "https://searx.ononoki.org",
       "https://searx.party",
+      "https://searx.perennialte.ch",
       "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
@@ -287,6 +290,7 @@
       "https://searxng.deggo.fyi",
       "https://searxng.gdebest.net",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://searxng.website",
       "https://xka.cz"
     ]

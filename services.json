@@ -4,6 +4,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
@@ -15,6 +16,7 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
+      "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
@@ -238,7 +240,6 @@
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
       "https://search.im-in.space",
-      "https://search.internetsucks.net",
       "https://search.liuzj.net",
       "https://search.mdosch.de",
       "https://search.minus27315.dev",
@@ -249,10 +250,12 @@
       "https://search.wdpserver.com",
       "https://search.zina.dev",
       "https://searx.ankha.ac",
+      "https://searx.linxx.net",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
       "https://searx.ononoki.org",
       "https://searx.party",
+      "https://searx.perennialte.ch",
       "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
@@ -261,6 +264,7 @@
       "https://searxng.deggo.fyi",
       "https://searxng.gdebest.net",
       "https://searxng.shreven.org",
+      "https://searxng.site",
       "https://searxng.website",
       "https://xka.cz"
     ]
