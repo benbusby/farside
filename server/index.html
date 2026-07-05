@@ -54,7 +54,7 @@
 		<li><a href="/{{ $service.Type }}">{{ $service.Type }}</a></li>
 		<ul>
 			{{ range $j, $instance := $service.Instances }}
-			<li><a href="{{ $instance }}">{{ $instance }}</li>
+			<li><a href="{{ $instance }}">{{ $instance }}</a></li>
 			{{ end  }}
 		</ul>
 		{{ end }}
