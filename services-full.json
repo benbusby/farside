@@ -122,7 +122,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://lightbrd.com",
       "https://nitter.catsarch.com",
       "https://nitter.kareem.one",
       "https://nitter.net",
@@ -130,6 +129,7 @@
       "https://nitter.privacyredirect.com",
       "https://nitter.space",
       "https://nitter.tiekoetter.com",
+      "https://nt.vern.cc",
       "https://nuku.trabun.org",
       "https://xcancel.com"
     ]
@@ -255,10 +255,10 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
+      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
