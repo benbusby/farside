@@ -4,7 +4,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
@@ -17,7 +16,6 @@
     "test_url": "/r/popular",
     "fallback": "https://redlib.freedit.eu",
     "instances": [
-      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
@@ -285,7 +283,6 @@
       "https://wikiless.funami.tech",
       "https://wikiless.lunar.icu",
       "https://wikiless.northboot.xyz",
-      "https://wikiless.org",
       "https://wikiless.sethforprivacy.com",
       "https://wikiless.tiekoetter.com",
       "https://wl.vern.cc"
