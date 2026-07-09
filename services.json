@@ -105,7 +105,6 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -230,7 +229,6 @@
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
@@ -482,18 +480,6 @@
     "type": "tent",
     "test_url": "/search.php?query=<%=query%>",
     "fallback": "https://tent.sny.sh",
-    "instances": [
-      "https://bandcamp.lurkmore.com",
-      "https://tent.bloat.cat",
-      "https://tent.canine.tools",
-      "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
-      "https://tent.private.coffee",
-      "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
-    ]
+    "instances": null
   }
 ]
