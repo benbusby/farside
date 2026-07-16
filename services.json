@@ -6,7 +6,6 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
@@ -20,7 +19,6 @@
     "instances": [
       "https://red.artemislena.eu",
       "https://redlib.catsarch.com",
-      "https://redlib.ducks.party",
       "https://redlib.nadeko.net",
       "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com",
@@ -230,7 +228,6 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
-      "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://opnxng.com",
