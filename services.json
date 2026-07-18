@@ -71,15 +71,7 @@
     "type": "invidious",
     "test_url": "/watch?v=eBGIQ7ZuuiU",
     "fallback": "https://invidious.snopyta.org",
-    "instances": [
-      "https://inv-ygg.nadeko.net",
-      "https://inv.nadeko.net",
-      "https://inv.nadeko.ygg",
-      "https://inv.zoomerville.com",
-      "https://invidious.nerdvpn.de",
-      "https://invidious.tiekoetter.com",
-      "https://yt.chocolatemoo53.com"
-    ]
+    "instances": []
   },
   {
     "type": "piped",
@@ -110,6 +102,7 @@
       "https://nitter.catsarch.com",
       "https://nitter.net",
       "https://nitter.poast.org",
+      "https://nitter.privacyredirect.com",
       "https://nitter.tiekoetter.com",
       "https://xcancel.com"
     ]
@@ -227,9 +220,9 @@
     "fallback": "https://searx.be",
     "instances": [
       "https://baresearch.org",
+      "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
-      "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
       "https://sear.lurx.net",
@@ -247,20 +240,19 @@
       "https://search.minus27315.dev",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
-      "https://search.serpensin.com",
       "https://search.url4irl.com",
       "https://search.zina.dev",
       "https://searx.ankha.ac",
       "https://searx.linxx.net",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
-      "https://searx.party",
+      "https://searx.ononoki.org",
       "https://searx.perennialte.ch",
+      "https://searx.rajimayur.me",
       "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
       "https://searx.tiekoetter.com",
       "https://searx.tsmdt.de",
-      "https://searxng.gdebest.net",
       "https://searxng.moonshadow.dev",
       "https://searxng.shreven.org",
       "https://searxng.site",
