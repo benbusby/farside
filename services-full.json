@@ -5,6 +5,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://red.artemislena.eu",
+      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
@@ -20,6 +21,7 @@
     "fallback": "https://redlib.freedit.eu",
     "instances": [
       "https://red.artemislena.eu",
+      "https://reddit.rtrace.io",
       "https://redlib.catsarch.com",
       "https://redlib.cow.rip",
       "https://redlib.nadeko.net",
@@ -120,13 +122,11 @@
     "test_url": "/jack/status/20",
     "fallback": "https://nitter.net",
     "instances": [
-      "https://lightbrd.com",
       "https://nitter.catsarch.com",
       "https://nitter.kareem.one",
       "https://nitter.net",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
-      "https://nitter.space",
       "https://nitter.tiekoetter.com",
       "https://nuku.trabun.org",
       "https://xcancel.com"
