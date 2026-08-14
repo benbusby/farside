@@ -1,3 +1,16 @@
+> [!IMPORTANT]
+> This repo has been archived, and links to farside.link should no longer be relied upon.
+>
+> Farside was created before the explosion of AI-driven scraping and bot
+> traffic. As a result, querying instance status is no longer reliable
+> due to bot-detection and challenge systems (which I understand and am
+> in favor of, btw). Since the project is no longer practical to operate
+> and maintain, it is being archived.
+>
+> Thank you to everyone who supported the project over the years!
+
+___
+
 <div align="center" style="margin-bottom: 10px;">
 <img src="https://raw.githubusercontent.com/benbusby/farside/refs/heads/main/img/farside.svg" alt="Farside">
 </div>
@@ -18,8 +31,6 @@
 
 </div>
 
-___
-Thank you to [Miget](https://miget.com) for generously hosting Farside's official instance ([farside.link](https://farside.link))!
 ___
 
 Contents
